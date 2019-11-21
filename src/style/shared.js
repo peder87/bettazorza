@@ -20,6 +20,11 @@ export const ContentWrapper = styled.div`
     margin: 2rem auto 0;
     padding: 0 2rem 6rem;
   `}
+
+  ${media.xs`
+    margin: 1rem auto 0;
+    padding: 0 1rem 2rem;
+  `}
 `
 
 export const ListItem = styled.li`
