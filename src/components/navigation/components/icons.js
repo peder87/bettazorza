@@ -1,13 +1,11 @@
 import styled from "styled-components"
-import { media } from "../../../style/constants"
+// import { media } from "../../../style/constants"
+import { Menu } from "styled-icons/feather/Menu"
+import { Close } from "styled-icons/evil/Close"
 
 export const MenuIcon = styled.div`
   width: 40px;
   height: 40px;
-  background: black;
-  ${media.sm`
-    align-self: flex-end;
-  `}
 `
 
 export const Logo = styled.div`
@@ -15,4 +13,20 @@ export const Logo = styled.div`
   height: 40px;
   background-color: red;
   border: 1px solid black;
+`
+
+export const MenuClosed = styled(Menu)`
+  width: 40px;
+  height: 40px;
+  &:hover {
+    cursor: pointer;
+  }
+`
+
+export const MenuOpen = styled(Close)`
+  width: 40px;
+  height: 40px;
+  &:hover {
+    cursor: pointer;
+  }
 `

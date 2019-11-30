@@ -11,7 +11,7 @@ import PropTypes from "prop-types"
 import { GlobalStyle } from "../style/global"
 import Navigation from "./navigation"
 
-import Header from "./header"
+// import Header from "./header"
 
 const Layout = ({ children, location }) => {
   return (

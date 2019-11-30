@@ -20,6 +20,7 @@
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
     "styled-components": "^4.4.1",
+    "styled-icons": "^9.0.1",
     "styled-reset": "^4.0.6"
   },
   "devDependencies": {
@@ -32,7 +33,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "dev":"gatsby develop -H 0.0.0.0",
+    "dev": "gatsby develop -H 0.0.0.0",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",

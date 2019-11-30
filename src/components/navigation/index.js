@@ -1,14 +1,22 @@
 import React, { useState } from "react"
-import Menu from "./components/menu"
 import { Wrapper } from "./style"
-import { MenuIcon, Logo } from "./components/icons"
+import { Logo, MenuClosed, MenuOpen } from "./components/icons"
 
 export default props => {
   const [status, setStatus] = useState(false)
+  const handleMenu = () => {
+    console.log("click")
+    setStatus(!status)
+  }
+
   return (
     <Wrapper>
-      <MenuIcon />
+      <MenuIcon callback={handleMenu} isOpen={status} />
+
       <Logo />
     </Wrapper>
   )
 }
+
+const MenuIcon = ({ isOpen, callback }) =>
+  isOpen ? <MenuOpen onClick={callback} /> : <MenuClosed onClick={callback} />
