@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { Wrapper } from "./style"
-import { Logo, MenuClosed, MenuOpen } from "./components/icons"
+import { MenuClosed, MenuOpen } from "./components/icons"
+import Logo from "./components/logo.svg"
 
 export default props => {
   const [status, setStatus] = useState(false)
@@ -13,7 +14,7 @@ export default props => {
     <Wrapper>
       <MenuIcon callback={handleMenu} isOpen={status} />
 
-      <Logo />
+      <Logo width={40} height={52} />
     </Wrapper>
   )
 }

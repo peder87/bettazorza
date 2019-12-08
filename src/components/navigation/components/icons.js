@@ -8,13 +8,6 @@ export const MenuIcon = styled.div`
   height: 40px;
 `
 
-export const Logo = styled.div`
-  width: 40px;
-  height: 40px;
-  background-color: red;
-  border: 1px solid black;
-`
-
 export const MenuClosed = styled(Menu)`
   width: 40px;
   height: 40px;
