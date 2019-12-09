@@ -20,6 +20,7 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
+    "react-spring": "^8.0.27",
     "styled-components": "^4.4.1",
     "styled-icons": "^9.0.1",
     "styled-reset": "^4.0.6"

@@ -1,20 +1,17 @@
-import React, { useState } from "react"
-import { Wrapper } from "./style"
-import { MenuClosed, MenuOpen } from "./components/icons"
+import React from "react"
+import { Wrapper, NavigationWrapper } from "./style"
+import { MenuClosed, MenuOpen, LogoIcon } from "./components/icons"
+import Menu from "../menu"
 import Logo from "./components/logo.svg"
 
-export default props => {
-  const [status, setStatus] = useState(false)
-  const handleMenu = () => {
-    console.log("click")
-    setStatus(!status)
-  }
-
+export default ({ isOpen, toggleMenu }) => {
   return (
     <Wrapper>
-      <MenuIcon callback={handleMenu} isOpen={status} />
-
-      <Logo width={40} height={52} />
+      <NavigationWrapper>
+        <MenuIcon callback={toggleMenu} isOpen={isOpen} />
+        {!isOpen && <LogoIcon />}
+      </NavigationWrapper>
+      <Menu visible={isOpen} />
     </Wrapper>
   )
 }
