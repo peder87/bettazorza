@@ -11,6 +11,7 @@ import { GlobalStyle } from "../style/global"
 import { media } from "../style/constants"
 import Navigation from "./navigation"
 import styled from "styled-components"
+import { SocialMenu } from "./socialMenu"
 // import Header from "./header"
 import Menu from "../components/menu"
 
@@ -39,8 +40,9 @@ const Layout = ({ children, location }) => {
     <>
       <GlobalStyle />
       <Container>
-        <Navigation isOpen={status} toggleMenu={toggleMenu} />
+        {/* <Navigation isOpen={status} toggleMenu={toggleMenu} /> */}
         {children}
+        <SocialMenu />
       </Container>
     </>
   )
