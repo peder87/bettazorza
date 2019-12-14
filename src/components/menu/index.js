@@ -15,7 +15,6 @@ const menuProps = {
 }
 
 const Menu = ({ visible }) => {
-  console.log("v", visible)
   const transitions = useTransition(visible, null, {
     from: { opacity: 0 },
     enter: { opacity: 0.95 },
