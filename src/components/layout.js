@@ -21,7 +21,6 @@ const Container = styled.div`
   `}
   ${media.lg`
     padding: 3.0em;
-    /* background-color: green; */
   `}
   ${media.md`
     padding: 2.5em;
@@ -40,7 +39,7 @@ const Layout = ({ children, location }) => {
     <>
       <GlobalStyle />
       <Container>
-        {/* <Navigation isOpen={status} toggleMenu={toggleMenu} /> */}
+        <Navigation isOpen={status} toggleMenu={toggleMenu} />
         {children}
         <SocialMenu />
       </Container>
