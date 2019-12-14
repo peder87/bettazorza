@@ -1,8 +1,7 @@
 import styled from "styled-components"
-import { colors, media } from "../../../style/constants"
+import { colors } from "../../../style/constants"
 import { Menu } from "styled-icons/feather/Menu"
 import { Close } from "styled-icons/evil/Close"
-import ZLogo from "./logo.svg"
 
 const iconSize = `
   width: 2em;
