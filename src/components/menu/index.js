@@ -1,9 +1,12 @@
 import React from "react"
 import { useTransition, animated } from "react-spring"
 import { colors } from "../../style/constants"
+import { ListMenu } from "./listMenu"
+import { SocialMenu } from "../socialMenu"
+import { FooterWrapper } from "./style"
 
 const menuProps = {
-  background: colors.yellow,
+  background: colors.yellowMenu,
   position: "absolute",
   width: "100%",
   height: "auto",
@@ -17,12 +20,21 @@ const menuProps = {
 const Menu = ({ visible }) => {
   const transitions = useTransition(visible, null, {
     from: { opacity: 0 },
-    enter: { opacity: 0.95 },
+    enter: { opacity: 1 },
     leave: { opacity: 0 },
   })
   return transitions.map(({ item, key, props }) => {
     const styled = { ...menuProps, ...props }
-    return item && <animated.div key={key} style={styled} />
+    return (
+      item && (
+        <animated.div key={key} style={styled}>
+          <ListMenu />
+          <FooterWrapper>
+            <SocialMenu purple />
+          </FooterWrapper>
+        </animated.div>
+      )
+    )
   })
 }
 

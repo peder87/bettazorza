@@ -9,6 +9,7 @@ export const colors = {
 
   purple: "#781ED7",
   yellow: "#F1CA01",
+  yellowMenu: "rgba(241, 206, 25, 0.95)",
   darkGray: "#38444B",
   cyan: "#04BFBF",
   red: "#FC5538",

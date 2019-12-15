@@ -19,9 +19,11 @@ const IconWrapper = styled.div`
   display: flex;
   align-items: center;
   width: 100%;
-  height: 3.6em;
+  height: 2.5em;
   margin: 0 auto;
-  border-right: ${props => (props.last ? "none" : `1px solid ${colors.white}`)};
+  border-right: ${props => (props.last ? "none" : `1px solid`)};
+  border-right-color: ${props =>
+    props.purple ? `${colors.purple}` : `${colors.white}`};
 `
 
 const icons = [
@@ -34,7 +36,7 @@ const icons = [
 
 const getIconStyled = icon => {
   return styled(icon)`
-    color: ${colors.white};
+    color: ${props => (props.purple ? colors.purple : colors.white)};
     width: 1.6em;
     height: 1.6em;
     margin: 0 auto;
@@ -47,7 +49,7 @@ const getIconStyled = icon => {
   `
 }
 
-export const SocialMenu = () => {
+export const SocialMenu = props => {
   const openLink = url => {
     console.log(url)
   }
@@ -58,8 +60,13 @@ export const SocialMenu = () => {
         const isLast = icons.length === index + 1
         const MyIcon = getIconStyled(icon)
         return (
-          <IconWrapper key={index} last={isLast} onClick={() => openLink(url)}>
-            <MyIcon />
+          <IconWrapper
+            purple={props.purple}
+            key={index}
+            last={isLast}
+            onClick={() => openLink(url)}
+          >
+            <MyIcon purple={props.purple} />
           </IconWrapper>
         )
       })}
