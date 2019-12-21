@@ -2,7 +2,8 @@ import React from "react"
 import { useTransition, animated } from "react-spring"
 import { colors } from "../../style/constants"
 import { ListMenu } from "./listMenu"
-import { SocialMenu } from "../socialMenu"
+// import { SocialMenu } from "../socialMenu"
+import { Footer } from "../footer"
 import { MenuContainer, FooterWrapper } from "./style"
 
 const menuProps = {
@@ -30,9 +31,7 @@ const Menu = ({ visible }) => {
         <animated.div key={key} style={styled}>
           <MenuContainer>
             <ListMenu />
-            <FooterWrapper>
-              <SocialMenu purple />
-            </FooterWrapper>
+            <Footer menu />
           </MenuContainer>
         </animated.div>
       )

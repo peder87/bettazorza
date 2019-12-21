@@ -22,10 +22,3 @@ export const MenuContainer = styled.div`
     /* background-color: red; */
   `}
 `
-
-export const FooterWrapper = styled.div`
-  background-color: pink;
-  width: 100%;
-  height: 60px;
-  bottom: 2em;
-`
