@@ -1,20 +1,31 @@
 import styled from "styled-components"
-import { colors } from "../../style/constants"
+import { media, colors } from "../../style/constants"
 
-export const Wrapper = styled.div`
-  background-color: ${colors.yellow};
-  opacity: 0.85;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+export const MenuContainer = styled.div`
+  margin: 0 auto;
   height: auto;
   min-height: 100%;
-  z-index: 9998;
+  ${media.xl`
+    width: 75%;
+    /* background-color: blue; */
+  `}
+  ${media.lg`
+    width: 80%;
+    /* background-color: green; */
+  `}
+  ${media.md`
+    width: 80%;
+    /* background-color: pink; */
+  `}
+  ${media.sm`
+    width: 60%;
+    /* background-color: red; */
+  `}
 `
 
 export const FooterWrapper = styled.div`
-  position: absolute;
+  background-color: pink;
   width: 100%;
+  height: 60px;
   bottom: 2em;
 `

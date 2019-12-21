@@ -3,7 +3,7 @@ import { useTransition, animated } from "react-spring"
 import { colors } from "../../style/constants"
 import { ListMenu } from "./listMenu"
 import { SocialMenu } from "../socialMenu"
-import { FooterWrapper } from "./style"
+import { MenuContainer, FooterWrapper } from "./style"
 
 const menuProps = {
   background: colors.yellowMenu,
@@ -28,10 +28,12 @@ const Menu = ({ visible }) => {
     return (
       item && (
         <animated.div key={key} style={styled}>
-          <ListMenu />
-          <FooterWrapper>
-            <SocialMenu purple />
-          </FooterWrapper>
+          <MenuContainer>
+            <ListMenu />
+            <FooterWrapper>
+              <SocialMenu purple />
+            </FooterWrapper>
+          </MenuContainer>
         </animated.div>
       )
     )

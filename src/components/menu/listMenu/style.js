@@ -4,8 +4,8 @@ import { colors, media } from "../../../style/constants"
 
 export const ListWrapper = styled.div`
   /* background-color: red; */
-  width: 70%;
-  margin: 8em auto;
+  /* width: 70%; */
+  margin: 4.5em auto;
   ${media.sm`
     margin-top: 16em;
     width: 90%;
