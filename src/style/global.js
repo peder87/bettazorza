@@ -14,8 +14,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: ${colors.purple};
-    color: #fff;
+    color: ${colors.white};
+    background-color: ${props => props.bgcolor};
     font-family: ${fonts.sansSerif};
     backface-visibility: hidden;
   }

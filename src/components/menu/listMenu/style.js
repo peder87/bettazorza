@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import Link from "gatsby-link"
+import { Link } from "gatsby"
 import { colors, media } from "../../../style/constants"
 
 export const ListWrapper = styled.div`

@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { media, colors } from "../../style/constants"
+import { media } from "../../style/constants"
 
 export const MenuContainer = styled.div`
   margin: 0 auto;

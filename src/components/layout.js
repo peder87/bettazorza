@@ -12,10 +12,13 @@ import { media } from "../style/constants"
 import Navigation from "./navigation"
 import styled from "styled-components"
 import { Footer } from "../components/footer"
+import { pageConfig } from "../pages/pageConfig"
 // import Header from "./header"
-import Menu from "../components/menu"
 
 const Container = styled.div`
+  /* min-height: 100vh;
+  background-color: ${props => props.bgcolor};
+  height: auto; */
   ${media.xl`
     padding: 3.5em;
   `}
@@ -32,16 +35,19 @@ const Container = styled.div`
 
 const Layout = ({ children, location }) => {
   const [status, setStatus] = useState(false)
+  const page = pageConfig(window.location.pathname)
+
   const toggleMenu = () => {
     setStatus(!status)
   }
+
   return (
     <>
-      <GlobalStyle />
-      <Container>
+      <GlobalStyle {...page} />
+      <Container {...page}>
         <Navigation isOpen={status} toggleMenu={toggleMenu} />
         {children}
-        <Footer />
+        <Footer {...page} />
       </Container>
     </>
   )

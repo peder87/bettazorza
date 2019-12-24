@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { colors } from "../../style/constants"
+// import { colors } from "../../style/constants"
 
 export const MenuWrapper = styled.div`
   display: flex;
@@ -16,13 +16,12 @@ export const IconWrapper = styled.div`
   height: 2.5em;
   margin: 0 auto;
   border-right: ${props => (props.last ? "none" : `1px solid`)};
-  border-right-color: ${props =>
-    props.purple ? `${colors.purple}` : `${colors.white}`};
+  border-right-color: ${props => props.color};
 `
 
 export const getIconStyled = icon => {
   return styled(icon)`
-    color: ${props => (props.purple ? colors.purple : colors.white)};
+    color: ${props => props.color};
     width: 1.6em;
     height: 1.6em;
     margin: 0 auto;

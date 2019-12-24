@@ -15,10 +15,8 @@ const icons = [
   { icon: LinkedinIn, url: "https://www.linkedin.com/feed/" },
 ]
 
-export const SocialMenu = props => {
-  const openLink = url => {
-    console.log(url)
-  }
+export const SocialMenu = ({ color }) => {
+  const openLink = url => {}
 
   return (
     <MenuWrapper>
@@ -27,12 +25,12 @@ export const SocialMenu = props => {
         const MyIcon = getIconStyled(icon)
         return (
           <IconWrapper
-            purple={props.purple}
+            color={color}
             key={index}
             last={isLast}
             onClick={() => openLink(url)}
           >
-            <MyIcon purple={props.purple} />
+            <MyIcon color={color} />
           </IconWrapper>
         )
       })}

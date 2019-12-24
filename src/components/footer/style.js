@@ -15,8 +15,9 @@ export const FooterWrapper = styled.div`
 `
 
 export const FooterText = styled.span`
+  color: ${props => props.color};
   ${media.sm`
     padding-top: 2em;
     padding-bottom: 2em;
-  `}
+  `};
 `

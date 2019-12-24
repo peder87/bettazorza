@@ -1,7 +1,7 @@
 import styled from "styled-components"
-import { colors } from "../../../style/constants"
 import { Menu } from "styled-icons/feather/Menu"
 import { Close } from "styled-icons/evil/Close"
+import { colors } from "../../../style/constants"
 
 const iconSize = `
   width: 2em;
@@ -10,9 +10,9 @@ const iconSize = `
 
 export const MenuClosed = styled(Menu)`
   ${iconSize}
-  color: ${colors.white};
+  color: ${props => (props.dark ? colors.darkGray : colors.white)};
   &:hover {
-    color: ${colors.yellow};
+    color: ${props => (props.dark ? colors.darkGray : colors.yellow)};
     cursor: pointer;
   }
   &:touch {
@@ -33,8 +33,12 @@ export const MenuOpen = styled(Close)`
 
 export const LogoIcon = styled.div`
   ${iconSize}
+  color: ${colors.purple};
   background-image: url('./logo.svg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
+  &:hover {
+    cursor: pointer;
+  }
 `

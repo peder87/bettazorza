@@ -4,16 +4,16 @@ import { colors } from "../../style/constants"
 import { ListMenu } from "./listMenu"
 // import { SocialMenu } from "../socialMenu"
 import { Footer } from "../footer"
-import { MenuContainer, FooterWrapper } from "./style"
+import { MenuContainer } from "./style"
 
 const menuProps = {
   background: colors.yellowMenu,
-  position: "absolute",
+  position: "fixed",
   width: "100%",
   height: "auto",
-  minHeight: "100%",
+  minHeight: "100vh",
+  overflow: "none",
   zIndex: 9998,
-  position: "absolute",
   top: 0,
   left: 0,
 }
