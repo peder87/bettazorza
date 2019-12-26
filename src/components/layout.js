@@ -16,9 +16,6 @@ import { pageConfig } from "../pages/pageConfig"
 // import Header from "./header"
 
 const Container = styled.div`
-  /* min-height: 100vh;
-  background-color: ${props => props.bgcolor};
-  height: auto; */
   ${media.xl`
     padding: 3.5em;
   `}

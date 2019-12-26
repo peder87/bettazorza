@@ -9,6 +9,13 @@ export default ({ isOpen, toggleMenu }) => {
   const redirectHome = () => {
     navigate("/")
   }
+  if (isOpen) {
+    document.addEventListener("keydown", e => {
+      if (e.keyCode === 27) {
+        toggleMenu()
+      }
+    })
+  }
   return (
     <Wrapper>
       <NavigationWrapper>
