@@ -32,3 +32,16 @@ export const MenuLink = styled(Link)`
     text-transform: uppercase;
   }
 `
+export const MyLink = styled.a`
+  color: ${colors.purple};
+  font-size: 3.5rem;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  &:hover {
+    text-decoration: underline;
+    color: ${colors.purple};
+  }
+  &::first-letter {
+    text-transform: uppercase;
+  }
+`

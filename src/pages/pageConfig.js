@@ -3,7 +3,8 @@ import { colors } from "../style/constants"
 export const pageConfigList = [
   {
     path: "/",
-    label: "home", // home
+    label: "home",
+    title: "",
     bgcolor: colors.purple,
     color: colors.white,
     inMenu: true,
@@ -11,6 +12,7 @@ export const pageConfigList = [
   {
     path: "/about",
     label: "chi sono",
+    title: "",
     bgcolor: colors.cyan,
     color: colors.white,
     inMenu: true,
@@ -18,6 +20,7 @@ export const pageConfigList = [
   {
     path: "/work",
     label: "cosa faccio",
+    title: "",
     bgcolor: colors.white,
     color: colors.darkGray,
     inMenu: true,
@@ -25,6 +28,7 @@ export const pageConfigList = [
   {
     path: "/project",
     label: "cosa faccio",
+    title: "",
     bgcolor: colors.white,
     color: colors.darkGray,
     inMenu: false,
@@ -32,6 +36,7 @@ export const pageConfigList = [
   {
     path: "/pmi",
     label: "",
+    title: "",
     bgcolor: colors.red,
     color: colors.white,
     inMenu: false,
@@ -39,6 +44,7 @@ export const pageConfigList = [
   {
     path: "/contact",
     label: "contatti",
+    title: "",
     bgcolor: colors.darkGray,
     color: colors.white,
     inMenu: true,

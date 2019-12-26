@@ -2,9 +2,9 @@ import React from "react"
 import { useTransition, animated } from "react-spring"
 import { colors } from "../../style/constants"
 import { ListMenu } from "./listMenu"
-// import { SocialMenu } from "../socialMenu"
 import { Footer } from "../footer"
 import { MenuContainer } from "./style"
+// import { SocialMenu } from "../socialMenu"
 
 const menuProps = {
   background: colors.yellowMenu,
@@ -18,7 +18,7 @@ const menuProps = {
   left: 0,
 }
 
-const Menu = ({ visible }) => {
+const Menu = ({ visible, callback }) => {
   const transitions = useTransition(visible, null, {
     from: { opacity: 0 },
     enter: { opacity: 1 },
@@ -30,7 +30,7 @@ const Menu = ({ visible }) => {
       item && (
         <animated.div key={key} style={styled}>
           <MenuContainer>
-            <ListMenu />
+            <ListMenu callback={callback} />
             <Footer menu />
           </MenuContainer>
         </animated.div>

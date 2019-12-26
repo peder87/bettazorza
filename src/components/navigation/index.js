@@ -22,7 +22,7 @@ export default ({ isOpen, toggleMenu }) => {
         <MenuIcon callback={toggleMenu} isOpen={isOpen} />
         {!isOpen && <LogoIcon onClick={redirectHome} />}
       </NavigationWrapper>
-      <Menu visible={isOpen} />
+      <Menu visible={isOpen} callback={toggleMenu} />
     </Wrapper>
   )
 }

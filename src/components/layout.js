@@ -13,6 +13,7 @@ import Navigation from "./navigation"
 import styled from "styled-components"
 import { Footer } from "../components/footer"
 import { pageConfig } from "../pages/pageConfig"
+import { FooterContainer } from "./pageComponents/style"
 // import Header from "./header"
 
 const Container = styled.div`
@@ -30,7 +31,7 @@ const Container = styled.div`
   `}
 `
 
-const Layout = ({ children, location }) => {
+const Layout = ({ children }) => {
   const [status, setStatus] = useState(false)
   const page = pageConfig(window.location.pathname)
 
@@ -44,7 +45,9 @@ const Layout = ({ children, location }) => {
       <Container {...page}>
         <Navigation isOpen={status} toggleMenu={toggleMenu} />
         {children}
-        <Footer {...page} />
+        <FooterContainer>
+          <Footer {...page} />
+        </FooterContainer>
       </Container>
     </>
   )
