@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { media } from "../../style/constants"
 
 export const Wrapper = styled.div`
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 `
 
 export const NavigationWrapper = styled.div`

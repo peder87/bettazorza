@@ -24,3 +24,5 @@ export const PageContainer = styled.div`
 `
 
 export const FooterContainer = styled(PageContainer)``
+
+export const HeaderContainer = styled(PageContainer)``

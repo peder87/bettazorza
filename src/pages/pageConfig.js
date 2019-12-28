@@ -12,7 +12,7 @@ export const pageConfigList = [
   {
     path: "/about",
     label: "chi sono",
-    title: "",
+    title: "chi sono",
     bgcolor: colors.cyan,
     color: colors.white,
     inMenu: true,
@@ -20,7 +20,7 @@ export const pageConfigList = [
   {
     path: "/work",
     label: "cosa faccio",
-    title: "",
+    title: "cosa faccio",
     bgcolor: colors.white,
     color: colors.darkGray,
     inMenu: true,
@@ -28,7 +28,7 @@ export const pageConfigList = [
   {
     path: "/project",
     label: "cosa faccio",
-    title: "",
+    title: "cosa faccio",
     bgcolor: colors.white,
     color: colors.darkGray,
     inMenu: false,
@@ -44,7 +44,7 @@ export const pageConfigList = [
   {
     path: "/contact",
     label: "contatti",
-    title: "",
+    title: "contatti",
     bgcolor: colors.darkGray,
     color: colors.white,
     inMenu: true,

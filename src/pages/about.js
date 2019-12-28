@@ -6,9 +6,7 @@ import Layout from "../components/layout"
 export default () => {
   return (
     <Layout>
-      <PageContainer>
-        <PageHeader />
-      </PageContainer>
+      <p>about content</p>
     </Layout>
   )
 }
