@@ -15,6 +15,7 @@ export const FooterWrapper = styled.div`
 `
 
 export const FooterText = styled.span`
+  font-size: 1.125rem;
   color: ${props => props.color};
   ${media.sm`
     padding-top: 2em;

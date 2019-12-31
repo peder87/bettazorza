@@ -12,9 +12,9 @@ export const Footer = ({ menu, color, ...props }) => {
   }
   return (
     <FooterWrapper {...componentProps}>
-      <FooterText {...footerColors}>testo 1</FooterText>
+      <FooterText {...footerColors}>hello@bettazorza.it</FooterText>
       <SocialMenu {...footerColors} />
-      <FooterText {...footerColors}>testo 2</FooterText>
+      <FooterText {...footerColors}>©2019 BettaZorza</FooterText>
     </FooterWrapper>
   )
 }

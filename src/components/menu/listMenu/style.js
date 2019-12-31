@@ -21,7 +21,6 @@ export const MenuItem = styled.div`
 
 export const MenuLink = styled(Link)`
   color: ${colors.purple};
-  font-size: 3.5rem;
   font-weight: 900;
   letter-spacing: 0.15em;
   &:hover {
@@ -33,8 +32,8 @@ export const MenuLink = styled(Link)`
   }
 `
 export const MyLink = styled.a`
+  font-size: 3rem;
   color: ${colors.purple};
-  font-size: 3.5rem;
   font-weight: 900;
   letter-spacing: 0.15em;
   &:hover {
