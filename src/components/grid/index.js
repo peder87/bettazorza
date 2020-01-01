@@ -36,10 +36,8 @@ export const StuffGrid = styled.div`
     grid-row-gap: 2.2rem;
   `}
 
-  & div {
-    height: 200px;
+  & > div {
     width: 100%;
-    background-color: green;
     border: 1px solid red;
   }
 `

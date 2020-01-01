@@ -3,7 +3,6 @@ import { navigate } from "gatsby"
 import { Wrapper, NavigationWrapper } from "./style"
 import { MenuClosed, MenuOpen, LogoIcon } from "./components/icons"
 import Menu from "../menu"
-// import Logo from "./components/logo.svg"
 
 export default ({ isOpen, toggleMenu }) => {
   const redirectHome = () => {

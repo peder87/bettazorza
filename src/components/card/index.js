@@ -1,12 +1,14 @@
 import React from "react"
 import { CardContainer, CardCaption, CardIcon, CardTitle } from "./style"
 
-export const Card = props => {
+export const Card = ({ img, title }) => {
   return (
-    <CardContainer>
-      {/* <CardIcon /> */}
-      <CardTitle>Titolo</CardTitle>
-      <CardCaption>Caption</CardCaption>
-    </CardContainer>
+    <div>
+      <CardContainer>
+        <CardIcon img={img} />
+        <CardTitle>{title}</CardTitle>
+        <CardCaption>Caption</CardCaption>
+      </CardContainer>
+    </div>
   )
 }
