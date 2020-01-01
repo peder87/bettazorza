@@ -14,7 +14,6 @@ export const NavigationWrapper = styled.div`
   justify-content: space-between;
   align-items: flex-start;
   align-content: center;
-  min-height: 52px;
   ${media.md`
     flex-direction: row-reverse;
   `}

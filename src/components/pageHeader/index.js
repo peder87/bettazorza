@@ -1,10 +1,10 @@
 import React from "react"
 import { Header, PageTitle } from "../typography"
 
-export const PageHeader = ({ title }) => {
+export const PageHeader = ({ title, ...props }) => {
   return (
     <Header>
-      <PageTitle>{title}</PageTitle>
+      <PageTitle {...props}>{title}</PageTitle>
     </Header>
   )
 }

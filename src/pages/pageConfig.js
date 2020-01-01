@@ -43,7 +43,7 @@ export const pageConfigList = [
   },
 ]
 
-export const pageConfig = path => {
+export const pageConfig = () => {
   const obj = pageConfigList.reduce(
     (acc, elem) => ({
       ...acc,
@@ -51,6 +51,7 @@ export const pageConfig = path => {
     }),
     {}
   )
+  const path = window.location.pathname
   if (obj[path]) return obj[path]
   return ""
 }

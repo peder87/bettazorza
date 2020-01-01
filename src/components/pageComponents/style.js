@@ -14,11 +14,13 @@ export const PageContainer = styled.div`
     /* background-color: green; */
   `}
   ${media.md`
-    width: 80%;
+    /* width: 80%; */
+    width: 100%;
     /* background-color: pink; */
   `}
   ${media.sm`
-    width: 60%;
+    /* width: 60%; */
+    width: 100%;
     /* background-color: red; */
   `}
 `

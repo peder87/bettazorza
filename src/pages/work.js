@@ -9,31 +9,41 @@ import Ui from "../assets/workIcons/ui.png"
 import Brochure from "../assets/workIcons/brochure.png"
 import Packaging from "../assets/workIcons/packaging.png"
 import Illustration from "../assets/workIcons/illustration.png"
+import { PageHeader } from "../components/pageHeader"
+import { pageConfig } from "./pageConfig"
+const dummy =
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque fringilla est, ac porttitor mi."
 
 const cards = [
   {
     img: Brand,
     title: "studio marchio",
+    caption: dummy,
   },
   {
     img: Social,
     title: "social",
+    caption: dummy,
   },
   {
     img: Ui,
     title: "ui",
+    caption: dummy,
   },
   {
     img: Brochure,
     title: "brochure",
+    caption: dummy,
   },
   {
     img: Packaging,
     title: "packaging",
+    caption: dummy,
   },
   {
     img: Illustration,
     title: "illustration",
+    caption: dummy,
   },
 ]
 
@@ -43,7 +53,7 @@ export default () => {
       <PageContainer>
         <StuffGrid>
           {cards.map(cardProps => (
-            <Card {...cardProps} />
+            <Card {...cardProps} key={cardProps.title} />
           ))}
         </StuffGrid>
       </PageContainer>

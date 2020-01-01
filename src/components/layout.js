@@ -35,7 +35,6 @@ const Container = styled.div`
 const Layout = ({ children }) => {
   const [status, setStatus] = useState(false)
   const page = pageConfig(window.location.pathname)
-  const hasTitle = !!page.title
   const toggleMenu = () => {
     setStatus(!status)
   }
