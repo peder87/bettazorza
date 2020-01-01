@@ -14,6 +14,7 @@ export const colors = {
   cyan: "#04BFBF",
   red: "#FC5538",
   white: "#FFF",
+  cardBg: "#F3F6F8",
 }
 
 export const fonts = {

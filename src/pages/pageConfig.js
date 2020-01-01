@@ -26,14 +26,6 @@ export const pageConfigList = [
     inMenu: true,
   },
   {
-    path: "/project",
-    label: "cosa faccio",
-    title: "cosa faccio",
-    bgcolor: colors.white,
-    color: colors.darkGray,
-    inMenu: false,
-  },
-  {
     path: "/pmi",
     label: "",
     title: "",

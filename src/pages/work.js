@@ -1,10 +1,21 @@
 import React from "react"
 import Layout from "../components/layout"
+import { PageContainer } from "../components/pageComponents/style"
+import { StuffGrid } from "../components/grid"
 
 export default () => {
   return (
     <Layout>
-      <h1>im the work</h1>
+      <PageContainer>
+        <StuffGrid>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </StuffGrid>
+      </PageContainer>
     </Layout>
   )
 }
