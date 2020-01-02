@@ -2,26 +2,22 @@ import styled from "styled-components"
 import { media } from "../../style/constants"
 
 export const PageContainer = styled.div`
+  color: ${props => props.color};
   margin: 0 auto;
   height: auto;
   min-height: 100%;
+  padding-top: 4em;
   ${media.xl`
     width: 75%;
-    /* background-color: blue; */
   `}
   ${media.lg`
     width: 80%;
-    /* background-color: green; */
   `}
   ${media.md`
-    /* width: 80%; */
     width: 100%;
-    /* background-color: pink; */
   `}
   ${media.sm`
-    /* width: 60%; */
     width: 100%;
-    /* background-color: red; */
   `}
 `
 

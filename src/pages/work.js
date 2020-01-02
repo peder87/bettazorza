@@ -9,8 +9,9 @@ import Ui from "../assets/workIcons/ui.png"
 import Brochure from "../assets/workIcons/brochure.png"
 import Packaging from "../assets/workIcons/packaging.png"
 import Illustration from "../assets/workIcons/illustration.png"
-import { PageHeader } from "../components/pageHeader"
 import { pageConfig } from "./pageConfig"
+import { CopyWrapper, PageCopy } from "../components/typography"
+
 const dummy =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque fringilla est, ac porttitor mi."
 
@@ -48,9 +49,17 @@ const cards = [
 ]
 
 export default () => {
+  const pageConf = pageConfig()
+  console.log("pageConf", pageConf)
   return (
     <Layout>
-      <PageContainer>
+      <PageContainer {...pageConf}>
+        <CopyWrapper>
+          <PageCopy>
+            Ogni progetto che realizzo è personalizzato. Penso e realizzo le
+            giuste strategie e la giusta immagine grafica per ogni brand.
+          </PageCopy>
+        </CopyWrapper>
         <StuffGrid>
           {cards.map(cardProps => (
             <Card {...cardProps} key={cardProps.title} />
