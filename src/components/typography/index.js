@@ -25,11 +25,19 @@ export const PageCopy = styled.p`
   padding: 0;
   margin: 0;
   text-align: left;
-  ${media.md`
+  ${media.sm`
     text-align: center;
     font-size: 1.125rem;
+    font-style: normal; 
+    /* line-height: 1.125rem; */
+    line-height: 1.1;
   `}
   font-size: 1.5rem;
-  line-height: 1.8rem;
+  line-height: 1.1;
   font-weight: ${props => (props.bold ? 500 : 400)};
+
+  & span.bold {
+    font-weight: 600;
+    font-style: bold;
+  }
 `

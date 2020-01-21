@@ -12,7 +12,7 @@ export const pageConfigList = [
   {
     path: "/about",
     label: "chi sono",
-    title: "chi sono",
+    // title: "chi sono",
     bgcolor: colors.cyan,
     color: colors.white,
     inMenu: true,

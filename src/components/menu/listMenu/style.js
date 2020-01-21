@@ -3,11 +3,9 @@ import { Link } from "gatsby"
 import { colors, media } from "../../../style/constants"
 
 export const ListWrapper = styled.div`
-  /* background-color: red; */
-  /* width: 70%; */
-  margin: 4.5em auto;
+  margin: 5em auto;
   ${media.sm`
-    margin-top: 16em;
+    margin-top: 6.25em;
     width: 90%;
   `}
 `

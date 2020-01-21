@@ -4,7 +4,6 @@ import { colors } from "../../style/constants"
 import { ListMenu } from "./listMenu"
 import { Footer } from "../footer"
 import { MenuContainer } from "./style"
-// import { SocialMenu } from "../socialMenu"
 
 const menuProps = {
   background: colors.yellowMenu,

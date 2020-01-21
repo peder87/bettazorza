@@ -6,18 +6,21 @@ export const PageContainer = styled.div`
   margin: 0 auto;
   height: auto;
   min-height: 100%;
-  padding-top: 4em;
   ${media.xl`
+    padding-top: 4.125em;
     width: 75%;
   `}
   ${media.lg`
     width: 80%;
+    padding-top: 3.5em;
   `}
   ${media.md`
     width: 100%;
+    padding-top: 2.5em;
   `}
   ${media.sm`
     width: 100%;
+    padding-top: 1.75em;
   `}
 `
 
