@@ -20,10 +20,6 @@ export const GlobalStyle = createGlobalStyle`
     backface-visibility: hidden;
   }
 
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
-    line-height: inherit;
-  }
 
   a {
     color: inherit;
@@ -45,7 +41,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   ::selection {
-    color: ${colors.yellow};
+    /* color: ${colors.yellow}; */
     background: transparent;
   }
 `

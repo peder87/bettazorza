@@ -12,6 +12,9 @@ export const PageTitle = styled.h2`
     font-size: 1.5rem;
   `};
   padding-bottom: 2rem;
+  &::first-letter {
+    text-transform: uppercase;
+  }
 `
 
 export const CopyWrapper = styled.div`

@@ -41,6 +41,14 @@ export const pageConfigList = [
     color: colors.white,
     inMenu: true,
   },
+  {
+    path: "/type",
+    label: "contatti",
+    title: "contatti",
+    bgcolor: colors.darkGray,
+    color: colors.white,
+    inMenu: false,
+  },
 ]
 
 export const pageConfig = () => {
