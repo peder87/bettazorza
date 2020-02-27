@@ -38,6 +38,8 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-kerning: auto;
+    /* font-weight: regular; */
+    font-weight: normal;
   }
 
   ::selection {

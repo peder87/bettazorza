@@ -16,24 +16,11 @@ export const MenuItem = styled.div`
     text-align: center;
   `}
 `
-
-// export const MenuLink = styled(Link)`
-//   color: ${colors.purple};
-//   /* font-weight: 600; */
-//   letter-spacing: 0.15em;
-//   &:hover {
-//     text-decoration: underline;
-//     color: ${colors.purple};
-//   }
-//   &::first-letter {
-//     text-transform: uppercase;
-//   }
-// `
 export const MyLink = styled.a`
   font-size: 3rem;
   color: ${colors.purple};
   font-weight: 700;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.06em;
   &:hover {
     text-decoration: underline;
     color: ${colors.purple};
