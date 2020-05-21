@@ -18,7 +18,7 @@ export const colors = {
 }
 
 export const fonts = {
-  sansSerif: `'Raleway', sans-serif`,
+  sansSerif: `'Roboto', sans-serif`,
 }
 
 export const spaces = {

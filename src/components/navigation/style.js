@@ -6,7 +6,8 @@ export const Wrapper = styled.div`
 `
 
 export const NavigationWrapper = styled.div`
-  position: relative;
+  /* position: relative; */
+  position: absolute;
   z-index: 9999;
   display: flex;
   flex-direction: row;

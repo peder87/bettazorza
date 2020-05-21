@@ -1,29 +1,66 @@
 import styled from "styled-components"
 import { media } from "../../style/constants"
 
-export const PageContainer = styled.div`
+export const GlobalContainer = styled.div`
+  ${media.xl`
+    padding: 3.5em 5vh 0 3.5em;
+  `}
+  ${media.lg`
+    padding: 3.0em 5vh 0 3.0em;
+  `}
+  ${media.md`
+    padding: 2.5em 5vh 0 2.5em;
+  `}
+  ${media.sm`
+    padding: 2.0em 5vh 0 2.5em;
+  `}
+`
+
+const PageCenterContent = styled.div`
   color: ${props => props.color};
   margin: 0 auto;
-  height: auto;
-  min-height: 100%;
+  /* height: auto;
+  min-height: 100%; */
+  /* background: blue; */
+  
   ${media.xl`
-    padding-top: 4.125em;
     width: 75%;
   `}
   ${media.lg`
     width: 80%;
-    padding-top: 3.5em;
   `}
   ${media.md`
     width: 100%;
-    padding-top: 2.5em;
   `}
   ${media.sm`
     width: 100%;
+  `}
+
+`
+
+export const PageContainer = styled(PageCenterContent)`
+    height: 100%;
+  ${media.xl`
+    padding-top: 5vh;
+    min-height: 86vh;
+    /* padding-top: 4.125em; */
+  `}
+  ${media.lg`
+    padding-top: 5vh;
+    /* padding-top: 3.5em; */
+  `}
+  ${media.md`
+    padding-top: 2.5em;
+  `}
+  ${media.sm`
     padding-top: 1.75em;
   `}
 `
 
-export const FooterContainer = styled(PageContainer)``
+export const FooterContainer = styled(PageCenterContent)`
+  /* background: red; */
+  position: relative;
+  
+`
 
-export const HeaderContainer = styled(PageContainer)``
+export const HeaderContainer = styled(PageCenterContent)``

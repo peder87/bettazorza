@@ -13,24 +13,10 @@ import Navigation from "./navigation"
 import styled from "styled-components"
 import { Footer } from "../components/footer"
 import { pageConfig } from "../pages/pageConfig"
-import { FooterContainer } from "./pageComponents/style"
+import { GlobalContainer, FooterContainer } from "./pageComponents/style"
 import { PageHeader } from "./pageHeader"
 // import Header from "./header"
 
-const Container = styled.div`
-  ${media.xl`
-    padding: 3.5em;
-  `}
-  ${media.lg`
-    padding: 3.0em;
-  `}
-  ${media.md`
-    padding: 2.5em;
-  `}
-  ${media.sm`
-    padding: 2.0em;
-  `}
-`
 
 const Layout = ({ children }) => {
   const [status, setStatus] = useState(false)
@@ -42,14 +28,15 @@ const Layout = ({ children }) => {
   return (
     <>
       <GlobalStyle {...page} />
-      <Container {...page}>
+      <GlobalContainer {...page}>
         <Navigation isOpen={status} toggleMenu={toggleMenu} />
         {!!page.title && <PageHeader {...page} />}
         {children}
         <FooterContainer>
           <Footer {...page} />
         </FooterContainer>
-      </Container>
+      </GlobalContainer>
+      
     </>
   )
 }

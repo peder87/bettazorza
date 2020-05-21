@@ -12,6 +12,7 @@ export const FooterWrapper = styled.div`
   width: 100%;
   height: 60px;
   bottom: 2em;
+  background: plum;
 `
 
 export const FooterText = styled.span`
