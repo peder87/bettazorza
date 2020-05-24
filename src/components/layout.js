@@ -15,6 +15,7 @@ import { Footer } from "../components/footer"
 import { pageConfig } from "../pages/pageConfig"
 import { GlobalContainer, FooterContainer } from "./pageComponents/style"
 import { PageHeader } from "./pageHeader"
+import { NavMenu } from '../components/newMenu'
 // import Header from "./header"
 
 
@@ -29,8 +30,9 @@ const Layout = ({ children }) => {
     <>
       <GlobalStyle {...page} />
       <GlobalContainer {...page}>
-        <Navigation isOpen={status} toggleMenu={toggleMenu} />
-        {!!page.title && <PageHeader {...page} />}
+        <NavMenu isOpen={status} toggleMenu={toggleMenu} />
+        {/* <Navigation isOpen={status} toggleMenu={toggleMenu} /> */}
+        {/* {!!page.title && <PageHeader {...page} />} */}
         {children}
         {/* <FooterContainer>
           <Footer {...page} />
