@@ -58,4 +58,7 @@ const MenuContainer = styled(PageContainer)`
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 2vh;
+  ${media.sm`
+    justify-content: center;
+  `}
 `

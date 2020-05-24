@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components'
 import { colors } from '../../style/constants'
 
-const menuSpeed = '0.75s'
+const menuSpeed = '0.35s'
 
 export const Menu = styled.div`
   position: fixed;
@@ -26,7 +26,7 @@ export const Menu = styled.div`
     align-items: center;
     justify-content: center;
     transform: ${props => props.isOpen ? 'scale(1)': 'scale(0)'};
-    transition: all 0.4s ease;
+    transition: all 0.3s ease;
     z-index: 9991;
     ${props => props.isOpen && css`
       transition-duration: ${menuSpeed};
