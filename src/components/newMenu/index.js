@@ -4,6 +4,8 @@ import { Hamburger } from './hamburger'
 import { Menu } from './menu'
 import { media } from '../../style/constants'
 import { PageList } from './pageList'
+import { PageCenterContent, PageContainer } from '../pageComponents/style'
+import { Footer } from '../footer'
 
 export const NavMenu = ({isOpen, toggleMenu}) => {
   if(isOpen) {
@@ -13,13 +15,16 @@ export const NavMenu = ({isOpen, toggleMenu}) => {
   }
   return (
     <div>
-      <Wrapper>
+      <HamburgerWrapper>
         <Hamburger isOpen={isOpen} onClick={toggleMenu}><div></div></Hamburger>
-      </Wrapper>
+      </HamburgerWrapper>
       <Menu isOpen={isOpen}>
         <div> {/* box giallo */}
           <ResetContainer>
-            <PageList />
+            <MenuContainer>
+              <PageList />
+              <Footer menu/>
+            </MenuContainer>
           </ResetContainer>
         </div>
       </Menu>
@@ -27,7 +32,7 @@ export const NavMenu = ({isOpen, toggleMenu}) => {
   )
 }
 
-const Wrapper = styled.div`
+const HamburgerWrapper = styled.div`
   z-index: 9999;
   display: flex;
   flex-direction: row;
@@ -46,4 +51,11 @@ const Wrapper = styled.div`
 const ResetContainer = styled.div`
   width: 100vw;
   height: 100vh;
+`
+
+const MenuContainer = styled(PageContainer)`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 2vh;
 `

@@ -3,10 +3,8 @@ import { colors } from '../../style/constants'
 
 export const Hamburger = styled.div`
   z-index: 99990;
-  /* width: 3.75rem; */
   width: 60px;
   height: 60px;
-  /* height: 3.75rem; */
   padding: 1rem;
   display: flex;
   align-items: center;

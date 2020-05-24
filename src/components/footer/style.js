@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { media } from "../../style/constants"
 
 export const FooterWrapper = styled.div`
-  position: absolute;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,9 +10,9 @@ export const FooterWrapper = styled.div`
     flex-direction: column;
     display: ${props => (props.menu ? "none" : "flex")};
   `}
+  z-index: 9995;
   width: 100%;
   height: 60px;
-  background: plum;
   bottom: 0px;
 `
 

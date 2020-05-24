@@ -4,7 +4,7 @@ import { PageContainer } from '../pageComponents/style'
 import { pageConfigList } from '../../pages/pageConfig'
 import { navigate } from 'gatsby'
 import { MenuItem } from './Item'
-
+import { Footer } from '../footer'
 export const PageList = (props) => {
   const handleClick = (e, path) => {
     e.preventDefault()
@@ -23,13 +23,15 @@ export const PageList = (props) => {
             <a href="#" onClick={e => handleClick(e, p.path)}>{p.label}</a>
           </MenuItem>)
       }
+      {/* <Footer menu /> */}
     </ListWrapper>
   )
 }
 
-const ListWrapper = styled(PageContainer)`
-  width: 100vw;
-  height: 100vh;
+const ListWrapper = styled.div`
+  /* width: 100vw; */
+  /* background:red; */
+  height: auto;
   & span {
     color: white;
   }

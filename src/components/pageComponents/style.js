@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import { media } from "../../style/constants"
-import { math } from 'polished'
 
 export const GlobalContainer = styled.div`
   ${media.xl`
@@ -18,7 +17,7 @@ export const GlobalContainer = styled.div`
 `
 
 
-const PageCenterContent = styled.div`
+export const PageCenterContent = styled.div`
   color: ${props => props.color};
   margin: 0 auto;
   /* height: auto;
