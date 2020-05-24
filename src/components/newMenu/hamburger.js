@@ -13,6 +13,10 @@ export const Hamburger = styled.div`
   align-items: center;
   justify-content: center;
 
+  &:hover {
+    cursor: pointer;
+  }
+
   > div {
     position: relative;
     flex: none;
