@@ -9,7 +9,6 @@ export const Hamburger = styled.div`
   width: 60px;
   height: 60px;
   padding: 1rem;
-  background: ${colors.yellow};
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,7 +18,7 @@ export const Hamburger = styled.div`
     flex: none;
     width: 100%;
     height: 2px;
-    background-color: #fff;
+    background-color: ${props => props.isOpen ? colors.purple: colors.yellow };
     display: flex;
     align-items: center;
     justify-content: center;
