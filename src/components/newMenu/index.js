@@ -1,12 +1,25 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Hamburger } from './hamburger' 
+import { Menu } from './menu'
 
 export const NavMenu = ({isOpen, toggleMenu}) => {
   return (
     <NavWrapper isOpen={isOpen}>
       <input type="checkbox" className="toggler" checked={isOpen} onChange={toggleMenu} />
       <Hamburger isOpen={isOpen}><div></div></Hamburger>
+      <Menu isOpen={isOpen}>
+        <div>
+          <div>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Home</a></li>
+            </ul>
+          </div>
+        </div>
+      </Menu>
     </NavWrapper>
   )
 }
