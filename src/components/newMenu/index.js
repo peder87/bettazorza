@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Hamburger } from './hamburger' 
 import { Menu } from './menu'
+import { media } from '../../style/constants'
 
 export const NavMenu = ({isOpen, toggleMenu}) => {
   if(isOpen) {
@@ -10,8 +11,10 @@ export const NavMenu = ({isOpen, toggleMenu}) => {
     })
   }
   return (
-    <NavWrapper>
-      <Hamburger isOpen={isOpen} onClick={toggleMenu}><div></div></Hamburger>
+    <div>
+      <Wrapper>
+        <Hamburger isOpen={isOpen} onClick={toggleMenu}><div></div></Hamburger>
+      </Wrapper>
       <Menu isOpen={isOpen}>
         <div>
           <div>
@@ -24,15 +27,22 @@ export const NavMenu = ({isOpen, toggleMenu}) => {
           </div>
         </div>
       </Menu>
-    </NavWrapper>
+    </div>
   )
 }
 
-const NavWrapper = styled.div`
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-
+const Wrapper = styled.div`
+  z-index: 9999;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+  ${media.md`
+    flex-direction: row-reverse;
+  `}
+  ${media.sm`
+    flex-direction: row-reverse;
+  `}
 `
-

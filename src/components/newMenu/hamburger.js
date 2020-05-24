@@ -2,10 +2,7 @@ import styled, { css } from 'styled-components'
 import { colors } from '../../style/constants'
 
 export const Hamburger = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
+  z-index: 99990;
   width: 60px;
   height: 60px;
   padding: 1rem;

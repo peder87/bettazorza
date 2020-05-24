@@ -14,6 +14,7 @@ export const Menu = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 99980;
 
   & > div {
     background: ${colors.yellow};
@@ -26,12 +27,14 @@ export const Menu = styled.div`
     justify-content: center;
     transform: ${props => props.isOpen ? 'scale(1)': 'scale(0)'};
     transition: all 0.4s ease;
+    z-index: 9991;
     ${props => props.isOpen && css`
       transition-duration: ${menuSpeed};
     ` }
   }
 
   & > div > div {
+    z-index: 9992;
     text-align: center;
     max-width: 90vw;
     max-height: 100vh;
