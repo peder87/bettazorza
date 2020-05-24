@@ -33,16 +33,16 @@ export const Menu = styled.div`
     ` }
   }
 
-  & > div > div {
+  /* & > div > div {
     z-index: 9992;
     text-align: center;
     max-width: 90vw;
     max-height: 100vh;
     opacity: ${props => props.isOpen ? 1 : 0};
     transition: ${props => props.isOpen ? 'opacity 0.4s ease 0.4s' : 'opacity 0.4s ease' };
-  }
+  } */
 
-  & > div > div > ul > li {
+  /* & > div > div > ul > li {
     list-style: none;
     color: #fff;
     font-size: 1.5rem;
@@ -53,5 +53,5 @@ export const Menu = styled.div`
     color: inherit;
     text-decoration: none;
     transition: color 0.4s ease;
-  }
+  } */
 `

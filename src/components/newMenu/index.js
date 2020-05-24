@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { Hamburger } from './hamburger' 
 import { Menu } from './menu'
 import { media } from '../../style/constants'
+import { PageList } from './pageList'
 
 export const NavMenu = ({isOpen, toggleMenu}) => {
   if(isOpen) {
@@ -16,15 +17,10 @@ export const NavMenu = ({isOpen, toggleMenu}) => {
         <Hamburger isOpen={isOpen} onClick={toggleMenu}><div></div></Hamburger>
       </Wrapper>
       <Menu isOpen={isOpen}>
-        <div>
-          <div>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Home</a></li>
-            </ul>
-          </div>
+        <div> {/* box giallo */}
+          <ResetContainer>
+            <PageList />
+          </ResetContainer>
         </div>
       </Menu>
     </div>
@@ -45,4 +41,9 @@ const Wrapper = styled.div`
   ${media.sm`
     flex-direction: row-reverse;
   `}
+`
+
+const ResetContainer = styled.div`
+  width: 100vw;
+  height: 100vh;
 `

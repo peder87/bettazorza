@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import { media } from "../../style/constants"
+import { math } from 'polished'
 
 export const GlobalContainer = styled.div`
   ${media.xl`
@@ -15,6 +16,7 @@ export const GlobalContainer = styled.div`
     padding: 2.0em 5vh 0 2.5em;
   `}
 `
+
 
 const PageCenterContent = styled.div`
   color: ${props => props.color};
@@ -38,22 +40,25 @@ const PageCenterContent = styled.div`
 
 `
 
+
 export const PageContainer = styled(PageCenterContent)`
     height: 100%;
   ${media.xl`
-    padding-top: 5vh;
+    padding-top: 10vh;
     min-height: 86vh;
     /* padding-top: 4.125em; */
   `}
   ${media.lg`
-    padding-top: 5vh;
+    padding-top: 10vh;
     /* padding-top: 3.5em; */
   `}
   ${media.md`
     padding-top: 2.5em;
+    /* padding-top: 10vh; */
   `}
   ${media.sm`
     padding-top: 1.75em;
+    /* padding-top: 10vh; */
   `}
 `
 
