@@ -32,9 +32,9 @@ const Layout = ({ children }) => {
         <Navigation isOpen={status} toggleMenu={toggleMenu} />
         {!!page.title && <PageHeader {...page} />}
         {children}
-        <FooterContainer>
+        {/* <FooterContainer>
           <Footer {...page} />
-        </FooterContainer>
+        </FooterContainer> */}
       </GlobalContainer>
       
     </>

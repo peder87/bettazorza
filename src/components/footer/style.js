@@ -2,6 +2,7 @@ import styled from "styled-components"
 import { media } from "../../style/constants"
 
 export const FooterWrapper = styled.div`
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -11,8 +12,8 @@ export const FooterWrapper = styled.div`
   `}
   width: 100%;
   height: 60px;
-  bottom: 2em;
   background: plum;
+  bottom: 0px;
 `
 
 export const FooterText = styled.span`
