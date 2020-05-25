@@ -24,3 +24,17 @@ export const FooterText = styled.span`
     padding-bottom: 2em;
   `};
 `
+
+export const FooterLink = styled.a`
+  font-size: 1.125rem;
+  color: ${props => props.color};
+  ${media.sm`
+    padding-top: 2em;
+    padding-bottom: 2em;
+  `};
+  &:hover {
+    color: ${props => props.color};
+    cursor: pointer;
+    text-decoration: underline;
+  }
+`

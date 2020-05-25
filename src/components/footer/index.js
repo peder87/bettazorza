@@ -1,5 +1,5 @@
 import React from "react"
-import { FooterWrapper, FooterText } from "./style"
+import { FooterWrapper, FooterText, FooterLink } from "./style"
 import { SocialMenu } from "../socialMenu"
 import { colors } from "../../style/constants"
 
@@ -10,9 +10,10 @@ export const Footer = ({ menu, color, ...props }) => {
   const footerColors = {
     color: menu ? colors.purple : color,
   }
+  const mailto = 'mailto:hello@bettazorza.it'
   return (
     <FooterWrapper {...componentProps}>
-      <FooterText {...footerColors}>hello@bettazorza.it</FooterText>
+      <FooterLink {...footerColors} href={mailto}>hello@bettazorza.it</FooterLink>
       <SocialMenu {...footerColors} />
       <FooterText {...footerColors}>©2019 BettaZorza</FooterText>
     </FooterWrapper>
