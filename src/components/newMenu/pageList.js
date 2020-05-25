@@ -19,8 +19,11 @@ export const PageList = (props) => {
       {
         pageConfigList
           .filter(p => p.inMenu)
+          .map(({label, ...p}) => ({ 
+            ...p, label: `${label.charAt(0).toUpperCase()}${label.slice(1)}`
+          }))
           .map(p => <MenuItem key={p.label}>
-            <a href="#" onClick={e => handleClick(e, p.path)}>{p.label}</a>
+            <a href="#" onClick={e => handleClick(e, p.path)}>{ p.label }</a>
           </MenuItem>)
       }
     </ListWrapper>
