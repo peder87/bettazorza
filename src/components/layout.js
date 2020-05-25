@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
     <>
       <GlobalStyle {...page} />
       <GlobalContainer {...page}>
-        <NavMenu isOpen={status} toggleMenu={toggleMenu} />
+        <NavMenu isOpen={status} toggleMenu={toggleMenu} {...page} />
         {/* <Navigation isOpen={status} toggleMenu={toggleMenu} /> */}
         {/* {!!page.title && <PageHeader {...page} />} */}
         {children}

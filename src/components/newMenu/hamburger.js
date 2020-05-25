@@ -19,7 +19,7 @@ export const Hamburger = styled.div`
     flex: none;
     width: 100%;
     height: 2px;
-    background-color: ${props => props.isOpen ? colors.purple: colors.yellow };
+    background-color: ${props => props.isOpen ? colors.purple : props.hambugerColor };
     display: flex;
     align-items: center;
     justify-content: center;

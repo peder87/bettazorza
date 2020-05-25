@@ -55,11 +55,10 @@ export const pageConfig = () => {
   const obj = pageConfigList.reduce(
     (acc, elem) => ({
       ...acc,
-      [elem.path]: { ...elem },
+      [elem.path]: elem,
     }),
     {}
   )
   const path = window.location.pathname
-  if (obj[path]) return obj[path]
-  return ""
+  return obj[path] ? obj[path] : obj['/']
 }

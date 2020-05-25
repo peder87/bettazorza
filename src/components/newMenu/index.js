@@ -7,7 +7,7 @@ import { PageList } from './pageList'
 import { PageContainer } from '../pageComponents/style'
 import { Footer } from '../footer'
 
-export const NavMenu = ({isOpen, toggleMenu}) => {
+export const NavMenu = ({isOpen, toggleMenu, color}) => {
   if(isOpen) {
     document.addEventListener('keydown', e => {
       e.keyCode === 27 && toggleMenu()
@@ -16,7 +16,13 @@ export const NavMenu = ({isOpen, toggleMenu}) => {
   return (
     <div>
       <HamburgerWrapper isOpen={isOpen}>
-        <Hamburger isOpen={isOpen} onClick={toggleMenu}><div></div></Hamburger>
+        <Hamburger
+          isOpen={isOpen}
+          onClick={toggleMenu}
+          hambugerColor={color}
+        >
+            <div></div>
+          </Hamburger>
       </HamburgerWrapper>
       <Menu isOpen={isOpen}>
         <div /> {/* box giallo */}
