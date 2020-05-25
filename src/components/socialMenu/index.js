@@ -16,7 +16,9 @@ const icons = [
 ]
 
 export const SocialMenu = ({ color }) => {
-  const openLink = url => {}
+  const openLink = url => {
+    window.open(url, '__blank')
+  }
 
   return (
     <MenuWrapper>
