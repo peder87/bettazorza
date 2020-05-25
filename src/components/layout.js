@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { GlobalStyle } from "../style/global"
 import { media } from "../style/constants"
 import Navigation from "./navigation"
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 import { Footer } from "../components/footer"
 import { pageConfig } from "../pages/pageConfig"
 import { GlobalContainer, FooterContainer } from "./pageComponents/style"
@@ -31,9 +31,9 @@ const Layout = ({ children }) => {
       <GlobalStyle {...page} />
       <GlobalContainer {...page}>
         <NavMenu isOpen={status} toggleMenu={toggleMenu} {...page} />
-        {/* <Navigation isOpen={status} toggleMenu={toggleMenu} /> */}
-        {/* {!!page.title && <PageHeader {...page} />} */}
-        {children}
+        <ChildrenWrapper isOpen={status}>
+          {children}
+        </ChildrenWrapper>
         {/* <FooterContainer>
           <Footer {...page} />
         </FooterContainer> */}
@@ -48,3 +48,9 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+const ChildrenWrapper = styled.div`
+  ${props => props.isOpen && css`
+    padding-top: 60px; 
+  `}
+`

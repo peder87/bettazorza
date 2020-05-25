@@ -16,13 +16,9 @@ export const NavMenu = ({isOpen, toggleMenu, color}) => {
   return (
     <div>
       <HamburgerWrapper isOpen={isOpen}>
-        <Hamburger
-          isOpen={isOpen}
-          onClick={toggleMenu}
-          hambugerColor={color}
-        >
-            <div></div>
-          </Hamburger>
+        <Hamburger isOpen={isOpen} onClick={toggleMenu} hambugerColor={color}>
+          <div></div> {/* hamburger */}
+        </Hamburger>
       </HamburgerWrapper>
       <Menu isOpen={isOpen}>
         <div /> {/* box giallo */}
