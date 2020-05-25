@@ -1,10 +1,10 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import { Hamburger } from './hamburger' 
 import { Menu } from './menu'
 import { media } from '../../style/constants'
 import { PageList } from './pageList'
-import { PageCenterContent, PageContainer } from '../pageComponents/style'
+import { PageContainer } from '../pageComponents/style'
 import { Footer } from '../footer'
 
 export const NavMenu = ({isOpen, toggleMenu}) => {
@@ -15,25 +15,29 @@ export const NavMenu = ({isOpen, toggleMenu}) => {
   }
   return (
     <div>
-      <HamburgerWrapper>
+      <HamburgerWrapper isOpen={isOpen}>
         <Hamburger isOpen={isOpen} onClick={toggleMenu}><div></div></Hamburger>
       </HamburgerWrapper>
       <Menu isOpen={isOpen}>
-        <div> {/* box giallo */}
-          <ResetContainer>
-            <MenuContainer>
-              <PageList />
-              <Footer menu/>
-            </MenuContainer>
-          </ResetContainer>
-        </div>
+        <div /> {/* box giallo */}
       </Menu>
+      <ResetContainer isOpen={isOpen}>
+        <MenuContainer>
+          <PageList isOpen={isOpen}/>
+          <FooterAnimation isOpen={isOpen}>
+            <Footer menu/>
+          </FooterAnimation>
+        </MenuContainer>
+      </ResetContainer>
     </div>
   )
 }
 
 const HamburgerWrapper = styled.div`
-  z-index: 9999;
+  ${props => props.isOpen && css`
+    position: fixed;
+  `}
+  z-index: 999999;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -49,8 +53,18 @@ const HamburgerWrapper = styled.div`
 `
 
 const ResetContainer = styled.div`
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw; */
+  /* height: 100vh; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* visibility: ${props => props.isOpen ? 'visible' : 'hidden'}; */
+  z-index: 99985;
+  overflow: hidden;
+  opacity: ${props => props.isOpen ? 1 : 0};
+  transition: ${props => props.isOpen ? 'opacity 0.3s ease 0.3s' : 'opacity: 0.3s ease'};
 `
 
 const MenuContainer = styled(PageContainer)`
@@ -61,4 +75,10 @@ const MenuContainer = styled(PageContainer)`
   ${media.sm`
     justify-content: center;
   `}
+`
+
+const FooterAnimation = styled.div`
+  opacity: ${props => props.isOpen ? 1 : 0};
+  transition: ${props => props.isOpen ? 'opacity .4s ease .4s' : 'opacity .4s ease'};
+  transition-delay: .5s;
 `
