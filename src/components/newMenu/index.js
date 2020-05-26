@@ -65,6 +65,8 @@ const ResetContainer = styled.div`
   overflow: hidden;
   opacity: ${props => props.isOpen ? 1 : 0};
   transition: ${props => props.isOpen ? 'opacity 0.3s ease 0.3s' : 'opacity: 0.3s ease'};
+  visibility: ${props => props.isOpen ? 'visible' : 'hidden'};
+  display: ${props => props.isOpen ? 'block' : 'none'};
 `
 
 const MenuContainer = styled(PageContainer)`
