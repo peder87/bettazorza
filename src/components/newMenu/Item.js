@@ -21,5 +21,9 @@ export const MenuItem = styled.div`
     &::first-letter {
       text-transform: uppercase;
     }
+
+    &:focus {
+      outline: none;
+    }
   }
 `
