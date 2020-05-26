@@ -37,4 +37,7 @@ export const FooterLink = styled.a`
     cursor: pointer;
     text-decoration: underline;
   }
+  &:focus {
+    outline: none;
+  }
 `
