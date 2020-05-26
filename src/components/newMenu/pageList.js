@@ -9,7 +9,7 @@ export const PageList = (props) => {
   const handleClick = (e, path) => {
     e.preventDefault()
     if(window.location.pathname === path) {
-      props.callback()
+      props.toggleMenu()
       return
     }
     navigate(path)

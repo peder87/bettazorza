@@ -25,7 +25,7 @@ export const NavMenu = ({isOpen, toggleMenu, color}) => {
       </Menu>
       <ResetContainer isOpen={isOpen}>
         <MenuContainer>
-          <PageList isOpen={isOpen}/>
+          <PageList isOpen={isOpen} toggleMenu={toggleMenu}/>
           <FooterAnimation isOpen={isOpen}>
             <Footer menu/>
           </FooterAnimation>
