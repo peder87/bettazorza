@@ -20,12 +20,10 @@ export const GlobalStyle = createGlobalStyle`
     backface-visibility: hidden;
   }
 
-
   a {
     color: inherit;
     text-decoration: none;
     transition: color ease-in .2s;
-    
     &:hover {
       color: #fff;
     }
@@ -38,7 +36,6 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-kerning: auto;
-    /* font-weight: regular; */
     font-weight: normal;
   }
 

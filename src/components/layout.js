@@ -10,10 +10,10 @@ import PropTypes from "prop-types"
 import { GlobalStyle } from "../style/global"
 import { media } from "../style/constants"
 import styled, { css } from "styled-components"
-import { Footer } from "../components/footer"
+// import { Footer } from "../components/footer"
 import { pageConfig } from "../pages/pageConfig"
 import { GlobalContainer, FooterContainer } from "./pageComponents/style"
-import { PageHeader } from "./pageHeader"
+// import { PageHeader } from "./pageHeader"
 import { NavMenu } from '../components/newMenu'
 // import Header from "./header"
 
@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <GlobalStyle {...page} />
-      <GlobalContainer {...page}>
+      <GlobalContainer {...page} id="GLOBAL-CONTAINER">
         <NavMenu isOpen={status} toggleMenu={toggleMenu} {...page} />
         <ChildrenWrapper isOpen={status}>
           {children}
@@ -50,6 +50,6 @@ export default Layout
 
 const ChildrenWrapper = styled.div`
   ${props => props.isOpen && css`
-    padding-top: 60px; 
+    padding-top: 3.75em; /* aggiungo il padding-top della stessa misura dell'altezza del contenitore del hamburger menu  */
   `}
 `
