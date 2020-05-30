@@ -22,9 +22,6 @@ export const NavigationWrapper = styled.div`
 `
 
 export const HamburgerWrapper = styled.div`
-  ${props => props.isOpen && css`
-    position: fixed;
-  `}
   z-index: 999999;
   display: flex;
   flex-direction: row;

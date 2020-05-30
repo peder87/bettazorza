@@ -4,7 +4,7 @@ import { Menu } from './menu'
 import { PageList } from './pageList'
 import { NavigationWrapper, HamburgerWrapper, ResetContainer, MenuContainer, FooterAnimation, GlobalMenu } from './style'
 import { Footer } from '../footer'
-import { GlobalContainer } from '../pageComponents/style'
+
 export const NavMenu = ({isOpen, toggleMenu, color}) => {
   if(isOpen) {
     document.addEventListener('keydown', e => {

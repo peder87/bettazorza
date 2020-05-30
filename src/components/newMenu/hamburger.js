@@ -5,7 +5,6 @@ export const Hamburger = styled.div`
   z-index: 99990;
   width: 1.75rem;
   height: 3.75rem;
-
   display: flex;
   align-items: center;
   justify-content: center;

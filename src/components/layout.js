@@ -30,9 +30,7 @@ const Layout = ({ children }) => {
       <GlobalStyle {...page} />
       <GlobalContainer {...page} id="GLOBAL-CONTAINER">
         <NavMenu isOpen={status} toggleMenu={toggleMenu} {...page} />
-        <ChildrenWrapper isOpen={status}>
-          {children}
-        </ChildrenWrapper>
+        {children}
         {/* <FooterContainer>
           <Footer {...page} />
         </FooterContainer> */}
@@ -47,9 +45,3 @@ Layout.propTypes = {
 }
 
 export default Layout
-
-const ChildrenWrapper = styled.div`
-  ${props => props.isOpen && css`
-    padding-top: 3.75em; /* aggiungo il padding-top della stessa misura dell'altezza del contenitore del hamburger menu  */
-  `}
-`
