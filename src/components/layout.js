@@ -27,8 +27,8 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <GlobalStyle {...page} />
-      <GlobalContainer {...page} id="GLOBAL-CONTAINER">
+      <GlobalStyle {...page} isOpen={status} />
+      <GlobalContainer {...page} id="GLOBAL-CONTAINER" >
         <NavMenu isOpen={status} toggleMenu={toggleMenu} {...page} />
         {children}
         {/* <FooterContainer>

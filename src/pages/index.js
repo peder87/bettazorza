@@ -10,7 +10,8 @@ const list = _times(9, 'hello')
 
 export default () => (
   <Layout>
-    <SEO title="Home" />
+    {/* <SEO title="Home" /> */}
+    <PageContainer>
     <GridContainer>
       {/* logo */}
       <StuffGrid>
@@ -19,6 +20,7 @@ export default () => (
         }
       </StuffGrid>
     </GridContainer>
+    </PageContainer>
   </Layout>
 )
 
@@ -28,6 +30,6 @@ const Box = styled.div`
   color: #fff;
 `
 
-const GridContainer = styled(PageCenterContent)`
+const GridContainer = styled.div`
   background-color: blue;
 `

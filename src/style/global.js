@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle, css } from "styled-components"
 import reset from "styled-reset"
 import { colors, fonts, media } from "./constants"
 
@@ -18,8 +18,9 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${props => props.bgcolor};
     font-family: ${fonts.sansSerif};
     backface-visibility: hidden;
-  }
-
+    height: ${ props => props.isOpen ? '100vh': 'auto'};
+    overflow-y: ${props => props.isOpen ? 'hidden' : 'auto'};
+    position: ${props => props.isOpen ? 'fixed' : 'static'};
   a {
     color: inherit;
     text-decoration: none;
