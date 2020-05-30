@@ -2,7 +2,7 @@ import React from 'react'
 import { Hamburger } from './hamburger' 
 import { Menu } from './menu'
 import { PageList } from './pageList'
-import { NavigationWrapper, HamburgerWrapper, ResetContainer, MenuContainer, FooterAnimation } from './style'
+import { NavigationWrapper, HamburgerWrapper, ResetContainer, MenuContainer, FooterAnimation, GlobalMenu } from './style'
 import { Footer } from '../footer'
 import { GlobalContainer } from '../pageComponents/style'
 export const NavMenu = ({isOpen, toggleMenu, color}) => {
@@ -22,14 +22,14 @@ export const NavMenu = ({isOpen, toggleMenu, color}) => {
         <div /> {/* box giallo */}
       </Menu>
       <ResetContainer isOpen={isOpen} id="MENU_CONTENT-RESET"> {/* funziona da resettone che sostituscie il body */}
-        <GlobalContainer id="MENU_CONTENT-GLOBAL">
+        <GlobalMenu id="MENU_CONTENT-GLOBAL">
           <MenuContainer id="MENU_CONTAINER-FLEX" inMenu>
             <PageList isOpen={isOpen} toggleMenu={toggleMenu}/>
             <FooterAnimation isOpen={isOpen}>
               <Footer menu/>
             </FooterAnimation>
           </MenuContainer>
-        </GlobalContainer>
+        </GlobalMenu>
       </ResetContainer>
     </NavigationWrapper>
   )

@@ -40,7 +40,6 @@ export const PageContainer = styled(PageCenterContent)`
     height: 100%;
   ${media.xl`
     padding-top: ${props => props.inMenu ? math('6em + 3em') : '6em'};
-    min-height: 98vh;
   `}
   ${media.lg`
     padding-top: ${props => props.inMenu ? math('6em + 3em') : '6em'};

@@ -3,7 +3,6 @@ import { PageCenterContent, PageContainer, GlobalContainer } from '../pageCompon
 import { media } from '../../style/constants'
 
 export const NavigationWrapper = styled.div`
-  border: 1px dotted black;
   /* BOTTOM_SPACING */
   ${media.xl`
     margin-bottom: 5rem;
@@ -57,7 +56,7 @@ export const ResetContainer = styled.div`
 `
 
 export const MenuContainer = styled(PageContainer)`
-  border:1px dotted black;
+  /* border:1px dotted black; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -72,4 +71,8 @@ export const FooterAnimation = styled.div`
   opacity: ${props => props.isOpen ? 1 : 0};
   transition: ${props => props.isOpen ? 'opacity .4s ease .4s' : 'opacity .4s ease'};
   transition-delay: .5s;
+`
+
+export const GlobalMenu = styled(GlobalContainer)`
+  height: 99vh;
 `
