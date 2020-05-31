@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Hamburger } from './hamburger' 
 import { Menu } from './menu'
 import { PageList } from './pageList'
@@ -6,15 +6,21 @@ import { NavigationWrapper, HamburgerWrapper, ResetContainer, MenuContainer, Foo
 import { Footer } from '../footer'
 
 export const NavMenu = ({isOpen, toggleMenu, color}) => {
+  const [navbarFixed, setNavbarFixed] = useState(false)
   if(isOpen) {
     document.addEventListener('keydown', e => {
       e.keyCode === 27 && toggleMenu()
     })
   }
+  document.addEventListener('scroll', e => {
+    const isFixed = window.scrollY > 60
+    console.log(isFixed)
+    setNavbarFixed(isFixed)
+  })
   return (
     <NavigationWrapper id="NAVIGATION_WRAPPER">
-      <HamburgerWrapper isOpen={isOpen} Id="HAMBURGER_WRAPPER">
-        <Hamburger isOpen={isOpen} onClick={toggleMenu} hambugerColor={color}>
+      <HamburgerWrapper isOpen={isOpen}  id="HAMBURGER_WRAPPER">
+        <Hamburger isOpen={isOpen} fixed={navbarFixed} onClick={toggleMenu} hambugerColor={color}>
           <div></div> {/* hamburger */}
         </Hamburger>
       </HamburgerWrapper>
