@@ -18,7 +18,6 @@ export const GlobalContainer = styled.div`
   `}
 `
 
-
 export const PageCenterContent = styled.div`
   color: ${props => props.color};
   margin: 0 auto;

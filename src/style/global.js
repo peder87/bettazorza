@@ -21,6 +21,7 @@ export const GlobalStyle = createGlobalStyle`
     height: ${ props => props.isOpen ? '100vh': 'auto'};
     overflow-y: ${props => props.isOpen ? 'hidden' : 'auto'};
     position: ${props => props.isOpen ? 'fixed' : 'static'};
+    width: ${props => props.isOpen ? '100vw' : 'auto'};
   a {
     color: inherit;
     text-decoration: none;

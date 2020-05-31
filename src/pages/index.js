@@ -5,22 +5,13 @@ import SEO from "../components/seo"
 import { StuffGrid } from '../components/grid'
 import _times from 'lodash.times'
 import styled from 'styled-components'
-
+import Home from './home'
 const list = _times(9, 'hello')
 
 export default () => (
   <Layout>
-    {/* <SEO title="Home" /> */}
-    <PageContainer>
-    <GridContainer>
-      {/* logo */}
-      <StuffGrid>
-        {
-          list.map((e,i) => <Box key={`${e}-${i}`}>{e}</Box>)
-        }
-      </StuffGrid>
-    </GridContainer>
-    </PageContainer>
+    <SEO title="Home" />
+    <Home />
   </Layout>
 )
 
