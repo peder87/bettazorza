@@ -30,9 +30,20 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor}) => {
         <div /> {/* box giallo */}
       </Menu>
       <ResetContainer isOpen={isOpen} id="MENU_CONTENT-RESET"> {/* funziona da resettone che sostituscie il body */}
-        <GlobalMenu id="MENU_CONTENT-GLOBAL">
-          <MenuContainer id="MENU_CONTAINER-FLEX" inMenu>
-            <PageList isOpen={isOpen} toggleMenu={toggleMenu}/>
+      { isOpen && 
+      (
+        <HamburgerFixedWrapper innerMenu>
+          <HamburgerFlexWrapper isOpen={isOpen}  id="HAMBURGER_WRAPPER">
+            <Hamburger isOpen={isOpen} fixed={navbarFixed} onClick={toggleMenu} hambugerColor={color}>
+              <div></div> {/* hamburger */}
+            </Hamburger>
+          </HamburgerFlexWrapper>
+        </HamburgerFixedWrapper>
+      )
+      }
+      <GlobalMenu id="MENU_CONTENT-GLOBAL">
+        <MenuContainer id="MENU_CONTAINER-FLEX" inMenu>
+          <PageList isOpen={isOpen} toggleMenu={toggleMenu}/>
             <FooterAnimation isOpen={isOpen}>
               <Footer menu/>
             </FooterAnimation>

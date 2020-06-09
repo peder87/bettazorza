@@ -43,6 +43,10 @@ export const HamburgerFixedWrapper = styled.div`
   width: 100%;
   background-color: ${props => props.bgcolor};
   border-bottom:1px solid black;
+  ${props => props.innerMenu && css`
+    background: transparent;
+    border-bottom: 0;
+  `}
 `
 
 export const HamburgerFlexWrapper = styled.div`
