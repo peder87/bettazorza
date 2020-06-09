@@ -3,10 +3,8 @@ import { PageContainer, PageCenterContent } from '../components/pageComponents/s
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { StuffGrid } from '../components/grid'
-import _times from 'lodash.times'
 import styled from 'styled-components'
 import Home from './home'
-const list = _times(9, 'hello')
 
 export default () => (
   <Layout>

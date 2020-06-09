@@ -2,10 +2,10 @@ import React, {useState} from 'react'
 import { Hamburger } from './hamburger' 
 import { Menu } from './menu'
 import { PageList } from './pageList'
-import { NavigationWrapper, HamburgerWrapper, ResetContainer, MenuContainer, FooterAnimation, GlobalMenu } from './style'
+import { HamburgerFixedWrapper, HamburgerFlexWrapper, ResetContainer, MenuContainer, FooterAnimation, GlobalMenu } from './style'
 import { Footer } from '../footer'
 
-export const NavMenu = ({isOpen, toggleMenu, color}) => {
+export const NavMenu = ({isOpen, toggleMenu, color, bgcolor}) => {
   const [navbarFixed, setNavbarFixed] = useState(false)
   if(isOpen) {
     document.addEventListener('keydown', e => {
@@ -18,12 +18,14 @@ export const NavMenu = ({isOpen, toggleMenu, color}) => {
     setNavbarFixed(isFixed)
   })
   return (
-    <NavigationWrapper id="NAVIGATION_WRAPPER">
-      <HamburgerWrapper isOpen={isOpen}  id="HAMBURGER_WRAPPER">
-        <Hamburger isOpen={isOpen} fixed={navbarFixed} onClick={toggleMenu} hambugerColor={color}>
-          <div></div> {/* hamburger */}
-        </Hamburger>
-      </HamburgerWrapper>
+    <div id="NAVIGATION_WRAPPER">
+      <HamburgerFixedWrapper bgcolor={bgcolor}>
+        <HamburgerFlexWrapper isOpen={isOpen}  id="HAMBURGER_WRAPPER">
+          <Hamburger isOpen={isOpen} fixed={navbarFixed} onClick={toggleMenu} hambugerColor={color}>
+            <div></div> {/* hamburger */}
+          </Hamburger>
+        </HamburgerFlexWrapper>
+      </HamburgerFixedWrapper>
       <Menu isOpen={isOpen} id="BACKGROUND_MENU">
         <div /> {/* box giallo */}
       </Menu>
@@ -37,6 +39,6 @@ export const NavMenu = ({isOpen, toggleMenu, color}) => {
           </MenuContainer>
         </GlobalMenu>
       </ResetContainer>
-    </NavigationWrapper>
+    </div>
   )
 }

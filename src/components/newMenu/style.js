@@ -21,7 +21,31 @@ export const NavigationWrapper = styled.div`
   `}
 `
 
-export const HamburgerWrapper = styled.div`
+export const HamburgerFixedWrapper = styled.div`
+  ${media.xl`
+    padding: 1em 3.5em 1em;
+  `}
+  ${media.lg`
+    padding: 1em 3.0em 1em;
+  `}
+  ${media.md`
+    padding: 1em 2.5em 1em;
+  `}
+  ${media.sm`
+    padding: 1em 2.5em 1em;
+  `}
+  ${media.sm`
+    padding: 1em 2.5em 1em;
+  `}
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: ${props => props.bgcolor};
+  border-bottom:1px solid black;
+`
+
+export const HamburgerFlexWrapper = styled.div`
   z-index: 999999;
   display: flex;
   flex-direction: row;
