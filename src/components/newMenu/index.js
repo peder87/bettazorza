@@ -13,7 +13,7 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor}) => {
     })
   }
   document.addEventListener('scroll', e => {
-    const isFixed = window.scrollY > 60
+    const isFixed = window.scrollY > 50
     console.log(isFixed)
     setNavbarFixed(isFixed)
   })
