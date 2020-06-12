@@ -19,9 +19,9 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor}) => {
   })
   return (
     <div id="NAVIGATION_WRAPPER">
-      <HamburgerFixedWrapper bgcolor={bgcolor}>
-        <HamburgerFlexWrapper isOpen={isOpen}  id="HAMBURGER_WRAPPER">
-          <Hamburger isOpen={isOpen} fixed={navbarFixed} onClick={toggleMenu} hambugerColor={color}>
+      <HamburgerFixedWrapper bgcolor={bgcolor} showBorder={navbarFixed}>
+        <HamburgerFlexWrapper isOpen={isOpen}   id="HAMBURGER_WRAPPER">
+          <Hamburger isOpen={isOpen} onClick={toggleMenu} hambugerColor={color}>
             <div></div> {/* hamburger */}
           </Hamburger>
         </HamburgerFlexWrapper>
@@ -34,7 +34,7 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor}) => {
       (
         <HamburgerFixedWrapper innerMenu>
           <HamburgerFlexWrapper isOpen={isOpen}  id="HAMBURGER_WRAPPER">
-            <Hamburger isOpen={isOpen} fixed={navbarFixed} onClick={toggleMenu} hambugerColor={color}>
+            <Hamburger isOpen={isOpen} onClick={toggleMenu} hambugerColor={color}>
               <div></div> {/* hamburger */}
             </Hamburger>
           </HamburgerFlexWrapper>

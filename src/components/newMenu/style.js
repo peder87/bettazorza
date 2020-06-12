@@ -37,16 +37,29 @@ export const HamburgerFixedWrapper = styled.div`
   ${media.sm`
     padding: 1em 2.5em 1em;
   `}
+  background-color: ${props => props.bgcolor};
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: ${props => props.bgcolor};
-  border-bottom:1px solid black;
   ${props => props.innerMenu && css`
     background: transparent;
-    border-bottom: 0;
   `}
+
+  &::after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    z-index: 99;
+    opacity: ${props => props.showBorder ? 1 : 0};
+    position: absolute;
+    -webkit-box-shadow: 0 3px 10px -2px rgba(0,0,0,.56);
+    box-shadow: 0 3px 10px -2px rgba(0,0,0,.56);
+    transition: opacity .3s ease-in;
+  }
+
 `
 
 export const HamburgerFlexWrapper = styled.div`
