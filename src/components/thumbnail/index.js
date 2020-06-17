@@ -1,11 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
+import { colors } from '../../style/constants'
 
 export const Thumbnail = (props) =>
   <ThumbWrapper>
     <figure>
       <img src={props.img} />
-      <span>{props.title}</span>
+      <div>
+        <span>{props.title}</span>
+      </div>
     </figure>
   </ThumbWrapper>
 
@@ -18,7 +21,6 @@ const ThumbWrapper = styled.div`
     width: 100%;
     margin: 0;
     padding: 0;
-    background: #fff;
     overflow: hidden;
   }
 
@@ -30,6 +32,15 @@ const ThumbWrapper = styled.div`
     max-width: 100%;
     max-height: 100%;
     display: block;
+    -webkit-filter: blur(0) saturate(1) brightness(1);
+    filter: blur(0) saturate(1) brightness(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3 ease-in-out;
+  }
+
+  & figure:hover img {
+    filter: blur(3px) saturate(.45) brightness(.85);
+    -webkit-filter: blur(3px) saturate(.45) brightness(.85);
   }
 
   & figure span {
@@ -41,7 +52,7 @@ const ThumbWrapper = styled.div`
     height: auto;
     margin: 0;
     padding: 0;
-    color: #FFF;
+    color: ${colors.yellow};
     font-weight: bold;
     font-size: 24px;
     text-transform: uppercase;
