@@ -62,3 +62,47 @@ export const pageConfig = () => {
   const path = window.location.pathname
   return obj[path] ? obj[path] : obj['/']
 }
+
+export const works = [
+  {
+    title: 'sacra famiglia',
+    caption: 'loremipsum',
+    path: '',
+    thumbnail: 'https://picsum.photos/id/1/600/400',
+  },
+  {
+    title: 'casa del formaggio',
+    caption: 'loremipsum',
+    path: '',
+    thumbnail: '',
+    thumbnail: 'https://picsum.photos/id/2/600/400',
+  },
+  {
+    title: 'uno più uno',
+    caption: 'loremipsum',
+    path: '',
+    thumbnail: '',
+    thumbnail: 'https://picsum.photos/id/3/600/400',
+  },
+  {
+    title: 'tanta robba',
+    caption: 'loremipsum',
+    path: '',
+    thumbnail: '',
+    thumbnail: 'https://picsum.photos/id/4/600/400',
+  },
+  {
+    title: 'scaravonati mobili',
+    caption: 'loremipsum',
+    path: '',
+    thumbnail: '',
+    thumbnail: 'https://picsum.photos/id/5/600/400',
+  },
+  {
+    title: 'Auser',
+    caption: 'loremipsum',
+    path: '',
+    thumbnail: '',
+    thumbnail: 'https://picsum.photos/id/6/600/400',
+  },
+]

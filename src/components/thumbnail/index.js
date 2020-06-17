@@ -2,22 +2,20 @@ import React from 'react'
 import styled from 'styled-components'
 
 export const Thumbnail = (props) =>
-  <div>
+  <ThumbWrapper>
     <figure>
       <img src={props.img} />
       <span>{props.title}</span>
     </figure>
-  </div>
+  </ThumbWrapper>
 
 const ThumbWrapper = styled.div`
   position: relative;
-  width: 300px;
-  height: 200px;
+  width: 100%;
   padding: 0;
 
   & figure {
-    width: 300px;
-    height: 200px;
+    width: 100%;
     margin: 0;
     padding: 0;
     background: #fff;
@@ -26,6 +24,12 @@ const ThumbWrapper = styled.div`
 
   & figure:hover {
     cursor: pointer;
+  }
+
+  & figure img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
   }
 
   & figure span {
