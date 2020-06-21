@@ -7,12 +7,13 @@ export const StuffGrid = styled.div`
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 2.2rem;
   grid-row-gap: 2.2rem;
-
+  padding-bottom: 2.2rem;
   ${media.xl`
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 2.2rem;
     grid-row-gap: 2.2rem;
+    padding-bottom: 2.2rem;
   `}
 
   ${media.lg`
@@ -20,6 +21,7 @@ export const StuffGrid = styled.div`
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 2.2rem;
     grid-row-gap: 2.2rem;
+    padding-bottom: 2.2rem;
   `}
 
   ${media.md`
@@ -27,12 +29,14 @@ export const StuffGrid = styled.div`
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 2.2rem;
     grid-row-gap: 2.2rem;
+    padding-bottom: 2.2rem;
   `}
 
   ${media.sm`
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    grid-column-gap: 2.2rem;
-    grid-row-gap: 2.2rem;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    padding-bottom: 1rem;
   `}
 `
