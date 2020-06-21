@@ -1,6 +1,5 @@
 import React from "react"
 import { PageContainer } from "../../components/pageComponents/style"
-import styled from 'styled-components'
 import { StuffGrid } from '../../components/grid'
 import { works } from '../pageConfig'
 import { Thumbnail } from '../../components/thumbnail'

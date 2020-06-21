@@ -14,13 +14,12 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor}) => {
   }
   document.addEventListener('scroll', e => {
     const isFixed = window.scrollY > 50
-    console.log(isFixed)
     setNavbarFixed(isFixed)
   })
   return (
     <div id="NAVIGATION_WRAPPER">
       <HamburgerFixedWrapper bgcolor={bgcolor} showBorder={navbarFixed}>
-        <HamburgerFlexWrapper isOpen={isOpen}   id="HAMBURGER_WRAPPER">
+        <HamburgerFlexWrapper isOpen={isOpen} id="HAMBURGER_WRAPPER">
           <Hamburger isOpen={isOpen} onClick={toggleMenu} hambugerColor={color}>
             <div></div> {/* hamburger */}
           </Hamburger>
