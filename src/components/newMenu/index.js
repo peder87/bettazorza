@@ -18,7 +18,7 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor}) => {
   })
   return (
     <div id="NAVIGATION_WRAPPER">
-      <HamburgerFixedWrapper bgcolor={bgcolor} showBorder={navbarFixed}>
+      <HamburgerFixedWrapper bgcolor={bgcolor} isOpen={isOpen} showBorder={navbarFixed}>
         <HamburgerFlexWrapper isOpen={isOpen} id="HAMBURGER_WRAPPER">
           <Hamburger isOpen={isOpen} onClick={toggleMenu} hambugerColor={color}>
             <div></div> {/* hamburger */}

@@ -6,12 +6,15 @@ import { StuffGrid } from '../components/grid'
 import styled from 'styled-components'
 import Home from './home'
 
-export default () => (
-  <Layout>
-    <SEO title="Home" />
-    <Home />
-  </Layout>
-)
+export default (props) => {
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <Home />
+    </Layout>
+  )
+}
+
 
 
 const Box = styled.div`

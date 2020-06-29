@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { colors } from '../../style/constants'
 
 export const Thumbnail = (props) =>
-  <ThumbWrapper>
+  <ThumbWrapper onClick={() => props.callback(props.path)}>
     <figure>
       <img src={props.img} />
       <div>

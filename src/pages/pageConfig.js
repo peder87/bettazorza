@@ -49,6 +49,14 @@ export const pageConfigList = [
     color: colors.white,
     inMenu: false,
   },
+  {
+    path: "/project",
+    label: "progetti",
+    title: "progetti",
+    bgcolor: colors.white,
+    color: colors.darkGradarkGray,
+    inMenu: false,
+  },
 ]
 
 export const pageConfig = () => {
@@ -65,44 +73,45 @@ export const pageConfig = () => {
 
 export const works = [
   {
+    id: 1,
     title: 'sacra famiglia',
     caption: 'loremipsum',
-    path: '',
+    path: '/project/sacraFamiglia',
     thumbnail: 'https://picsum.photos/id/1/600/400',
   },
   {
+    id: 2,
     title: 'casa del formaggio',
     caption: 'loremipsum',
-    path: '',
-    thumbnail: '',
+    path: '/project/casaDelFormaggio',
     thumbnail: 'https://picsum.photos/id/2/600/400',
   },
   {
+    id: 3,
     title: 'uno più uno',
     caption: 'loremipsum',
-    path: '',
-    thumbnail: '',
+    path: '/project/UnoPiuUno',
     thumbnail: 'https://picsum.photos/id/3/600/400',
   },
   {
+    id: 4,
     title: 'tanta robba',
     caption: 'loremipsum',
-    path: '',
-    thumbnail: '',
+    path: '/project/tantaRobba',
     thumbnail: 'https://picsum.photos/id/4/600/400',
   },
   {
+    id: 5,
     title: 'scaravonati mobili',
     caption: 'loremipsum',
-    path: '',
-    thumbnail: '',
+    path: '/project/sacaravonatiMobili',
     thumbnail: 'https://picsum.photos/id/5/600/400',
   },
   {
+    id: 6,
     title: 'Auser',
     caption: 'loremipsum',
-    path: '',
-    thumbnail: '',
+    path: '/project/Auser',
     thumbnail: 'https://picsum.photos/id/6/600/400',
   },
 ]

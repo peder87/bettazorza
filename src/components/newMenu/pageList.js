@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { PageContainer } from '../pageComponents/style'
 import { pageConfigList } from '../../pages/pageConfig'
 import { navigate } from 'gatsby'
 import { MenuItem } from './Item'
