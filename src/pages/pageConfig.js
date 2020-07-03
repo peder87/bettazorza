@@ -90,7 +90,7 @@ export const works = [
     id: 3,
     title: 'uno più uno',
     caption: 'loremipsum',
-    path: '/project/UnoPiuUno',
+    path: '/project/unoPiuUno',
     thumbnail: 'https://picsum.photos/id/3/600/400',
   },
   {
@@ -111,7 +111,7 @@ export const works = [
     id: 6,
     title: 'Auser',
     caption: 'loremipsum',
-    path: '/project/Auser',
+    path: '/project/auser',
     thumbnail: 'https://picsum.photos/id/6/600/400',
   },
 ]
