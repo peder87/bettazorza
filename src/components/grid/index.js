@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled, {css} from "styled-components"
 import { media } from "../../style/constants"
 
 export const StuffGrid = styled.div`
@@ -8,6 +8,7 @@ export const StuffGrid = styled.div`
   grid-column-gap: 2.2rem;
   grid-row-gap: 2.2rem;
   padding-bottom: 2.2rem;
+
   ${media.xl`
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -38,5 +39,19 @@ export const StuffGrid = styled.div`
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
     padding-bottom: 1rem;
+  `}
+`
+
+export const Item = styled.div`
+  height: 200px;
+  background: ${props => props.full ? 'red' : 'blue' };
+  ${props => props.full && css`
+    grid-column: 1/3;
+    ${media.sm`
+      grid-column: 1/2;
+    `}
+    ${media.xs`
+      grid-column: 1/2;
+    `}
   `}
 `
