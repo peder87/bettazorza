@@ -1,0 +1,119 @@
+[
+  {
+    "id": "auser",
+    "title": "Auser",
+    "path":"/project/auser",
+    "caption": "auser caption",
+    "thumbnail": "",
+    "imgs": [
+      {
+        "src":"/images/works/auser/bilancio.png",
+        "alt":"bilancio",
+        "fullWidth":"true"
+      },
+      {
+        "src":"/images/works/auser/openbook.png",
+        "alt":"corsi open",
+        "fullWidth":"true"
+      },
+      {
+        "src":"/images/works/auser/spread_auser.png",
+        "alt":"spread",
+        "fullWidth":"true"
+      },
+      {
+        "src":"/images/works/auser/spread_auser2.png",
+        "alt":"spread",
+        "fullWidth":"true"
+      },
+      {
+        "src":"/images/works/auser/spread_auser3.png",
+        "alt":"spread",
+        "fullWidth":"true"
+      }
+    ]
+  }, 
+  {
+    "id": "tantaRobba",
+    "title": "tanta Robba",
+    "path":"/project/tantaRobba",
+    "caption": "tanta robba caption",
+    "thumbnail": "/images/works/tantaRobba/logo.png",
+    "imgs": [
+      {
+        "src":"/images/works/tantaRobba/logo.png",
+        "alt":"logo",
+        "fullWidth":"true"
+      },
+      {
+        "src":"/images/works/tantaRobba/cap.png",
+        "alt":"cap",
+        "fullWidth":"true"
+      },
+      {
+        "src":"/images/works/tantaRobba/pass.png",
+        "alt":"spread",
+        "fullWidth":"true"
+      },
+      {
+        "src":"/images/works/tantaRobba/texture.png",
+        "alt":"spread",
+        "fullWidth":"true"
+      },
+      {
+        "src":"/images/works/tantaRobba/tshirt.png",
+        "alt":"spread",
+        "fullWidth":"true"
+      }
+    ]
+  }, 
+  {
+    "id": "sacraFamiglia",
+    "title": "Sacra Famiglia",
+    "href":"/project/sacraFamiglia",
+    "caption": "sacra famiglia caption",
+    "thumbnail": "/images/works/sacraFamiglia/insegna.png",
+    "path": [
+      {
+        "src":"/images/works/sacraFamiglia/insegna.png",
+        "alt":"insegna",
+        "fullWidth":"true"
+      },
+      {
+        "src":"/images/works/sacraFamiglia/logo.png",
+        "alt":"logo",
+        "fullWidth":"true"
+      },
+      {
+        "src":"/images/works/sacraFamiglia/brochure.png",
+        "alt":"brochure",
+        "fullWidth":"true"
+      },
+      {
+        "src":"/images/works/sacraFamiglia/diario.png",
+        "alt":"diario",
+        "fullWidth":"true"
+      },
+      {
+        "src":"/images/works/sacraFamiglia/brandManual.png",
+        "alt":"brand manual",
+        "fullWidth":"true"
+      },
+      {
+        "src":"/images/works/sacraFamiglia/tshirt.png",
+        "alt":"tshirt",
+        "fullWidth":"true"
+      },
+      {
+        "src":"/images/works/sacraFamiglia/phone.png",
+        "alt":"mobile",
+        "fullWidth":"true"
+      },
+      {
+        "src":"/images/works/sacraFamiglia/poster.png",
+        "alt":"poster",
+        "fullWidth":"true"
+      }
+    ]
+  } 
+]
