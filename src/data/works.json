@@ -2,9 +2,10 @@
   {
     "id": "auser",
     "title": "Auser",
-    "path":"/project/auser",
+    "url":"/project/auser",
     "caption": "auser caption",
-    "thumbnail": "",
+    "thumbnail":"/images/works/auser/spread_auser.png",
+    "tags": ["uno","due","tre"],
     "imgs": [
       {
         "src":"/images/works/auser/bilancio.png",
@@ -18,17 +19,17 @@
       },
       {
         "src":"/images/works/auser/spread_auser.png",
-        "alt":"spread",
+        "alt":"spread-1",
         "fullWidth":"true"
       },
       {
         "src":"/images/works/auser/spread_auser2.png",
-        "alt":"spread",
+        "alt":"spread-2",
         "fullWidth":"true"
       },
       {
         "src":"/images/works/auser/spread_auser3.png",
-        "alt":"spread",
+        "alt":"spread-3",
         "fullWidth":"true"
       }
     ]
@@ -36,9 +37,10 @@
   {
     "id": "tantaRobba",
     "title": "tanta Robba",
-    "path":"/project/tantaRobba",
+    "url":"/project/tantaRobba",
     "caption": "tanta robba caption",
     "thumbnail": "/images/works/tantaRobba/logo.png",
+    "tags": [],
     "imgs": [
       {
         "src":"/images/works/tantaRobba/logo.png",
@@ -52,17 +54,17 @@
       },
       {
         "src":"/images/works/tantaRobba/pass.png",
-        "alt":"spread",
+        "alt":"spread1",
         "fullWidth":"true"
       },
       {
         "src":"/images/works/tantaRobba/texture.png",
-        "alt":"spread",
+        "alt":"spread2",
         "fullWidth":"true"
       },
       {
         "src":"/images/works/tantaRobba/tshirt.png",
-        "alt":"spread",
+        "alt":"spread3",
         "fullWidth":"true"
       }
     ]
@@ -70,10 +72,11 @@
   {
     "id": "sacraFamiglia",
     "title": "Sacra Famiglia",
-    "href":"/project/sacraFamiglia",
+    "url":"/project/sacraFamiglia",
     "caption": "sacra famiglia caption",
     "thumbnail": "/images/works/sacraFamiglia/insegna.png",
-    "path": [
+    "tags": [],
+    "imgs": [
       {
         "src":"/images/works/sacraFamiglia/insegna.png",
         "alt":"insegna",

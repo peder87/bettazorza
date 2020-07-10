@@ -43,8 +43,6 @@ export const StuffGrid = styled.div`
 `
 
 export const Item = styled.div`
-  height: 200px;
-  background: ${props => props.full ? 'red' : 'blue' };
   ${props => props.full && css`
     grid-column: 1/3;
     ${media.sm`
@@ -54,4 +52,9 @@ export const Item = styled.div`
       grid-column: 1/2;
     `}
   `}
+
+  & img {
+    max-width:100%;
+    max-height:100%;
+  }
 `

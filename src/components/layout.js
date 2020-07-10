@@ -21,6 +21,7 @@ import { NavMenu } from '../components/newMenu'
 const Layout = ({ children }) => {
   const [status, setStatus] = useState(false)
   const page = pageConfig(window.location.pathname)
+  console.log('pageProps',page)
   const toggleMenu = () => {
     setStatus(!status)
   }

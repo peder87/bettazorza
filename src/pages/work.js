@@ -50,7 +50,6 @@ const cards = [
 
 export default () => {
   const pageConf = pageConfig()
-  console.log("pageConf", pageConf)
   return (
     <Layout>
       <PageContainer {...pageConf}>

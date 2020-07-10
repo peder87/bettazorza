@@ -50,13 +50,11 @@ export const pageConfigList = [
     inMenu: false,
   },
   {
-    path: "/project",
-    label: "progetti",
-    title: "progetti",
+    path: "/project/auser",
     bgcolor: colors.white,
-    color: colors.darkGradarkGray,
+    color: colors.darkGray,
     inMenu: false,
-  },
+  }, 
 ]
 
 export const pageConfig = () => {
