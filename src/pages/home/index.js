@@ -26,7 +26,9 @@ const WorkList = ({data}) => {
   return (
     <StuffGrid>
       {
-        data.nodes.map(w => 
+        data.nodes
+        .sort((x,y) => x.order - y.order)
+        .map(w => 
         <Thumbnail 
           key={w.id}
           title={w.title}
@@ -47,6 +49,7 @@ const worksPage = graphql`
         id
         title
         url
+        order
         thumbnail
         thumbset
       }

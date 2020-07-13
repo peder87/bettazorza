@@ -4,6 +4,7 @@
     "title": "Auser",
     "url":"/project/auser",
     "caption": "auser caption",
+    "order": 8,
     "thumbnail":"/images/works/auser/auser-thumbnail.png",
     "thumbset": [
       "/images/works/auser/auser-thumbnail.png 1x",
@@ -59,6 +60,7 @@
     "title": "tanta Robba",
     "url":"/project/tantaRobba",
     "caption": "tanta robba caption",
+    "order": 4,
     "thumbnail": "/images/works/tanta-robba/tanta-robba-thumbnail.png",
     "thumbset": [
       "/images/works/tanta-robba/tanta-robba-thumbnail.png 1x",
@@ -124,6 +126,7 @@
     "title": "Sacra Famiglia",
     "url":"/project/sacraFamiglia",
     "caption": "sacra famiglia caption",
+    "order": 1,
     "thumbnail": "/images/works/sacra-famiglia/sacra-famiglia-thumbnail.png",
     "thumbset": [
       "/images/works/sacra-famiglia/sacra-famiglia-thumbnail.png 1x",
@@ -219,6 +222,7 @@
     "title": "Uno più uno",
     "url":"/project/unopiuno",
     "caption": "uno più uno caption",
+    "order": 3,
     "thumbnail": "/images/works/uno/uno-thumbnail.png",
     "thumbset": [
       "/images/works/uno/uno-thumbnail.png 1x",
@@ -284,6 +288,7 @@
     "title": "Mobilificio Scaravonati",
     "url":"/project/scaravonati",
     "caption": "Scaravonati caption",
+    "order": 5,
     "thumbnail": "/images/works/scaravonati/scaravonati-thumbnail.png",
     "thumbset": [
       "/images/works/scaravonati/scaravonati-thumbnail.png 1x",
@@ -359,6 +364,7 @@
     "title": "Talento Agile",
     "url":"/project/talento-agile",
     "caption": "talento agile caption",
+    "order": 7,
     "thumbnail": "/images/works/talento/talento-thumbnail.png",
     "thumbset": [
       "/images/works/talento/talento-thumbnail.png 1x",
@@ -415,6 +421,7 @@
     "url":"/project/casadelformaggio",
     "caption": "Stradivari caption",
     "thumbnail": "/images/works/casa-formaggio/casa-formaggio-thumbnail.png",
+    "order": 2,
     "thumbset": [
       "/images/works/casa-formaggio/casa-formaggio-thumbnail.png 1x",
       "/images/works/casa-formaggio/casa-formaggio-thumbnail-2x.png 2x",
@@ -479,6 +486,7 @@
     "title": "Auser Bilancio ",
     "url":"/project/auser-bilancio",
     "caption": "Auser bilancio caption",
+    "order": 6,
     "thumbnail": "/images/works/auser-bilancio/auser-bilancio-thumbnail.png",
     "thumbset": [
       "/images/works/auser-bilancio/auser-bilancio-thumbnail.png 1x",
