@@ -4,68 +4,108 @@
     "title": "Auser",
     "url":"/project/auser",
     "caption": "auser caption",
-    "thumbnail":"/images/works/auser/spread_auser.png",
+    "thumbnail":"/images/works/auser/auser-cover-front.png",
     "tags": ["uno","due","tre"],
     "imgs": [
       {
-        "src":"/images/works/auser/bilancio.png",
+        "src":"/images/works/auser/auser-cover-front.png",
         "alt":"bilancio",
-        "fullWidth":"true"
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/auser/auser-cover-front.png 1x",
+          "/images/works/auser/auser-cover-front-2x.png 2x",
+          "/images/works/auser/auser-cover-front-3x.png 3x"
+        ]
       },
       {
-        "src":"/images/works/auser/openbook.png",
+        "src":"/images/works/auser/auser-page-table.png",
         "alt":"corsi open",
-        "fullWidth":"true"
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/auser/auser-page-table.png 1x",
+          "/images/works/auser/auser-page-table-2x.png 2x",
+          "/images/works/auser/auser-page-table-3x.png 3x"
+        ]
       },
       {
-        "src":"/images/works/auser/spread_auser.png",
+        "src":"/images/works/auser/auser-spread-1.png",
         "alt":"spread-1",
-        "fullWidth":"true"
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/auser/auser-spread-1.png 1x",
+          "/images/works/auser/auser-spread-1-2x.png 2x",
+          "/images/works/auser/auser-spread-1-3x.png 3x"
+        ]
       },
       {
-        "src":"/images/works/auser/spread_auser2.png",
+        "src":"/images/works/auser/auser-spread-2.png",
         "alt":"spread-2",
-        "fullWidth":"true"
-      },
-      {
-        "src":"/images/works/auser/spread_auser3.png",
-        "alt":"spread-3",
-        "fullWidth":"true"
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/auser/auser-spread-2.png 1x",
+          "/images/works/auser/auser-spread-2-2x.png 2x",
+          "/images/works/auser/auser-spread-2-3x.png 3x"
+        ]
       }
     ]
-  }, 
+  },
   {
     "id": "tantaRobba",
     "title": "tanta Robba",
     "url":"/project/tantaRobba",
     "caption": "tanta robba caption",
-    "thumbnail": "/images/works/tantaRobba/logo.png",
+    "thumbnail": "/images/works/tanta-robba/tanta-robba-logo.png",
     "tags": [],
     "imgs": [
       {
-        "src":"/images/works/tantaRobba/logo.png",
+        "src":"/images/works/tanta-robba/tanta-robba-logo.png",
         "alt":"logo",
-        "fullWidth":"true"
+        "fullWidth":"false",
+        "srcset": [
+          "/images/works/tanta-robba-logo.png 1x",
+          "/images/works/tanta-robba-logo-2x.png 2x",
+          "/images/works/tanta-robba-logo-3x.png 3x"
+        ]
       },
       {
-        "src":"/images/works/tantaRobba/cap.png",
+        "src":"/images/works/tanta-robba/tanta-robba-pass.png",
+        "alt":"pass",
+        "fullWidth":"false",
+        "srcset": [
+          "/images/works/tanta-robba-pass.png 1x",
+          "/images/works/tanta-robba-pass-2x.png 2x",
+          "/images/works/tanta-robba-pass-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/tanta-robba/tanta-robba-tshirt.png",
+        "alt":"tshirt",
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/tanta-robba-tshirt.png 1x",
+          "/images/works/tanta-robba-tshirt-2x.png 2x",
+          "/images/works/tanta-robba-tshirt-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/tanta-robba/tanta-robba-texture.png",
+        "alt":"texture",
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/tanta-robba-texture.png 1x",
+          "/images/works/tanta-robba-texture-2x.png 2x",
+          "/images/works/tanta-robba-texture-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/tanta-robba/tanta-robba-cap.png",
         "alt":"cap",
-        "fullWidth":"true"
-      },
-      {
-        "src":"/images/works/tantaRobba/pass.png",
-        "alt":"spread1",
-        "fullWidth":"true"
-      },
-      {
-        "src":"/images/works/tantaRobba/texture.png",
-        "alt":"spread2",
-        "fullWidth":"true"
-      },
-      {
-        "src":"/images/works/tantaRobba/tshirt.png",
-        "alt":"spread3",
-        "fullWidth":"true"
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/tanta-robba-cap.png 1x",
+          "/images/works/tanta-robba-cap-2x.png 2x",
+          "/images/works/tanta-robba-cap-3x.png 3x"
+        ]
       }
     ]
   }, 
@@ -74,49 +114,359 @@
     "title": "Sacra Famiglia",
     "url":"/project/sacraFamiglia",
     "caption": "sacra famiglia caption",
-    "thumbnail": "/images/works/sacraFamiglia/insegna.png",
+    "thumbnail": "/images/works/sacra-famiglia/sacra-famiglia-insegna.png",
     "tags": [],
     "imgs": [
       {
-        "src":"/images/works/sacraFamiglia/insegna.png",
+        "src":"/images/works/sacra-famiglia/sacra-famiglia-insegna.png",
         "alt":"insegna",
-        "fullWidth":"true"
+        "fullWidth":"false",
+        "srcset": [
+          "/images/works/sacra-famiglia/sacra-famiglia-insegna.png",
+          "/images/works/sacra-famiglia/sacra-famiglia-insegna-2x.png 2x",
+          "/images/works/sacra-famiglia/sacra-famiglia-insegna-3x.png 3x"
+        ]
       },
       {
-        "src":"/images/works/sacraFamiglia/logo.png",
+        "src":"/images/works/sacra-famiglia/sacra-famiglia-logo.png",
         "alt":"logo",
-        "fullWidth":"true"
+        "fullWidth":"false",
+        "srcset": [
+          "/images/works/sacra-famiglia/sacra-famiglia-logo.png",
+          "/images/works/sacra-famiglia/sacra-famiglia-logo-2x.png 2x",
+          "/images/works/sacra-famiglia/sacra-famiglia-logo-3x.png 3x"
+        ]
       },
       {
-        "src":"/images/works/sacraFamiglia/brochure.png",
-        "alt":"brochure",
-        "fullWidth":"true"
+        "src":"/images/works/sacra-famiglia/sacra-famiglia-brand.png",
+        "alt":"brand",
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/sacra-famiglia/sacra-famiglia-brand.png",
+          "/images/worls/sacra-famiglia/sacra-famiglia-brand-2x.png 2x",
+          "/images/worls/sacra-famiglia/sacra-famiglia-brand-3x.png 3x"
+        ]
       },
       {
-        "src":"/images/works/sacraFamiglia/diario.png",
-        "alt":"diario",
-        "fullWidth":"true"
+        "src":"/images/works/sacra-famiglia/sacra-famiglia-brand-2.png",
+        "alt":"brand2",
+        "fullWidth":"true",
+        "srcset": [
+          "/images/worls/sacra-famiglia/sacra-famiglia-brand-2.png",
+          "/images/worls/sacra-famiglia/sacra-famiglia-brand-2-2x.png 2x",
+          "/images/worls/sacra-famiglia/sacra-famiglia-brand-2-3x.png 3x"
+        ]
       },
       {
-        "src":"/images/works/sacraFamiglia/brandManual.png",
-        "alt":"brand manual",
-        "fullWidth":"true"
-      },
-      {
-        "src":"/images/works/sacraFamiglia/tshirt.png",
+        "src":"/images/works/sacra-famiglia/sacra-famiglia-tshirt.png",
         "alt":"tshirt",
-        "fullWidth":"true"
+        "fullWidth":"false",
+        "srcset": [
+          "/images/worls/sacra-famiglia/sacra-famiglia-tshirt.png",
+          "/images/worls/sacra-famiglia/sacra-famiglia-tshirt-2x.png 2x",
+          "/images/worls/sacra-famiglia/sacra-famiglia-tshirt-3x.png 3x"
+        ]
       },
       {
-        "src":"/images/works/sacraFamiglia/phone.png",
-        "alt":"mobile",
-        "fullWidth":"true"
+        "src":"/images/works/sacra-famiglia/sacra-famiglia-diario.png",
+        "alt":"diario",
+        "fullWidth":"false",
+        "srcset": [
+          "/images/worls/sacra-famiglia/sacra-famiglia-diario.png",
+          "/images/worls/sacra-famiglia/sacra-famiglia-diario-2x.png 2x",
+          "/images/worls/sacra-famiglia/sacra-famiglia-diario-3x.png 3x"
+        ]
       },
       {
-        "src":"/images/works/sacraFamiglia/poster.png",
+        "src":"/images/works/sacra-famiglia/sacra-famiglia-poster.png",
         "alt":"poster",
-        "fullWidth":"true"
+        "fullWidth":"false",
+        "srcset": [
+          "/images/worls/sacra-famiglia/sacra-famiglia-poster.png",
+          "/images/worls/sacra-famiglia/sacra-famiglia-poster-2x.png 2x",
+          "/images/worls/sacra-famiglia/sacra-famiglia-poster-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/sacra-famiglia/sacra-famiglia-mobile.png",
+        "alt":"mobile",
+        "fullWidth":"false",
+        "srcset": [
+          "/images/worls/sacra-famiglia/sacra-famiglia-mobile.png",
+          "/images/worls/sacra-famiglia/sacra-famiglia-mobile-2x.png 2x",
+          "/images/worls/sacra-famiglia/sacra-famiglia-mobile-3x.png 3x"
+        ]
       }
     ]
-  } 
+  },
+  {
+    "id": "uno",
+    "title": "Uno più uno",
+    "url":"/project/unopiuno",
+    "caption": "uno più uno caption",
+    "thumbnail": "/images/works/uno/uno-logo.png",
+    "tags": [],
+    "imgs": [
+      {
+        "src":"/images/works/uno/uno-logo.png",
+        "alt":"logo",
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/uno/uno-logo.png",
+          "/images/works/uno/uno-logo-2x.png 2x",
+          "/images/works/uno/uno-book-pile-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/uno/uno-lca.png",
+        "alt":"lca",
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/uno/uno-lca.png",
+          "/images/works/uno/uno-lca-2x.png 2x",
+          "/images/works/uno/uno-lca-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/uno/uno-fontana.png",
+        "alt":"fontana",
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/uno/uno-fontana.png",
+          "/images/works/uno/uno-fontana-2x.png 2x",
+          "/images/works/uno/uno-fontana-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/uno/uno-bucchero.png",
+        "alt":"bucchero",
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/uno/uno-bucchero.png",
+          "/images/works/uno/uno-bucchero-2x.png 2x",
+          "/images/works/uno/uno-bucchero-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/uno/uno-terracotta.png",
+        "alt":"terracotta",
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/uno/uno-terracotta.png",
+          "/images/works/uno/uno-terracotta-2x.png 2x",
+          "/images/works/uno/uno-terracotta-3x.png 3x"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scaravonati",
+    "title": "Mobilificio Scaravonati",
+    "url":"/project/scaravonati",
+    "caption": "Scaravonati caption",
+    "thumbnail": "/images/works/scaravonati/scaravonati-card.png",
+    "tags": [],
+    "imgs": [
+      {
+        "src":"/images/works/scaravonati/scaravonati-logo.png",
+        "alt":"logo",
+        "fullWidth":"false",
+        "srcset": [
+          "/images/works/scaravonati/scaravonati-logo.png",
+          "/images/works/scaravonati/scaravonati-logo-2x.png 2x",
+          "/images/works/scaravonati/scaravonati-logo-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/scaravonati/scaravonati-card.png",
+        "alt":"card",
+        "fullWidth":"false",
+        "srcset": [
+          "/images/works/scaravonati/scaravonati-card.png",
+          "/images/works/scaravonati/scaravonati-card-2x.png 2x",
+          "/images/works/scaravonati/scaravonati-card-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/scaravonati/scaravonati-stationary.png",
+        "alt":"stationary",
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/scaravonati/scaravonati-stationary.png",
+          "/images/works/scaravonati/scaravonati-stationary-2x.png 2x",
+          "/images/works/scaravonati/scaravonati-stationary-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/scaravonati/scaravonati-website.png",
+        "alt":"website",
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/scaravonati/scaravonati-website.png",
+          "/images/works/scaravonati/scaravonati-website-2x.png 2x",
+          "/images/works/scaravonati/scaravonati-website-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/scaravonati/scaravonati-mobility.png",
+        "alt":"mobility",
+        "fullWidth":"false",
+        "srcset": [
+          "/images/works/scaravonati/scaravonati-mobility.png",
+          "/images/works/scaravonati/scaravonati-mobility-2x.png 2x",
+          "/images/works/scaravonati/scaravonati-mobility-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/scaravonati/scaravonati-mobile.png",
+        "alt":"mobile",
+        "fullWidth":"false",
+        "srcset": [
+          "/images/works/scaravonati/scaravonati-mobile.png",
+          "/images/works/scaravonati/scaravonati-mobile-2x.png 2x",
+          "/images/works/scaravonati/scaravonati-mobile-3x.png 3x"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "talentoAgile",
+    "title": "Talento Agile",
+    "url":"/project/talento-agile",
+    "caption": "talento agile caption",
+    "thumbnail": "/images/works/talento/talento-logo.png",
+    "tags": [],
+    "imgs": [
+      {
+        "src":"/images/works/talento/talento-logo.png",
+        "alt":"book-pile",
+        "fullWidth":"false",
+        "srcset": [
+          "/images/works/talento/talento-logo.png",
+          "/images/works/talento/talento-logo-2x.png 2x",
+          "/images/works/talento/talento-logo-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/talento/talento-shopper.png",
+        "alt":"shopper",
+        "fullWidth":"false",
+        "srcset": [
+          "/images/works/talento/talento-shopper.png",
+          "/images/works/talento/talento-shopper-2x.png 2x",
+          "/images/works/talento/talento-shopper-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/talento/talento-stationary.png",
+        "alt":"stationary",
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/talento/talento-stationary.png",
+          "/images/works/talento/talento-stationary-2x.png 2x",
+          "/images/works/talento/talento-stationary-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/talento/talento-website.png",
+        "alt":"website",
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/talento/talento-website.png",
+          "/images/works/talento/talento-website-2x.png 2x",
+          "/images/works/talento/talento-website-3x.png 3x"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "casaFormaggio",
+    "title": "Casa del formaggio - Stradivari",
+    "url":"/project/casadelformaggio",
+    "caption": "Stradivari caption",
+    "thumbnail": "/images/works/casa-formaggio/casa-formaggio-card.png",
+    "tags": [],
+    "imgs": [
+      {
+        "src":"/images/works/casa-formaggio/casa-formaggio-grembiule.png",
+        "alt":"logo",
+        "fullWidth":"false",
+        "srcset": [
+          "/images/works/casa-formaggio/casa-formaggio-grembiule.png",
+          "/images/works/casa-formaggio/casa-formaggio-grembiule-2x.png 2x",
+          "/images/works/casa-formaggio/casa-formaggio-grembiule-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/scaravonati/casa-formaggio-card.png",
+        "alt":"card",
+        "fullWidth":"false",
+        "srcset": [
+          "/images/works/casa-formaggio/casa-formaggio-card.png",
+          "/images/works/casa-formaggio/casa-formaggio-card-2x.png 2x",
+          "/images/works/casa-formaggio/casa-formaggio-card-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/casa-formaggio/casa-formaggio-logo.png",
+        "alt":"logo",
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/casa-formaggio/casa-formaggio-logo.png",
+          "/images/works/casa-formaggio/casa-formaggio-logo-2x.png 2x",
+          "/images/works/casa-formaggio/casa-formaggio-logo-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/casa-formaggio/casa-formaggio-shopper.png",
+        "alt":"shopper",
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/casa-formaggio/casa-formaggio-shopper.png",
+          "/images/works/casa-formaggio/casa-formaggio-shopper-2x.png 2x",
+          "/images/works/casa-formaggio/casa-formaggio-shopper-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/casa-formaggio/casa-formaggio-glass.png",
+        "alt":"glass",
+        "fullWidth":"false",
+        "srcset": [
+          "/images/works/casa-formaggio/casa-formaggio-glass.png",
+          "/images/works/casa-formaggio/casa-formaggio-glass-2x.png 2x",
+          "/images/works/casa-formaggio/casa-formaggio-glass-3x.png 3x"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "auserBilancio",
+    "title": "Auser Bilancio ",
+    "url":"/project/auser-bilancio",
+    "caption": "Auser bilancio caption",
+    "thumbnail": "/images/works/auser-bilancio/auser-bilancio.png",
+    "tags": [],
+    "imgs": [
+      {
+        "src":"/images/works/auser-bilancio/auser-bilancio.png",
+        "alt":"logo",
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/auser-bilancio/auser-bilancio.png",
+          "/images/works/auser-bilancio/auser-bilancio-2x.png 2x",
+          "/images/works/auser-bilancio/auser-bilancio-3x.png 3x"
+        ]
+      },
+      {
+        "src":"/images/works/auser-bilancio/auser-bilancio-page.png",
+        "alt":"page",
+        "fullWidth":"true",
+        "srcset": [
+          "/images/works/auser-bilancio/auser-bilancio-page.png",
+          "/images/works/auser-bilancio/auser-bilancio-page-2x.png 2x",
+          "/images/works/auser-bilancio/auser-bilancio-page-3x.png 3x"
+        ]
+      }
+    ]
+  }
 ]
