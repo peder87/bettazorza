@@ -22,10 +22,19 @@ const WorkList = ({data}) => {
   const moveTo = (path) => {
     navigate(path)
   }
+  console.log(data)
   return (
     <StuffGrid>
       {
-        data.nodes.map(w => <Thumbnail key={w.id} title={w.title} img={w.thumbnail} path={w.url} callback={moveTo} />)
+        data.nodes.map(w => 
+        <Thumbnail 
+          key={w.id}
+          title={w.title}
+          img={w.thumbnail}
+          path={w.url}
+          srcset={w.thumbset}
+          callback={moveTo}
+        />)
       }
     </StuffGrid>
   )
@@ -39,6 +48,7 @@ const worksPage = graphql`
         title
         url
         thumbnail
+        thumbset
       }
     }
   }

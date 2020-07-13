@@ -1,11 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 import { colors } from '../../style/constants'
+import { Image } from '../image'
 
 export const Thumbnail = (props) =>
   <ThumbWrapper onClick={() => props.callback(props.path)}>
     <figure>
-      <img src={props.img} />
+      <Image
+        srcset={props.srcset}
+        alt={props.title}
+        src={props.img}
+      />
       <div>
         <span>{props.title}</span>
       </div>

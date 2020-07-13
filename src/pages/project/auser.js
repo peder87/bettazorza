@@ -30,6 +30,7 @@ const page = graphql`
         src
         fullWidth
         alt
+        srcset
       }
     }
   }
