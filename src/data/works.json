@@ -204,16 +204,16 @@
     "title": "Uno più uno",
     "url":"/project/unopiuno",
     "caption": "uno più uno caption",
-    "thumbnail": "/images/works/uno/uno-logo.png",
+    "thumbnail": "/images/works/uno/uno-book-pile.png",
     "tags": [],
     "imgs": [
       {
-        "src":"/images/works/uno/uno-logo.png",
-        "alt":"logo",
+        "src":"/images/works/uno/uno-book-pile.png",
+        "alt":"book-pile",
         "fullWidth":"true",
         "srcset": [
-          "/images/works/uno/uno-logo.png",
-          "/images/works/uno/uno-logo-2x.png 2x",
+          "/images/works/uno/uno-book-pile.png",
+          "/images/works/uno/uno-book-pile-2x.png 2x",
           "/images/works/uno/uno-book-pile-3x.png 3x"
         ]
       },
