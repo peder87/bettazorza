@@ -4,7 +4,12 @@
     "title": "Auser",
     "url":"/project/auser",
     "caption": "auser caption",
-    "thumbnail":"/images/works/auser/auser-cover-front.png",
+    "thumbnail":"/images/works/auser/auser-thumbnail.png",
+    "thumb-set": [
+      "/images/works/auser/auser-thumbnail.png 1x",
+      "/images/works/auser/auser-thumbnail-2x.png 2x",
+      "/images/works/auser/auser-thumbnail-3x.png 3x"
+    ],
     "tags": ["uno","due","tre"],
     "imgs": [
       {
@@ -54,7 +59,12 @@
     "title": "tanta Robba",
     "url":"/project/tantaRobba",
     "caption": "tanta robba caption",
-    "thumbnail": "/images/works/tanta-robba/tanta-robba-logo.png",
+    "thumbnail": "/images/works/tanta-robba/tanta-robba-thumbnail.png",
+    "thumb-set": [
+      "/images/works/tanta-robba/tanta-robba-thumbnail.png 1x",
+      "/images/works/tanta-robba/tanta-robba-thumbnail-2x.png 2x",
+      "/images/works/tanta-robba/tanta-robba-thumbnail-3x.png 3x"
+    ],
     "tags": [],
     "imgs": [
       {
@@ -114,7 +124,12 @@
     "title": "Sacra Famiglia",
     "url":"/project/sacraFamiglia",
     "caption": "sacra famiglia caption",
-    "thumbnail": "/images/works/sacra-famiglia/sacra-famiglia-insegna.png",
+    "thumbnail": "/images/works/sacra-famiglia/sacra-famiglia-thumbnail.png",
+    "thumb-set": [
+      "/images/works/sacra-famiglia/sacra-famiglia-thumbnail.png 1x",
+      "/images/works/sacra-famiglia/sacra-famiglia-thumbnail-2x.png 2x",
+      "/images/works/sacra-famiglia/sacra-famiglia-thumbnail-3x.png 3x"
+    ],
     "tags": [],
     "imgs": [
       {
@@ -204,7 +219,12 @@
     "title": "Uno più uno",
     "url":"/project/unopiuno",
     "caption": "uno più uno caption",
-    "thumbnail": "/images/works/uno/uno-book-pile.png",
+    "thumbnail": "/images/works/uno/uno-thumbnail.png",
+    "thumb-set": [
+      "/images/works/uno/uno-thumbnail.png 1x",
+      "/images/works/uno/uno-thumbnail-2x.png 2x",
+      "/images/works/uno/uno-thumbnail-3x.png 3x"
+    ],
     "tags": [],
     "imgs": [
       {
@@ -264,7 +284,12 @@
     "title": "Mobilificio Scaravonati",
     "url":"/project/scaravonati",
     "caption": "Scaravonati caption",
-    "thumbnail": "/images/works/scaravonati/scaravonati-card.png",
+    "thumbnail": "/images/works/scaravonati/scaravonati-thumbnail.png",
+    "thumb-set": [
+      "/images/works/scaravonati/scaravonati-thumbnail.png 1x",
+      "/images/works/scaravonati/scaravonati-thumbnail-2x.png 2x",
+      "/images/works/scaravonati/scaravonati-thumbnail-3x.png 3x"
+    ],
     "tags": [],
     "imgs": [
       {
@@ -334,7 +359,12 @@
     "title": "Talento Agile",
     "url":"/project/talento-agile",
     "caption": "talento agile caption",
-    "thumbnail": "/images/works/talento/talento-logo.png",
+    "thumbnail": "/images/works/talento/talento-thumbnail.png",
+    "thumb-set": [
+      "/images/works/talento/talento-thumbnail.png 1x",
+      "/images/works/talento/talento-thumbnail-2x.png 2x",
+      "/images/works/talento/talento-thumbnail-3x.png 3x"
+    ],
     "tags": [],
     "imgs": [
       {
@@ -384,7 +414,12 @@
     "title": "Casa del formaggio - Stradivari",
     "url":"/project/casadelformaggio",
     "caption": "Stradivari caption",
-    "thumbnail": "/images/works/casa-formaggio/casa-formaggio-card.png",
+    "thumbnail": "/images/works/casa-formaggio/casa-formaggio-thumbnail.png",
+    "thumb-set": [
+      "/images/works/casa-formaggio/casa-formaggio-thumbnail.png 1x",
+      "/images/works/casa-formaggio/casa-formaggio-thumbnail-2x.png 2x",
+      "/images/works/casa-formaggio/casa-formaggio-thumbnail-3x.png 3x"
+    ],
     "tags": [],
     "imgs": [
       {
@@ -444,7 +479,12 @@
     "title": "Auser Bilancio ",
     "url":"/project/auser-bilancio",
     "caption": "Auser bilancio caption",
-    "thumbnail": "/images/works/auser-bilancio/auser-bilancio.png",
+    "thumbnail": "/images/works/auser-bilancio/auser-bilancio-thumbnail.png",
+    "thumb-set": [
+      "/images/works/auser-bilancio/auser-bilancio-thumbnail.png 1x",
+      "/images/works/auser-bilancio/auser-bilancio-thumbnail-2x.png 2x",
+      "/images/works/auser-bilancio/auser-bilancio-thumbnail-3x.png 3x"
+    ],
     "tags": [],
     "imgs": [
       {
