@@ -220,7 +220,7 @@
   {
     "id": "uno",
     "title": "Uno più uno",
-    "url":"/project/unopiuno",
+    "url":"/project/uno",
     "caption": "uno più uno caption",
     "order": 3,
     "thumbnail": "/images/works/uno/uno-thumbnail.png",
@@ -418,7 +418,7 @@
   {
     "id": "casaFormaggio",
     "title": "Casa del formaggio - Stradivari",
-    "url":"/project/casadelformaggio",
+    "url":"/project/casaFormaggio",
     "caption": "Stradivari caption",
     "thumbnail": "/images/works/casa-formaggio/casa-formaggio-thumbnail.png",
     "order": 2,
@@ -484,7 +484,7 @@
   {
     "id": "auserBilancio",
     "title": "Auser Bilancio ",
-    "url":"/project/auser-bilancio",
+    "url":"/project/auserBilancio",
     "caption": "Auser bilancio caption",
     "order": 6,
     "thumbnail": "/images/works/auser-bilancio/auser-bilancio-thumbnail.png",

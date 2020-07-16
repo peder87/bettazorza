@@ -28,7 +28,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `data`,
-        path: `./src/data`
+        // path: `./src/data`
+        path: `${__dirname}/src/`
       },
     },
     {
@@ -40,6 +41,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
     `gatsby-plugin-react-svg`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-json`,

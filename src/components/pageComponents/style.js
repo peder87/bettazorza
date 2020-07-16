@@ -38,16 +38,16 @@ export const PageCenterContent = styled.div`
 export const PageContainer = styled(PageCenterContent)`
     height: 100%;
   ${media.xl`
-    padding-top: ${props => props.inMenu ? math('6em + 3em') : '6em'};
+    padding-top: ${props => props.inMenu ? math('6em + 3em') : '2em'};
   `}
   ${media.lg`
-    padding-top: ${props => props.inMenu ? math('6em + 3em') : '6em'};
+    padding-top: ${props => props.inMenu ? math('6em + 3em') : '2em'};
   `}
   ${media.md`
-    padding-top: ${props => props.inMenu ? math('2.5em + 3em') : '6em'};
+    padding-top: ${props => props.inMenu ? math('2.5em + 3em') : '2em'};
   `}
   ${media.sm`
-    padding-top: ${props => props.inMenu ? math('1.75em + 3em') : '6em'};
+    padding-top: ${props => props.inMenu ? math('1.75em + 3em') : '2em'};
   `}
 `
 
