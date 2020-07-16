@@ -74,9 +74,9 @@
         "alt":"logo",
         "fullWidth":"false",
         "srcset": [
-          "/images/works/tanta-robba-logo.png 1x",
-          "/images/works/tanta-robba-logo-2x.png 2x",
-          "/images/works/tanta-robba-logo-3x.png 3x"
+          "/images/works/tanta-robba/tanta-robba-logo.png 1x",
+          "/images/works/tanta-robba/tanta-robba-logo-2x.png 2x",
+          "/images/works/tanta-robba/tanta-robba-logo-3x.png 3x"
         ]
       },
       {
@@ -84,9 +84,9 @@
         "alt":"pass",
         "fullWidth":"false",
         "srcset": [
-          "/images/works/tanta-robba-pass.png 1x",
-          "/images/works/tanta-robba-pass-2x.png 2x",
-          "/images/works/tanta-robba-pass-3x.png 3x"
+          "/images/works/tanta-robba/tanta-robba-pass.png 1x",
+          "/images/works/tanta-robba/tanta-robba-pass-2x.png 2x",
+          "/images/works/tanta-robba/tanta-robba-pass-3x.png 3x"
         ]
       },
       {
@@ -94,9 +94,9 @@
         "alt":"tshirt",
         "fullWidth":"true",
         "srcset": [
-          "/images/works/tanta-robba-tshirt.png 1x",
-          "/images/works/tanta-robba-tshirt-2x.png 2x",
-          "/images/works/tanta-robba-tshirt-3x.png 3x"
+          "/images/works/tanta-robba/tanta-robba-tshirt.png 1x",
+          "/images/works/tanta-robba/tanta-robba-tshirt-2x.png 2x",
+          "/images/works/tanta-robba/tanta-robba-tshirt-3x.png 3x"
         ]
       },
       {
@@ -104,9 +104,9 @@
         "alt":"texture",
         "fullWidth":"true",
         "srcset": [
-          "/images/works/tanta-robba-texture.png 1x",
-          "/images/works/tanta-robba-texture-2x.png 2x",
-          "/images/works/tanta-robba-texture-3x.png 3x"
+          "/images/works/tanta-robba/tanta-robba-texture.png 1x",
+          "/images/works/tanta-robba/tanta-robba-texture-2x.png 2x",
+          "/images/works/tanta-robba/tanta-robba-texture-3x.png 3x"
         ]
       },
       {
@@ -114,9 +114,9 @@
         "alt":"cap",
         "fullWidth":"true",
         "srcset": [
-          "/images/works/tanta-robba-cap.png 1x",
-          "/images/works/tanta-robba-cap-2x.png 2x",
-          "/images/works/tanta-robba-cap-3x.png 3x"
+          "/images/works/tanta-robba/tanta-robba-cap.png 1x",
+          "/images/works/tanta-robba/tanta-robba-cap-2x.png 2x",
+          "/images/works/tanta-robba/tanta-robba-cap-3x.png 3x"
         ]
       }
     ]
@@ -161,8 +161,8 @@
         "fullWidth":"true",
         "srcset": [
           "/images/works/sacra-famiglia/sacra-famiglia-brand.png",
-          "/images/worls/sacra-famiglia/sacra-famiglia-brand-2x.png 2x",
-          "/images/worls/sacra-famiglia/sacra-famiglia-brand-3x.png 3x"
+          "/images/works/sacra-famiglia/sacra-famiglia-brand-2x.png 2x",
+          "/images/works/sacra-famiglia/sacra-famiglia-brand-3x.png 3x"
         ]
       },
       {
@@ -170,9 +170,9 @@
         "alt":"brand2",
         "fullWidth":"true",
         "srcset": [
-          "/images/worls/sacra-famiglia/sacra-famiglia-brand-2.png",
-          "/images/worls/sacra-famiglia/sacra-famiglia-brand-2-2x.png 2x",
-          "/images/worls/sacra-famiglia/sacra-famiglia-brand-2-3x.png 3x"
+          "/images/works/sacra-famiglia/sacra-famiglia-brand-2.png",
+          "/images/works/sacra-famiglia/sacra-famiglia-brand-2-2x.png 2x",
+          "/images/works/sacra-famiglia/sacra-famiglia-brand-2-3x.png 3x"
         ]
       },
       {
@@ -180,9 +180,9 @@
         "alt":"tshirt",
         "fullWidth":"false",
         "srcset": [
-          "/images/worls/sacra-famiglia/sacra-famiglia-tshirt.png",
-          "/images/worls/sacra-famiglia/sacra-famiglia-tshirt-2x.png 2x",
-          "/images/worls/sacra-famiglia/sacra-famiglia-tshirt-3x.png 3x"
+          "/images/works/sacra-famiglia/sacra-famiglia-tshirt.png",
+          "/images/works/sacra-famiglia/sacra-famiglia-tshirt-2x.png 2x",
+          "/images/works/sacra-famiglia/sacra-famiglia-tshirt-3x.png 3x"
         ]
       },
       {
@@ -190,9 +190,9 @@
         "alt":"diario",
         "fullWidth":"false",
         "srcset": [
-          "/images/worls/sacra-famiglia/sacra-famiglia-diario.png",
-          "/images/worls/sacra-famiglia/sacra-famiglia-diario-2x.png 2x",
-          "/images/worls/sacra-famiglia/sacra-famiglia-diario-3x.png 3x"
+          "/images/works/sacra-famiglia/sacra-famiglia-diario.png",
+          "/images/works/sacra-famiglia/sacra-famiglia-diario-2x.png 2x",
+          "/images/works/sacra-famiglia/sacra-famiglia-diario-3x.png 3x"
         ]
       },
       {
@@ -200,9 +200,9 @@
         "alt":"poster",
         "fullWidth":"false",
         "srcset": [
-          "/images/worls/sacra-famiglia/sacra-famiglia-poster.png",
-          "/images/worls/sacra-famiglia/sacra-famiglia-poster-2x.png 2x",
-          "/images/worls/sacra-famiglia/sacra-famiglia-poster-3x.png 3x"
+          "/images/works/sacra-famiglia/sacra-famiglia-poster.png",
+          "/images/works/sacra-famiglia/sacra-famiglia-poster-2x.png 2x",
+          "/images/works/sacra-famiglia/sacra-famiglia-poster-3x.png 3x"
         ]
       },
       {
@@ -210,9 +210,9 @@
         "alt":"mobile",
         "fullWidth":"false",
         "srcset": [
-          "/images/worls/sacra-famiglia/sacra-famiglia-mobile.png",
-          "/images/worls/sacra-famiglia/sacra-famiglia-mobile-2x.png 2x",
-          "/images/worls/sacra-famiglia/sacra-famiglia-mobile-3x.png 3x"
+          "/images/works/sacra-famiglia/sacra-famiglia-mobile.png",
+          "/images/works/sacra-famiglia/sacra-famiglia-mobile-2x.png 2x",
+          "/images/works/sacra-famiglia/sacra-famiglia-mobile-3x.png 3x"
         ]
       }
     ]
@@ -362,7 +362,7 @@
   {
     "id": "talentoAgile",
     "title": "Talento Agile",
-    "url":"/project/talento-agile",
+    "url":"/project/talentoAgile",
     "caption": "talento agile caption",
     "order": 7,
     "thumbnail": "/images/works/talento/talento-thumbnail.png",
