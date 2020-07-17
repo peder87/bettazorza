@@ -16,7 +16,7 @@
       {
         "src":"/images/works/auser/auser-cover-front.png",
         "alt":"bilancio",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/auser/auser-cover-front.png 1x",
           "/images/works/auser/auser-cover-front-2x.png 2x",
@@ -26,7 +26,7 @@
       {
         "src":"/images/works/auser/auser-page-table.png",
         "alt":"corsi open",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/auser/auser-page-table.png 1x",
           "/images/works/auser/auser-page-table-2x.png 2x",
@@ -36,7 +36,7 @@
       {
         "src":"/images/works/auser/auser-spread-1.png",
         "alt":"spread-1",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/auser/auser-spread-1.png 1x",
           "/images/works/auser/auser-spread-1-2x.png 2x",
@@ -46,7 +46,7 @@
       {
         "src":"/images/works/auser/auser-spread-2.png",
         "alt":"spread-2",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/auser/auser-spread-2.png 1x",
           "/images/works/auser/auser-spread-2-2x.png 2x",
@@ -72,7 +72,7 @@
       {
         "src":"/images/works/tanta-robba/tanta-robba-logo.png",
         "alt":"logo",
-        "fullWidth":"false",
+        "fullWidth":false,
         "srcset": [
           "/images/works/tanta-robba/tanta-robba-logo.png 1x",
           "/images/works/tanta-robba/tanta-robba-logo-2x.png 2x",
@@ -82,7 +82,7 @@
       {
         "src":"/images/works/tanta-robba/tanta-robba-pass.png",
         "alt":"pass",
-        "fullWidth":"false",
+        "fullWidth":false,
         "srcset": [
           "/images/works/tanta-robba/tanta-robba-pass.png 1x",
           "/images/works/tanta-robba/tanta-robba-pass-2x.png 2x",
@@ -92,7 +92,7 @@
       {
         "src":"/images/works/tanta-robba/tanta-robba-tshirt.png",
         "alt":"tshirt",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/tanta-robba/tanta-robba-tshirt.png 1x",
           "/images/works/tanta-robba/tanta-robba-tshirt-2x.png 2x",
@@ -102,7 +102,7 @@
       {
         "src":"/images/works/tanta-robba/tanta-robba-texture.png",
         "alt":"texture",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/tanta-robba/tanta-robba-texture.png 1x",
           "/images/works/tanta-robba/tanta-robba-texture-2x.png 2x",
@@ -112,7 +112,7 @@
       {
         "src":"/images/works/tanta-robba/tanta-robba-cap.png",
         "alt":"cap",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/tanta-robba/tanta-robba-cap.png 1x",
           "/images/works/tanta-robba/tanta-robba-cap-2x.png 2x",
@@ -138,7 +138,7 @@
       {
         "src":"/images/works/sacra-famiglia/sacra-famiglia-insegna.png",
         "alt":"insegna",
-        "fullWidth":"false",
+        "fullWidth":false,
         "srcset": [
           "/images/works/sacra-famiglia/sacra-famiglia-insegna.png",
           "/images/works/sacra-famiglia/sacra-famiglia-insegna-2x.png 2x",
@@ -148,7 +148,7 @@
       {
         "src":"/images/works/sacra-famiglia/sacra-famiglia-logo.png",
         "alt":"logo",
-        "fullWidth":"false",
+        "fullWidth":false,
         "srcset": [
           "/images/works/sacra-famiglia/sacra-famiglia-logo.png",
           "/images/works/sacra-famiglia/sacra-famiglia-logo-2x.png 2x",
@@ -158,7 +158,7 @@
       {
         "src":"/images/works/sacra-famiglia/sacra-famiglia-brand.png",
         "alt":"brand",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/sacra-famiglia/sacra-famiglia-brand.png",
           "/images/works/sacra-famiglia/sacra-famiglia-brand-2x.png 2x",
@@ -168,7 +168,7 @@
       {
         "src":"/images/works/sacra-famiglia/sacra-famiglia-brand-2.png",
         "alt":"brand2",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/sacra-famiglia/sacra-famiglia-brand-2.png",
           "/images/works/sacra-famiglia/sacra-famiglia-brand-2-2x.png 2x",
@@ -178,7 +178,7 @@
       {
         "src":"/images/works/sacra-famiglia/sacra-famiglia-tshirt.png",
         "alt":"tshirt",
-        "fullWidth":"false",
+        "fullWidth":false,
         "srcset": [
           "/images/works/sacra-famiglia/sacra-famiglia-tshirt.png",
           "/images/works/sacra-famiglia/sacra-famiglia-tshirt-2x.png 2x",
@@ -188,7 +188,7 @@
       {
         "src":"/images/works/sacra-famiglia/sacra-famiglia-diario.png",
         "alt":"diario",
-        "fullWidth":"false",
+        "fullWidth":false,
         "srcset": [
           "/images/works/sacra-famiglia/sacra-famiglia-diario.png",
           "/images/works/sacra-famiglia/sacra-famiglia-diario-2x.png 2x",
@@ -198,7 +198,7 @@
       {
         "src":"/images/works/sacra-famiglia/sacra-famiglia-poster.png",
         "alt":"poster",
-        "fullWidth":"false",
+        "fullWidth":false,
         "srcset": [
           "/images/works/sacra-famiglia/sacra-famiglia-poster.png",
           "/images/works/sacra-famiglia/sacra-famiglia-poster-2x.png 2x",
@@ -208,7 +208,7 @@
       {
         "src":"/images/works/sacra-famiglia/sacra-famiglia-mobile.png",
         "alt":"mobile",
-        "fullWidth":"false",
+        "fullWidth":false,
         "srcset": [
           "/images/works/sacra-famiglia/sacra-famiglia-mobile.png",
           "/images/works/sacra-famiglia/sacra-famiglia-mobile-2x.png 2x",
@@ -234,7 +234,7 @@
       {
         "src":"/images/works/uno/uno-book-pile.png",
         "alt":"book-pile",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/uno/uno-book-pile.png",
           "/images/works/uno/uno-book-pile-2x.png 2x",
@@ -244,7 +244,7 @@
       {
         "src":"/images/works/uno/uno-lca.png",
         "alt":"lca",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/uno/uno-lca.png",
           "/images/works/uno/uno-lca-2x.png 2x",
@@ -254,7 +254,7 @@
       {
         "src":"/images/works/uno/uno-fontana.png",
         "alt":"fontana",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/uno/uno-fontana.png",
           "/images/works/uno/uno-fontana-2x.png 2x",
@@ -264,7 +264,7 @@
       {
         "src":"/images/works/uno/uno-bucchero.png",
         "alt":"bucchero",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/uno/uno-bucchero.png",
           "/images/works/uno/uno-bucchero-2x.png 2x",
@@ -274,7 +274,7 @@
       {
         "src":"/images/works/uno/uno-terracotta.png",
         "alt":"terracotta",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/uno/uno-terracotta.png",
           "/images/works/uno/uno-terracotta-2x.png 2x",
@@ -300,7 +300,7 @@
       {
         "src":"/images/works/scaravonati/scaravonati-logo.png",
         "alt":"logo",
-        "fullWidth":"false",
+        "fullWidth":false,
         "srcset": [
           "/images/works/scaravonati/scaravonati-logo.png",
           "/images/works/scaravonati/scaravonati-logo-2x.png 2x",
@@ -310,7 +310,7 @@
       {
         "src":"/images/works/scaravonati/scaravonati-card.png",
         "alt":"card",
-        "fullWidth":"false",
+        "fullWidth":false,
         "srcset": [
           "/images/works/scaravonati/scaravonati-card.png",
           "/images/works/scaravonati/scaravonati-card-2x.png 2x",
@@ -320,7 +320,7 @@
       {
         "src":"/images/works/scaravonati/scaravonati-stationary.png",
         "alt":"stationary",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/scaravonati/scaravonati-stationary.png",
           "/images/works/scaravonati/scaravonati-stationary-2x.png 2x",
@@ -330,7 +330,7 @@
       {
         "src":"/images/works/scaravonati/scaravonati-website.png",
         "alt":"website",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/scaravonati/scaravonati-website.png",
           "/images/works/scaravonati/scaravonati-website-2x.png 2x",
@@ -340,7 +340,7 @@
       {
         "src":"/images/works/scaravonati/scaravonati-mobility.png",
         "alt":"mobility",
-        "fullWidth":"false",
+        "fullWidth":false,
         "srcset": [
           "/images/works/scaravonati/scaravonati-mobility.png",
           "/images/works/scaravonati/scaravonati-mobility-2x.png 2x",
@@ -350,7 +350,7 @@
       {
         "src":"/images/works/scaravonati/scaravonati-mobile.png",
         "alt":"mobile",
-        "fullWidth":"false",
+        "fullWidth":false,
         "srcset": [
           "/images/works/scaravonati/scaravonati-mobile.png",
           "/images/works/scaravonati/scaravonati-mobile-2x.png 2x",
@@ -376,7 +376,7 @@
       {
         "src":"/images/works/talento/talento-logo.png",
         "alt":"book-pile",
-        "fullWidth":"false",
+        "fullWidth":false,
         "srcset": [
           "/images/works/talento/talento-logo.png",
           "/images/works/talento/talento-logo-2x.png 2x",
@@ -386,7 +386,7 @@
       {
         "src":"/images/works/talento/talento-shopper.png",
         "alt":"shopper",
-        "fullWidth":"false",
+        "fullWidth":false,
         "srcset": [
           "/images/works/talento/talento-shopper.png",
           "/images/works/talento/talento-shopper-2x.png 2x",
@@ -396,7 +396,7 @@
       {
         "src":"/images/works/talento/talento-stationary.png",
         "alt":"stationary",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/talento/talento-stationary.png",
           "/images/works/talento/talento-stationary-2x.png 2x",
@@ -406,7 +406,7 @@
       {
         "src":"/images/works/talento/talento-website.png",
         "alt":"website",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/talento/talento-website.png",
           "/images/works/talento/talento-website-2x.png 2x",
@@ -432,7 +432,7 @@
       {
         "src":"/images/works/casa-formaggio/casa-formaggio-grembiule.png",
         "alt":"logo",
-        "fullWidth":"false",
+        "fullWidth":false,
         "srcset": [
           "/images/works/casa-formaggio/casa-formaggio-grembiule.png",
           "/images/works/casa-formaggio/casa-formaggio-grembiule-2x.png 2x",
@@ -442,7 +442,7 @@
       {
         "src":"/images/works/scaravonati/casa-formaggio-card.png",
         "alt":"card",
-        "fullWidth":"false",
+        "fullWidth":false,
         "srcset": [
           "/images/works/casa-formaggio/casa-formaggio-card.png",
           "/images/works/casa-formaggio/casa-formaggio-card-2x.png 2x",
@@ -452,7 +452,7 @@
       {
         "src":"/images/works/casa-formaggio/casa-formaggio-logo.png",
         "alt":"logo",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/casa-formaggio/casa-formaggio-logo.png",
           "/images/works/casa-formaggio/casa-formaggio-logo-2x.png 2x",
@@ -462,7 +462,7 @@
       {
         "src":"/images/works/casa-formaggio/casa-formaggio-shopper.png",
         "alt":"shopper",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/casa-formaggio/casa-formaggio-shopper.png",
           "/images/works/casa-formaggio/casa-formaggio-shopper-2x.png 2x",
@@ -472,7 +472,7 @@
       {
         "src":"/images/works/casa-formaggio/casa-formaggio-glass.png",
         "alt":"glass",
-        "fullWidth":"false",
+        "fullWidth":false,
         "srcset": [
           "/images/works/casa-formaggio/casa-formaggio-glass.png",
           "/images/works/casa-formaggio/casa-formaggio-glass-2x.png 2x",
@@ -498,7 +498,7 @@
       {
         "src":"/images/works/auser-bilancio/auser-bilancio.png",
         "alt":"logo",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/auser-bilancio/auser-bilancio.png",
           "/images/works/auser-bilancio/auser-bilancio-2x.png 2x",
@@ -508,7 +508,7 @@
       {
         "src":"/images/works/auser-bilancio/auser-bilancio-page.png",
         "alt":"page",
-        "fullWidth":"true",
+        "fullWidth":true,
         "srcset": [
           "/images/works/auser-bilancio/auser-bilancio-page.png",
           "/images/works/auser-bilancio/auser-bilancio-page-2x.png 2x",
