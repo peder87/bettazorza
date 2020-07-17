@@ -54,7 +54,6 @@ export const Item = styled.div`
   `}
 
   & img {
-    max-width:100%;
-    max-height:100%;
+    width: 100%;
   }
 `

@@ -33,6 +33,10 @@ export const PageCenterContent = styled.div`
   ${media.sm`
     width: 100%;
   `}
+  ${media.sm`
+  
+    width: 100%;
+  `}
 `
 
 export const PageContainer = styled(PageCenterContent)`
