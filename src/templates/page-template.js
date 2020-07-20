@@ -5,7 +5,6 @@ import { pageConfig } from "../pages/pageConfig"
 import { PageContainer } from "../components/pageComponents/style"
 import { WorkGrid } from '../components/grid/workGrid' 
 export default (props) => {
-  console.log(props)
   const pageConf = pageConfig()
   return (
     <Layout>

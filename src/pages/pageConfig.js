@@ -55,6 +55,48 @@ export const pageConfigList = [
     color: colors.darkGray,
     inMenu: false,
   }, 
+  {
+    path: "/project/auserBilancio",
+    bgcolor: colors.white,
+    color: colors.darkGray,
+    inMenu: false,
+  }, 
+  {
+    path: "/project/casaFormaggio",
+    bgcolor: colors.white,
+    color: colors.darkGray,
+    inMenu: false,
+  }, 
+  {
+    path: "/project/sacraFamiglia",
+    bgcolor: colors.white,
+    color: colors.darkGray,
+    inMenu: false,
+  },
+  {
+    path: "/project/scaravonati",
+    bgcolor: colors.white,
+    color: colors.darkGray,
+    inMenu: false,
+  },
+  {
+    path: "/project/talentoAgile",
+    bgcolor: colors.white,
+    color: colors.darkGray,
+    inMenu: false,
+  },
+  {
+    path: "/project/tantaRobba",
+    bgcolor: colors.white,
+    color: colors.darkGray,
+    inMenu: false,
+  },
+  {
+    path: "/project/uno",
+    bgcolor: colors.white,
+    color: colors.darkGray,
+    inMenu: false,
+  },
 ]
 
 export const pageConfig = () => {
