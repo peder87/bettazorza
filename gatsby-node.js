@@ -32,11 +32,13 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `)
   result.data.allMarkdownRemark.edges.forEach(({ node, ...extra }) => {
+    const { slug } = node.fields 
     createPage({
       path: node.fields.slug,
       component: path.resolve(`./src/templates/page-template.js`),
       context: {
-        slug: node.fields.slug,
+        slug,
+        pagePath: slug.substring(0,slug.length -1),
         workId: node.frontmatter.workId
       },
     })

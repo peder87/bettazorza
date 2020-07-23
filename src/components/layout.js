@@ -18,14 +18,13 @@ import { NavMenu } from '../components/newMenu'
 // import Header from "./header"
 
 
-const Layout = ({ children }) => {
+const Layout = ({ children, ...props }) => {
   const [status, setStatus] = useState(false)
+  console.log('other props',props)
   const page = pageConfig(window.location.pathname)
-  console.log('pageProps',page)
   const toggleMenu = () => {
     setStatus(!status)
   }
-
   return (
     <>
       <GlobalStyle {...page} isOpen={status} id="GLOBAL-STYLE" />

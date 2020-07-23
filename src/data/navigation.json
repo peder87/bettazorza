@@ -1,0 +1,98 @@
+[
+  {
+    "path": "/",
+    "slug": "/",
+    "label": "home",
+    "inMenu": true,
+    "bgcolor": "purple",
+    "color":"white"
+  },
+  {
+    "path": "/about",
+    "slug": "/about",
+    "label": "chi sono",
+    "inMenu": true,
+    "bgcolor": "cyan",
+    "color":"darkGrey"
+  },
+  {
+    "path": "/work",
+    "slug": "/work",
+    "label": "cosa faccio",
+    "inMenu": true,
+    "bgcolor": "white",
+    "color":"darkGrey"
+  },
+  {
+    "path": "/contatti",
+    "slug": "/contatti",
+    "label": "contatti",
+    "inMenu": true,
+    "bgcolor": "darkGrey",
+    "color":"white"
+  },
+  {
+    "path": "/project/auser",
+    "slug": "/project/auser",
+    "label": "auser",
+    "inMenu": false,
+    "bgcolor": "white",
+    "color":"darkGrey"
+  },
+  {
+    "path": "/project/auserBilancio",
+    "slug": "/project/auserBilancio",
+    "label": "auser bilancio",
+    "inMenu": false,
+    "bgcolor": "white",
+    "color":"darkGrey"
+  },
+  {
+    "path": "/project/casaFormaggio",
+    "slug": "/project/casaFormaggio",
+    "label": "casa del formaggio",
+    "inMenu": false,
+    "bgcolor": "white",
+    "color":"darkGrey"
+  },
+  {
+    "path": "/project/sacraFamiglia",
+    "slug": "/project/sacraFamiglia",
+    "label": "sacra famiglia",
+    "inMenu": false,
+    "bgcolor": "white",
+    "color":"darkGrey"
+  },
+  {
+    "path": "/project/scaravonati",
+    "slug": "/project/scaravonati",
+    "label": "scaravonati",
+    "inMenu": false,
+    "bgcolor": "white",
+    "color":"darkGrey"
+  },
+  {
+    "path": "/project/talentoAgile",
+    "slug": "/project/talentoAgile",
+    "label": "talento agile",
+    "inMenu": false,
+    "bgcolor": "white",
+    "color":"darkGrey"
+  },
+  {
+    "path": "/project/tantaRobba",
+    "slug": "/project/tantaRobba",
+    "label": "tanta robba",
+    "inMenu": false,
+    "bgcolor": "white",
+    "color":"darkGrey"
+  },
+  {
+    "path": "/project/uno",
+    "slug": "/project/uno",
+    "label": "uno in più",
+    "inMenu": false,
+    "bgcolor": "white",
+    "color":"darkGrey"
+  }
+]

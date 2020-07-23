@@ -5,11 +5,10 @@
     "url":"/project/auser",
     "caption": "auser caption",
     "order": 8,
-    "thumbnail":"/images/works/auser/auser-thumbnail.png",
+    "thumbnail":"/images/works/thumbnails/auser-thumbnail.png",
     "thumbset": [
-      "/images/works/auser/auser-thumbnail.png 1x",
-      "/images/works/auser/auser-thumbnail-2x.png 2x",
-      "/images/works/auser/auser-thumbnail-3x.png 3x"
+      "/images/works/thumbnails/auser-thumbnail.png 1x",
+      "/images/works/thumbnails/auser-thumbnail-2x.png 2x"
     ],
     "tags": ["uno","due","tre"],
     "imgs": [
@@ -61,11 +60,10 @@
     "url":"/project/tantaRobba",
     "caption": "tanta robba caption",
     "order": 4,
-    "thumbnail": "/images/works/tanta-robba/tanta-robba-thumbnail.png",
+    "thumbnail": "/images/works/thumbnails/tanta-robba-thumbnail.png",
     "thumbset": [
-      "/images/works/tanta-robba/tanta-robba-thumbnail.png 1x",
-      "/images/works/tanta-robba/tanta-robba-thumbnail-2x.png 2x",
-      "/images/works/tanta-robba/tanta-robba-thumbnail-3x.png 3x"
+      "/images/works/thumbnails/tanta-robba-thumbnail.png 1x",
+      "/images/works/thumbnails/tanta-robba-thumbnail-2x.png 2x"
     ],
     "tags": [],
     "imgs": [
@@ -127,11 +125,10 @@
     "url":"/project/sacraFamiglia",
     "caption": "sacra famiglia caption",
     "order": 1,
-    "thumbnail": "/images/works/sacra-famiglia/sacra-famiglia-thumbnail.png",
+    "thumbnail": "/images/works/thumbnails/sacra-famiglia-thumbnail.png",
     "thumbset": [
-      "/images/works/sacra-famiglia/sacra-famiglia-thumbnail.png 1x",
-      "/images/works/sacra-famiglia/sacra-famiglia-thumbnail-2x.png 2x",
-      "/images/works/sacra-famiglia/sacra-famiglia-thumbnail-3x.png 3x"
+      "/images/works/thumbnails/sacra-famiglia-thumbnail.png 1x",
+      "/images/works/thumbnails/sacra-famiglia-thumbnail-2x.png 2x"
     ],
     "tags": [],
     "imgs": [
@@ -223,11 +220,10 @@
     "url":"/project/uno",
     "caption": "uno più uno caption",
     "order": 3,
-    "thumbnail": "/images/works/uno/uno-thumbnail.png",
+    "thumbnail": "/images/works/thumbnails/uno-thumbnail.png",
     "thumbset": [
-      "/images/works/uno/uno-thumbnail.png 1x",
-      "/images/works/uno/uno-thumbnail-2x.png 2x",
-      "/images/works/uno/uno-thumbnail-3x.png 3x"
+      "/images/works/thumbnails/uno-thumbnail.png 1x",
+      "/images/works/thumbnails/uno-thumbnail-2x.png 2x"
     ],
     "tags": [],
     "imgs": [
@@ -289,11 +285,10 @@
     "url":"/project/scaravonati",
     "caption": "Scaravonati caption",
     "order": 5,
-    "thumbnail": "/images/works/scaravonati/scaravonati-thumbnail.png",
+    "thumbnail": "/images/works/thumbnails/scaravonati-thumbnail.png",
     "thumbset": [
-      "/images/works/scaravonati/scaravonati-thumbnail.png 1x",
-      "/images/works/scaravonati/scaravonati-thumbnail-2x.png 2x",
-      "/images/works/scaravonati/scaravonati-thumbnail-3x.png 3x"
+      "/images/works/thumbnails/scaravonati-thumbnail.png 1x",
+      "/images/works/thumbnails/scaravonati-thumbnail-2x.png 2x"
     ],
     "tags": [],
     "imgs": [
@@ -303,7 +298,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/works/scaravonati/scaravonati-logo.png",
-          "/images/works/scaravonati/scaravonati-logo-2x.png 2x",
+          "/images/works/scaravonati/scaravonati-logo-2x.png 2x", 
           "/images/works/scaravonati/scaravonati-logo-3x.png 3x"
         ]
       },
@@ -365,11 +360,10 @@
     "url":"/project/talentoAgile",
     "caption": "talento agile caption",
     "order": 7,
-    "thumbnail": "/images/works/talento/talento-thumbnail.png",
+    "thumbnail": "/images/works/thumbnails/talento-thumb.png",
     "thumbset": [
-      "/images/works/talento/talento-thumbnail.png 1x",
-      "/images/works/talento/talento-thumbnail-2x.png 2x",
-      "/images/works/talento/talento-thumbnail-3x.png 3x"
+      "/images/works/thumbnails/talento-thumb.png 1x",
+      "/images/works/thumbnails/talento-thumb-2x.png 2x"
     ],
     "tags": [],
     "imgs": [
@@ -420,12 +414,11 @@
     "title": "Casa del formaggio - Stradivari",
     "url":"/project/casaFormaggio",
     "caption": "Stradivari caption",
-    "thumbnail": "/images/works/casa-formaggio/casa-formaggio-thumbnail.png",
+    "thumbnail": "/images/works/thumbnails/casa-formaggio-thumbnail.png",
     "order": 2,
     "thumbset": [
-      "/images/works/casa-formaggio/casa-formaggio-thumbnail.png 1x",
-      "/images/works/casa-formaggio/casa-formaggio-thumbnail-2x.png 2x",
-      "/images/works/casa-formaggio/casa-formaggio-thumbnail-3x.png 3x"
+      "/images/works/thumbnails/casa-formaggio-thumbnail.png 1x",
+      "/images/works/thumbnails/casa-formaggio-thumbnail-2x.png 2x"
     ],
     "tags": [],
     "imgs": [
@@ -487,11 +480,10 @@
     "url":"/project/auserBilancio",
     "caption": "Auser bilancio caption",
     "order": 6,
-    "thumbnail": "/images/works/auser-bilancio/auser-bilancio-thumbnail.png",
+    "thumbnail": "/images/works/thumbnails/auser-bilancio-thumbnail.png",
     "thumbset": [
-      "/images/works/auser-bilancio/auser-bilancio-thumbnail.png 1x",
-      "/images/works/auser-bilancio/auser-bilancio-thumbnail-2x.png 2x",
-      "/images/works/auser-bilancio/auser-bilancio-thumbnail-3x.png 3x"
+      "/images/works/thumbnails/auser-bilancio-thumbnail.png 1x",
+      "/images/works/thumbnails/auser-bilancio-thumbnail-2x.png 2x"
     ],
     "tags": [],
     "imgs": [

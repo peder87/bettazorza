@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { graphql, StaticQuery } from 'gatsby'
 import { Hamburger } from './hamburger' 
 import { Menu } from './menu'
 import { PageList } from './pageList'
@@ -6,6 +7,7 @@ import { HamburgerFixedWrapper, HamburgerFlexWrapper, ResetContainer, MenuContai
 import { Footer } from '../footer'
 
 export const NavMenu = ({isOpen, toggleMenu, color, bgcolor}) => {
+  const portrait = window.innerHeight > window.innerWidth
   const [navbarFixed, setNavbarFixed] = useState(false)
   if(isOpen) {
     document.addEventListener('keydown', e => {
@@ -25,7 +27,7 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor}) => {
           </Hamburger>
         </HamburgerFlexWrapper>
       </HamburgerFixedWrapper>
-      <Menu isOpen={isOpen} id="BACKGROUND_MENU">
+      <Menu isOpen={isOpen} id="BACKGROUND_MENU" isPortrait={portrait}>
         <div /> {/* box giallo */}
       </Menu>
       <ResetContainer isOpen={isOpen} id="MENU_CONTENT-RESET"> {/* funziona da resettone che sostituscie il body */}
@@ -42,13 +44,26 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor}) => {
       }
       <GlobalMenu id="MENU_CONTENT-GLOBAL">
         <MenuContainer id="MENU_CONTAINER-FLEX" inMenu>
-          <PageList isOpen={isOpen} toggleMenu={toggleMenu}/>
-            <FooterAnimation isOpen={isOpen}>
-              <Footer menu/>
-            </FooterAnimation>
+          <StaticQuery query={navigationQuery} render={({allNavigationJson}) => 
+            <PageList isOpen={isOpen} toggleMenu={toggleMenu} src={allNavigationJson} />} />
+          <FooterAnimation isOpen={isOpen}>
+            <Footer menu/>
+          </FooterAnimation>
           </MenuContainer>
         </GlobalMenu>
       </ResetContainer>
     </div>
   )
 }
+
+const navigationQuery = graphql`
+  query MyQuery {
+    allNavigationJson(filter: {inMenu: {eq: true}}) {
+      nodes {
+        id
+        label
+        path
+      }
+    }
+  }
+`

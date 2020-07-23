@@ -20,8 +20,8 @@ export const Menu = styled.div`
     background: ${colors.yellow};
     opacity: 0.90;
     border-radius: 50%;
-    width: 200vw;
-    height: 200vw;
+    width: ${ props => props.isPortrait ? '200vh' : '200vw'};
+    height: ${ props => props.isPortrait ? '200vh' : '200vw'};
     display: flex;
     flex: none;
     align-items: center;
