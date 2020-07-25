@@ -1,8 +1,6 @@
 import React from "react"
 import { graphql, StaticQuery } from 'gatsby'
-import { PageContainer } from "../../components/pageComponents/style"
 import { StuffGrid } from '../../components/grid'
-import { works } from '../pageConfig'
 import { Thumbnail } from '../../components/thumbnail'
 import { navigate } from 'gatsby'
 
@@ -10,7 +8,7 @@ export default (props) => {
   return (
         <StaticQuery
           query={worksPage}
-          render={data => <WorkList data={data.allWorksJson} />}
+          render={data => <WorkList data={data.allProjectsJson} />}
         />
   )
 }
@@ -40,7 +38,7 @@ const WorkList = ({ data }) => {
 
 const worksPage = graphql`
   query works {
-    allWorksJson {
+    allProjectsJson {
       nodes {
         id
         title

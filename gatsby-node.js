@@ -60,7 +60,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
 const query = (pageType) => pageType === 'WORK' ? `
   query($workId: String!, $pagePath: String!) {
-    worksJson(id: {eq: $workId }) {
+    projectsJson(id: {eq: $workId }) {
       id
       title
       caption
