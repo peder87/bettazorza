@@ -1,5 +1,6 @@
 ---
 workId: "auserBilancio"
+pageType: "WORK"
 title: "Auser Bilancio"
 taxonomy:
   category: "blog"

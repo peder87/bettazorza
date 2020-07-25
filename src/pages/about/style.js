@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { media } from "../../style/constants"
 import Picture from "./about.png"
 
-export const AboutGrid = styled.div`
+const AboutGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
@@ -40,3 +40,4 @@ export const AboutGrid = styled.div`
     }
   }
 `
+export default AboutGrid

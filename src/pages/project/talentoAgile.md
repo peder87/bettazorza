@@ -1,5 +1,6 @@
 ---
 workId: "talentoAgile"
+pageType: "WORK"
 title: "Uno in più"
 taxonomy:
   category: "blog"

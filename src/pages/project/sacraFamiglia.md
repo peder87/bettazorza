@@ -1,5 +1,6 @@
 ---
 workId: "sacraFamiglia"
+pageType: "WORK"
 title: "Sacra Famiglia"
 taxonomy:
   category: "blog"

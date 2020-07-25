@@ -1,0 +1,4 @@
+---
+pageType: "PAGE"
+title: "test"
+---

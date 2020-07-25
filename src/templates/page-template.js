@@ -1,39 +1,28 @@
 import React from 'react'
-import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import { pageConfig } from "../pages/pageConfig"
-import { PageContainer } from "../components/pageComponents/style"
-import { WorkGrid } from '../components/grid/workGrid' 
-export default (props) => {
-  const pageConf = pageConfig()
+import Home from '../pages/home'
+import About from '../pages/about'
+import Work from '../pages/work'
+import Contatti from '../pages/contatti'
+
+export default ({pageContext,...props}) => {
+  const { navigationJson } = pageContext.pageData.data
   return (
-    <Layout>
-      <PageContainer {...pageConf}>
-        <WorkGrid data={props.data.worksJson} />
-      </PageContainer>
+    <Layout pageConf={navigationJson}>
+      {getPageContent(props.location.pathname)}
     </Layout>
   )
 }
 
-export const query = graphql`
-  query($slug: String!, $workId: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
-      frontmatter {
-        title
-      }
-    }
-    worksJson(id: {eq: $workId}) {
-      id
-      title
-      caption
-      tags
-      imgs {
-        src
-        fullWidth
-        alt
-        srcset
-      }
-    }
+const getPageContent = (location) => {
+  switch(location) {
+    case '/':
+      return <Home />
+    case '/about':
+      return <About />
+    case '/work':
+      return <Work />
+    case '/contatti':
+      return <Contatti />
   }
-`
+}

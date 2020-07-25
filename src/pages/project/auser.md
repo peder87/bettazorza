@@ -1,5 +1,6 @@
 ---
 workId: "auser"
+pageType: "WORK"
 title: "Auser"
 taxonomy:
   category: "blog"

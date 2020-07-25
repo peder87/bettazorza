@@ -6,23 +6,19 @@ import { works } from '../pageConfig'
 import { Thumbnail } from '../../components/thumbnail'
 import { navigate } from 'gatsby'
 
-export default () => {
-  
+export default (props) => {
   return (
-      <PageContainer>
         <StaticQuery
           query={worksPage}
           render={data => <WorkList data={data.allWorksJson} />}
         />
-      </PageContainer>
   )
 }
 
-const WorkList = ({data}) => {
+const WorkList = ({ data }) => {
   const moveTo = (path) => {
     navigate(path)
   }
-  console.log(data)
   return (
     <StuffGrid>
       {

@@ -13,7 +13,7 @@
     "label": "chi sono",
     "inMenu": true,
     "bgcolor": "cyan",
-    "color":"darkGrey"
+    "color":"darkGray"
   },
   {
     "path": "/work",
@@ -21,14 +21,14 @@
     "label": "cosa faccio",
     "inMenu": true,
     "bgcolor": "white",
-    "color":"darkGrey"
+    "color":"darkGray"
   },
   {
     "path": "/contatti",
     "slug": "/contatti",
     "label": "contatti",
     "inMenu": true,
-    "bgcolor": "darkGrey",
+    "bgcolor": "darkGray",
     "color":"white"
   },
   {
@@ -37,7 +37,7 @@
     "label": "auser",
     "inMenu": false,
     "bgcolor": "white",
-    "color":"darkGrey"
+    "color":"darkGray"
   },
   {
     "path": "/project/auserBilancio",
@@ -45,7 +45,7 @@
     "label": "auser bilancio",
     "inMenu": false,
     "bgcolor": "white",
-    "color":"darkGrey"
+    "color":"darkGray"
   },
   {
     "path": "/project/casaFormaggio",
@@ -53,7 +53,7 @@
     "label": "casa del formaggio",
     "inMenu": false,
     "bgcolor": "white",
-    "color":"darkGrey"
+    "color":"darkGray"
   },
   {
     "path": "/project/sacraFamiglia",
@@ -61,7 +61,7 @@
     "label": "sacra famiglia",
     "inMenu": false,
     "bgcolor": "white",
-    "color":"darkGrey"
+    "color":"darkGray"
   },
   {
     "path": "/project/scaravonati",
@@ -69,7 +69,7 @@
     "label": "scaravonati",
     "inMenu": false,
     "bgcolor": "white",
-    "color":"darkGrey"
+    "color":"darkGray"
   },
   {
     "path": "/project/talentoAgile",
@@ -77,7 +77,7 @@
     "label": "talento agile",
     "inMenu": false,
     "bgcolor": "white",
-    "color":"darkGrey"
+    "color":"darkGray"
   },
   {
     "path": "/project/tantaRobba",
@@ -85,7 +85,7 @@
     "label": "tanta robba",
     "inMenu": false,
     "bgcolor": "white",
-    "color":"darkGrey"
+    "color":"darkGray"
   },
   {
     "path": "/project/uno",
@@ -93,6 +93,6 @@
     "label": "uno in più",
     "inMenu": false,
     "bgcolor": "white",
-    "color":"darkGrey"
+    "color":"darkGray"
   }
 ]

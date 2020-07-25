@@ -8,11 +8,10 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { GlobalStyle } from "../style/global"
-import { media } from "../style/constants"
+import { media, colors } from "../style/constants"
 import styled, { css } from "styled-components"
 // import { Footer } from "../components/footer"
-import { pageConfig } from "../pages/pageConfig"
-import { GlobalContainer, FooterContainer } from "./pageComponents/style"
+import { GlobalContainer, PageContainer, FooterContainer } from "./pageComponents/style"
 // import { PageHeader } from "./pageHeader"
 import { NavMenu } from '../components/newMenu'
 // import Header from "./header"
@@ -20,17 +19,21 @@ import { NavMenu } from '../components/newMenu'
 
 const Layout = ({ children, ...props }) => {
   const [status, setStatus] = useState(false)
-  console.log('other props',props)
-  const page = pageConfig(window.location.pathname)
+  const styleProps = {
+    bgcolor: colors[props.pageConf.bgcolor],
+    color: colors[props.pageConf.color]
+  }
   const toggleMenu = () => {
     setStatus(!status)
   }
   return (
     <>
-      <GlobalStyle {...page} isOpen={status} id="GLOBAL-STYLE" />
-      <GlobalContainer {...page} id="GLOBAL-CONTAINER" isOpen={status} >
-        <NavMenu isOpen={status} toggleMenu={toggleMenu} {...page} />
-        {children}
+      <GlobalStyle  {...styleProps} isOpen={status} id="GLOBAL-STYLE" />
+      <GlobalContainer {...styleProps} id="GLOBAL-CONTAINER" isOpen={status} >
+        <NavMenu isOpen={status} toggleMenu={toggleMenu} {...styleProps} />
+        <PageContainer color={styleProps.color}>
+          {children}
+        </PageContainer>
         {/* <FooterContainer>
           <Footer {...page} />
         </FooterContainer> */}

@@ -14,14 +14,3 @@ export default (props) => {
     </Layout>
   )
 }
-
-
-
-const Box = styled.div`
-  border: 1px solid #fff;
-  color: #fff;
-`
-
-const GridContainer = styled.div`
-  background-color: blue;
-`

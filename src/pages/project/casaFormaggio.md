@@ -1,5 +1,6 @@
 ---
 workId: "casaFormaggio"
+pageType: "WORK"
 title: "casa formaggio"
 taxonomy:
   category: "blog"

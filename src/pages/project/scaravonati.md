@@ -1,5 +1,6 @@
 ---
 workId: "scaravonati"
+pageType: "WORK"
 title: "Mobilificio Scaravonati"
 taxonomy:
   category: "blog"

@@ -1,5 +1,6 @@
 ---
 workId: "tantaRobba"
+pageType: "WORK"
 title: "tanta robba"
 taxonomy:
   category: "blog"
