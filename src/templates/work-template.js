@@ -3,10 +3,10 @@ import Layout from '../components/layout'
 import { WorkGrid } from '../components/grid/workGrid'
 
 export default ({pageContext,...props}) => {
-  const { navigationJson, worksJson } = pageContext.pageData.data
+  const { navigationJson, projectsJson } = pageContext.pageData.data
   return (
     <Layout pageConf={navigationJson}>
-      <WorkGrid data={worksJson} />
+      <WorkGrid data={projectsJson} />
     </Layout>
   )
 }
