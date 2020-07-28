@@ -20,7 +20,7 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor}) => {
   })
   return (
     <div id="NAVIGATION_WRAPPER">
-      <HamburgerFixedWrapper bgcolor={bgcolor} isOpen={isOpen} showBorder={navbarFixed}>
+      <HamburgerFixedWrapper bgcolor={bgcolor} isOpen={isOpen} showBorder={false  }>
         <HamburgerFlexWrapper isOpen={isOpen} id="HAMBURGER_WRAPPER">
           <Hamburger isOpen={isOpen} onClick={toggleMenu} hambugerColor={color}>
             <div></div> {/* hamburger */}
@@ -31,17 +31,17 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor}) => {
         <div /> {/* box giallo */}
       </Menu>
       <ResetContainer isOpen={isOpen} id="MENU_CONTENT-RESET"> {/* funziona da resettone che sostituscie il body */}
-      { isOpen && 
+      {/* { isOpen && 
       (
         <HamburgerFixedWrapper innerMenu>
           <HamburgerFlexWrapper isOpen={isOpen}  id="HAMBURGER_WRAPPER">
             <Hamburger isOpen={isOpen} onClick={toggleMenu} hambugerColor={color}>
-              <div></div> {/* hamburger */}
+              <div></div> 
             </Hamburger>
           </HamburgerFlexWrapper>
         </HamburgerFixedWrapper>
       )
-      }
+      } */}
       <GlobalMenu id="MENU_CONTENT-GLOBAL">
         <MenuContainer id="MENU_CONTAINER-FLEX" inMenu>
           <StaticQuery query={navigationQuery} render={({allNavigationJson}) => 

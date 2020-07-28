@@ -37,8 +37,8 @@ export const HamburgerFixedWrapper = styled.div`
   ${media.sm`
     padding: 1em 2.5em 1em;
   `}
-  background-color: ${props => props.bgcolor};
-  position: fixed;
+  /* background-color: ${props => props.bgcolor}; */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
