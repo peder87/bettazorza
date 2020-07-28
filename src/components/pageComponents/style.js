@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled, {css} from "styled-components"
 import { media } from "../../style/constants"
 import { math } from 'polished'
 
@@ -43,15 +43,19 @@ export const PageContainer = styled(PageCenterContent)`
     height: 100%;
   ${media.xl`
     padding-top: ${props => props.inMenu ? math('6em + 3em') : '2em'};
+    padding-bottom: ${props => props.inMenu ? 0 : '2em'};
   `}
   ${media.lg`
     padding-top: ${props => props.inMenu ? math('6em + 3em') : '2em'};
+    padding-bottom: ${props => props.inMenu ? 0 : '2em'};
   `}
   ${media.md`
     padding-top: ${props => props.inMenu ? math('2.5em + 3em') : '2em'};
+    padding-bottom: ${props => props.inMenu ? 0 : '2em'};
   `}
   ${media.sm`
     padding-top: ${props => props.inMenu ? math('1.75em + 3em') : '2em'};
+    padding-bottom: ${props => props.inMenu ? 0 : '2em'};
   `}
 `
 
