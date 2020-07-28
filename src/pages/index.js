@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import Home from './home'
 
 export default (props) => {
+  console.log('index props', props)
   return (
     <StaticQuery 
       query={query}
@@ -24,12 +25,11 @@ const query = graphql`
   query {
     allProjectsJson {
     nodes {
-      caption
+      id
       thumbnail
       thumbset
       url
       title
-      tags
       order
     }
   }

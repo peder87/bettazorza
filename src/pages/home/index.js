@@ -1,19 +1,9 @@
 import React from "react"
-import { graphql, StaticQuery } from 'gatsby'
 import { StuffGrid } from '../../components/grid'
 import { Thumbnail } from '../../components/thumbnail'
 import { navigate } from 'gatsby'
 
-export default (props) => {
-  return (
-        <StaticQuery
-          query={worksPage}
-          render={data => <WorkList data={data.allProjectsJson} />}
-        />
-  )
-}
-
-const WorkList = ({ data }) => {
+export default ({ data }) => {
   const moveTo = (path) => {
     navigate(path)
   }
@@ -35,18 +25,3 @@ const WorkList = ({ data }) => {
     </StuffGrid>
   )
 }
-
-const worksPage = graphql`
-  query works {
-    allProjectsJson {
-      nodes {
-        id
-        title
-        url
-        order
-        thumbnail
-        thumbset
-      }
-    }
-  }
-`

@@ -24,5 +24,7 @@ const getPageContent = (location) => {
       return <Work />
     case '/contatti':
       return <Contatti />
+    default:
+      return <div />
   }
 }
