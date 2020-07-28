@@ -8,16 +8,16 @@ import { Footer } from '../footer'
 
 export const NavMenu = ({isOpen, toggleMenu, color, bgcolor}) => {
   const portrait = window.innerHeight > window.innerWidth
-  const [navbarFixed, setNavbarFixed] = useState(false)
+  // const [navbarFixed, setNavbarFixed] = useState(false)
   if(isOpen) {
     document.addEventListener('keydown', e => {
       e.keyCode === 27 && toggleMenu()
     })
   }
-  document.addEventListener('scroll', e => {
-    const isFixed = window.scrollY > 50
-    setNavbarFixed(isFixed)
-  })
+  // document.addEventListener('scroll', e => {
+  //   const isFixed = window.scrollY > 50
+  //   setNavbarFixed(isFixed)
+  // })
   return (
     <div id="NAVIGATION_WRAPPER">
       <HamburgerFixedWrapper bgcolor={bgcolor} isOpen={isOpen} showBorder={false  }>
