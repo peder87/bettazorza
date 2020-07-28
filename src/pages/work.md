@@ -1,4 +1,0 @@
----
-pageType: "PAGE"
-title: "test"
----

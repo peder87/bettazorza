@@ -26,7 +26,6 @@ exports.createPages = async ({ graphql, actions }) => {
             }
             frontmatter {
               workId
-              pageType
             }
           }
         }
@@ -35,22 +34,22 @@ exports.createPages = async ({ graphql, actions }) => {
   `)
   result.data.allMarkdownRemark.edges.forEach( async ({ node }) => {
     const { slug } = node.fields
-    const { workId, pageType } = node.frontmatter
+    const { workId } = node.frontmatter
     const pagePath = slug.length > 1 ? slug.substring(0,slug.length -1) : slug
-    const isWorkPage = pageType === 'WORK'
+    console.log(workId)
     const pageData = await graphql(
-      query(pageType),
+      query,
       {
-        ...(isWorkPage && {workId}),
+        workId,
         pagePath
       }
     )
     createPage({
       path: node.fields.slug,
-      component: path.resolve(`./src/templates/${isWorkPage ? 'work' : 'page'}-template.js`),
+      component: path.resolve(`./src/templates/work-template.js`),
       context: {
         slug,
-        ...(isWorkPage && {workId}),
+        workId,
         pagePath,
         pageData
       },
@@ -58,7 +57,7 @@ exports.createPages = async ({ graphql, actions }) => {
   })
 }
 
-const query = (pageType) => pageType === 'WORK' ? `
+const query = `
   query($workId: String!, $pagePath: String!) {
     projectsJson(id: {eq: $workId }) {
       id
@@ -79,13 +78,4 @@ const query = (pageType) => pageType === 'WORK' ? `
       path
     }
   }
-` : `
-  query($pagePath: String!) {
-    navigationJson(path: { eq: $pagePath }) {
-      bgcolor
-      color
-      label
-      path
-    }
-  }
-`
+` 
