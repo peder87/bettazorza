@@ -8,9 +8,10 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { GlobalStyle } from "../style/global"
+import { StaticQuery, graphql } from 'gatsby'
 import { media, colors } from "../style/constants"
 import styled, { css } from "styled-components"
-// import { Footer } from "../components/footer"
+import { Footer } from "../components/footer"
 import { GlobalContainer, PageContainer, FooterContainer } from "./pageComponents/style"
 // import { PageHeader } from "./pageHeader"
 import { NavMenu } from '../components/newMenu'
@@ -30,17 +31,30 @@ const Layout = ({ children, ...props }) => {
     <>
       <GlobalStyle  {...styleProps} isOpen={status} id="GLOBAL-STYLE" />
       <GlobalContainer {...styleProps} id="GLOBAL-CONTAINER" isOpen={status} >
-        <NavMenu isOpen={status} toggleMenu={toggleMenu} {...styleProps} />
+        <StaticQuery
+          query={navigationQuery}
+          render={data => <NavMenu isOpen={status} toggleMenu={toggleMenu} {...styleProps} navList={data.allNavigationJson.nodes}/>}
+        />
         <PageContainer color={styleProps.color}>
           {children}
+          <Footer />
         </PageContainer>
-        {/* <FooterContainer>
-          <Footer {...page} />
-        </FooterContainer> */}
       </GlobalContainer>
     </>
   )
 }
+
+const navigationQuery = graphql`
+  query QueryNav {
+    allNavigationJson(filter: {inMenu: {eq: true}}) {
+      nodes {
+        id
+        label
+        path
+      }
+    }
+  }
+`
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,

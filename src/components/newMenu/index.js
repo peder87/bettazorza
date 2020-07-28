@@ -6,7 +6,7 @@ import { PageList } from './pageList'
 import { HamburgerFixedWrapper, HamburgerFlexWrapper, ResetContainer, MenuContainer, FooterAnimation, GlobalMenu } from './style'
 import { Footer } from '../footer'
 
-export const NavMenu = ({isOpen, toggleMenu, color, bgcolor}) => {
+export const NavMenu = ({isOpen, toggleMenu, color, bgcolor, navList}) => {
   const portrait = window.innerHeight > window.innerWidth
   // const [navbarFixed, setNavbarFixed] = useState(false)
   if(isOpen) {
@@ -44,8 +44,7 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor}) => {
       } */}
       <GlobalMenu id="MENU_CONTENT-GLOBAL">
         <MenuContainer id="MENU_CONTAINER-FLEX" inMenu>
-          <StaticQuery query={navigationQuery} render={({allNavigationJson}) => 
-            <PageList isOpen={isOpen} toggleMenu={toggleMenu} src={allNavigationJson} />} />
+          <PageList isOpen={isOpen} toggleMenu={toggleMenu} src={navList} />
           <FooterAnimation isOpen={isOpen}>
             <Footer menu/>
           </FooterAnimation>
@@ -55,15 +54,3 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor}) => {
     </div>
   )
 }
-
-const navigationQuery = graphql`
-  query MyQuery {
-    allNavigationJson(filter: {inMenu: {eq: true}}) {
-      nodes {
-        id
-        label
-        path
-      }
-    }
-  }
-`

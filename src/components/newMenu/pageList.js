@@ -15,8 +15,7 @@ export const PageList = ({src, ...props}) => {
   return (
     <ListWrapper {...props}>
       {
-        src.nodes
-          .map(({label, ...p}) => ({ 
+        src.map(({label, ...p}) => ({ 
             ...p, label: `${label.charAt(0).toUpperCase()}${label.slice(1)}`
           }))
           .map(p => <MenuItem key={p.id}>

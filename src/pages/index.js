@@ -2,10 +2,8 @@ import React from 'react'
 import { graphql, StaticQuery } from 'gatsby'
 import Layout from '../components/layout'
 import Home from './home'
-import { Footer } from '../components/footer'
 
 export default (props) => {
-  console.log('index props', props)
   const style = { 
     bgcolor: 'purple',
     color: 'yellow'
@@ -18,7 +16,6 @@ export default (props) => {
           return (<Home data={allProjectsJson}/> )
         }}
       />
-      <Footer />
     </Layout>
   )
 }
