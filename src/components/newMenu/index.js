@@ -1,6 +1,6 @@
-import React, {useState} from 'react'
-import { graphql, StaticQuery } from 'gatsby'
-import { Hamburger } from './hamburger' 
+import React from 'react'
+import { Hamburger, IconContainer } from './hamburger' 
+import { Logo } from '../logo'
 import { Menu } from './menu'
 import { PageList } from './pageList'
 import { HamburgerFixedWrapper, HamburgerFlexWrapper, ResetContainer, MenuContainer, FooterAnimation, GlobalMenu } from './style'
@@ -18,6 +18,7 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor, navList}) => {
   //   const isFixed = window.scrollY > 50
   //   setNavbarFixed(isFixed)
   // })
+
   return (
     <div id="NAVIGATION_WRAPPER">
       <HamburgerFixedWrapper bgcolor={bgcolor} isOpen={isOpen} showBorder={false  }>
@@ -25,6 +26,9 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor, navList}) => {
           <Hamburger isOpen={isOpen} onClick={toggleMenu} hambugerColor={color}>
             <div></div> {/* hamburger */}
           </Hamburger>
+          <IconContainer>
+            <Logo inMenu={isOpen} />
+          </IconContainer>
         </HamburgerFlexWrapper>
       </HamburgerFixedWrapper>
       <Menu isOpen={isOpen} id="BACKGROUND_MENU" isPortrait={portrait}>

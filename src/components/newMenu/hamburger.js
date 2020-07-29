@@ -1,14 +1,25 @@
 import styled, { css } from 'styled-components'
 import { colors } from '../../style/constants'
 
-export const Hamburger = styled.div`
-  width: 1.75rem;
+export const IconContainer = styled.div`
   height: 3.75rem;
+  z-index: 999999;
+  width: 1.75rem;
+  padding-top: 10px;
+
+  & svg:hover {
+    cursor: pointer;
+  }
+`
+
+export const Hamburger = styled.div`
+  height: 3.75rem;
+  z-index: 999999;
+  width: 1.75rem;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 999999;
-
   &:hover {
     cursor: pointer;
   }
