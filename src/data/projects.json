@@ -18,8 +18,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/auser/auser-cover-front.png 1x",
-          "/images/projects/auser/auser-cover-front-2x.png 2x",
-          "/images/projects/auser/auser-cover-front-3x.png 3x"
+          "/images/projects/auser/auser-cover-front-2x.png 2x"
         ]
       },
       {
@@ -28,8 +27,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/auser/auser-page-table.png 1x",
-          "/images/projects/auser/auser-page-table-2x.png 2x",
-          "/images/projects/auser/auser-page-table-3x.png 3x"
+          "/images/projects/auser/auser-page-table-2x.png 2x"
         ]
       },
       {
@@ -38,8 +36,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/auser/auser-spread-1.png 1x",
-          "/images/projects/auser/auser-spread-1-2x.png 2x",
-          "/images/projects/auser/auser-spread-1-3x.png 3x"
+          "/images/projects/auser/auser-spread-1-2x.png 2x"
         ]
       },
       {
@@ -48,8 +45,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/auser/auser-spread-2.png 1x",
-          "/images/projects/auser/auser-spread-2-2x.png 2x",
-          "/images/projects/auser/auser-spread-2-3x.png 3x"
+          "/images/projects/auser/auser-spread-2-2x.png 2x"
         ]
       }
     ]
@@ -73,8 +69,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/tanta-robba/tanta-robba-logo.png 1x",
-          "/images/projects/tanta-robba/tanta-robba-logo-2x.png 2x",
-          "/images/projects/tanta-robba/tanta-robba-logo-3x.png 3x"
+          "/images/projects/tanta-robba/tanta-robba-logo-2x.png 2x"
         ]
       },
       {
@@ -83,8 +78,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/tanta-robba/tanta-robba-pass.png 1x",
-          "/images/projects/tanta-robba/tanta-robba-pass-2x.png 2x",
-          "/images/projects/tanta-robba/tanta-robba-pass-3x.png 3x"
+          "/images/projects/tanta-robba/tanta-robba-pass-2x.png 2x"
         ]
       },
       {
@@ -93,8 +87,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/tanta-robba/tanta-robba-tshirt.png 1x",
-          "/images/projects/tanta-robba/tanta-robba-tshirt-2x.png 2x",
-          "/images/projects/tanta-robba/tanta-robba-tshirt-3x.png 3x"
+          "/images/projects/tanta-robba/tanta-robba-tshirt-2x.png 2x"
         ]
       },
       {
@@ -103,8 +96,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/tanta-robba/tanta-robba-texture.png 1x",
-          "/images/projects/tanta-robba/tanta-robba-texture-2x.png 2x",
-          "/images/projects/tanta-robba/tanta-robba-texture-3x.png 3x"
+          "/images/projects/tanta-robba/tanta-robba-texture-2x.png 2x"
         ]
       },
       {
@@ -113,8 +105,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/tanta-robba/tanta-robba-cap.png 1x",
-          "/images/projects/tanta-robba/tanta-robba-cap-2x.png 2x",
-          "/images/projects/tanta-robba/tanta-robba-cap-3x.png 3x"
+          "/images/projects/tanta-robba/tanta-robba-cap-2x.png 2x"
         ]
       }
     ]
@@ -138,8 +129,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-insegna.png",
-          "/images/projects/sacra-famiglia/sacra-famiglia-insegna-2x.png 2x",
-          "/images/projects/sacra-famiglia/sacra-famiglia-insegna-3x.png 3x"
+          "/images/projects/sacra-famiglia/sacra-famiglia-insegna-2x.png 2x"
         ]
       },
       {
@@ -148,8 +138,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-logo.png",
-          "/images/projects/sacra-famiglia/sacra-famiglia-logo-2x.png 2x",
-          "/images/projects/sacra-famiglia/sacra-famiglia-logo-3x.png 3x"
+          "/images/projects/sacra-famiglia/sacra-famiglia-logo-2x.png 2x"
         ]
       },
       {
@@ -158,8 +147,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-brand.png",
-          "/images/projects/sacra-famiglia/sacra-famiglia-brand-2x.png 2x",
-          "/images/projects/sacra-famiglia/sacra-famiglia-brand-3x.png 3x"
+          "/images/projects/sacra-famiglia/sacra-famiglia-brand-2x.png 2x"
         ]
       },
       {
@@ -168,8 +156,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-brand-2.png",
-          "/images/projects/sacra-famiglia/sacra-famiglia-brand-2-2x.png 2x",
-          "/images/projects/sacra-famiglia/sacra-famiglia-brand-2-3x.png 3x"
+          "/images/projects/sacra-famiglia/sacra-famiglia-brand-2-2x.png 2x"
         ]
       },
       {
@@ -178,8 +165,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-tshirt.png",
-          "/images/projects/sacra-famiglia/sacra-famiglia-tshirt-2x.png 2x",
-          "/images/projects/sacra-famiglia/sacra-famiglia-tshirt-3x.png 3x"
+          "/images/projects/sacra-famiglia/sacra-famiglia-tshirt-2x.png 2x"
         ]
       },
       {
@@ -188,8 +174,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-diario.png",
-          "/images/projects/sacra-famiglia/sacra-famiglia-diario-2x.png 2x",
-          "/images/projects/sacra-famiglia/sacra-famiglia-diario-3x.png 3x"
+          "/images/projects/sacra-famiglia/sacra-famiglia-diario-2x.png 2x"
         ]
       },
       {
@@ -198,8 +183,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-poster.png",
-          "/images/projects/sacra-famiglia/sacra-famiglia-poster-2x.png 2x",
-          "/images/projects/sacra-famiglia/sacra-famiglia-poster-3x.png 3x"
+          "/images/projects/sacra-famiglia/sacra-famiglia-poster-2x.png 2x"
         ]
       },
       {
@@ -208,8 +192,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-mobile.png",
-          "/images/projects/sacra-famiglia/sacra-famiglia-mobile-2x.png 2x",
-          "/images/projects/sacra-famiglia/sacra-famiglia-mobile-3x.png 3x"
+          "/images/projects/sacra-famiglia/sacra-famiglia-mobile-2x.png 2x"
         ]
       }
     ]
@@ -233,8 +216,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/uno/uno-book-pile.png",
-          "/images/projects/uno/uno-book-pile-2x.png 2x",
-          "/images/projects/uno/uno-book-pile-3x.png 3x"
+          "/images/projects/uno/uno-book-pile-2x.png 2x"
         ]
       },
       {
@@ -243,8 +225,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/uno/uno-lca.png",
-          "/images/projects/uno/uno-lca-2x.png 2x",
-          "/images/projects/uno/uno-lca-3x.png 3x"
+          "/images/projects/uno/uno-lca-2x.png 2x"
         ]
       },
       {
@@ -253,8 +234,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/uno/uno-fontana.png",
-          "/images/projects/uno/uno-fontana-2x.png 2x",
-          "/images/projects/uno/uno-fontana-3x.png 3x"
+          "/images/projects/uno/uno-fontana-2x.png 2x"
         ]
       },
       {
@@ -263,8 +243,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/uno/uno-bucchero.png",
-          "/images/projects/uno/uno-bucchero-2x.png 2x",
-          "/images/projects/uno/uno-bucchero-3x.png 3x"
+          "/images/projects/uno/uno-bucchero-2x.png 2x"
         ]
       },
       {
@@ -273,8 +252,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/uno/uno-terracotta.png",
-          "/images/projects/uno/uno-terracotta-2x.png 2x",
-          "/images/projects/uno/uno-terracotta-3x.png 3x"
+          "/images/projects/uno/uno-terracotta-2x.png 2x"
         ]
       }
     ]
@@ -298,8 +276,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-logo.png",
-          "/images/projects/scaravonati/scaravonati-logo-2x.png 2x", 
-          "/images/projects/scaravonati/scaravonati-logo-3x.png 3x"
+          "/images/projects/scaravonati/scaravonati-logo-2x.png 2x"
         ]
       },
       {
@@ -308,8 +285,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-card.png",
-          "/images/projects/scaravonati/scaravonati-card-2x.png 2x",
-          "/images/projects/scaravonati/scaravonati-card-3x.png 3x"
+          "/images/projects/scaravonati/scaravonati-card-2x.png 2x"
         ]
       },
       {
@@ -318,8 +294,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-stationary.png",
-          "/images/projects/scaravonati/scaravonati-stationary-2x.png 2x",
-          "/images/projects/scaravonati/scaravonati-stationary-3x.png 3x"
+          "/images/projects/scaravonati/scaravonati-stationary-2x.png 2x"
         ]
       },
       {
@@ -328,8 +303,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-website.png",
-          "/images/projects/scaravonati/scaravonati-website-2x.png 2x",
-          "/images/projects/scaravonati/scaravonati-website-3x.png 3x"
+          "/images/projects/scaravonati/scaravonati-website-2x.png 2x"
         ]
       },
       {
@@ -338,8 +312,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-mobility.png",
-          "/images/projects/scaravonati/scaravonati-mobility-2x.png 2x",
-          "/images/projects/scaravonati/scaravonati-mobility-3x.png 3x"
+          "/images/projects/scaravonati/scaravonati-mobility-2x.png 2x"
         ]
       },
       {
@@ -348,8 +321,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-mobile.png",
-          "/images/projects/scaravonati/scaravonati-mobile-2x.png 2x",
-          "/images/projects/scaravonati/scaravonati-mobile-3x.png 3x"
+          "/images/projects/scaravonati/scaravonati-mobile-2x.png 2x"
         ]
       }
     ]
@@ -373,8 +345,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/talento/talento-logo.png",
-          "/images/projects/talento/talento-logo-2x.png 2x",
-          "/images/projects/talento/talento-logo-3x.png 3x"
+          "/images/projects/talento/talento-logo-2x.png 2x"
         ]
       },
       {
@@ -383,8 +354,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/talento/talento-shopper.png",
-          "/images/projects/talento/talento-shopper-2x.png 2x",
-          "/images/projects/talento/talento-shopper-3x.png 3x"
+          "/images/projects/talento/talento-shopper-2x.png 2x"
         ]
       },
       {
@@ -393,8 +363,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/talento/talento-stationary.png",
-          "/images/projects/talento/talento-stationary-2x.png 2x",
-          "/images/projects/talento/talento-stationary-3x.png 3x"
+          "/images/projects/talento/talento-stationary-2x.png 2x"
         ]
       },
       {
@@ -403,8 +372,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/talento/talento-website.png",
-          "/images/projects/talento/talento-website-2x.png 2x",
-          "/images/projects/talento/talento-website-3x.png 3x"
+          "/images/projects/talento/talento-website-2x.png 2x"
         ]
       }
     ]
@@ -428,8 +396,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/casa-formaggio/casa-formaggio-grembiule.png",
-          "/images/projects/casa-formaggio/casa-formaggio-grembiule-2x.png 2x",
-          "/images/projects/casa-formaggio/casa-formaggio-grembiule-3x.png 3x"
+          "/images/projects/casa-formaggio/casa-formaggio-grembiule-2x.png 2x"
         ]
       },
       {
@@ -438,8 +405,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/casa-formaggio/casa-formaggio-card.png",
-          "/images/projects/casa-formaggio/casa-formaggio-card-2x.png 2x",
-          "/images/projects/casa-formaggio/casa-formaggio-card-3x.png 3x"
+          "/images/projects/casa-formaggio/casa-formaggio-card-2x.png 2x"
         ]
       },
       {
@@ -448,8 +414,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/casa-formaggio/casa-formaggio-logo.png",
-          "/images/projects/casa-formaggio/casa-formaggio-logo-2x.png 2x",
-          "/images/projects/casa-formaggio/casa-formaggio-logo-3x.png 3x"
+          "/images/projects/casa-formaggio/casa-formaggio-logo-2x.png 2x"
         ]
       },
       {
@@ -458,8 +423,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/casa-formaggio/casa-formaggio-shopper.png",
-          "/images/projects/casa-formaggio/casa-formaggio-shopper-2x.png 2x",
-          "/images/projects/casa-formaggio/casa-formaggio-shopper-3x.png 3x"
+          "/images/projects/casa-formaggio/casa-formaggio-shopper-2x.png 2x"
         ]
       },
       {
@@ -468,8 +432,7 @@
         "fullWidth":false,
         "srcset": [
           "/images/projects/casa-formaggio/casa-formaggio-glass.png",
-          "/images/projects/casa-formaggio/casa-formaggio-glass-2x.png 2x",
-          "/images/projects/casa-formaggio/casa-formaggio-glass-3x.png 3x"
+          "/images/projects/casa-formaggio/casa-formaggio-glass-2x.png 2x"
         ]
       }
     ]
@@ -493,8 +456,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/auser-bilancio/auser-bilancio.png",
-          "/images/projects/auser-bilancio/auser-bilancio-2x.png 2x",
-          "/images/projects/auser-bilancio/auser-bilancio-3x.png 3x"
+          "/images/projects/auser-bilancio/auser-bilancio-2x.png 2x"
         ]
       },
       {
@@ -503,8 +465,7 @@
         "fullWidth":true,
         "srcset": [
           "/images/projects/auser-bilancio/auser-bilancio-page.png",
-          "/images/projects/auser-bilancio/auser-bilancio-page-2x.png 2x",
-          "/images/projects/auser-bilancio/auser-bilancio-page-3x.png 3x"
+          "/images/projects/auser-bilancio/auser-bilancio-page-2x.png 2x"
         ]
       }
     ]
