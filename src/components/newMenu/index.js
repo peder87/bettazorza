@@ -1,4 +1,5 @@
 import React from 'react'
+import { navigate } from 'gatsby'
 import { Hamburger, IconContainer } from './hamburger' 
 import { Logo } from '../logo'
 import { Menu } from './menu'
@@ -18,6 +19,9 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor, navList}) => {
   //   const isFixed = window.scrollY > 50
   //   setNavbarFixed(isFixed)
   // })
+  const goHome = () => {
+    navigate('/')
+  }
 
   return (
     <div id="NAVIGATION_WRAPPER">
@@ -27,7 +31,7 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor, navList}) => {
             <div></div> {/* hamburger */}
           </Hamburger>
           <IconContainer>
-            <Logo inMenu={isOpen} />
+            <Logo inMenu={isOpen} clickCallback={goHome} />
           </IconContainer>
         </HamburgerFlexWrapper>
       </HamburgerFixedWrapper>
