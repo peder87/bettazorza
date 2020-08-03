@@ -37,8 +37,8 @@ export const StuffGrid = styled.div`
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
-    padding-bottom: 1rem;
+    grid-row-gap: 1.8rem;
+    /* padding-bottom: 1.8rem; */
   `}
 `
 

@@ -12,7 +12,6 @@ export const FooterWrapper = styled.div`
   `}
   z-index: 9995;
   width: 100%;
-  height: 60px;
   bottom: 0px;
 `
 
@@ -20,12 +19,10 @@ export const FooterText = styled.span`
   font-size: 1.125rem;
   color: ${props => props.color};
   ${media.sm`
-    padding-top: 2.5em;
-    padding-bottom: 2.5em;
+    padding-top: 1.8em;
   `};
   ${media.xs`
-    padding-top: 2.5em;
-    padding-bottom: 2.5em;
+    padding-top: 1.8em;
   `};
 `
 
@@ -33,12 +30,10 @@ export const FooterLink = styled.a`
   font-size: 1.125rem;
   color: ${props => props.color};
   ${media.sm`
-    padding-top: 2.5em;
-    padding-bottom: 2.5em;
+    padding-bottom: 1.8em;
   `};
   ${media.xs`
-    padding-top: 2.5em;
-    padding-bottom: 2.5em;
+    padding-bottom: 1.8em;
   `};
   &:hover {
     color: ${props => props.color};
