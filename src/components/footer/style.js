@@ -10,9 +10,14 @@ export const FooterWrapper = styled.div`
     flex-direction: column;
     display: ${props => (props.menu ? "none" : "flex")};
   `}
+  ${media.xs`
+    flex-direction: column;
+    display: ${props => (props.menu ? "none" : "flex")};
+  `}
   z-index: 9995;
   width: 100%;
   bottom: 0px;
+  padding-bottom: ${props => props.menu ? '2em': 0};
 `
 
 export const FooterText = styled.span`
