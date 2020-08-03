@@ -8,7 +8,7 @@ export const IconContainer = styled.div`
   padding-top: 10px;
 
   & svg:hover {
-    cursor: pointer;
+    cursor: ${props => props.disableHover ? 'default' : 'pointer'};
   }
 `
 

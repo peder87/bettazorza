@@ -30,7 +30,7 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor, navList}) => {
           <Hamburger isOpen={isOpen} onClick={toggleMenu} hambugerColor={color}>
             <div></div> {/* hamburger */}
           </Hamburger>
-          <IconContainer>
+          <IconContainer disableHover={isOpen}>
             <Logo inMenu={isOpen} clickCallback={goHome} />
           </IconContainer>
         </HamburgerFlexWrapper>
