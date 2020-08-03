@@ -20,8 +20,12 @@ export const FooterText = styled.span`
   font-size: 1.125rem;
   color: ${props => props.color};
   ${media.sm`
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+  `};
+  ${media.xs`
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
   `};
 `
 
@@ -29,8 +33,12 @@ export const FooterLink = styled.a`
   font-size: 1.125rem;
   color: ${props => props.color};
   ${media.sm`
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+  `};
+  ${media.xs`
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
   `};
   &:hover {
     color: ${props => props.color};

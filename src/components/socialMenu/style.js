@@ -1,11 +1,17 @@
 import styled from "styled-components"
-// import { colors } from "../../style/constants"
+import { media } from "../../style/constants"
 
 export const MenuWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   width: 60%;
+  ${media.sm`
+    width: 90%;
+  `}
+  ${media.xs`
+    width: 90%;
+  `}
   margin: 0 auto;
 `
 
