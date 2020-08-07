@@ -8,17 +8,12 @@ import { HamburgerFixedWrapper, HamburgerFlexWrapper, ResetContainer, MenuContai
 import { Footer } from '../footer'
 
 export const NavMenu = ({isOpen, toggleMenu, color, bgcolor, navList}) => {
-  const portrait = window.innerHeight > window.innerWidth
-  // const [navbarFixed, setNavbarFixed] = useState(false)
+  // const portrait = window.innerHeight > window.innerWidth
   if(isOpen) {
     document.addEventListener('keydown', e => {
       e.keyCode === 27 && toggleMenu()
     })
   }
-  // document.addEventListener('scroll', e => {
-  //   const isFixed = window.scrollY > 50
-  //   setNavbarFixed(isFixed)
-  // })
   const goHome = () => {
     navigate('/')
   }
@@ -35,7 +30,8 @@ export const NavMenu = ({isOpen, toggleMenu, color, bgcolor, navList}) => {
           </IconContainer>
         </HamburgerFlexWrapper>
       </HamburgerFixedWrapper>
-      <Menu isOpen={isOpen} id="BACKGROUND_MENU" isPortrait={portrait}>
+      {/* <Menu isOpen={isOpen} id="BACKGROUND_MENU" isPortrait={portrait}> */}
+      <Menu isOpen={isOpen} id="BACKGROUND_MENU">
         <div /> {/* box giallo */}
       </Menu>
       <ResetContainer isOpen={isOpen} id="MENU_CONTENT-RESET"> {/* funziona da resettone che sostituscie il body */}
