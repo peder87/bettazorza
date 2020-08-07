@@ -12,9 +12,7 @@ export default (props) => {
     <Layout pageConf={style}>
       <StaticQuery 
         query={query}
-        render={({allProjectsJson}) => {
-          return (<Home data={allProjectsJson}/> )
-        }}
+        render={data => <Home pages={data}/>}
       />
     </Layout>
   )
@@ -22,14 +20,16 @@ export default (props) => {
 
 const query = graphql`
   query {
-    allProjectsJson {
-    nodes {
+    projects:allProjectsJson {
+    edges {
+     project:node {
       id
       thumbnail
       thumbset
       url
       title
       order
+      }
     }
   }
   }
