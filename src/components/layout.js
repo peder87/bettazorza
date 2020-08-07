@@ -12,7 +12,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import { media, colors } from "../style/constants"
 import styled, { css } from "styled-components"
 import { Footer } from "../components/footer"
-import { GlobalContainer, PageContainer, FooterContainer } from "./pageComponents/style"
+import { GlobalContainer, PageContainer, FooterContainer, PageContainerFlex } from "./pageComponents/style"
 import propTypes from 'prop-types'
 // import { PageHeader } from "./pageHeader"
 import { NavMenu } from '../components/newMenu'
@@ -49,10 +49,15 @@ const Layout = ({ children, ...props }) => {
           query={navigationQuery}
           render={data => <NavMenu isOpen={status} toggleMenu={toggleMenu} {...styleProps} navList={data.allNavigationJson.nodes}/>}
         />
-        <PageContainer color={styleProps.color}>
+        { !props.flex ? <PageContainer color={styleProps.color}>
           {children}
           <Footer />
-        </PageContainer>
+        </PageContainer> : <PageContainerFlex ID="FLEXY" color={styleProps.color}>
+            {children}
+            <Footer />
+        </PageContainerFlex>
+        
+      }
       </GlobalContainer>
     </>
   )

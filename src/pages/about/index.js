@@ -1,10 +1,16 @@
 import React from "react"
 import { PageCopy } from "../../components/typography"
+import { colors } from '../../style/constants'
 import Layout from "../../components/layout"
 import AboutGrid from "./style"
 
 export default () => {
+  const style = {
+    color: 'white',
+    bgcolor: 'cyan'
+  }
   return (
+    <Layout flex pageConf={style}>
     <AboutGrid>
       <div></div>
       <div>
@@ -27,5 +33,6 @@ export default () => {
         </PageCopy>
       </div>
     </AboutGrid>
+    </Layout>
   )
 }

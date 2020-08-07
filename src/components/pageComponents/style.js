@@ -58,6 +58,18 @@ export const PageContainer = styled(PageCenterContent)`
   `}
 `
 
+export const PageContainerFlex = styled(PageContainer)`
+  display: flex;
+  min-height: 99vh;
+  flex-direction: column;
+  & > div:first-child {
+    flex-grow: 4;
+  }
+  & > div:last-child {
+    flex-grow: 1;
+  }
+`
+
 export const FooterContainer = styled(PageCenterContent)`
   position: relative;
 `
