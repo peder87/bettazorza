@@ -13,10 +13,24 @@ import { media, colors } from "../style/constants"
 import styled, { css } from "styled-components"
 import { Footer } from "../components/footer"
 import { GlobalContainer, PageContainer, FooterContainer } from "./pageComponents/style"
+import propTypes from 'prop-types'
 // import { PageHeader } from "./pageHeader"
 import { NavMenu } from '../components/newMenu'
 // import Header from "./header"
 
+const pt = {
+  pageConf: PropTypes.shape({
+    bgcolor: PropTypes.string,
+    color: PropTypes.string
+  })
+}
+
+const dp = {
+  pageConf: {
+    bgcolor: colors.purple,
+    color: colors.yellow
+  }
+}
 
 const Layout = ({ children, ...props }) => {
   const [status, setStatus] = useState(false)
@@ -58,6 +72,9 @@ const navigationQuery = graphql`
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  ...pt
 }
+
+Layout.defaultProps = dp
 
 export default Layout
