@@ -49,15 +49,10 @@ const Layout = ({ children, ...props }) => {
           query={navigationQuery}
           render={data => <NavMenu isOpen={status} toggleMenu={toggleMenu} {...styleProps} navList={data.allNavigationJson.nodes}/>}
         />
-        { !props.flex ? <PageContainer color={styleProps.color}>
-          {children}
-          <Footer />
-        </PageContainer> : <PageContainerFlex ID="FLEXY" color={styleProps.color}>
+        <PageContainerFlex ID="FLEXY" color={styleProps.color}>
             {children}
             <Footer />
         </PageContainerFlex>
-        
-      }
       </GlobalContainer>
     </>
   )

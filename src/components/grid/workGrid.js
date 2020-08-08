@@ -4,7 +4,6 @@ import { PageTitle, CopyWrapper, PageCopy } from '../typography'
 import { Image } from '../image'
 
 export const WorkGrid = ({ data }) => {
-  console.log('workdata',data)
   return (
     <div>
       <PageTitle>{data.title}</PageTitle>
@@ -18,7 +17,7 @@ export const WorkGrid = ({ data }) => {
           })
         }
       </CopyWrapper>
-      <StuffGrid>
+      <StuffGrid isProject>
         {
           data.imgs.map(img => <Item key={img.alt} full={img.fullWidth}>
             <Image {...img} />

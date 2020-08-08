@@ -16,7 +16,7 @@ const ProjectList = (props) => {
     navigate(path)
   }
   return (
-  <StuffGrid>
+  <StuffGrid isProject={props.projects.length < 10}>
     {
       props.projects
         .sort((x,y) => x.project.order - y.project.order)
