@@ -39,7 +39,7 @@ const Layout = ({ children, ...props }) => {
     color: colors[props.pageConf.color]
   }
   const toggleMenu = () => {
-    setStatus(!status)
+    setStatus(currentStatus =>!currentStatus)
   }
   return (
     <>
