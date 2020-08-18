@@ -1,16 +1,16 @@
 [
   {
     "id": "auser",
-    "title": "Auser",
+    "title": "Editorial design - Auser Unipop Cremona",
     "url":"/project/auser",
-    "caption": "auser caption",
+    "caption": "Auser Unipop Cremona è una associazione di promozione sociale nata a Cremona che organizza corsi, laboratori eventi e conferenze su tutto il terriotrio cremonese. Ogni anno insieme realizziamo il libretto annuale contenente tutti i corsi e le iniziative realizzate dall’associazione.",
     "order": 8,
     "thumbnail":"/images/projects/thumbnails/auser-thumbnail.png",
     "thumbset": [
       "/images/projects/thumbnails/auser-thumbnail.png 1x",
       "/images/projects/thumbnails/auser-thumbnail-2x.png 2x"
     ],
-    "tags": ["uno","due","tre"],
+    "tags": ["editorial design","catalogo","progetto grafico", "graphic design", "impaginazione"],
     "imgs": [
       {
         "src":"/images/projects/auser/auser-cover-front.png",
@@ -52,16 +52,16 @@
   },
   {
     "id": "tantaRobba",
-    "title": "tanta Robba",
+    "title": "Brand Design - Tanta Robba",
     "url":"/project/tantaRobba",
-    "caption": "tanta robba caption",
+    "caption": "Partecipazione al contest per la creazione di un nuovo logo per l’anno 2018/19",
     "order": 4,
     "thumbnail": "/images/projects/thumbnails/tanta-robba-thumbnail.png",
     "thumbset": [
       "/images/projects/thumbnails/tanta-robba-thumbnail.png 1x",
       "/images/projects/thumbnails/tanta-robba-thumbnail-2x.png 2x"
     ],
-    "tags": [],
+    "tags": ["brand design", "brand manual","corporate identity", "gadget", "studio del marchio"],
     "imgs": [
       {
         "src":"/images/projects/tanta-robba/tanta-robba-logo.png",
@@ -199,16 +199,16 @@
   },
   {
     "id": "uno",
-    "title": "Uno più uno",
+    "title": "Editorial Design - Uno più uno",
     "url":"/project/uno",
-    "caption": "uno più uno caption",
+    "caption": "Uno più Uno è la seconda mostra bipersonale dei due artisti Rita Duchi e Francesco Visentini. Per l’occasione sono stati realizzati catalogo, locandine e inviti per l'inaugurazione della mostra.",
     "order": 3,
     "thumbnail": "/images/projects/thumbnails/uno-thumbnail.png",
     "thumbset": [
       "/images/projects/thumbnails/uno-thumbnail.png 1x",
       "/images/projects/thumbnails/uno-thumbnail-2x.png 2x"
     ],
-    "tags": [],
+    "tags": ["editorial design", "brand design", "catalogo", "flyer", "poster", "locandine"],
     "imgs": [
       {
         "src":"/images/projects/uno/uno-book-pile.png",
@@ -259,16 +259,16 @@
   },
   {
     "id": "scaravonati",
-    "title": "Mobilificio Scaravonati",
+    "title": "Brand Design - Mobilificio Scaravonati",
     "url":"/project/scaravonati",
-    "caption": "Scaravonati caption",
+    "caption": "Il marchio realizzato per Scaravonati è un monogramma moderno ma estremamente elegante che rispecchia in pieno la professionalità e la qualità dei prodotti e dei servizi offerti dall’azienda. ",
     "order": 5,
     "thumbnail": "/images/projects/thumbnails/scaravonati-thumbnail.png",
     "thumbset": [
       "/images/projects/thumbnails/scaravonati-thumbnail.png 1x",
       "/images/projects/thumbnails/scaravonati-thumbnail-2x.png 2x"
     ],
-    "tags": [],
+    "tags": ["brand manual", "brand design", "studio del marchio", "corporate identity", "gadget"],
     "imgs": [
       {
         "src":"/images/projects/scaravonati/scaravonati-logo.png",
@@ -328,16 +328,16 @@
   },
   {
     "id": "talentoAgile",
-    "title": "Talento Agile",
+    "title": "Brand Design - Talento Agile",
     "url":"/project/talentoAgile",
-    "caption": "talento agile caption",
+    "caption": "Agile perchè semplice da comprendere, questo marchio rispecchia in pieno le metodologie alla base della filosofia “agile”.",
     "order": 7,
     "thumbnail": "/images/projects/thumbnails/talento-thumb.png",
     "thumbset": [
       "/images/projects/thumbnails/talento-thumb.png 1x",
       "/images/projects/thumbnails/talento-thumb-2x.png 2x"
     ],
-    "tags": [],
+    "tags": ["brand design", "studio del marchio", "brand manual", "corporate identity", "gadget", "packaging"],
     "imgs": [
       {
         "src":"/images/projects/talento/talento-logo.png",
@@ -379,16 +379,16 @@
   },
   {
     "id": "casaFormaggio",
-    "title": "Casa del formaggio - Stradivari",
+    "title": "Brand Design - Casa del formaggio Stradivari",
     "url":"/project/casaFormaggio",
-    "caption": "Stradivari caption",
+    "caption": "La Casa del Formaggio Stradivari è un negozio storico di Cremona. Il ridesign del marchio si ispira alle vecchie insegne dei negozi del centro.",
     "thumbnail": "/images/projects/thumbnails/casa-formaggio-thumbnail.png",
     "order": 2,
     "thumbset": [
       "/images/projects/thumbnails/casa-formaggio-thumbnail.png 1x",
       "/images/projects/thumbnails/casa-formaggio-thumbnail-2x.png 2x"
     ],
-    "tags": [],
+    "tags": ["brand design","studio del marchio","brand manual", "corporate identity", "corporate stationery", "packaging"],
     "imgs": [
       {
         "src":"/images/projects/casa-formaggio/casa-formaggio-grembiule.png",
@@ -439,16 +439,16 @@
   },
   {
     "id": "auserBilancio",
-    "title": "Auser Bilancio ",
+    "title": "Editorial Design - Auser bilancio sociale ",
     "url":"/project/auserBilancio",
-    "caption": "Auser bilancio caption",
+    "caption": "Auser è una associazione di volontariato e di promozione sociale, impegnata nel favorire l’invecchiamento attivo degli anziani e valorizzare il loro ruolo nella società. Per la sede di Cremona è stato realizzato il Bilancio sociale 2018 e 2019, strumento fondamentale per la promozione sul terriotrio delle numerose attività portate avanti dall’associazione.",
     "order": 6,
     "thumbnail": "/images/projects/thumbnails/auser-bilancio-thumbnail.png",
     "thumbset": [
       "/images/projects/thumbnails/auser-bilancio-thumbnail.png 1x",
       "/images/projects/thumbnails/auser-bilancio-thumbnail-2x.png 2x"
     ],
-    "tags": [],
+    "tags": ["editorial design", "catalogo", "impaginazione","graphic design", "progetto grafico"],
     "imgs": [
       {
         "src":"/images/projects/auser-bilancio/auser-bilancio.png",
