@@ -94,5 +94,21 @@
     "inMenu": false,
     "bgcolor": "white",
     "color":"darkGray"
+  },
+  {
+    "path": "/project/illustration",
+    "slug": "/project/illustration",
+    "label": "illustration",
+    "inMenu": false,
+    "bgcolor": "white",
+    "color":"darkGray"
+  },
+  {
+    "path": "/project/filosofia",
+    "slug": "/project/filosofia",
+    "label": "Filosofia",
+    "inMenu": false,
+    "bgcolor": "white",
+    "color":"darkGray"
   }
 ]

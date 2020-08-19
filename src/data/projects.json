@@ -469,5 +469,143 @@
         ]
       }
     ]
+  },
+  {
+    "id": "illustration",
+    "title": "Editorial Design - Auser bilancio sociale ",
+    "url":"/project/illustration",
+    "caption": "Auser è una associazione di volontariato e di promozione sociale, impegnata nel favorire l’invecchiamento attivo degli anziani e valorizzare il loro ruolo nella società. Per la sede di Cremona è stato realizzato il Bilancio sociale 2018 e 2019, strumento fondamentale per la promozione sul terriotrio delle numerose attività portate avanti dall’associazione.",
+    "order": 7,
+    "thumbnail": "/images/projects/thumbnails/illustration-thumbnail.png",
+    "thumbset": [
+      "/images/projects/thumbnails/illustration-thumbnail.png 1x",
+      "/images/projects/thumbnails/illustration-thumbnail-2x.png 2x"
+    ],
+    "tags": ["editorial design", "catalogo", "impaginazione","graphic design", "progetto grafico"],
+    "imgs": [
+      {
+        "src":"/images/projects/illustration/caterina.png",
+        "alt":"caterina",
+        "fullWidth":true,
+        "srcset": [
+          "/images/projects/illustration/caterina.png",
+          "/images/projects/illustration/caterina-2x.png 2x"
+        ]
+      },
+      {
+        "src":"/images/projects/illustration/tshirt_caterina.png",
+        "alt":"tshirt-caterina",
+        "fullWidth":true,
+        "srcset": [
+          "/images/projects/illustration/tshirt_caterina.png",
+          "/images/projects/illustration/tshirt_caterina-2x.png 2x"
+        ]
+      },
+      {
+        "src":"/images/projects/illustration/alice.png",
+        "alt":"alice",
+        "fullWidth":true,
+        "srcset": [
+          "/images/projects/illustration/alice.png",
+          "/images/projects/illustration/alice-2x.png 2x"
+        ]
+      },
+      {
+        "src":"/images/projects/illustration/alice_quadretto.png",
+        "alt":"alice-quadrewtto",
+        "fullWidth":true,
+        "srcset": [
+          "/images/projects/illustration/alice_quadretto.png",
+          "/images/projects/illustration/alice_quadretto-2x.png 2x"
+        ]
+      },
+      {
+        "src":"/images/projects/illustration/unicorno.png",
+        "alt":"unicorno",
+        "fullWidth":true,
+        "srcset": [
+          "/images/projects/illustration/unicorno.png",
+          "/images/projects/illustration/unicorno-2x.png 2x"
+        ]
+      },
+      {
+        "src":"/images/projects/illustration/betty.png",
+        "alt":"betty",
+        "fullWidth":true,
+        "srcset": [
+          "/images/projects/illustration/betty.png",
+          "/images/projects/illustration/betty-2x.png 2x"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "filosofia",
+    "title": "Editorial Design - Auser bilancio sociale ",
+    "url":"/project/filosofia",
+    "caption": "Auser è una associazione di volontariato e di promozione sociale, impegnata nel favorire l’invecchiamento attivo degli anziani e valorizzare il loro ruolo nella società. Per la sede di Cremona è stato realizzato il Bilancio sociale 2018 e 2019, strumento fondamentale per la promozione sul terriotrio delle numerose attività portate avanti dall’associazione.",
+    "order": 8,
+    "thumbnail": "/images/projects/thumbnails/filosofia-thumbnail.png",
+    "thumbset": [
+      "/images/projects/thumbnails/filosofia-thumbnail.png 1x",
+      "/images/projects/thumbnails/filosofia-thumbnail-2x.png 2x"
+    ],
+    "tags": ["editorial design", "catalogo", "impaginazione","graphic design", "progetto grafico"],
+    "imgs": [
+      {
+        "src":"/images/projects/filosofia/filosofia_bambini_copertina.png",
+        "alt":"filosofia_copertina",
+        "fullWidth":true,
+        "srcset": [
+          "/images/projects/filosofia/filosofia_bambini_copertina.png",
+          "/images/projects/filosofia/filosofia_bambini_copertina-2x.png 2x"
+        ]
+      },
+      {
+        "src":"/images/projects/filosofia/filosofia_bambini.png",
+        "alt":"filosofia",
+        "fullWidth":true,
+        "srcset": [
+          "/images/projects/filosofia/filosofia_bambini.png",
+          "/images/projects/filosofia/filosofia_bambini-2x.png 2x"
+        ]
+      },
+      {
+        "src":"/images/projects/filosofia/filosofia_bambini1.png",
+        "alt":"filosofia1",
+        "fullWidth":true,
+        "srcset": [
+          "/images/projects/filosofia/filosofia_bambini1.png",
+          "/images/projects/filosofia/filosofia_bambini1-2x.png 2x"
+        ]
+      },
+      {
+        "src":"/images/projects/filosofia/filosofia_bambini2.png",
+        "alt":"filosofia2",
+        "fullWidth":true,
+        "srcset": [
+          "/images/projects/filosofia/filosofia_bambini2.png",
+          "/images/projects/filosofia/filosofia_bambini2-2x.png 2x"
+        ]
+      },
+      {
+        "src":"/images/projects/filosofia/filosofia_bambini3.png",
+        "alt":"filosofia3",
+        "fullWidth":true,
+        "srcset": [
+          "/images/projects/filosofia/filosofia_bambini3.png",
+          "/images/projects/filosofia/filosofia_bambini3-2x.png 2x"
+        ]
+      },
+      {
+        "src":"/images/projects/filosofia/filosofia_bambini4.png",
+        "alt":"filosofia4",
+        "fullWidth":true,
+        "srcset": [
+          "/images/projects/filosofia/filosofia_bambini4.png",
+          "/images/projects/filosofia/filosofia_bambini4-2x.png 2x"
+        ]
+      }
+    ]
   }
 ]
