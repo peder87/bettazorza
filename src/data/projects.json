@@ -571,15 +571,6 @@
         ]
       },
       {
-        "src":"/images/projects/filosofia/filosofia_bambini1.png",
-        "alt":"filosofia1",
-        "fullWidth":true,
-        "srcset": [
-          "/images/projects/filosofia/filosofia_bambini1.png",
-          "/images/projects/filosofia/filosofia_bambini1-2x.png 2x"
-        ]
-      },
-      {
         "src":"/images/projects/filosofia/filosofia_bambini2.png",
         "alt":"filosofia2",
         "fullWidth":true,
