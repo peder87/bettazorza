@@ -5,10 +5,20 @@ import { navigate } from 'gatsby'
 import idx from 'idx'
 
 export default (props) => {
+  console.log('dd',props)
   const projects = idx(props.pages, _ => _.projects.edges)  
-  if(!projects)
+  const order = idx(props.pages, _ => _.order.edges)
+  
+  if(!projects || !order)
     return null
-  return <ProjectList projects={projects} />
+  const flatOrder = order.map(e => e.node.workId)
+  const src = projects.map(_ => _.project).reduce((acc,elem) => {
+    return {
+      ...acc,
+      [elem['id']]: elem
+    }
+  }, {})
+  return <ProjectList projects={projects} list={flatOrder} src={src} />
 }
 
 const ProjectList = (props) => {
@@ -16,20 +26,21 @@ const ProjectList = (props) => {
     navigate(path)
   }
   return (
-  <StuffGrid isProject={props.projects.length < 10}>
-    {
-      props.projects
-        .sort((x,y) => x.project.order - y.project.order)
-        .map(({project}) => 
-          <Thumbnail 
-            key={project.id}
-            title={project.title}
-            img={project.thumbnail}
-            path={project.url}
-            srcset={project.thumbset}
-            callback={moveTo}
-          />
-        )
+    <StuffGrid isProject={props.projects.length < 10}>
+      {
+        props.list.map(p => {
+          const project = props.src[p]
+          return (
+            <Thumbnail 
+              key={project.id}
+              title={project.title}
+              img={project.thumbnail}
+              path={project.url}
+              srcset={project.thumbset}
+              callback={moveTo}
+            />
+          )
+        })
       }
     </StuffGrid>
   )

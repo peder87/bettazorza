@@ -12,25 +12,35 @@ export default (props) => {
     <Layout pageConf={style}>
       <StaticQuery 
         query={query}
-        render={data => <Home pages={data}/>}
+        render={(data) => {
+        console.log(data)
+        return <Home pages={data} />
+      }}
       />
     </Layout>
   )
 }
 
 const query = graphql`
-  query {
-    projects:allProjectsJson {
-    edges {
-     project:node {
-      id
-      thumbnail
-      thumbset
-      url
-      title
-      order
+  query MyQuery {
+    projects: allProjectsJson {
+      edges {
+      project: node {
+        id
+        thumbnail
+        thumbset
+        url
+        title
+        order
       }
     }
   }
+  order: allProjectsOrderJson {
+    edges {
+      node {
+        workId
+      }
+    }
   }
+}
 `
