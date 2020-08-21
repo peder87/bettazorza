@@ -47,6 +47,24 @@
           "/images/projects/auser/auser-spread-2.png 1x",
           "/images/projects/auser/auser-spread-2-2x.png 2x"
         ]
+      },
+      {
+       "src":"/images/projects/auser/auser_copertina_20.png",
+        "alt":"copertina2020",
+        "fullWidth":true,
+        "srcset": [
+          "/images/projects/auser/auser_copertina_20.png 1x",
+          "/images/projects/auser/auser_copertina_20-2x.png 2x"
+        ]
+      },
+      {
+        "src":"/images/projects/auser/interno_auser_2020.png",
+        "alt":"spread-2",
+        "fullWidth":true,
+        "srcset": [
+          "/images/projects/auser/interno_auser_2020.png 1x",
+          "/images/projects/auser/interno_auser_2020-2x.png 2x"
+        ]
       }
     ]
   },
