@@ -9,11 +9,10 @@ import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { GlobalStyle } from "../style/global"
 import { StaticQuery, graphql } from 'gatsby'
-import { media, colors } from "../style/constants"
-import styled, { css } from "styled-components"
+import { colors } from "../style/constants"
 import { Footer } from "../components/footer"
-import { GlobalContainer, PageContainer, FooterContainer, PageContainerFlex } from "./pageComponents/style"
-import propTypes from 'prop-types'
+import { GlobalContainer, PageContainerFlex } from "./pageComponents/style"
+// import propTypes from 'prop-types'
 // import { PageHeader } from "./pageHeader"
 import { NavMenu } from '../components/newMenu'
 // import Header from "./header"
