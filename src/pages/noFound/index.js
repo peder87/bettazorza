@@ -2,14 +2,15 @@ import React from 'react'
 import { navigate } from 'gatsby'
 import { Container, CenteredChild, Payoff, Status, DontPanic } from './style'
 import Button from '../../components/button'
-export default () => {
+
+export default (props) => {
   const goHome = () => {
     navigate('/')
   }
   return (
     <Container>
-      <div>img</div>
       <CenteredChild> 
+        <img src={props.img} alt="noFound" />
         <Status> 404 not found</Status>
         <DontPanic>Don't Panic!</DontPanic>
         <Payoff>hai dimenticato l'asciugamano</Payoff>

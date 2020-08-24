@@ -26,8 +26,10 @@ export const Button = styled.button`
   ${media.xs`
     font-size: 2rem;
   `}
+  transition: background-color .15s ease;
   &:hover {
     cursor: pointer;
+    background-color: ${colors.yellow};
     /* border: 1px solid ${colors.white}; */
   }
 `

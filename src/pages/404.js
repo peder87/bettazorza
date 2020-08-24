@@ -1,16 +1,8 @@
 import React from "react"
-import { colors } from '../style/constants'
+import { graphql, StaticQuery } from 'gatsby'
 import NoFound from './noFound'
 import Layout from "../components/layout"
-// import SEO from "../components/seo"
-import styled from 'styled-components'
 
-
-const Ddd = styled.div`
-  width: 300px;
-  height: 200px;
-  background-color:red;
-`
 
 const NotFoundPage = () => {
   const conf = {
@@ -19,10 +11,25 @@ const NotFoundPage = () => {
   }
   return (
   <Layout pageConf={conf}>
-    <NoFound />
+    <StaticQuery 
+      query={query}
+      render={data => {
+        console.log('data',data)
+        return <NoFound img={data.imagesJson.img} />
+      }} 
+    />
     {/* <SEO title="404: Not found" /> */}
   </Layout>
   )
 }
 
 export default NotFoundPage
+
+const query = graphql`
+query PageNotFound {
+  imagesJson(page: {eq: "404"}) {
+    page
+    img
+  }
+}
+`

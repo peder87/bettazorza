@@ -2,12 +2,16 @@ import styled from 'styled-components'
 import { media, fonts } from '../../style/constants'
 
 export const Container = styled.div`
-  border: 3px solid hotpink;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 50%;
   margin: 0 auto;
+
+  & img {
+    padding-bottom: 2rem;
+  }
+
   ${media.lg`
     border-color: red;
   `}
