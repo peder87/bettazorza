@@ -5,7 +5,6 @@ import { navigate } from 'gatsby'
 import idx from 'idx'
 
 export default (props) => {
-  console.log('dd',props)
   const projects = idx(props.pages, _ => _.projects.edges)  
   const order = idx(props.pages, _ => _.order.edges)
   
