@@ -1,3 +1,4 @@
+import React from 'react'
 import styled from 'styled-components'
 import { media, fonts } from '../../style/constants'
 
@@ -85,3 +86,4 @@ export const Status = styled.p`
     font-size: 1.2rem;
   `}
 `
+export default () => styled.div``
