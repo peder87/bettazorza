@@ -41,8 +41,8 @@ export const FooterLink = styled.a`
     padding-bottom: 1.8em;
   `};
   &:hover {
-    color: ${props => props.color};
     cursor: pointer;
+    color: ${props => props.color};
     text-decoration: underline;
   }
   &:focus {

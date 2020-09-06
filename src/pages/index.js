@@ -13,7 +13,6 @@ export default (props) => {
       <StaticQuery 
         query={query}
         render={(data) => {
-        console.log(data)
         return <Home pages={data} />
       }}
       />

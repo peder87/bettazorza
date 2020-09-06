@@ -1,6 +1,6 @@
 import React from 'react'
 import { StuffGrid, Item } from './index'
-import { PageTitle, CopyWrapper, PageCopy } from '../typography'
+import { PageTitle, CopyWrapper, PageCopy} from '../typography'
 import { Image } from '../image'
 
 export const WorkGrid = ({ data }) => {
@@ -9,11 +9,13 @@ export const WorkGrid = ({ data }) => {
       <PageTitle>{data.title}</PageTitle>
       <CopyWrapper>
         <PageCopy>{data.caption}</PageCopy>
+      </CopyWrapper>
+      <CopyWrapper last>
         { 
           data.tags.length > 0 && 
           data.tags.map((tag, i) => {
             const isLast = i === data.tags.length - 1
-            return !isLast ? <span key={tag}>{tag} - </span> : <span key={tag}>{tag}</span>
+            return !isLast ? <span className="tag" key={tag}>{tag} - </span> : <span className="tag" key={tag}>{tag}</span>
           })
         }
       </CopyWrapper>

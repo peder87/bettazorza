@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { PageCenterContent, PageContainer, GlobalContainer } from '../pageComponents/style'
+import { PageContainer, GlobalContainer } from '../pageComponents/style'
 import { media } from '../../style/constants'
 
 export const NavigationWrapper = styled.div`

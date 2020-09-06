@@ -14,7 +14,6 @@ const NotFoundPage = () => {
     <StaticQuery 
       query={query}
       render={data => {
-        console.log('data',data)
         return <NoFound img={data.imagesJson.img} />
       }} 
     />

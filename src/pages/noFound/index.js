@@ -13,7 +13,7 @@ export default (props) => {
         <img src={props.img} alt="noFound" />
         <Status> 404 not found</Status>
         <DontPanic>Don't Panic!</DontPanic>
-        <Payoff>hai dimenticato l'asciugamano</Payoff>
+        <Payoff>hai solo dimenticato l'asciugamano...</Payoff>
       </CenteredChild>
       <Button click={goHome} text="torna alla home" />
     </Container>

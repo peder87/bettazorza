@@ -5,7 +5,6 @@ exports.onCreateNode = async ({ node, getNode, actions, graphql}) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
     const slug = createFilePath({ node, getNode, basePath: `pages` })
-    console.log('SLUGGG', slug)
     createNodeField({
       node,
       name: `slug`,
@@ -36,7 +35,6 @@ exports.createPages = async ({ graphql, actions }) => {
     const { slug } = node.fields
     const { workId } = node.frontmatter
     const pagePath = slug.length > 1 ? slug.substring(0,slug.length -1) : slug
-    console.log(workId)
     const pageData = await graphql(
       query,
       {

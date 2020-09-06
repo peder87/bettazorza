@@ -15,7 +15,7 @@ export const Footer = ({ menu, color, ...props }) => {
     <FooterWrapper {...componentProps}>
       <FooterLink {...footerColors} href={mailto}>hello@bettazorza.it</FooterLink>
       <SocialMenu {...footerColors} />
-      <FooterText {...footerColors}>©2019 BettaZorza</FooterText>
+      <FooterText {...footerColors}>&copy;{new Date().getFullYear()} BettaZorza</FooterText>
     </FooterWrapper>
   )
 }

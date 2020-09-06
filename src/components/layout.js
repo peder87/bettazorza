@@ -12,10 +12,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import { colors } from "../style/constants"
 import { Footer } from "../components/footer"
 import { GlobalContainer, PageContainerFlex } from "./pageComponents/style"
-// import propTypes from 'prop-types'
-// import { PageHeader } from "./pageHeader"
 import { NavMenu } from '../components/newMenu'
-// import Header from "./header"
 
 const pt = {
   pageConf: PropTypes.shape({
@@ -50,7 +47,7 @@ const Layout = ({ children, ...props }) => {
         />
         <PageContainerFlex ID="FLEXY" color={styleProps.color}>
             {children}
-            <Footer />
+            <Footer color={styleProps.color} />
         </PageContainerFlex>
       </GlobalContainer>
     </>

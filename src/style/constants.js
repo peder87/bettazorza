@@ -37,6 +37,7 @@ export const mq = {
   md: "54em",
   lg: "78em",
   xl: "125em",
+  xxl: "220em"
 }
 
 export const media = {
@@ -62,6 +63,11 @@ export const media = {
   `,
   xl: (...a) => css`
     @media (max-width: ${mq.xl}) {
+      ${css(...a)}
+    }
+  `,
+  xxl: (...a) => css`
+    @media (max-width: ${mq.xxl}) {
       ${css(...a)}
     }
   `,

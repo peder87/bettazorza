@@ -1,6 +1,5 @@
 import React from "react"
 import { PageCopy } from "../../components/typography"
-import { colors } from '../../style/constants'
 import Layout from "../../components/layout"
 import AboutGrid from "./style"
 
@@ -15,7 +14,7 @@ export default () => {
       <div></div>
       <div>
         <PageCopy>
-          <span className="bold">Ciao!&nbsp;</span> Sono Elisabetta Zorza e
+          <span className="bold" role="img" aria-label="hello!">Ciao! 👋</span> Sono Elisabetta Zorza e
           sono una
           <span className="bold">&nbsp;graphic designer.&nbsp;</span> Dal
           2010 lavoro nel campo della comunicazione, ma la grafica e il
