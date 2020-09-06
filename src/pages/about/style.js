@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { media } from "../../style/constants"
-import Picture from "./about.png"
+// import Picture from "/static/about/about.png"
 
 const AboutGrid = styled.div`
   display: grid;
@@ -23,7 +23,7 @@ const AboutGrid = styled.div`
       min-height: 55vh;
       height: auto;
 
-      background-image: url(${Picture});
+      background-image: url(${props => props.img});
       background-position: right top;
       background-repeat: no-repeat;
       background-size: contain;

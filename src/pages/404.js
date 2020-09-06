@@ -26,10 +26,10 @@ const NotFoundPage = () => {
 export default NotFoundPage
 
 const query = graphql`
-query PageNotFound {
-  imagesJson(page: {eq: "404"}) {
-    page
-    img
+  query PageNotFound {
+    imagesJson(page: {eq: "404"}) {
+      page
+      img
+    }
   }
-}
 `

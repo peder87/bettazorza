@@ -2,5 +2,9 @@
   { 
     "page": "404",
     "img": "/images/404/towel.svg"
+  },
+  {
+    "page": "about",
+    "img": "/images/about/about.png"
   }
 ]
