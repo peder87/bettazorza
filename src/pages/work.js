@@ -3,8 +3,9 @@ import { graphql, StaticQuery } from 'gatsby'
 import Layout from '../components/layout'
 import {StuffGrid} from '../components/grid'
 import {Card} from '../components/card'
-
+import SEO from '../components/seo'
 export default (props) => {
+  
   return (
     <StaticQuery 
       query={query}
@@ -15,6 +16,10 @@ export default (props) => {
         }
         return (
           <Layout pageConf={style}>
+            <SEO title="cosa faccio" meta={[{
+              name: 'cosa faccio',
+              content: allWorksJson.nodes.map(c => c.title.toLowerCase()).join(', '), 
+            }]}/>
             <StuffGrid>
               {
                 allWorksJson.nodes.map((card) => <Card key={card.id} {...card}/>)

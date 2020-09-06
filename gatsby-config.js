@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `BettaZorza.it`,
+    description: `Ciao! 👋 Sono Elisabetta Zorza e sono una graphic designer.  Dal 2010 lavoro nel campo della comunicazione, ma la grafica e il design sono da sempre la mia più grande passione.`,
+    author: `@peder87`,
     menuLinks: [
       {
         name: "home",
@@ -28,7 +28,6 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `data`,
-        // path: `./src/data`
         path: `${__dirname}/src/`
       },
     },

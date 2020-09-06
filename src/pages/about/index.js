@@ -2,6 +2,7 @@ import React from "react"
 import { PageCopy } from "../../components/typography"
 import Layout from "../../components/layout"
 import AboutGrid from "./style"
+import SEO from '../../components/seo'
 
 export default () => {
   const style = {
@@ -10,13 +11,14 @@ export default () => {
   }
   return (
     <Layout flex pageConf={style}>
+    <SEO title="About Betta" />
     <AboutGrid>
       <div></div>
       <div>
         <PageCopy>
           <span className="bold" role="img" aria-label="hello!">Ciao! 👋</span> Sono Elisabetta Zorza e
           sono una
-          <span className="bold">&nbsp;graphic designer.&nbsp;</span> Dal
+          <span className="bold">&nbsp;graphic designer.&nbsp;</span> Dalx
           2010 lavoro nel campo della comunicazione, ma la grafica e il
           design sono da sempre la mia più grande passione.
         </PageCopy>

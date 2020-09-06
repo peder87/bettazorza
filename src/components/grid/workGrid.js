@@ -2,10 +2,17 @@ import React from 'react'
 import { StuffGrid, Item } from './index'
 import { PageTitle, CopyWrapper, PageCopy} from '../typography'
 import { Image } from '../image'
+import SEO from '../../components/seo'
+
 
 export const WorkGrid = ({ data }) => {
+  const seoCat = {
+    name: 'categorie',
+    content: data.tags.join(', ')
+  }
   return (
     <div>
+      <SEO title={data.title} description={data.caption} meta={[seoCat]}/>
       <PageTitle>{data.title}</PageTitle>
       <CopyWrapper>
         <PageCopy>{data.caption}</PageCopy>

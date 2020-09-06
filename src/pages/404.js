@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, StaticQuery } from 'gatsby'
 import NoFound from './noFound'
 import Layout from "../components/layout"
+import SEO from '../components/seo'
 
 
 const NotFoundPage = () => {
@@ -11,13 +12,13 @@ const NotFoundPage = () => {
   }
   return (
   <Layout pageConf={conf}>
+    <SEO title="404: Not found" />
     <StaticQuery 
       query={query}
       render={data => {
         return <NoFound img={data.imagesJson.img} />
       }} 
     />
-    {/* <SEO title="404: Not found" /> */}
   </Layout>
   )
 }
