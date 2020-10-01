@@ -2,65 +2,73 @@
   {
     "id": "auser",
     "title": "Auser Unipop Cremona",
-    "url":"/project/auser",
+    "url": "/project/auser",
     "caption": "Auser Unipop Cremona è una associazione di promozione sociale nata a Cremona che organizza corsi, laboratori eventi e conferenze su tutto il terriotrio cremonese. Ogni anno insieme realizziamo il libretto annuale contenente tutti i corsi e le iniziative realizzate dall’associazione.",
     "order": 8,
-    "thumbnail":"/images/projects/thumbnails/auser-thumbnail.png",
+    "thumbnail": "/images/projects/thumbnails/auser-thumbnail.png",
     "thumbset": [
       "/images/projects/thumbnails/auser-thumbnail.png 1x",
+      "/images/projects/thumbnails/auser-thumbnail.webp 1x",
+      "/images/projects/thumbnails/auser-thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/auser-thumbnail-2x.png 2x"
     ],
-    "tags": ["editorial design","catalogo","progetto grafico", "graphic design", "impaginazione"],
+    "tags": [
+      "editorial design",
+      "catalogo",
+      "progetto grafico",
+      "graphic design",
+      "impaginazione"
+    ],
     "imgs": [
       {
-        "src":"/images/projects/auser/auser-cover-front.png",
-        "alt":"bilancio",
-        "fullWidth":true,
+        "src": "/images/projects/auser/auser-cover-front.png",
+        "alt": "bilancio",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/auser/auser-cover-front.png 1x",
           "/images/projects/auser/auser-cover-front-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/auser/auser-page-table.png",
-        "alt":"corsi open",
-        "fullWidth":true,
+        "src": "/images/projects/auser/auser-page-table.png",
+        "alt": "corsi open",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/auser/auser-page-table.png 1x",
           "/images/projects/auser/auser-page-table-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/auser/auser-spread-1.png",
-        "alt":"spread-1",
-        "fullWidth":true,
+        "src": "/images/projects/auser/auser-spread-1.png",
+        "alt": "spread-1",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/auser/auser-spread-1.png 1x",
           "/images/projects/auser/auser-spread-1-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/auser/auser-spread-2.png",
-        "alt":"spread-2",
-        "fullWidth":true,
+        "src": "/images/projects/auser/auser-spread-2.png",
+        "alt": "spread-2",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/auser/auser-spread-2.png 1x",
           "/images/projects/auser/auser-spread-2-2x.png 2x"
         ]
       },
       {
-       "src":"/images/projects/auser/auser_copertina_20.png",
-        "alt":"copertina2020",
-        "fullWidth":true,
+        "src": "/images/projects/auser/auser_copertina_20.png",
+        "alt": "copertina2020",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/auser/auser_copertina_20.png 1x",
           "/images/projects/auser/auser_copertina_20-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/auser/interno_auser_2020.png",
-        "alt":"interno_auser_2020",
-        "fullWidth":true,
+        "src": "/images/projects/auser/interno_auser_2020.png",
+        "alt": "interno_auser_2020",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/auser/interno_auser_2020.png 1x",
           "/images/projects/auser/interno_auser_2020-2x.png 2x"
@@ -71,143 +79,153 @@
   {
     "id": "tantaRobba",
     "title": "Tanta Robba",
-    "url":"/project/tantaRobba",
+    "url": "/project/tantaRobba",
     "caption": "Partecipazione al contest per la creazione di un nuovo logo per l’anno 2018/19",
     "order": 4,
     "thumbnail": "/images/projects/thumbnails/tanta-robba-thumbnail.png",
     "thumbset": [
       "/images/projects/thumbnails/tanta-robba-thumbnail.png 1x",
+      "/images/projects/thumbnails/tanta-robba-webp.png 1x",
+      "/images/projects/thumbnails/tanta-robba-thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/tanta-robba-thumbnail-2x.png 2x"
     ],
-    "tags": ["brand design", "brand manual","corporate identity", "gadget", "studio del marchio"],
+    "tags": [
+      "brand design",
+      "brand manual",
+      "corporate identity",
+      "gadget",
+      "studio del marchio"
+    ],
     "imgs": [
       {
-        "src":"/images/projects/tanta-robba/tanta-robba-logo.png",
-        "alt":"logo",
-        "fullWidth":false,
+        "src": "/images/projects/tanta-robba/tanta-robba-logo.png",
+        "alt": "logo",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/tanta-robba/tanta-robba-logo.png 1x",
           "/images/projects/tanta-robba/tanta-robba-logo-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/tanta-robba/tanta-robba-pass.png",
-        "alt":"pass",
-        "fullWidth":false,
+        "src": "/images/projects/tanta-robba/tanta-robba-pass.png",
+        "alt": "pass",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/tanta-robba/tanta-robba-pass.png 1x",
           "/images/projects/tanta-robba/tanta-robba-pass-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/tanta-robba/tanta-robba-tshirt.png",
-        "alt":"tshirt",
-        "fullWidth":true,
+        "src": "/images/projects/tanta-robba/tanta-robba-tshirt.png",
+        "alt": "tshirt",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/tanta-robba/tanta-robba-tshirt.png 1x",
           "/images/projects/tanta-robba/tanta-robba-tshirt-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/tanta-robba/tanta-robba-texture.png",
-        "alt":"texture",
-        "fullWidth":true,
+        "src": "/images/projects/tanta-robba/tanta-robba-texture.png",
+        "alt": "texture",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/tanta-robba/tanta-robba-texture.png 1x",
           "/images/projects/tanta-robba/tanta-robba-texture-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/tanta-robba/tanta-robba-cap.png",
-        "alt":"cap",
-        "fullWidth":true,
+        "src": "/images/projects/tanta-robba/tanta-robba-cap.png",
+        "alt": "cap",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/tanta-robba/tanta-robba-cap.png 1x",
           "/images/projects/tanta-robba/tanta-robba-cap-2x.png 2x"
         ]
       }
     ]
-  }, 
+  },
   {
     "id": "sacraFamiglia",
     "title": "Sacra Famiglia",
-    "url":"/project/sacraFamiglia",
+    "url": "/project/sacraFamiglia",
     "caption": "sacra famiglia caption",
     "order": 1,
     "thumbnail": "/images/projects/thumbnails/sacra-famiglia-thumbnail.png",
     "thumbset": [
       "/images/projects/thumbnails/sacra-famiglia-thumbnail.png 1x",
+      "/images/projects/thumbnails/sacra-famiglia-webp.png 1x",
+      "/images/projects/thumbnails/sacra-famiglia-thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/sacra-famiglia-thumbnail-2x.png 2x"
     ],
     "tags": [],
     "imgs": [
       {
-        "src":"/images/projects/sacra-famiglia/sacra-famiglia-insegna.png",
-        "alt":"insegna",
-        "fullWidth":false,
+        "src": "/images/projects/sacra-famiglia/sacra-famiglia-insegna.png",
+        "alt": "insegna",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-insegna.png",
           "/images/projects/sacra-famiglia/sacra-famiglia-insegna-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/sacra-famiglia/sacra-famiglia-logo.png",
-        "alt":"logo",
-        "fullWidth":false,
+        "src": "/images/projects/sacra-famiglia/sacra-famiglia-logo.png",
+        "alt": "logo",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-logo.png",
           "/images/projects/sacra-famiglia/sacra-famiglia-logo-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/sacra-famiglia/sacra-famiglia-brand.png",
-        "alt":"brand",
-        "fullWidth":true,
+        "src": "/images/projects/sacra-famiglia/sacra-famiglia-brand.png",
+        "alt": "brand",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-brand.png",
           "/images/projects/sacra-famiglia/sacra-famiglia-brand-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/sacra-famiglia/sacra-famiglia-brand-2.png",
-        "alt":"brand2",
-        "fullWidth":true,
+        "src": "/images/projects/sacra-famiglia/sacra-famiglia-brand-2.png",
+        "alt": "brand2",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-brand-2.png",
           "/images/projects/sacra-famiglia/sacra-famiglia-brand-2-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/sacra-famiglia/sacra-famiglia-tshirt.png",
-        "alt":"tshirt",
-        "fullWidth":false,
+        "src": "/images/projects/sacra-famiglia/sacra-famiglia-tshirt.png",
+        "alt": "tshirt",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-tshirt.png",
           "/images/projects/sacra-famiglia/sacra-famiglia-tshirt-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/sacra-famiglia/sacra-famiglia-diario.png",
-        "alt":"diario",
-        "fullWidth":false,
+        "src": "/images/projects/sacra-famiglia/sacra-famiglia-diario.png",
+        "alt": "diario",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-diario.png",
           "/images/projects/sacra-famiglia/sacra-famiglia-diario-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/sacra-famiglia/sacra-famiglia-poster.png",
-        "alt":"poster",
-        "fullWidth":false,
+        "src": "/images/projects/sacra-famiglia/sacra-famiglia-poster.png",
+        "alt": "poster",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-poster.png",
           "/images/projects/sacra-famiglia/sacra-famiglia-poster-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/sacra-famiglia/sacra-famiglia-mobile.png",
-        "alt":"mobile",
-        "fullWidth":false,
+        "src": "/images/projects/sacra-famiglia/sacra-famiglia-mobile.png",
+        "alt": "mobile",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-mobile.png",
           "/images/projects/sacra-famiglia/sacra-famiglia-mobile-2x.png 2x"
@@ -218,56 +236,65 @@
   {
     "id": "uno",
     "title": "Uno più uno",
-    "url":"/project/uno",
+    "url": "/project/uno",
     "caption": "Uno più Uno è la seconda mostra bipersonale dei due artisti Rita Duchi e Francesco Visentini. Per l’occasione sono stati realizzati catalogo, locandine e inviti per l'inaugurazione della mostra.",
     "order": 3,
     "thumbnail": "/images/projects/thumbnails/uno-thumbnail.png",
     "thumbset": [
       "/images/projects/thumbnails/uno-thumbnail.png 1x",
+      "/images/projects/thumbnails/uno-thumbnail.webp 1x",
+      "/images/projects/thumbnails/uno-thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/uno-thumbnail-2x.png 2x"
     ],
-    "tags": ["editorial design", "brand design", "catalogo", "flyer", "poster", "locandine"],
+    "tags": [
+      "editorial design",
+      "brand design",
+      "catalogo",
+      "flyer",
+      "poster",
+      "locandine"
+    ],
     "imgs": [
       {
-        "src":"/images/projects/uno/uno-book-pile.png",
-        "alt":"book-pile",
-        "fullWidth":true,
+        "src": "/images/projects/uno/uno-book-pile.png",
+        "alt": "book-pile",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/uno/uno-book-pile.png",
           "/images/projects/uno/uno-book-pile-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/uno/uno-lca.png",
-        "alt":"lca",
-        "fullWidth":true,
+        "src": "/images/projects/uno/uno-lca.png",
+        "alt": "lca",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/uno/uno-lca.png",
           "/images/projects/uno/uno-lca-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/uno/uno-fontana.png",
-        "alt":"fontana",
-        "fullWidth":true,
+        "src": "/images/projects/uno/uno-fontana.png",
+        "alt": "fontana",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/uno/uno-fontana.png",
           "/images/projects/uno/uno-fontana-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/uno/uno-bucchero.png",
-        "alt":"bucchero",
-        "fullWidth":true,
+        "src": "/images/projects/uno/uno-bucchero.png",
+        "alt": "bucchero",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/uno/uno-bucchero.png",
           "/images/projects/uno/uno-bucchero-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/uno/uno-terracotta.png",
-        "alt":"terracotta",
-        "fullWidth":true,
+        "src": "/images/projects/uno/uno-terracotta.png",
+        "alt": "terracotta",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/uno/uno-terracotta.png",
           "/images/projects/uno/uno-terracotta-2x.png 2x"
@@ -278,65 +305,73 @@
   {
     "id": "scaravonati",
     "title": "Mobilificio Scaravonati",
-    "url":"/project/scaravonati",
+    "url": "/project/scaravonati",
     "caption": "Il marchio realizzato per Scaravonati è un monogramma moderno ma estremamente elegante che rispecchia in pieno la professionalità e la qualità dei prodotti e dei servizi offerti dall’azienda. ",
     "order": 5,
     "thumbnail": "/images/projects/thumbnails/scaravonati-thumbnail.png",
     "thumbset": [
       "/images/projects/thumbnails/scaravonati-thumbnail.png 1x",
+      "/images/projects/thumbnails/scaravonati-thumbnail.webp 1x",
+      "/images/projects/thumbnails/scaravonati-thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/scaravonati-thumbnail-2x.png 2x"
     ],
-    "tags": ["brand manual", "brand design", "studio del marchio", "corporate identity", "gadget"],
+    "tags": [
+      "brand manual",
+      "brand design",
+      "studio del marchio",
+      "corporate identity",
+      "gadget"
+    ],
     "imgs": [
       {
-        "src":"/images/projects/scaravonati/scaravonati-logo.png",
-        "alt":"logo",
-        "fullWidth":false,
+        "src": "/images/projects/scaravonati/scaravonati-logo.png",
+        "alt": "logo",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-logo.png",
           "/images/projects/scaravonati/scaravonati-logo-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/scaravonati/scaravonati-card.png",
-        "alt":"card",
-        "fullWidth":false,
+        "src": "/images/projects/scaravonati/scaravonati-card.png",
+        "alt": "card",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-card.png",
           "/images/projects/scaravonati/scaravonati-card-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/scaravonati/scaravonati-stationary.png",
-        "alt":"stationary",
-        "fullWidth":true,
+        "src": "/images/projects/scaravonati/scaravonati-stationary.png",
+        "alt": "stationary",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-stationary.png",
           "/images/projects/scaravonati/scaravonati-stationary-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/scaravonati/scaravonati-website.png",
-        "alt":"website",
-        "fullWidth":true,
+        "src": "/images/projects/scaravonati/scaravonati-website.png",
+        "alt": "website",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-website.png",
           "/images/projects/scaravonati/scaravonati-website-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/scaravonati/scaravonati-mobility.png",
-        "alt":"mobility",
-        "fullWidth":false,
+        "src": "/images/projects/scaravonati/scaravonati-mobility.png",
+        "alt": "mobility",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-mobility.png",
           "/images/projects/scaravonati/scaravonati-mobility-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/scaravonati/scaravonati-mobile.png",
-        "alt":"mobile",
-        "fullWidth":false,
+        "src": "/images/projects/scaravonati/scaravonati-mobile.png",
+        "alt": "mobile",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-mobile.png",
           "/images/projects/scaravonati/scaravonati-mobile-2x.png 2x"
@@ -347,47 +382,56 @@
   {
     "id": "talentoAgile",
     "title": "Talento Agile",
-    "url":"/project/talentoAgile",
+    "url": "/project/talentoAgile",
     "caption": "Agile perchè semplice da comprendere, questo marchio rispecchia in pieno le metodologie alla base della filosofia “agile”.",
     "order": 7,
     "thumbnail": "/images/projects/thumbnails/talento-thumb.png",
     "thumbset": [
       "/images/projects/thumbnails/talento-thumb.png 1x",
+      "/images/projects/thumbnails/talento-thumb.webp 1x",
+      "/images/projects/thumbnails/talento-thumb-2x.webp 2x",
       "/images/projects/thumbnails/talento-thumb-2x.png 2x"
     ],
-    "tags": ["brand design", "studio del marchio", "brand manual", "corporate identity", "gadget", "packaging"],
+    "tags": [
+      "brand design",
+      "studio del marchio",
+      "brand manual",
+      "corporate identity",
+      "gadget",
+      "packaging"
+    ],
     "imgs": [
       {
-        "src":"/images/projects/talento/talento-logo.png",
-        "alt":"book-pile",
-        "fullWidth":false,
+        "src": "/images/projects/talento/talento-logo.png",
+        "alt": "book-pile",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/talento/talento-logo.png",
           "/images/projects/talento/talento-logo-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/talento/talento-shopper.png",
-        "alt":"shopper",
-        "fullWidth":false,
+        "src": "/images/projects/talento/talento-shopper.png",
+        "alt": "shopper",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/talento/talento-shopper.png",
           "/images/projects/talento/talento-shopper-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/talento/talento-stationary.png",
-        "alt":"stationary",
-        "fullWidth":true,
+        "src": "/images/projects/talento/talento-stationary.png",
+        "alt": "stationary",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/talento/talento-stationary.png",
           "/images/projects/talento/talento-stationary-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/talento/talento-website.png",
-        "alt":"website",
-        "fullWidth":true,
+        "src": "/images/projects/talento/talento-website.png",
+        "alt": "website",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/talento/talento-website.png",
           "/images/projects/talento/talento-website-2x.png 2x"
@@ -398,56 +442,65 @@
   {
     "id": "casaFormaggio",
     "title": "Casa del formaggio Stradivari",
-    "url":"/project/casaFormaggio",
+    "url": "/project/casaFormaggio",
     "caption": "La Casa del Formaggio Stradivari è un negozio storico di Cremona. Il ridesign del marchio si ispira alle vecchie insegne dei negozi del centro.",
     "thumbnail": "/images/projects/thumbnails/casa-formaggio-thumbnail.png",
     "order": 2,
     "thumbset": [
       "/images/projects/thumbnails/casa-formaggio-thumbnail.png 1x",
+      "/images/projects/thumbnails/casa-formaggio-webp 1x",
+      "/images/projects/thumbnails/casa-formaggio-thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/casa-formaggio-thumbnail-2x.png 2x"
     ],
-    "tags": ["brand design","studio del marchio","brand manual", "corporate identity", "corporate stationery", "packaging"],
+    "tags": [
+      "brand design",
+      "studio del marchio",
+      "brand manual",
+      "corporate identity",
+      "corporate stationery",
+      "packaging"
+    ],
     "imgs": [
       {
-        "src":"/images/projects/casa-formaggio/casa-formaggio-grembiule.png",
-        "alt":"grembiule",
-        "fullWidth":false,
+        "src": "/images/projects/casa-formaggio/casa-formaggio-grembiule.png",
+        "alt": "grembiule",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/casa-formaggio/casa-formaggio-grembiule.png",
           "/images/projects/casa-formaggio/casa-formaggio-grembiule-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/scaravonati/casa-formaggio-card.png",
-        "alt":"card",
-        "fullWidth":false,
+        "src": "/images/projects/scaravonati/casa-formaggio-card.png",
+        "alt": "card",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/casa-formaggio/casa-formaggio-card.png",
           "/images/projects/casa-formaggio/casa-formaggio-card-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/casa-formaggio/casa-formaggio-logo.png",
-        "alt":"logo",
-        "fullWidth":true,
+        "src": "/images/projects/casa-formaggio/casa-formaggio-logo.png",
+        "alt": "logo",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/casa-formaggio/casa-formaggio-logo.png",
           "/images/projects/casa-formaggio/casa-formaggio-logo-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/casa-formaggio/casa-formaggio-shopper.png",
-        "alt":"shopper",
-        "fullWidth":false,
+        "src": "/images/projects/casa-formaggio/casa-formaggio-shopper.png",
+        "alt": "shopper",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/casa-formaggio/casa-formaggio-shopper.png",
           "/images/projects/casa-formaggio/casa-formaggio-shopper-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/casa-formaggio/casa-formaggio-glass.png",
-        "alt":"glass",
-        "fullWidth":false,
+        "src": "/images/projects/casa-formaggio/casa-formaggio-glass.png",
+        "alt": "glass",
+        "fullWidth": false,
         "srcset": [
           "/images/projects/casa-formaggio/casa-formaggio-glass.png",
           "/images/projects/casa-formaggio/casa-formaggio-glass-2x.png 2x"
@@ -458,29 +511,37 @@
   {
     "id": "auserBilancio",
     "title": "Auser bilancio sociale ",
-    "url":"/project/auserBilancio",
+    "url": "/project/auserBilancio",
     "caption": "Auser è una associazione di volontariato e di promozione sociale, impegnata nel favorire l’invecchiamento attivo degli anziani e valorizzare il loro ruolo nella società. Per la sede di Cremona è stato realizzato il Bilancio sociale 2018 e 2019, strumento fondamentale per la promozione sul terriotrio delle numerose attività portate avanti dall’associazione.",
     "order": 6,
     "thumbnail": "/images/projects/thumbnails/auser-bilancio-thumbnail.png",
     "thumbset": [
       "/images/projects/thumbnails/auser-bilancio-thumbnail.png 1x",
+      "/images/projects/thumbnails/auser-bilancio-webp.png 1x",
+      "/images/projects/thumbnails/auser-bilancio-thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/auser-bilancio-thumbnail-2x.png 2x"
     ],
-    "tags": ["editorial design", "catalogo", "impaginazione","graphic design", "progetto grafico"],
+    "tags": [
+      "editorial design",
+      "catalogo",
+      "impaginazione",
+      "graphic design",
+      "progetto grafico"
+    ],
     "imgs": [
       {
-        "src":"/images/projects/auser-bilancio/auser-bilancio.png",
-        "alt":"logo",
-        "fullWidth":true,
+        "src": "/images/projects/auser-bilancio/auser-bilancio.png",
+        "alt": "logo",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/auser-bilancio/auser-bilancio.png",
           "/images/projects/auser-bilancio/auser-bilancio-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/auser-bilancio/auser-bilancio-page.png",
-        "alt":"page",
-        "fullWidth":true,
+        "src": "/images/projects/auser-bilancio/auser-bilancio-page.png",
+        "alt": "page",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/auser-bilancio/auser-bilancio-page.png",
           "/images/projects/auser-bilancio/auser-bilancio-page-2x.png 2x"
@@ -491,65 +552,67 @@
   {
     "id": "illustration",
     "title": "Illustrazioni ",
-    "url":"/project/illustration",
-    "caption": "Auser è una associazione di volontariato e di promozione sociale, impegnata nel favorire l’invecchiamento attivo degli anziani e valorizzare il loro ruolo nella società. Per la sede di Cremona è stato realizzato il Bilancio sociale 2018 e 2019, strumento fondamentale per la promozione sul terriotrio delle numerose attività portate avanti dall’associazione.",
+    "url": "/project/illustration",
+    "caption": "illustrazioni digitali",
     "order": 7,
     "thumbnail": "/images/projects/thumbnails/illustration-thumbnail.png",
     "thumbset": [
       "/images/projects/thumbnails/illustration-thumbnail.png 1x",
+      "/images/projects/thumbnails/illustration-thumbnail.webp 1x",
+      "/images/projects/thumbnails/illustration-thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/illustration-thumbnail-2x.png 2x"
     ],
-    "tags": ["editorial design", "catalogo", "impaginazione","graphic design", "progetto grafico"],
+    "tags": ["editorial design", "illustrazione"],
     "imgs": [
       {
-        "src":"/images/projects/illustration/caterina.png",
-        "alt":"caterina",
-        "fullWidth":true,
+        "src": "/images/projects/illustration/caterina.png",
+        "alt": "caterina",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/illustration/caterina.png",
           "/images/projects/illustration/caterina-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/illustration/tshirt_caterina.png",
-        "alt":"tshirt-caterina",
-        "fullWidth":true,
+        "src": "/images/projects/illustration/tshirt_caterina.png",
+        "alt": "tshirt-caterina",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/illustration/tshirt_caterina.png",
           "/images/projects/illustration/tshirt_caterina-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/illustration/alice.png",
-        "alt":"alice",
-        "fullWidth":true,
+        "src": "/images/projects/illustration/alice.png",
+        "alt": "alice",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/illustration/alice.png",
           "/images/projects/illustration/alice-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/illustration/alice_quadretto.png",
-        "alt":"alice-quadrewtto",
-        "fullWidth":true,
+        "src": "/images/projects/illustration/alice_quadretto.png",
+        "alt": "alice-quadrewtto",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/illustration/alice_quadretto.png",
           "/images/projects/illustration/alice_quadretto-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/illustration/unicorno.png",
-        "alt":"unicorno",
-        "fullWidth":true,
+        "src": "/images/projects/illustration/unicorno.png",
+        "alt": "unicorno",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/illustration/unicorno.png",
           "/images/projects/illustration/unicorno-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/illustration/betty.png",
-        "alt":"betty",
-        "fullWidth":true,
+        "src": "/images/projects/illustration/betty.png",
+        "alt": "betty",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/illustration/betty.png",
           "/images/projects/illustration/betty-2x.png 2x"
@@ -560,56 +623,58 @@
   {
     "id": "filosofia",
     "title": "Filosofia per bambini",
-    "url":"/project/filosofia",
-    "caption": "Auser è una associazione di volontariato e di promozione sociale, impegnata nel favorire l’invecchiamento attivo degli anziani e valorizzare il loro ruolo nella società. Per la sede di Cremona è stato realizzato il Bilancio sociale 2018 e 2019, strumento fondamentale per la promozione sul terriotrio delle numerose attività portate avanti dall’associazione.",
+    "url": "/project/filosofia",
+    "caption": "Filosofia per bambini è un progetto che ha coinvolto il liceo di Scietifico Vida di Cremona e alcune classi della scuola primaria, con il fine di introdurre i piccoli studenti nel mondo della filosofia.  In questo progetto ho collaborato con i docenti alla creazione di un volume dove ho curato l'impaginazione e le illustrazioni.",
     "order": 8,
     "thumbnail": "/images/projects/thumbnails/filosofia-thumbnail.png",
     "thumbset": [
       "/images/projects/thumbnails/filosofia-thumbnail.png 1x",
+      "/images/projects/thumbnails/filosofia-thumbnail.webp 1x",
+      "/images/projects/thumbnails/filosofia-thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/filosofia-thumbnail-2x.png 2x"
     ],
-    "tags": ["editorial design", "catalogo", "impaginazione","graphic design", "progetto grafico"],
+    "tags": ["editorial design", "catalogo", "impaginazione", "libro"],
     "imgs": [
       {
-        "src":"/images/projects/filosofia/filosofia_bambini_copertina.png",
-        "alt":"filosofia_copertina",
-        "fullWidth":true,
+        "src": "/images/projects/filosofia/filosofia_bambini_copertina.png",
+        "alt": "filosofia_copertina",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/filosofia/filosofia_bambini_copertina.png",
           "/images/projects/filosofia/filosofia_bambini_copertina-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/filosofia/filosofia_bambini.png",
-        "alt":"filosofia",
-        "fullWidth":true,
+        "src": "/images/projects/filosofia/filosofia_bambini.png",
+        "alt": "filosofia",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/filosofia/filosofia_bambini.png",
           "/images/projects/filosofia/filosofia_bambini-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/filosofia/filosofia_bambini2.png",
-        "alt":"filosofia2",
-        "fullWidth":true,
+        "src": "/images/projects/filosofia/filosofia_bambini2.png",
+        "alt": "filosofia2",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/filosofia/filosofia_bambini2.png",
           "/images/projects/filosofia/filosofia_bambini2-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/filosofia/filosofia_bambini3.png",
-        "alt":"filosofia3",
-        "fullWidth":true,
+        "src": "/images/projects/filosofia/filosofia_bambini3.png",
+        "alt": "filosofia3",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/filosofia/filosofia_bambini3.png",
           "/images/projects/filosofia/filosofia_bambini3-2x.png 2x"
         ]
       },
       {
-        "src":"/images/projects/filosofia/filosofia_bambini4.png",
-        "alt":"filosofia4",
-        "fullWidth":true,
+        "src": "/images/projects/filosofia/filosofia_bambini4.png",
+        "alt": "filosofia4",
+        "fullWidth": true,
         "srcset": [
           "/images/projects/filosofia/filosofia_bambini4.png",
           "/images/projects/filosofia/filosofia_bambini4-2x.png 2x"
