@@ -3,7 +3,7 @@
     "id": "auser",
     "title": "Auser Unipop Cremona",
     "url": "/project/auser",
-    "caption": "Auser Unipop Cremona è una associazione di promozione sociale nata a Cremona che organizza corsi, laboratori eventi e conferenze su tutto il terriotrio cremonese. Ogni anno insieme realizziamo il libretto annuale contenente tutti i corsi e le iniziative realizzate dall’associazione.",
+    "caption": "Auser Unipop Cremona è una associazione di promozione sociale che organizza corsi, laboratori ed eventi su tutto il terriotrio cremonese. Ogni anno insieme realizziamo il libretto annuale contenente tutti i corsi e le iniziative realizzate dall’associazione.",
     "order": 8,
     "thumbnail": "/images/projects/thumbnails/auser-thumbnail.png",
     "thumbset": [
@@ -21,57 +21,63 @@
     ],
     "imgs": [
       {
-        "src": "/images/projects/auser/auser-cover-front.png",
+        "src": "/images/projects/auser/auser-cover-front.webp",
+        "mediaType": "img",
         "alt": "bilancio",
         "fullWidth": true,
         "srcset": [
-          "/images/projects/auser/auser-cover-front.png 1x",
-          "/images/projects/auser/auser-cover-front-2x.png 2x"
+          "/images/projects/auser/auser-cover-front.webp 1x",
+          "/images/projects/auser/auser-cover-front-2x.webp 2x"
         ]
       },
       {
-        "src": "/images/projects/auser/auser-page-table.png",
+        "src": "/images/projects/auser/auser-page-table.webp",
+        "mediaType": "img",
         "alt": "corsi open",
         "fullWidth": true,
         "srcset": [
-          "/images/projects/auser/auser-page-table.png 1x",
-          "/images/projects/auser/auser-page-table-2x.png 2x"
+          "/images/projects/auser/auser-page-table.webp 1x",
+          "/images/projects/auser/auser-page-table-2x.webp 2x"
         ]
       },
       {
-        "src": "/images/projects/auser/auser-spread-1.png",
+        "src": "/images/projects/auser/auser-spread-1.webp",
+        "mediaType": "img",
         "alt": "spread-1",
         "fullWidth": true,
         "srcset": [
-          "/images/projects/auser/auser-spread-1.png 1x",
-          "/images/projects/auser/auser-spread-1-2x.png 2x"
+          "/images/projects/auser/auser-spread-1.webp 1x",
+          "/images/projects/auser/auser-spread-1-2x.webp 2x"
         ]
       },
       {
-        "src": "/images/projects/auser/auser-spread-2.png",
+        "src": "/images/projects/auser/auser-spread-2.webp",
         "alt": "spread-2",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
-          "/images/projects/auser/auser-spread-2.png 1x",
-          "/images/projects/auser/auser-spread-2-2x.png 2x"
+          "/images/projects/auser/auser-spread-2.webp 1x",
+          "/images/projects/auser/auser-spread-2-2x.webp 2x"
         ]
       },
       {
-        "src": "/images/projects/auser/auser_copertina_20.png",
+        "src": "/images/projects/auser/auser_copertina_20.webp",
         "alt": "copertina2020",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
-          "/images/projects/auser/auser_copertina_20.png 1x",
-          "/images/projects/auser/auser_copertina_20-2x.png 2x"
+          "/images/projects/auser/auser_copertina_20.webp 1x",
+          "/images/projects/auser/auser_copertina_20-2x.webp 2x"
         ]
       },
       {
-        "src": "/images/projects/auser/interno_auser_2020.png",
+        "src": "/images/projects/auser/interno_auser_2020.webp",
         "alt": "interno_auser_2020",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
-          "/images/projects/auser/interno_auser_2020.png 1x",
-          "/images/projects/auser/interno_auser_2020-2x.png 2x"
+          "/images/projects/auser/interno_auser_2020.webp 1x",
+          "/images/projects/auser/interno_auser_2020-2x.webp 2x"
         ]
       }
     ]
@@ -100,6 +106,7 @@
       {
         "src": "/images/projects/tanta-robba/tanta-robba-logo.png",
         "alt": "logo",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/tanta-robba/tanta-robba-logo.png 1x",
@@ -109,6 +116,7 @@
       {
         "src": "/images/projects/tanta-robba/tanta-robba-pass.png",
         "alt": "pass",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/tanta-robba/tanta-robba-pass.png 1x",
@@ -118,6 +126,7 @@
       {
         "src": "/images/projects/tanta-robba/tanta-robba-tshirt.png",
         "alt": "tshirt",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/tanta-robba/tanta-robba-tshirt.png 1x",
@@ -127,6 +136,7 @@
       {
         "src": "/images/projects/tanta-robba/tanta-robba-texture.png",
         "alt": "texture",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/tanta-robba/tanta-robba-texture.png 1x",
@@ -136,6 +146,7 @@
       {
         "src": "/images/projects/tanta-robba/tanta-robba-cap.png",
         "alt": "cap",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/tanta-robba/tanta-robba-cap.png 1x",
@@ -162,6 +173,7 @@
       {
         "src": "/images/projects/sacra-famiglia/sacra-famiglia-insegna.png",
         "alt": "insegna",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-insegna.png",
@@ -171,6 +183,7 @@
       {
         "src": "/images/projects/sacra-famiglia/sacra-famiglia-logo.png",
         "alt": "logo",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-logo.png",
@@ -180,6 +193,7 @@
       {
         "src": "/images/projects/sacra-famiglia/sacra-famiglia-brand.png",
         "alt": "brand",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-brand.png",
@@ -189,6 +203,7 @@
       {
         "src": "/images/projects/sacra-famiglia/sacra-famiglia-brand-2.png",
         "alt": "brand2",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-brand-2.png",
@@ -198,6 +213,7 @@
       {
         "src": "/images/projects/sacra-famiglia/sacra-famiglia-tshirt.png",
         "alt": "tshirt",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-tshirt.png",
@@ -207,6 +223,7 @@
       {
         "src": "/images/projects/sacra-famiglia/sacra-famiglia-diario.png",
         "alt": "diario",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-diario.png",
@@ -216,6 +233,7 @@
       {
         "src": "/images/projects/sacra-famiglia/sacra-famiglia-poster.png",
         "alt": "poster",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-poster.png",
@@ -225,6 +243,7 @@
       {
         "src": "/images/projects/sacra-famiglia/sacra-famiglia-mobile.png",
         "alt": "mobile",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/sacra-famiglia/sacra-famiglia-mobile.png",
@@ -258,6 +277,7 @@
       {
         "src": "/images/projects/uno/uno-book-pile.png",
         "alt": "book-pile",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/uno/uno-book-pile.png",
@@ -267,6 +287,7 @@
       {
         "src": "/images/projects/uno/uno-lca.png",
         "alt": "lca",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/uno/uno-lca.png",
@@ -276,6 +297,7 @@
       {
         "src": "/images/projects/uno/uno-fontana.png",
         "alt": "fontana",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/uno/uno-fontana.png",
@@ -285,6 +307,7 @@
       {
         "src": "/images/projects/uno/uno-bucchero.png",
         "alt": "bucchero",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/uno/uno-bucchero.png",
@@ -294,6 +317,7 @@
       {
         "src": "/images/projects/uno/uno-terracotta.png",
         "alt": "terracotta",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/uno/uno-terracotta.png",
@@ -324,57 +348,69 @@
     ],
     "imgs": [
       {
-        "src": "/images/projects/scaravonati/scaravonati-logo.png",
+        "src": "/images/projects/scaravonati/scaravonati-logo.webp",
         "alt": "logo",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-logo.png",
-          "/images/projects/scaravonati/scaravonati-logo-2x.png 2x"
+          "/images/projects/scaravonati/scaravonati-logo.webp",
+          "/images/projects/scaravonati/scaravonati-logo-2x.webp 2x"
         ]
       },
       {
-        "src": "/images/projects/scaravonati/scaravonati-card.png",
+        "src": "/images/projects/scaravonati/scaravonati-card.webp",
         "alt": "card",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-card.png",
-          "/images/projects/scaravonati/scaravonati-card-2x.png 2x"
+          "/images/projects/scaravonati/scaravonati-card.webp",
+          "/images/projects/scaravonati/scaravonati-card-2x.webp 2x"
         ]
       },
       {
-        "src": "/images/projects/scaravonati/scaravonati-stationary.png",
+        "src": "/images/projects/scaravonati/scaravonati-stationary.webp",
         "alt": "stationary",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-stationary.png",
-          "/images/projects/scaravonati/scaravonati-stationary-2x.png 2x"
+          "/images/projects/scaravonati/scaravonati-stationary.webp",
+          "/images/projects/scaravonati/scaravonati-stationary-2x.webp 2x"
         ]
       },
       {
-        "src": "/images/projects/scaravonati/scaravonati-website.png",
+        "src": "/images/projects/scaravonati/scaravonati-website.webp",
         "alt": "website",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-website.png",
-          "/images/projects/scaravonati/scaravonati-website-2x.png 2x"
+          "/images/projects/scaravonati/scaravonati-website.webp",
+          "/images/projects/scaravonati/scaravonati-website-2x.webp 2x"
         ]
       },
       {
-        "src": "/images/projects/scaravonati/scaravonati-mobility.png",
+        "src": "/images/projects/scaravonati/scaravonati-mobility.webp",
         "alt": "mobility",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-mobility.png",
-          "/images/projects/scaravonati/scaravonati-mobility-2x.png 2x"
+          "/images/projects/scaravonati/scaravonati-mobility.webp",
+          "/images/projects/scaravonati/scaravonati-mobility-2x.webp 2x"
         ]
       },
       {
-        "src": "/images/projects/scaravonati/scaravonati-mobile.png",
+        "src": "/images/projects/scaravonati/scaravonati-mobile.webp",
         "alt": "mobile",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/scaravonati/scaravonati-mobile.png",
-          "/images/projects/scaravonati/scaravonati-mobile-2x.png 2x"
+          "/images/projects/scaravonati/scaravonati-mobile.webp",
+          "/images/projects/scaravonati/scaravonati-mobile-2x.webp 2x"
         ]
       }
     ]
@@ -404,6 +440,7 @@
       {
         "src": "/images/projects/talento/talento-logo.png",
         "alt": "book-pile",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/talento/talento-logo.png",
@@ -413,6 +450,7 @@
       {
         "src": "/images/projects/talento/talento-shopper.png",
         "alt": "shopper",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/talento/talento-shopper.png",
@@ -422,6 +460,7 @@
       {
         "src": "/images/projects/talento/talento-stationary.png",
         "alt": "stationary",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/talento/talento-stationary.png",
@@ -431,6 +470,7 @@
       {
         "src": "/images/projects/talento/talento-website.png",
         "alt": "website",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/talento/talento-website.png",
@@ -464,6 +504,7 @@
       {
         "src": "/images/projects/casa-formaggio/casa-formaggio-grembiule.png",
         "alt": "grembiule",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/casa-formaggio/casa-formaggio-grembiule.png",
@@ -473,6 +514,7 @@
       {
         "src": "/images/projects/scaravonati/casa-formaggio-card.png",
         "alt": "card",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/casa-formaggio/casa-formaggio-card.png",
@@ -482,6 +524,7 @@
       {
         "src": "/images/projects/casa-formaggio/casa-formaggio-logo.png",
         "alt": "logo",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/casa-formaggio/casa-formaggio-logo.png",
@@ -491,6 +534,7 @@
       {
         "src": "/images/projects/casa-formaggio/casa-formaggio-shopper.png",
         "alt": "shopper",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/casa-formaggio/casa-formaggio-shopper.png",
@@ -500,6 +544,7 @@
       {
         "src": "/images/projects/casa-formaggio/casa-formaggio-glass.png",
         "alt": "glass",
+        "mediaType": "img",
         "fullWidth": false,
         "srcset": [
           "/images/projects/casa-formaggio/casa-formaggio-glass.png",
@@ -530,21 +575,23 @@
     ],
     "imgs": [
       {
-        "src": "/images/projects/auser-bilancio/auser-bilancio.png",
+        "src": "/images/projects/auser-bilancio/auser-bilancio.webp",
         "alt": "logo",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
-          "/images/projects/auser-bilancio/auser-bilancio.png",
-          "/images/projects/auser-bilancio/auser-bilancio-2x.png 2x"
+          "/images/projects/auser-bilancio/auser-bilancio.webp",
+          "/images/projects/auser-bilancio/auser-bilancio-2x.webp 2x"
         ]
       },
       {
-        "src": "/images/projects/auser-bilancio/auser-bilancio-page.png",
+        "src": "/images/projects/auser-bilancio/auser-bilancio-page.webp",
         "alt": "page",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
-          "/images/projects/auser-bilancio/auser-bilancio-page.png",
-          "/images/projects/auser-bilancio/auser-bilancio-page-2x.png 2x"
+          "/images/projects/auser-bilancio/auser-bilancio-page.webp",
+          "/images/projects/auser-bilancio/auser-bilancio-page-2x.webp 2x"
         ]
       }
     ]
@@ -553,7 +600,7 @@
     "id": "illustration",
     "title": "Illustrazioni ",
     "url": "/project/illustration",
-    "caption": "illustrazioni digitali",
+    "caption": "Auser è una associazione di volontariato e di promozione sociale, impegnata nel favorire l’invecchiamento attivo degli anziani e valorizzare il loro ruolo nella società. Per la sede di Cremona è stato realizzato il Bilancio sociale 2018 e 2019, strumento fondamentale per la promozione sul terriotrio delle numerose attività portate avanti dall’associazione.",
     "order": 7,
     "thumbnail": "/images/projects/thumbnails/illustration-thumbnail.png",
     "thumbset": [
@@ -562,11 +609,18 @@
       "/images/projects/thumbnails/illustration-thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/illustration-thumbnail-2x.png 2x"
     ],
-    "tags": ["editorial design", "illustrazione"],
+    "tags": [
+      "editorial design",
+      "catalogo",
+      "impaginazione",
+      "graphic design",
+      "progetto grafico"
+    ],
     "imgs": [
       {
         "src": "/images/projects/illustration/caterina.png",
         "alt": "caterina",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/illustration/caterina.png",
@@ -576,6 +630,7 @@
       {
         "src": "/images/projects/illustration/tshirt_caterina.png",
         "alt": "tshirt-caterina",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/illustration/tshirt_caterina.png",
@@ -585,6 +640,7 @@
       {
         "src": "/images/projects/illustration/alice.png",
         "alt": "alice",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/illustration/alice.png",
@@ -594,6 +650,7 @@
       {
         "src": "/images/projects/illustration/alice_quadretto.png",
         "alt": "alice-quadrewtto",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/illustration/alice_quadretto.png",
@@ -603,6 +660,7 @@
       {
         "src": "/images/projects/illustration/unicorno.png",
         "alt": "unicorno",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/illustration/unicorno.png",
@@ -612,6 +670,7 @@
       {
         "src": "/images/projects/illustration/betty.png",
         "alt": "betty",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
           "/images/projects/illustration/betty.png",
@@ -633,51 +692,62 @@
       "/images/projects/thumbnails/filosofia-thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/filosofia-thumbnail-2x.png 2x"
     ],
-    "tags": ["editorial design", "catalogo", "impaginazione", "libro"],
+    "tags": [
+      "editorial design",
+      "catalogo",
+      "impaginazione",
+      "graphic design",
+      "progetto grafico"
+    ],
     "imgs": [
       {
-        "src": "/images/projects/filosofia/filosofia_bambini_copertina.png",
+        "src": "/images/projects/filosofia/filosofia_bambini_copertina.webp",
         "alt": "filosofia_copertina",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
-          "/images/projects/filosofia/filosofia_bambini_copertina.png",
-          "/images/projects/filosofia/filosofia_bambini_copertina-2x.png 2x"
+          "/images/projects/filosofia/filosofia_bambini_copertina.webp",
+          "/images/projects/filosofia/filosofia_bambini_copertina-2x.webp 2x"
         ]
       },
       {
-        "src": "/images/projects/filosofia/filosofia_bambini.png",
+        "src": "/images/projects/filosofia/filosofia_bambini.webp",
         "alt": "filosofia",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
-          "/images/projects/filosofia/filosofia_bambini.png",
-          "/images/projects/filosofia/filosofia_bambini-2x.png 2x"
+          "/images/projects/filosofia/filosofia_bambini.webp",
+          "/images/projects/filosofia/filosofia_bambini-2x.webp 2x"
         ]
       },
       {
-        "src": "/images/projects/filosofia/filosofia_bambini2.png",
+        "src": "/images/projects/filosofia/filosofia_bambini2.webp",
         "alt": "filosofia2",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
-          "/images/projects/filosofia/filosofia_bambini2.png",
-          "/images/projects/filosofia/filosofia_bambini2-2x.png 2x"
+          "/images/projects/filosofia/filosofia_bambini2.webp",
+          "/images/projects/filosofia/filosofia_bambini2-2x.webp 2x"
         ]
       },
       {
-        "src": "/images/projects/filosofia/filosofia_bambini3.png",
+        "src": "/images/projects/filosofia/filosofia_bambini3.webp",
         "alt": "filosofia3",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
-          "/images/projects/filosofia/filosofia_bambini3.png",
-          "/images/projects/filosofia/filosofia_bambini3-2x.png 2x"
+          "/images/projects/filosofia/filosofia_bambini3.webp",
+          "/images/projects/filosofia/filosofia_bambini3-2x.webp 2x"
         ]
       },
       {
-        "src": "/images/projects/filosofia/filosofia_bambini4.png",
+        "src": "/images/projects/filosofia/filosofia_bambini4.webp",
         "alt": "filosofia4",
+        "mediaType": "img",
         "fullWidth": true,
         "srcset": [
-          "/images/projects/filosofia/filosofia_bambini4.png",
-          "/images/projects/filosofia/filosofia_bambini4-2x.png 2x"
+          "/images/projects/filosofia/filosofia_bambini4.webp",
+          "/images/projects/filosofia/filosofia_bambini4-2x.webp 2x"
         ]
       }
     ]
