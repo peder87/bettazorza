@@ -1,19 +1,21 @@
 import React from "react"
 import styled from "styled-components"
 import { colors } from "../../style/constants"
-import { Image } from "../image"
+import { Image } from "./image"
 
-export const Thumbnail = props => (
-  <ThumbWrapper onClick={() => props.callback(props.path)}>
-    <figure>
-      <Image srcset={props.srcset} alt={props.title} src={props.img} />
-      <div className="background" />
-      <div className="container">
-        <span>{props.title}</span>
-      </div>
-    </figure>
-  </ThumbWrapper>
-)
+export const Thumbnail = props => {
+  return (
+    <ThumbWrapper onClick={() => props.callback(props.path)}>
+      <figure>
+        <Image srcset={props.srcset} alt={props.title} src={props.img} />
+        <div className="background" />
+        <div className="container">
+          <span>{props.title}</span>
+        </div>
+      </figure>
+    </ThumbWrapper>
+  )
+}
 
 const ThumbWrapper = styled.div`
   position: relative;
