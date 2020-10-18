@@ -1,6 +1,6 @@
 {
   "name": "gatsby-starter-default",
-  "private": true,
+  "private": false,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
@@ -30,6 +30,7 @@
     "styled-reset": "^4.0.6"
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "prettier": "^1.18.2"
   },
   "keywords": [
@@ -44,11 +45,11 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Writ683e tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy":"gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/peder87/bettazorza.git"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
