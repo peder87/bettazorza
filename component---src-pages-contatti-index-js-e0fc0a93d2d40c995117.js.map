@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/contatti/index.js"],"names":[],"mappings":"2FAAA,gCAEe,qBACb,OAAM","file":"component---src-pages-contatti-index-js-e0fc0a93d2d40c995117.js","sourcesContent":["import React from 'react'\n\nexport default () => {\n  return<h2>contatti --</h2>\n}"],"sourceRoot":""}

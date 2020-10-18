@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{srEX:function(n,t,e){"use strict";e.r(t);var a=e("q1tI"),c=e.n(a);t.default=function(){return c.a.createElement("h2",null,"contatti --")}}}]);
+//# sourceMappingURL=component---src-pages-contatti-index-js-e0fc0a93d2d40c995117.js.map
