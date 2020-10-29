@@ -8,46 +8,53 @@
 import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { GlobalStyle } from "../style/global"
-import { StaticQuery, graphql } from 'gatsby'
+import { StaticQuery, graphql } from "gatsby"
 import { colors } from "../style/constants"
 import { Footer } from "../components/footer"
 import { GlobalContainer, PageContainerFlex } from "./pageComponents/style"
-import { NavMenu } from '../components/newMenu'
+import { NavMenu } from "../components/newMenu"
 
 const pt = {
   pageConf: PropTypes.shape({
     bgcolor: PropTypes.string,
-    color: PropTypes.string
-  })
+    color: PropTypes.string,
+  }),
 }
 
 const dp = {
   pageConf: {
     bgcolor: colors.purple,
-    color: colors.yellow
-  }
+    color: colors.yellow,
+  },
 }
 
 const Layout = ({ children, ...props }) => {
   const [status, setStatus] = useState(false)
   const styleProps = {
     bgcolor: colors[props.pageConf.bgcolor],
-    color: colors[props.pageConf.color]
+    color: colors[props.pageConf.color],
   }
   const toggleMenu = () => {
-    setStatus(currentStatus =>!currentStatus)
+    setStatus(currentStatus => !currentStatus)
   }
   return (
     <>
-      <GlobalStyle  {...styleProps} isOpen={status} id="GLOBAL-STYLE" />
-      <GlobalContainer {...styleProps} id="GLOBAL-CONTAINER" isOpen={status} >
+      <GlobalStyle {...styleProps} isOpen={status} id="GLOBAL-STYLE" />
+      <GlobalContainer {...styleProps} id="GLOBAL-CONTAINER" isOpen={status}>
         <StaticQuery
           query={navigationQuery}
-          render={data => <NavMenu isOpen={status} toggleMenu={toggleMenu} {...styleProps} navList={data.allNavigationJson.nodes}/>}
+          render={data => (
+            <NavMenu
+              isOpen={status}
+              toggleMenu={toggleMenu}
+              {...styleProps}
+              navList={data.allNavigationJson.nodes}
+            />
+          )}
         />
         <PageContainerFlex ID="FLEXY" color={styleProps.color}>
-            {children}
-            <Footer color={styleProps.color} />
+          {children}
+          <Footer color={styleProps.color} />
         </PageContainerFlex>
       </GlobalContainer>
     </>
@@ -56,7 +63,7 @@ const Layout = ({ children, ...props }) => {
 
 const navigationQuery = graphql`
   query QueryNav {
-    allNavigationJson(filter: {inMenu: {eq: true}}) {
+    allNavigationJson(filter: { inMenu: { eq: true } }) {
       nodes {
         id
         label
@@ -68,7 +75,7 @@ const navigationQuery = graphql`
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  ...pt
+  ...pt,
 }
 
 Layout.defaultProps = dp
