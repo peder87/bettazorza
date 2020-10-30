@@ -1,76 +1,18 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
-import React, { useState } from "react"
+import React from "react"
 import PropTypes from "prop-types"
 import { GlobalStyle } from "../style/global"
-import { StaticQuery, graphql } from 'gatsby'
-import { colors } from "../style/constants"
-import { Footer } from "../components/footer"
-import { GlobalContainer, PageContainerFlex } from "./pageComponents/style"
-import { NavMenu } from '../components/newMenu'
 
-const pt = {
-  pageConf: PropTypes.shape({
-    bgcolor: PropTypes.string,
-    color: PropTypes.string
-  })
-}
-
-const dp = {
-  pageConf: {
-    bgcolor: colors.purple,
-    color: colors.yellow
-  }
-}
-
-const Layout = ({ children, ...props }) => {
-  const [status, setStatus] = useState(false)
-  const styleProps = {
-    bgcolor: colors[props.pageConf.bgcolor],
-    color: colors[props.pageConf.color]
-  }
-  const toggleMenu = () => {
-    setStatus(currentStatus =>!currentStatus)
-  }
+const Layout = ({ children }) => {
   return (
     <>
-      <GlobalStyle  {...styleProps} isOpen={status} id="GLOBAL-STYLE" />
-      <GlobalContainer {...styleProps} id="GLOBAL-CONTAINER" isOpen={status} >
-        <StaticQuery
-          query={navigationQuery}
-          render={data => <NavMenu isOpen={status} toggleMenu={toggleMenu} {...styleProps} navList={data.allNavigationJson.nodes}/>}
-        />
-        <PageContainerFlex ID="FLEXY" color={styleProps.color}>
-            {children}
-            <Footer color={styleProps.color} />
-        </PageContainerFlex>
-      </GlobalContainer>
+      <GlobalStyle id="GLOBAL-STYLE" />
+      {children}
     </>
   )
 }
 
-const navigationQuery = graphql`
-  query QueryNav {
-    allNavigationJson(filter: {inMenu: {eq: true}}) {
-      nodes {
-        id
-        label
-        path
-      }
-    }
-  }
-`
-
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  ...pt
 }
-
-Layout.defaultProps = dp
 
 export default Layout

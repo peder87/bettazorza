@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { media } from "../../style/constants"
-import { math } from 'polished'
+import { math } from "polished"
 
 export const GlobalContainer = styled.div`
   /* PADDING */
@@ -41,20 +41,20 @@ export const PageCenterContent = styled.div`
 export const PageContainer = styled(PageCenterContent)`
     height: 100%;
   ${media.xl`
-    padding-top: ${props => props.inMenu ? math('6em + 3em') : '4em'};
-    padding-bottom: ${props => props.inMenu ? 0 : '2em'};
+    padding-top: ${props => (props.inMenu ? math("6em + 3em") : "4em")};
+    padding-bottom: ${props => (props.inMenu ? 0 : "2em")};
   `}
   ${media.lg`
-    padding-top: ${props => props.inMenu ? math('6em + 3em') : '4em'};
-    padding-bottom: ${props => props.inMenu ? 0 : '2em'};
+    padding-top: ${props => (props.inMenu ? math("6em + 3em") : "4em")};
+    padding-bottom: ${props => (props.inMenu ? 0 : "2em")};
   `}
   ${media.md`
-    padding-top: ${props => props.inMenu ? math('2.5em + 3em') : '4em'};
-    padding-bottom: ${props => props.inMenu ? 0 : '2em'};
+    padding-top: ${props => (props.inMenu ? math("2.5em + 3em") : "4em")};
+    padding-bottom: ${props => (props.inMenu ? 0 : "2em")};
   `}
   ${media.sm`
-    padding-top: ${props => props.inMenu ? math('1.75em + 3em') : '4em'};
-    padding-bottom: ${props => props.inMenu ? 0 : '2em'};
+    padding-top: ${props => (props.inMenu ? math("1.75em + 3em") : "4em")};
+    padding-bottom: ${props => (props.inMenu ? 0 : "2em")};
   `}
 `
 
@@ -75,3 +75,10 @@ export const FooterContainer = styled(PageCenterContent)`
 `
 
 export const HeaderContainer = styled(PageCenterContent)``
+
+export const Section = styled.div`
+  width: 100wv;
+  height: ${props => (props.full ? "100vh" : "auto")};
+  background-color: ${props => props.bgcolor || "#fff"};
+  color: ${props => props.color || "#000"};
+`

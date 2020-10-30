@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 import reset from "styled-reset"
-import { colors, fonts, media } from "./constants"
+import { fonts, media } from "./constants"
 
 export const GlobalStyle = createGlobalStyle`
   ${reset};
@@ -14,21 +14,12 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    color: ${colors.white};
-    background-color: ${props => props.bgcolor};
     font-family: ${fonts.sansSerif};
     backface-visibility: hidden;
-    height: ${ props => props.isOpen ? '100vh': 'auto'};
-    overflow-y: ${props => props.isOpen ? 'hidden' : 'auto'};
-    position: ${props => props.isOpen ? 'fixed' : 'static'};
-    width: ${props => props.isOpen ? '100vw' : 'auto'};
+    width: '100vw'
   a {
     color: inherit;
     text-decoration: none;
-    transition: color ease-in .2s;
-    &:hover {
-      color: #fff;
-    }
   }
 
   * {
@@ -42,7 +33,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   ::selection {
-    /* color: ${colors.yellow}; */
     background: transparent;
   }
+}
 `
