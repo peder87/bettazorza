@@ -1,19 +1,16 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 import Layout from "../components/layout"
+import "pattern.css"
 import { Stack } from "./stack"
 
 export default props => {
-  const style = {
-    bgcolor: "purple",
-    color: "yellow",
-  }
   return (
-    <Layout pageConf={style}>
+    <Layout>
       <StaticQuery
         query={query}
         render={data => {
-          return <Stack />
+          return <Stack {...data} />
         }}
       />
     </Layout>
@@ -40,6 +37,10 @@ const query = graphql`
           workId
         }
       }
+    }
+    about: imagesJson(page: { eq: "about" }) {
+      page
+      img
     }
   }
 `

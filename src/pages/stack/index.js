@@ -4,13 +4,16 @@ import { About } from "../../components/about"
 import { Portfolio } from "../../components/portfolio"
 import { Form } from "../../components/form"
 import { Bottom } from "../../components/bottom"
+import { cleanOrder, getDictionaryById } from "../../utils/dataUtils"
 
-export const Stack = props => {
+export const Stack = ({ about, order, projects }) => {
+  const list = cleanOrder(order.edges)
+  const mapProjects = getDictionaryById(projects.edges, "id")
   return (
     <>
       <Hero />
-      <About />
-      <Portfolio />
+      <About data={about} />
+      <Portfolio list={list} src={mapProjects} />
       <Form />
       <Bottom />
     </>

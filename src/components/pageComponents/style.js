@@ -5,16 +5,16 @@ import { math } from "polished"
 export const GlobalContainer = styled.div`
   /* PADDING */
   ${media.xl`
-    padding: 3.5em 3.5em 0;
+    padding: 3.5em 3.5em 3.5em;
   `}
   ${media.lg`
-    padding: 3.0em 3.0em 0;
+    padding: 3.0em 3.0em 3.0em;
   `}
   ${media.md`
-    padding: 2.5em 2.5em 0;
+    padding: 2.5em 2.5em 2.5em;
   `}
   ${media.sm`
-    padding: 2.0em 2.5em 0;
+    padding: 2.0em 2.5em 2.0em;
   `}
 `
 
