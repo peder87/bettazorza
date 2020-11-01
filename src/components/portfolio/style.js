@@ -2,5 +2,7 @@ import styled from "styled-components"
 import { Section } from "../pageComponents/style"
 
 export const PortfolioSection = styled(Section)`
-  border-bottom: 1px solid hotpink;
+  min-height: 200;
+  height: auto;
+  transition: max-height 2s ease-in;
 `

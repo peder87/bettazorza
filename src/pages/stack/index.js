@@ -14,7 +14,7 @@ export const Stack = ({ about, order, projects }) => {
       <Hero />
       <About data={about} />
       <Portfolio list={list} src={mapProjects} />
-      <Form />
+      {/* <Form /> */}
       <Bottom />
     </>
   )

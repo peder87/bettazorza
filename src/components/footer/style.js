@@ -17,7 +17,7 @@ export const FooterWrapper = styled.div`
   z-index: 9995;
   width: 100%;
   bottom: 0px;
-  padding-bottom: ${props => props.menu ? '2em': 0};
+  padding-bottom: ${props => (props.menu ? "2em" : 0)};
 `
 
 export const FooterText = styled.span`
@@ -45,7 +45,10 @@ export const FooterLink = styled.a`
     color: ${props => props.color};
     text-decoration: underline;
   }
+  &:link,
+  &:visited,
   &:focus {
+    color: ${props => props.color};
     outline: none;
   }
 `

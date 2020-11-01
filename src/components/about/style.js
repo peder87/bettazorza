@@ -2,9 +2,7 @@ import styled from "styled-components"
 import { media } from "../../style/constants"
 import { Section } from "../pageComponents/style"
 
-export const AboutSection = styled(Section)`
-  border-bottom: 1px solid hotpink;
-`
+export const AboutSection = styled(Section)``
 
 export const AboutGrid = styled.div`
   display: grid;

@@ -25,6 +25,7 @@
     "polished": "^3.6.3",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
+    "react-animate-height": "^2.0.23",
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
     "react-reveal": "^1.2.2",
