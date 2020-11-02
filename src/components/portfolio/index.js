@@ -7,6 +7,7 @@ import { colors } from "../../style/constants"
 import { Link } from "react-scroll"
 import { orderWorks } from "../../utils/dataUtils"
 import Fade from "react-reveal/Fade"
+import AnimatedButton from "../button"
 import AnimateHeight from "react-animate-height"
 
 export const Portfolio = props => {
@@ -56,7 +57,7 @@ export const Portfolio = props => {
         </StuffGrid>
         {/* </AnimateHeight> */}
         {limit <= works.length && (
-          <button onClick={() => loadMore()}>load more</button>
+          <Button animated click={loadMore} text="load more" />
         )}
       </GlobalContainer>
     </PortfolioSection>

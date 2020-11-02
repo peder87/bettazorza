@@ -1,11 +1,10 @@
-import styled from 'styled-components'
-import { colors, media } from '../../style/constants'
+import styled from "styled-components"
+import { colors, media } from "../../style/constants"
 
 export const Button = styled.button`
   text-transform: uppercase;
-  background-color: ${colors.white};
-  color: ${colors.purple};
-  border-radius: 30px;
+  background-color: ${props => props.bgcolor || colors.purple};
+  color: ${props => props.color || colors.white};
   outline:none;
   border: none;
   font-weight: 800;
@@ -30,6 +29,31 @@ export const Button = styled.button`
   &:hover {
     cursor: pointer;
     background-color: ${colors.yellow};
-    /* border: 1px solid ${colors.white}; */
+  }
+`
+export const AnimatedButton = styled(Button)`
+  background-size: 2rem 2rem;
+  &:hover {
+    background-color: none;
+    background-image: linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.1) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(0, 0, 0, 0.1) 50%,
+      rgba(0, 0, 0, 0.1) 75%,
+      transparent 75%,
+      transparent
+    );
+    animation: animation 2.8s linear 0s normal none running LOADING-ANIMATION;
+  }
+
+  @keyframes LOADING-ANIMATION {
+    0% {
+      background-position: 0px 0px;
+    }
+    100% {
+      background-position: 2rem 4rem;
+    }
   }
 `
