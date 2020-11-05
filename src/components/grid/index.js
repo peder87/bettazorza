@@ -11,7 +11,7 @@ export const StuffGrid = styled.div`
 
   ${media.xl`
     grid-template-columns: ${props =>
-      props.isProject ? "repeat(2,1fr)" : "repeat(3,1fr)"};
+      props.isProject ? "repeat(2,1fr)" : "repeat(4,1fr)"};
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 2.2rem;
     grid-row-gap: 2.2rem;
@@ -19,7 +19,7 @@ export const StuffGrid = styled.div`
   `}
 
   ${media.lg`
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 2.2rem;
     grid-row-gap: 2.2rem;

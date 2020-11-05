@@ -7,15 +7,17 @@ import { colors } from "../../style/constants"
 import { Link } from "react-scroll"
 import { orderWorks } from "../../utils/dataUtils"
 import Fade from "react-reveal/Fade"
-import AnimatedButton from "../button"
-import AnimateHeight from "react-animate-height"
+import Button from "../button"
+import { BzButton } from "../bzButton"
+import { navigate } from "gatsby"
 
 export const Portfolio = props => {
-  const stateLimit = 3
+  const stateLimit = 4
+  const animationDuration = 300
   const [limit, setLimit] = useState(stateLimit)
   const works = orderWorks(props.src, props.list)
   const move = p => {
-    console.log(p)
+    navigate(p)
   }
 
   const loadMore = () => {
@@ -29,12 +31,11 @@ export const Portfolio = props => {
       color={colors.darkGray}
     >
       <GlobalContainer>
-        {/* <AnimateHeight duration={1500} height="auto"> */}
         <StuffGrid>
           {works
             .filter((p, i) => i <= limit - 1)
             .map((project, index, a) => {
-              const sec = ((index % stateLimit) + 1) * 500
+              const sec = ((index % stateLimit) + 1) * animationDuration
               return (
                 <Fade
                   bottom={true}
@@ -45,7 +46,7 @@ export const Portfolio = props => {
                 >
                   <Thumbnail
                     key={project.id}
-                    titke={project.title}
+                    title={project.title}
                     img={project.thumbnail}
                     path={project.url}
                     srcset={project.thumbset}
@@ -57,7 +58,7 @@ export const Portfolio = props => {
         </StuffGrid>
         {/* </AnimateHeight> */}
         {limit <= works.length && (
-          <Button animated click={loadMore} text="load more" />
+          <BzButton click={loadMore} text="load more" />
         )}
       </GlobalContainer>
     </PortfolioSection>

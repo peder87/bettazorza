@@ -1,8 +1,8 @@
 import React from "react"
 import { GlobalContainer } from "../pageComponents/style"
-import { HeroSection } from "./style"
+import { HeroSection, HeroTitle, MonoWrapper, HeroTitleBlock } from "./style"
 import { colors } from "../../style/constants"
-import { Link } from "react-scroll"
+// import Logo from "./logo-mono.svg"
 
 export const Hero = props => {
   return (
@@ -13,10 +13,15 @@ export const Hero = props => {
       color={colors.yellow}
       id="hero"
     >
-      <GlobalContainer>
-        <Link to="about" smooth duration={1000}>
-          test
-        </Link>
+      <GlobalContainer centred>
+        <div>
+          <HeroTitleBlock>
+            {/* <MonoWrapper>
+              <Logo />
+            </MonoWrapper> */}
+            <HeroTitle>hello bitch</HeroTitle>
+          </HeroTitleBlock>
+        </div>
       </GlobalContainer>
     </HeroSection>
   )
