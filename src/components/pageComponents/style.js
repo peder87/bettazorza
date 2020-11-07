@@ -3,13 +3,6 @@ import { media } from "../../style/constants"
 import { math } from "polished"
 
 export const GlobalContainer = styled.div`
-  ${props =>
-    props.centred &&
-    css`
-      display: grid;
-      align-content: center;
-      height: 100%;
-    `}
   /* PADDING */
   ${media.xl`
     padding: 3.5em 3.5em 3.5em;

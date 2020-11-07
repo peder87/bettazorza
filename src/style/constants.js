@@ -18,7 +18,7 @@ export const colors = {
 }
 
 export const fonts = {
-  sansSerif: `'Roboto', sans-serif`,
+  sansSerif: `'Larsseit', sans-serif`,
 }
 
 export const spaces = {
@@ -37,7 +37,7 @@ export const mq = {
   md: "54em",
   lg: "78em",
   xl: "125em",
-  xxl: "220em"
+  xxl: "220em",
 }
 
 export const media = {
