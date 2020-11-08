@@ -12,7 +12,7 @@ export const About = ({ data }) => {
         <BzTitle color={colors.white}>About</BzTitle>
         <BzAboutGrid>
           <div>
-            <img src="images/about/about.png" />
+            <img src="images/about/about.png" />{" "}
           </div>
           <div>
             <BzCopy bold>

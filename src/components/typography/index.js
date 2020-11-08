@@ -59,6 +59,15 @@ export const BzCopy = styled.p`
   font-size: 1.5rem;
   padding-bottom: 1rem;
   line-height: 1;
+  ${media.md`
+    text-align: center;
+  `}
+  ${media.sm`
+    text-align: center;
+  `}
+  ${media.xs`
+    text-align: center;
+  `}
   ${props =>
     props.bold &&
     css`

@@ -8,17 +8,33 @@ export const BzAboutGrid = styled.div`
   padding-bottom: 6.25em;
 
   display: grid;
-  grid-template-columns: [pic] 35% [bio] 1fr;
+  grid-template-columns: 35% 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 3rem;
   & div img {
     width: 100%;
   }
+  ${media.md`
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 2rem;
+  grid-column-gap: 0;
+  `}
+  ${media.sm`
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr  1fr;
+    grid-row-gap: 2rem;
+  grid-column-gap: 0;
+  `}
+  ${media.xs`
+    grid-template-columns: 1fr;
+    grid-template-rows: 100% 100%;
+    grid-row-gap: 2rem;
+    grid-column-gap: 0;
+  `}
   & div:first-child {
-    grid-area: pic;
   }
   & div:last-child {
-    grid-area: bio;
   }
 `
 

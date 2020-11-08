@@ -89,4 +89,20 @@ export const Section = styled.div`
   color: ${props => props.color || "#000"};
 `
 
-export const SectionCenteredContent = styled(PageCenterContent)``
+export const SectionCenteredContent = styled(PageCenterContent)`
+  ${media.xxl`
+    padding: 3.5em 3.5em 3.5em;
+  `}
+  ${media.xl`
+    padding: 3.5em 3.5em 3.5em;
+  `}
+  ${media.lg`
+    padding: 3.0em 3.0em 3.0em;
+  `}
+  ${media.md`
+    padding: 2.5em 2.5em 2.5em;
+  `}
+  ${media.sm`
+    padding: 2.0em 2.5em 2.0em;
+  `}
+`
