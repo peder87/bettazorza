@@ -1,9 +1,12 @@
-import styled, { css } from "styled-components"
-import { media } from "../../style/constants"
+import styled from "styled-components"
+import { media, mq } from "../../style/constants"
 import { math } from "polished"
 
 export const GlobalContainer = styled.div`
   /* PADDING */
+  ${media.xxl`
+    padding: 3.5em 3.5em 3.5em;
+  `}
   ${media.xl`
     padding: 3.5em 3.5em 3.5em;
   `}
@@ -21,6 +24,9 @@ export const GlobalContainer = styled.div`
 export const PageCenterContent = styled.div`
   color: ${props => props.color};
   margin: 0 auto;
+  ${media.xxl`
+    width: ${mq.xl};
+  `}
   ${media.xl`
     width: 75%;
   `}
@@ -33,7 +39,7 @@ export const PageCenterContent = styled.div`
   ${media.sm`
     width: 100%;
   `}
-  ${media.sm`
+  ${media.xs`
     width: 100%;
   `}
 `
@@ -82,3 +88,5 @@ export const Section = styled.div`
   background-color: ${props => props.bgcolor || "#fff"};
   color: ${props => props.color || "#000"};
 `
+
+export const SectionCenteredContent = styled(PageCenterContent)``
