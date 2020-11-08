@@ -11,6 +11,7 @@ import {
 import { scroller } from "react-scroll"
 import { colors } from "../../style/constants"
 import { BzButton } from "../bzButton"
+import { BzCopy } from "../typography"
 
 export const Hero = props => {
   const goToAbout = e => {
@@ -32,10 +33,10 @@ export const Hero = props => {
           <HeroTitle noPadding color={colors.cyan}>
             Ciao, <span>Sono Betta</span>
           </HeroTitle>
-          <p>
+          <BzCopy>
             Sono una graphic designer, e ogni giorno collaboro con persone e
             aziende sviluppando soluzioni comunicative su misura.
-          </p>
+          </BzCopy>
         </HeroTitleBlock>
         <HeroFooter>
           <BzButton text="scopri di più" click={goToAbout} />

@@ -53,6 +53,16 @@ export const BzTitle = styled.h2`
   text-align: center;
   color: ${props => props.color || colors.purple};
   padding-top: ${props => (props.noPadding ? 0 : "6.25rem")};
+
+  ${media.md`
+    font-size: 3.25rem;
+  `}
+  ${media.sm`
+    font-size: 3.25rem;
+  `}
+  ${media.xs`
+    font-size: 3.25rem;
+  `}
 `
 
 export const BzCopy = styled.p`
@@ -72,10 +82,5 @@ export const BzCopy = styled.p`
     props.bold &&
     css`
       font-weight: 700;
-    `}
-  ${props =>
-    props.italic &&
-    css`
-      font-style: italic;
     `}
 `

@@ -1,25 +1,36 @@
 import styled from "styled-components"
 import { Section } from "../pageComponents/style"
-import { colors, fonts } from "../../style/constants"
+import { colors, fonts, media } from "../../style/constants"
 import { BzTitle } from "../typography"
+import { SectionCenteredContent } from "../pageComponents/style"
 
 export const HeroSection = styled(Section)``
 
-export const HeroContainer = styled.div`
+export const HeroContainer = styled(SectionCenteredContent)`
   display: flex;
   flex-flow: column;
   flex-direction: column;
   height: 100%;
-  width: 100%auto;
+  width: 100%;
   justify-content: space-between;
-  & div:last-child {
-  }
 `
 export const HeroHeader = styled.div`
   margin: 0 auto;
   & img {
     width: 25.125rem;
     padding-top: 6.25rem;
+    ${media.md`
+    padding-top: 4.25rem;
+    width: 22rem;
+    `}
+    ${media.sm`
+    width: 22rem;
+    padding-top: 4.25rem;
+    `}
+    ${media.xs`
+    width: 22rem;
+    padding-top: 4.25rem;
+    `}
   }
 `
 
@@ -38,7 +49,6 @@ export const HeroTitle = styled(BzTitle)`
 export const HeroTitleBlock = styled.div`
   display: flex;
   flex-direction: column;
-  width: 50rem;
   margin: 0 auto;
   & p {
     font-family: ${fonts.sansSerif};
@@ -47,6 +57,18 @@ export const HeroTitleBlock = styled.div`
     line-height: 2.5rem;
     text-align: center;
     color: ${colors.purple};
+    ${media.md`
+      font-size: 1.5rem;
+      line-height: 2rem;
+    `}
+    ${media.sm`
+      font-size: 1.5rem;
+      line-height: 2rem;
+    `}
+    ${media.xs`
+      font-size: 1.5rem;
+      line-height: 2rem;
+    `}
   }
 `
 
