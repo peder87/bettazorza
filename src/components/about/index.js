@@ -1,56 +1,43 @@
 import React from "react"
-import { GlobalContainer } from "../pageComponents/style"
-import { AboutSection, AboutGrid } from "./style"
+import { AboutSection, BzAboutGrid, AboutFooter } from "./style"
 import { colors } from "../../style/constants"
-import { PageCopy } from "../typography"
-import Fade from "react-reveal/Fade"
+import { BzTitle, BzCopy } from "../typography"
+import { BzButton } from "../bzButton"
 
 export const About = ({ data }) => {
-  const isDesktop = window.innerWidth > 769
   return (
     <AboutSection id="about" bgcolor={colors.cyan} color={colors.white}>
-      <GlobalContainer>
-        <AboutGrid img={data.img}>
-          <Fade
-            left={isDesktop}
-            bottom={!isDesktop}
-            duration={isDesktop ? 500 : 1500}
-            delay={500}
-            disstance="30px"
-          >
-            <div />
-          </Fade>
-          <Fade
-            left={isDesktop}
-            bottom={!isDesktop}
-            duration={isDesktop ? 500 : 1000}
-            delay={1000}
-            disstance="30px"
-          >
-            <div>
-              <PageCopy>
-                <span className="bold" role="img" aria-label="hello!">
-                  Ciao! 👋
-                </span>{" "}
-                Sono Elisabetta Zorza e sono una
-                <span className="bold">&nbsp;graphic designer.&nbsp;</span>
-                Dal 2010 lavoro nel campo della comunicazione, in particolare mi
-                occupudo di graphic design e progettazione creativa.
-              </PageCopy>
-              <PageCopy>
-                Ogni progetto che mi viene affidato, viene realizzato con
-                <span className="bold">
-                  &nbsp;metodo e professionalità,&nbsp;
-                </span>
-                grazie agli studi universitari, il costante aggiornamento e
-                all’esperienza sviluppata in questi anni, che mi hanno insegnato
-                a saper utilizzare le strategie corrette per ottenere i
-                risultati migliori.
-              </PageCopy>
-            </div>
-          </Fade>
-        </AboutGrid>
-      </GlobalContainer>
+      <BzTitle color={colors.white}>About</BzTitle>
+      <BzAboutGrid>
+        <div>
+          <img src="images/about/about.png" />
+        </div>
+        <div>
+          <BzCopy bold>
+            Sono una freelance graphic designer e da oltre 10 anni lavoro nel
+            mondo della comunicazione digitale.
+          </BzCopy>
+          <BzCopy italic>
+            Mi sono occupata principalmente di comunicazione per piccole medie
+            imprese in particolare di brand design e packaging, i miei servizi
+            spaziano dalla progettazione di immagine coordinata alla
+            prototipazione di interfacce per prodotti digitali.
+          </BzCopy>
+          <BzCopy italic>
+            Offro soluzioni creative su misura analizzando le esigenze dei miei
+            clienti, attraverso un percorso condiviso passo passo.
+          </BzCopy>
+          <BzCopy italic>
+            La comunicazione visiva è la mia passione, adoro tenermi aggiornata
+            per quanto riguarda le ultime tencologie in campo grafico, quando
+            non sto lavorando mi piace disegnare, entrare in librerie, leggere
+            libri e guardare serie tv.
+          </BzCopy>
+        </div>
+      </BzAboutGrid>
+      <AboutFooter>
+        <BzButton text="hello@bettazorza.it" firstColor={colors.cyan} />
+      </AboutFooter>
     </AboutSection>
   )
 }

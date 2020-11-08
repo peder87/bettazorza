@@ -4,7 +4,7 @@ import { darken } from "polished"
 
 export const Button = styled.button`
   border: 0;
-  line-height: 1.5;
+  line-height: 2;
   white-space: nowrap;
   border-radius: 0.25rem;
   text-decoration: none;
@@ -14,13 +14,15 @@ export const Button = styled.button`
   padding-left: 3rem;
   padding-right: 3rem;
 
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   border: 2px solid;
   border-radius: 1.8rem;
   color: ${props => props.second_color || colors.white};
   background-color: ${props => props.first || colors.purple};
   transition: background-color 0.5s ease-out;
+
   &:hover {
+    cursor: pointer;
     background-color: ${props =>
       darken(0.15, props.first_color || colors.purple)};
   }

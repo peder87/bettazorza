@@ -8,10 +8,20 @@ import {
   HeroFooter,
   HeroHeader,
 } from "./style"
+import { scroller } from "react-scroll"
 import { colors } from "../../style/constants"
 import { BzButton } from "../bzButton"
 
 export const Hero = props => {
+  const goToAbout = e => {
+    e.preventDefault()
+    scroller.scrollTo("about", {
+      duration: 1000,
+      delay: 0,
+      smooth: "easeInOut",
+    })
+  }
+
   return (
     <HeroSection full bgcolor={colors.white} id="hero">
       <HeroContainer>
@@ -19,7 +29,7 @@ export const Hero = props => {
           <img src="/images/common/logo_betta.svg" />
         </HeroHeader>
         <HeroTitleBlock>
-          <HeroTitle color={colors.cyan}>
+          <HeroTitle noPadding color={colors.cyan}>
             Ciao, <span>Sono Betta</span>
           </HeroTitle>
           <p>
@@ -28,7 +38,7 @@ export const Hero = props => {
           </p>
         </HeroTitleBlock>
         <HeroFooter>
-          <BzButton text="scopri di più" click={() => console.log("hello")} />
+          <BzButton text="scopri di più" click={goToAbout} />
         </HeroFooter>
       </HeroContainer>
     </HeroSection>

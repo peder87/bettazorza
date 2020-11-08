@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import { media } from "../../style/constants"
+import styled, { css } from "styled-components"
+import { media, fonts, colors } from "../../style/constants"
 import { HeaderContainer } from "../pageComponents/style"
 
 export const Header = styled(HeaderContainer)``
@@ -32,7 +32,6 @@ export const PageCopy = styled.p`
     text-align: center;
     font-size: 1.125rem;
     font-style: normal; 
-    /* line-height: 1.125rem; */
     line-height: 1.1;
   `}
   font-size: 1.5rem;
@@ -43,4 +42,30 @@ export const PageCopy = styled.p`
     font-weight: 600;
     font-style: bold;
   }
+`
+
+export const BzTitle = styled.h2`
+  font-size: 6.25rem;
+  padding-bottom: 6.25rem;
+  font-family: ${fonts.sansSerif};
+  font-weight: 700;
+  text-align: center;
+  color: ${props => props.color || colors.purple};
+  padding-top: ${props => (props.noPadding ? 0 : "6.25rem")};
+`
+
+export const BzCopy = styled.p`
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  line-height: 1;
+  ${props =>
+    props.bold &&
+    css`
+      font-weight: 700;
+    `}
+  ${props =>
+    props.italic &&
+    css`
+      font-style: italic;
+    `}
 `

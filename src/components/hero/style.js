@@ -1,8 +1,7 @@
 import styled from "styled-components"
 import { Section } from "../pageComponents/style"
 import { colors, fonts } from "../../style/constants"
-import { GlobalContainer } from "../pageComponents/style"
-import { PageTitle } from "../typography"
+import { BzTitle } from "../typography"
 
 export const HeroSection = styled(Section)``
 
@@ -24,12 +23,9 @@ export const HeroHeader = styled.div`
   }
 `
 
-export const HeroTitle = styled(PageTitle)`
-  font-size: 6rem;
-  font-family: ${fonts.sansSerif};
-  font-weight: 700;
+export const HeroTitle = styled(BzTitle)`
   color: ${props => props.color || colors.white};
-  padding-left: 2rem;
+  padding-left: 1rem;
   text-align: center;
   padding: 0;
   & span {
@@ -42,7 +38,7 @@ export const HeroTitle = styled(PageTitle)`
 export const HeroTitleBlock = styled.div`
   display: flex;
   flex-direction: column;
-  width: 65%;
+  width: 50rem;
   margin: 0 auto;
   & p {
     font-family: ${fonts.sansSerif};

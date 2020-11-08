@@ -1,8 +1,26 @@
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 import { media } from "../../style/constants"
 import { Section } from "../pageComponents/style"
 
 export const AboutSection = styled(Section)``
+
+export const BzAboutGrid = styled.div`
+  padding-bottom: 6.25em;
+
+  display: grid;
+  grid-template-columns: [pic] 35% [bio] 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 3rem;
+  & div img {
+    width: 100%;
+  }
+  & div:first-child {
+    grid-area: pic;
+  }
+  & div:last-child {
+    grid-area: bio;
+  }
+`
 
 export const AboutGrid = styled.div`
   display: grid;
@@ -42,3 +60,5 @@ export const AboutGrid = styled.div`
     }
   }
 `
+
+export const AboutFooter = styled.div``

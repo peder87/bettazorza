@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 import Layout from "../components/layout"
-import "pattern.css"
 import { Stack } from "./stack"
 
 export default props => {

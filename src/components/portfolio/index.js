@@ -9,6 +9,7 @@ import { orderWorks } from "../../utils/dataUtils"
 import Fade from "react-reveal/Fade"
 import Button from "../button"
 import { BzButton } from "../bzButton"
+import { BzTitle } from "../typography"
 import { navigate } from "gatsby"
 
 export const Portfolio = props => {
@@ -31,6 +32,7 @@ export const Portfolio = props => {
       color={colors.darkGray}
     >
       <GlobalContainer>
+        <BzTitle color={colors.purple}>Projects</BzTitle>
         <StuffGrid>
           {works
             .filter((p, i) => i <= limit - 1)
