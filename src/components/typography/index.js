@@ -46,6 +46,7 @@ export const PageCopy = styled.p`
 
 export const BzTitle = styled.h2`
   font-size: 6.25rem;
+  line-height: 1;
   padding-bottom: 6.25rem;
   font-family: ${fonts.sansSerif};
   font-weight: 700;

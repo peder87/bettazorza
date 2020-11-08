@@ -61,4 +61,7 @@ export const AboutGrid = styled.div`
   }
 `
 
-export const AboutFooter = styled.div``
+export const AboutFooter = styled.div`
+  text-align: center;
+  padding-bottom: 6.25rem;
+`
