@@ -93,3 +93,24 @@ export const getOuterSpace = p =>
       ${rule(p, spaces.p200)}
     `}
   `
+
+export const mediaChecker = css`
+  ${media.xxl`
+    background-color: red;
+  `}
+  ${media.xl`
+    background-color: hotpink;
+  `}
+  ${media.lg`
+    background-color: orange;
+  `}
+  ${media.md`
+    background-color: yellow;
+  `}
+  ${media.sm`
+    background-color: green;
+  `}
+  ${media.xs`
+    background-color: #ccc;
+  `}
+`

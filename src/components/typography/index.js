@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components"
-import { media, fonts, colors } from "../../style/constants"
+import { media, fonts, colors, mediaChecker } from "../../style/constants"
 import { HeaderContainer } from "../pageComponents/style"
 
 export const Header = styled(HeaderContainer)``
@@ -9,7 +9,10 @@ export const PageTitle = styled.h2`
   font-weight: 600;
   color: ${props => props.color};
   ${media.sm`
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  `};
+  ${media.sm`
+    font-size: 1.2rem;
   `};
   padding-bottom: 2rem;
   &::first-letter {
@@ -53,15 +56,15 @@ export const BzTitle = styled.h2`
   text-align: center;
   color: ${props => props.color || colors.purple};
   padding-top: ${props => (props.noPadding ? 0 : "6.25rem")};
-
+  ${mediaChecker};
   ${media.md`
-    font-size: 3.25rem;
+    font-size: 6rem;
   `}
   ${media.sm`
-    font-size: 3.25rem;
+    font-size: 3rem;
   `}
   ${media.xs`
-    font-size: 3.25rem;
+    font-size: 2.8rem;
   `}
 `
 

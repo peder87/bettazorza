@@ -91,18 +91,27 @@ export const Section = styled.div`
 
 export const SectionCenteredContent = styled(PageCenterContent)`
   ${media.xxl`
-    padding: 3.5em 3.5em 3.5em;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
   `}
   ${media.xl`
-    padding: 3.5em 3.5em 3.5em;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
   `}
   ${media.lg`
-    padding: 3.0em 3.0em 3.0em;
+    padding-left: 3.0em;
+    padding-right: 3.0em;
   `}
   ${media.md`
-    padding: 2.5em 2.5em 2.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
   `}
   ${media.sm`
-    padding: 2.0em 2.5em 2.0em;
+    padding-left: 2.0em;
+    padding-right: 2.0em;
+  `}
+  ${media.xs`
+    padding-left: 2.0em;
+    padding-right: 2.0em;
   `}
 `

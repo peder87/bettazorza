@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle, css } from "styled-components"
 import reset from "styled-reset"
 import { fonts, media } from "./constants"
 import { src_fonts } from "./font"
