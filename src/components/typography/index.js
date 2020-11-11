@@ -50,22 +50,47 @@ export const PageCopy = styled.p`
 export const BzTitle = styled.h2`
   font-size: 6.25rem;
   line-height: 1;
-  padding-bottom: 6.25rem;
   font-family: ${fonts.sansSerif};
   font-weight: 700;
   text-align: center;
   color: ${props => props.color || colors.purple};
   padding-top: ${props => (props.noPadding ? 0 : "6.25rem")};
   ${mediaChecker};
+  ${media.xxl`
+    font-size: 6rem;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+  `}
+  ${media.xl`
+    font-size: 6rem;
+    padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
+  `}
+  ${media.lg`
+    font-size: 6rem;
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+  `}
   ${media.md`
     font-size: 6rem;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
   `}
   ${media.sm`
     font-size: 3rem;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
   `}
   ${media.xs`
     font-size: 2.8rem;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
   `}
+  ${props =>
+    props.noPadding &&
+    css`
+      padding-top: 0;
+    `}
 `
 
 export const BzCopy = styled.p`

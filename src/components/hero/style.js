@@ -36,6 +36,9 @@ export const HeroHeader = styled.div`
     `}
     ${paddingTop};
   }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `
 
 export const HeroTitle = styled(BzTitle)`
