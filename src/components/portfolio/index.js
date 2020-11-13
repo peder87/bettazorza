@@ -1,7 +1,8 @@
 import React, { useState } from "react"
 import { PortfolioSection } from "./style"
 import { StuffGrid } from "../../components/grid"
-import { Thumbnail } from "../../components/image/thumbnail"
+// import { Thumbnail } from "../../components/image/thumbnail"
+import { BzThumbnail } from "../../components/image/BzThumbnail"
 import { colors } from "../../style/constants"
 import { Link } from "react-scroll"
 import { orderWorks } from "../../utils/dataUtils"
@@ -46,7 +47,7 @@ export const Portfolio = props => {
                   disstance="30px"
                   key={project.id}
                 >
-                  <Thumbnail
+                  <BzThumbnail
                     key={project.id}
                     title={project.title}
                     img={project.thumbnail}
