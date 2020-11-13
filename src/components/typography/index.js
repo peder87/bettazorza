@@ -55,7 +55,7 @@ export const BzTitle = styled.h2`
   text-align: center;
   color: ${props => props.color || colors.purple};
   padding-top: ${props => (props.noPadding ? 0 : "6.25rem")};
-  ${mediaChecker};
+  /* ${mediaChecker}; */
   ${media.xxl`
     font-size: 6rem;
     padding-top: 6.25rem;
@@ -122,6 +122,7 @@ export const BzLink = styled.a`
   color: ${colors.darkGray};
   transition: color 0.25s ease;
   margin: 1em;
+
   &::after {
     position: absolute;
     content: "";

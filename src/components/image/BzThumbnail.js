@@ -1,14 +1,14 @@
 import React from "react"
 import { Image } from "./image"
 import styled from "styled-components"
-import { colors } from "../../style/constants"
+import { colors, fonts } from "../../style/constants"
 
 export const BzThumbnail = props => {
   return (
     <ThumbWrapper>
       <figure>
         <Image srcset={props.srcset} alt={props.title} src={props.img} />
-        <span>{props.title}</span>
+        <strong>{props.title}</strong>
       </figure>
     </ThumbWrapper>
   )
@@ -26,10 +26,56 @@ const ThumbWrapper = styled.div`
     overflow: hidden;
 
     & img {
+      display: inline-block;
       width: 100%;
       max-width: 100%;
       max-height: 100%;
       display: block;
+
+      margin-bottom: 0.75rem;
+      /* transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s; */
+    }
+
+    & strong {
+      display: inline-block;
+      position: relative;
+      font-family: ${fonts.sansSerif};
+      color: ${colors.darkGray};
+      font-weight: 600;
+      font-size: 1.2rem;
+      line-height: 1;
+      transition: color 0.25s ease;
+
+      ::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        transform-origin: left;
+        transition: width 0.25s ease;
+        z-index: -1;
+        border-bottom: 1px solid ${colors.purple};
+      }
+    }
+
+    &:hover {
+      & img {
+        /* background: transparent;
+        transform: translateY(-0.25rem);
+        box-shadow: rgba(46, 41, 51, 0.08) 0px 4px 8px,
+          rgba(71, 63, 79, 0.16) 0px 8px 16px; */
+      }
+
+      cursor: pointer;
+      & strong {
+        color: ${colors.purple};
+      }
+      & strong::after {
+        width: 100%;
+        border-bottom: 1px solid ${colors.purple};
+      }
     }
   }
 `
