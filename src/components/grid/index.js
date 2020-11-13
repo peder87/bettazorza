@@ -2,7 +2,6 @@ import styled, { css } from "styled-components"
 import { media } from "../../style/constants"
 
 export const StuffGrid = styled.div`
-  padding-top: 6.25rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);

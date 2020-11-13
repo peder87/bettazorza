@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-import { GlobalContainer } from "../pageComponents/style"
 import { PortfolioSection } from "./style"
 import { StuffGrid } from "../../components/grid"
 import { Thumbnail } from "../../components/image/thumbnail"
@@ -11,6 +10,7 @@ import Button from "../button"
 import { BzButton } from "../bzButton"
 import { BzTitle } from "../typography"
 import { navigate } from "gatsby"
+import { SectionCenteredContent } from "../pageComponents/style"
 
 export const Portfolio = props => {
   const stateLimit = 4
@@ -31,7 +31,7 @@ export const Portfolio = props => {
       bgcolor={colors.white}
       color={colors.darkGray}
     >
-      <GlobalContainer>
+      <SectionCenteredContent>
         <BzTitle color={colors.purple}>Projects</BzTitle>
         <StuffGrid>
           {works
@@ -62,7 +62,7 @@ export const Portfolio = props => {
         {limit <= works.length && (
           <BzButton click={loadMore} text="load more" />
         )}
-      </GlobalContainer>
+      </SectionCenteredContent>
     </PortfolioSection>
   )
 }

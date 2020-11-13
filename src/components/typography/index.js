@@ -112,3 +112,34 @@ export const BzCopy = styled.p`
       font-weight: 700;
     `}
 `
+
+export const BzLink = styled.a`
+  display: inline-block;
+  position: relative;
+  font-weight: ${fonts.sansSerif};
+  font-size: 1.2rem;
+  line-height: 1;
+  color: ${colors.darkGray};
+  transition: color 0.25s ease;
+  margin: 1em;
+  &::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transform-origin: left;
+    transition: width 0.25s ease;
+    z-index: -1;
+    border-bottom: 2px solid ${colors.purple};
+  }
+  &:hover::after {
+    width: 100%;
+    border-bottom: 2px solid ${colors.purple};
+  }
+  &:hover {
+    cursor: pointer;
+    color: ${colors.purple};
+  }
+`
