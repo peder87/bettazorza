@@ -114,3 +114,24 @@ export const mediaChecker = css`
     background-color: #ccc;
   `}
 `
+
+export const paddingBottom = css`
+  ${media.xxl`
+    padding-bottom: 6.25rem;
+  `}
+  ${media.xl`
+    padding-bottom: 4.25rem;
+  `}
+  ${media.lg`
+    padding-bottom: 3.25rem;
+  `}
+  ${media.md`
+    padding-bottom: 2.25rem;
+  `}
+  ${media.sm`
+    padding-bottom: 2.25rem;
+  `}
+  ${media.xs`
+    padding-bottom: 2.25rem;
+  `}
+`

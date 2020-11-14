@@ -1,5 +1,11 @@
 import styled, { css } from "styled-components"
-import { media, fonts, colors, mediaChecker } from "../../style/constants"
+import {
+  media,
+  fonts,
+  colors,
+  mediaChecker,
+  paddingBottom,
+} from "../../style/constants"
 import { HeaderContainer } from "../pageComponents/style"
 
 export const Header = styled(HeaderContainer)``

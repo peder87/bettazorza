@@ -24,9 +24,9 @@ const ThumbWrapper = styled.div`
     margin: 0;
     padding: 0;
     overflow: hidden;
-
     & img {
       display: inline-block;
+      position: relative;
       width: 100%;
       max-width: 100%;
       max-height: 100%;
@@ -44,19 +44,24 @@ const ThumbWrapper = styled.div`
       font-weight: 600;
       font-size: 1.2rem;
       line-height: 1;
-      transition: color 0.25s ease;
+      transition: color 0.5s ease;
+      top: 0px;
+      box-shadow:0px 3px 6px fade(black,20%);
 
       ::after {
         position: absolute;
         content: "";
         top: 0;
         left: 0;
-        width: 0;
+        opacity: 0;
+        width: 100%;
+        /* width: 0%; */
         height: 100%;
         transform-origin: left;
-        transition: width 0.25s ease;
+        /* transition: width 0.25s ease; */
+        transition: opacity 0.5s ease;
         z-index: -1;
-        border-bottom: 1px solid ${colors.purple};
+        /* border-bottom: 1px solid ${colors.purple}; */
       }
     }
 
@@ -73,7 +78,8 @@ const ThumbWrapper = styled.div`
         color: ${colors.purple};
       }
       & strong::after {
-        width: 100%;
+        /* width: 100%; */
+        opacity: 1;
         border-bottom: 1px solid ${colors.purple};
       }
     }
