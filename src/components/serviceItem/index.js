@@ -1,6 +1,12 @@
 import React from "react"
 import { ServiceWrapper } from "./style"
-
+import { Image } from "../image/image"
 export const ServiceItem = props => {
-  return <ServiceItem>hello</ServiceItem>
+  console.log(props)
+  return (
+    <ServiceWrapper>
+      <Image srcset={props.srcset} />
+      <span>{props.title}</span>
+    </ServiceWrapper>
+  )
 }

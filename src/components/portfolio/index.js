@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { PortfolioSection } from "./style"
+import { PortfolioSection, ButtonContainer } from "./style"
 import { StuffGrid } from "../../components/grid"
 import { BzThumbnail } from "../../components/image/BzThumbnail"
 import { colors } from "../../style/constants"
@@ -58,9 +58,11 @@ export const Portfolio = props => {
             })}
         </StuffGrid>
         {/* </AnimateHeight> */}
-        {limit <= works.length && (
-          <BzButton click={loadMore} text="load more" />
-        )}
+        <ButtonContainer>
+          {limit <= works.length && (
+            <BzButton click={loadMore} text="load more" />
+          )}
+        </ButtonContainer>
       </SectionCenteredContent>
     </PortfolioSection>
   )

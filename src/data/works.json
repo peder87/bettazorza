@@ -1,38 +1,47 @@
 [
   {
-    "title": "studio marchio",
+    "title": "brand design",
     "caption": "uno studio attento del branding aziendale fondamentale per differenziare l’azienda dai suoi competitor.",
     "img": "/images/works/brand.png",
-    "srcset": ["/images/works/brand.png","/images/works/brand-2x.png 2x"]
+    "srcset": ["/images/works/brand.png", "/images/works/brand-2x.png 2x"]
   },
   {
     "title": "social kit",
     "caption": "Pacchetto di immagini e contenuti per promuovere il tuo brand sui principali social network.",
     "img": "/images/works/social.png",
-    "srcset": ["/images/works/social.png","/images/works/social-2x.png 2x"]
+    "srcset": ["/images/works/social.png", "/images/works/social-2x.png 2x"]
   },
   {
     "title": "ui/web design",
     "caption": "Pianificazione e ideazione di siti web.",
     "img": "/images/works/webdesign.png",
-    "srcset": ["/images/works/webdesign.png","/images/works/webdesign-2x.png 2x"]
+    "srcset": [
+      "/images/works/webdesign.png",
+      "/images/works/webdesign-2x.png 2x"
+    ]
   },
   {
-    "title": "BROCHURE, DEPLIANT, VOLANTINI",
+    "title": "design editoriale",
     "caption": "Studio e realizzazione di supporti cartacei a scopo pubblicitario o informativo.",
     "img": "/images/works/brochure.png",
-    "srcset": ["/images/works/brochure.png","/images/works/brochure-2x.png 2x"]
+    "srcset": ["/images/works/brochure.png", "/images/works/brochure-2x.png 2x"]
   },
   {
     "title": "packaging",
     "caption": "studio e realizzazione dell’identità del vostro prodotto o del packaging per i punti vendita.",
     "img": "/images/works/packaging.png",
-    "srcset": ["/images/works/packaging.png","/images/works/packaging-2x.png 2x"]
+    "srcset": [
+      "/images/works/packaging.png",
+      "/images/works/packaging-2x.png 2x"
+    ]
   },
   {
-    "title": "illustration",
+    "title": "illustrazioni",
     "caption": "realizzazione di illustrazioni in ambito editoriale o aziendale o su commisione.",
     "img": "/images/works/illustrazioni.png",
-    "srcset": ["/images/works/illustrazioni.png","/images/works/illustrazioni-2x.png 2x"]
+    "srcset": [
+      "/images/works/illustrazioni.png",
+      "/images/works/illustrazioni-2x.png 2x"
+    ]
   }
 ]

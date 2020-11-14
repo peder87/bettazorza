@@ -43,12 +43,10 @@ const query = graphql`
       img
     }
     works: allWorksJson {
-      edges {
-        node {
-          id
-          caption
-          srcset
-        }
+      nodes {
+        id
+        title
+        srcset
       }
     }
   }
