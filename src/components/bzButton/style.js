@@ -17,16 +17,25 @@ export const Button = styled.button`
   font-size: 1.6rem;
   border: 2px solid;
   border-radius: 1.8rem;
-  color: ${props => props.second_color || colors.white};
+  color: ${props => props.second || colors.white};
   background-color: ${props => props.first || colors.purple};
-  transition: background-color 0.5s ease-out;
+  /* transition: color 250ms ease-out; */
 
   &:hover {
     cursor: pointer;
-    background-color: ${props =>
-      darken(0.15, props.first_color || colors.purple)};
+    background-color: ${props => props.second || colors.white};
+    color: ${props => props.first || colors.purple};
+    border-color: ${props => props.second || colors.white};
   }
   &:focus {
     outline: none;
   }
+`
+
+export const BzLinkStyle = styled.a`
+  background-color: transparent;
+  border: 1px solid;
+  color: ${props => props.color || colors.purple};
+  border-color: ${props => props.color || colors.purple};
+  border-radius: 8px;
 `

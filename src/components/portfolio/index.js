@@ -60,7 +60,12 @@ export const Portfolio = props => {
         {/* </AnimateHeight> */}
         <ButtonContainer>
           {limit <= works.length && (
-            <BzButton click={loadMore} text="load more" />
+            <BzButton
+              click={loadMore}
+              text="load more"
+              first={colors.white}
+              second={colors.purple}
+            />
           )}
         </ButtonContainer>
       </SectionCenteredContent>

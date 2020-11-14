@@ -38,7 +38,7 @@ export const About = ({ data }) => {
           </div>
         </BzAboutGrid>
         <AboutFooter>
-          <BzButton text="hello@bettazorza.it" firstColor={colors.cyan} />
+          <BzButton text="hello@bettazorza.it" first={colors.cyan} />
         </AboutFooter>
       </SectionCenteredContent>
     </AboutSection>

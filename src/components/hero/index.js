@@ -39,7 +39,12 @@ export const Hero = props => {
           </BzCopy>
         </HeroTitleBlock>
         <HeroFooter>
-          <BzButton text="scopri di più" click={goToAbout} />
+          <BzButton
+            first={colors.white}
+            second={colors.purple}
+            text="scopri di più"
+            click={goToAbout}
+          />
         </HeroFooter>
       </HeroContainer>
     </HeroSection>
