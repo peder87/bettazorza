@@ -9,6 +9,7 @@ export const BzThumbnail = props => {
       <figure>
         <Image srcset={props.srcset} alt={props.title} src={props.img} />
         <strong>{props.title}</strong>
+        <span>{props.tags[0]}</span>
       </figure>
     </ThumbWrapper>
   )
@@ -62,6 +63,13 @@ const ThumbWrapper = styled.div`
         transition: opacity 0.5s ease;
         z-index: -1;
         /* border-bottom: 1px solid ${colors.purple}; */
+      }
+    }
+
+    & span {
+      display: block;
+      &:first-letter {
+        text-transform: uppercase;
       }
     }
 

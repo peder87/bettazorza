@@ -24,6 +24,7 @@ const query = graphql`
           id
           thumbnail
           thumbset
+          tags
           url
           title
           order

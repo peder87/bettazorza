@@ -50,6 +50,7 @@ export const Portfolio = props => {
                   <BzThumbnail
                     key={project.id}
                     title={project.title}
+                    tags={project.tags}
                     img={project.thumbnail}
                     path={project.url}
                     srcset={project.thumbset}
