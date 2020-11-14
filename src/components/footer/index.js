@@ -4,7 +4,6 @@ import { SocialMenu } from "../socialMenu"
 import { colors } from "../../style/constants"
 
 export const Footer = ({ color, ...props }) => {
-  console.log(props)
   const footerColors = {
     color: color,
   }

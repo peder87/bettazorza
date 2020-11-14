@@ -42,5 +42,14 @@ const query = graphql`
       page
       img
     }
+    works: allWorksJson {
+      edges {
+        node {
+          id
+          caption
+          srcset
+        }
+      }
+    }
   }
 `
