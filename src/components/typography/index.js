@@ -61,7 +61,6 @@ export const BzTitle = styled.h2`
   text-align: center;
   color: ${props => props.color || colors.purple};
   padding-top: ${props => (props.noPadding ? 0 : "6.25rem")};
-  /* ${mediaChecker}; */
   ${media.xxl`
     font-size: 6rem;
     padding-top: 6.25rem;

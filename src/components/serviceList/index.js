@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Section, SectionCenteredContent } from "../pageComponents/style"
-import { colors } from "../../style/constants"
+import { colors, media, mediaChecker } from "../../style/constants"
 import { BzTitle } from "../typography"
 import { Carusel } from "../carusel"
 
@@ -13,7 +13,7 @@ export const ServiceList = ({ list }) => {
       color={colors.purple}
     >
       <SectionCenteredContent>
-        <BzTitle color={colors.purple}>Come posso aiutarti?</BzTitle>
+        <ServiceTitle color={colors.purple}>Come posso aiutarti?</ServiceTitle>
         <Carusel list={list} />
       </SectionCenteredContent>
     </ServiceSection>
@@ -22,4 +22,14 @@ export const ServiceList = ({ list }) => {
 
 const ServiceSection = styled(Section)`
   background-color: rgba(196, 196, 196, 10%);
+`
+
+const ServiceTitle = styled(BzTitle)`
+  /* ${mediaChecker}; */
+  ${media.lg`
+    font-size: 4.5rem;
+  `}
+  ${media.sm`
+    font-size: 3.3rem;
+  `}
 `
