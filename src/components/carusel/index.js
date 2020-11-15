@@ -5,17 +5,16 @@ import { CaruselWrapper } from "./style"
 import { ServiceItem } from "../serviceItem"
 
 import "swiper/swiper.scss"
-SwiperCore.use([Navigation, Pagination, Scrollbar, A11y])
+import "swiper/components/pagination/pagination.scss"
+SwiperCore.use([Pagination, Scrollbar, A11y])
 
 export const Carusel = ({ list }) => {
   return (
     <CaruselWrapper>
       <Swiper
         spaceBetween={50}
-        slidesPerView={6}
-        navigation
-        pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
+        slidesPerView={3}
+        pagination
         onSwiper={swiper => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >

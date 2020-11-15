@@ -5,7 +5,9 @@ export const ServiceItem = props => {
   console.log(props)
   return (
     <ServiceWrapper>
-      <Image srcset={props.srcset} />
+      <div>
+        <img src={props.srcset[0]} />
+      </div>
       <span>{props.title}</span>
     </ServiceWrapper>
   )
