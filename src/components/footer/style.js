@@ -6,6 +6,8 @@ export const FooterWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: column;
+  display: ${props => (props.menu ? "none" : "flex")};
   ${media.sm`
     flex-direction: column;
     display: ${props => (props.menu ? "none" : "flex")};
@@ -21,8 +23,9 @@ export const FooterWrapper = styled.div`
 `
 
 export const FooterText = styled.span`
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   color: ${props => props.color};
+  font-weight: 700;
   ${media.sm`
     padding-top: 1.8em;
   `};
@@ -32,7 +35,7 @@ export const FooterText = styled.span`
 `
 
 export const FooterLink = styled.a`
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   color: ${props => props.color};
   ${media.sm`
     padding-bottom: 1.8em;

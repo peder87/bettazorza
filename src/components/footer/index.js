@@ -15,7 +15,7 @@ export const Footer = ({ color, ...props }) => {
       </FooterLink>
       <SocialMenu {...footerColors} />
       <FooterText {...footerColors}>
-        &copy;{new Date().getFullYear()} BettaZorza
+        &copy;{new Date().getFullYear()} - Betta Zorza Design
       </FooterText>
     </FooterWrapper>
   )

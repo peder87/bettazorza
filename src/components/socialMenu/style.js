@@ -6,6 +6,8 @@ export const MenuWrapper = styled.div`
   justify-content: center;
   align-items: center;
   width: 60%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   ${media.sm`
     width: 90%;
   `}

@@ -6,7 +6,7 @@ import { Footer } from "../footer"
 
 export const Bottom = props => {
   return (
-    <BottomSection id="bottom" bgcolor={colors.darkGray} color={colors.white}>
+    <BottomSection id="bottom" bgcolor={colors.purple} color={colors.white}>
       <GlobalContainer>
         <Footer color={colors.white} />
       </GlobalContainer>
