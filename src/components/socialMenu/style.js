@@ -7,7 +7,8 @@ export const MenuWrapper = styled.div`
   align-items: center;
   width: 30%;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
   ${media.sm`
     width: 90%;
   `}

@@ -26,7 +26,7 @@ export const FooterWrapper = styled.div`
 export const FooterText = styled.span`
   font-size: 1.5rem;
   color: ${props => props.color};
-  font-weight: 700;
+  font-weight: 500;
   ${media.sm`
     padding-top: 1.8em;
   `};
@@ -38,6 +38,7 @@ export const FooterText = styled.span`
 export const FooterLink = styled(BzLink)`
   font-size: 1.2rem;
   text-decoration: none;
+  margin-bottom: 0;
   ${media.sm`
     padding-bottom: 1.8em;
   `};
