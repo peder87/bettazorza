@@ -5,7 +5,7 @@ export const MenuWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 30%;
   padding-top: 1rem;
   padding-bottom: 1rem;
   ${media.sm`

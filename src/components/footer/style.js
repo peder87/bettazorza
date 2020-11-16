@@ -1,5 +1,6 @@
 import styled from "styled-components"
-import { media } from "../../style/constants"
+import { colors, media } from "../../style/constants"
+import { BzLink } from "../../components/typography"
 
 export const FooterWrapper = styled.div`
   position: relative;
@@ -34,19 +35,31 @@ export const FooterText = styled.span`
   `};
 `
 
-export const FooterLink = styled.a`
-  font-size: 1.5rem;
-  color: ${props => props.color};
+export const FooterLink = styled(BzLink)`
+  font-size: 1.2rem;
+  text-decoration: none;
   ${media.sm`
     padding-bottom: 1.8em;
   `};
   ${media.xs`
     padding-bottom: 1.8em;
   `};
+  display: inline-block;
+  &::after {
+    opacity: 0;
+    width: 100%;
+    transition: opacity 0.25s ease;
+  }
   &:hover {
     cursor: pointer;
     color: ${props => props.color};
-    text-decoration: underline;
+    border-color: ${colors.white};
+    border-width: 1px;
+    &::after {
+      opacity: 1;
+      border-color: ${colors.white};
+      border-width: 1px;
+    }
   }
   &:link,
   &:visited,
