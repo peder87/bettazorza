@@ -7,7 +7,6 @@ import {
 } from "../../style/constants"
 
 export const ServiceWrapper = styled.div`
-  ${mediaChecker};
   display: flex;
   flex-direction: column;
   align-items: center;
