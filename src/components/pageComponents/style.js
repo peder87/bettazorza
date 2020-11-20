@@ -83,7 +83,6 @@ export const FooterContainer = styled(PageCenterContent)`
 export const HeaderContainer = styled(PageCenterContent)``
 
 export const Section = styled.div`
-  width: 100wv;
   height: ${props => (props.full ? "100vh" : "auto")};
   background-color: ${props => props.bgcolor || "#fff"};
   color: ${props => props.color || "#000"};
