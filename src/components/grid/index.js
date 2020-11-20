@@ -8,9 +8,14 @@ export const StuffGrid = styled.div`
   grid-column-gap: 2.2rem;
   grid-row-gap: 2.2rem;
 
+  ${media.xxl`
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 2.2rem;
+    grid-row-gap: 2.2rem;
+  `}
   ${media.xl`
-    grid-template-columns: ${props =>
-      props.isProject ? "repeat(2,1fr)" : "repeat(4,1fr)"};
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 2.2rem;
     grid-row-gap: 2.2rem;
