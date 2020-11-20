@@ -13,6 +13,7 @@ export const HeroContainer = styled(SectionCenteredContent)`
   flex-direction: column; */
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   height: 100%;
   width: 100%;
   justify-content: space-between;
