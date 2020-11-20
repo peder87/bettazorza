@@ -1,11 +1,26 @@
 import styled from "styled-components"
-import { colors, paddingBottom, media } from "../../style/constants"
+import {
+  colors,
+  paddingBottom,
+  media,
+  mediaChecker,
+} from "../../style/constants"
 
 export const ServiceWrapper = styled.div`
+  ${mediaChecker};
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 170px;
+  height: 10.5em;
+    ${media.md`
+      height: 12em;
+    `}
+    ${media.sm`
+      height: 12em;
+    `}
+    ${media.xs`
+      height: 12em;
+    `}
   & div {
     padding-bottom: 1em;
     object-fit: cover;
@@ -18,7 +33,7 @@ export const ServiceWrapper = styled.div`
     letter-spacing: 0.2rem;
     text-align: center;
     ${media.xxl`
-      font-size: 0.2rem;
+      font-size: 1.2rem;
     `}
     ${media.xl`
       font-size: 1.2rem;
@@ -31,9 +46,11 @@ export const ServiceWrapper = styled.div`
     `}
     ${media.sm`
       font-size: 1rem;
+    letter-spacing: 0.1rem;
     `}
     ${media.xs`
       font-size: 1rem;
+    letter-spacing: 0.1rem;
     `}
   }
 `

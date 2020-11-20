@@ -1,6 +1,7 @@
 import React from "react"
 import { ServiceWrapper } from "./style"
 import { Image } from "../image/image"
+
 export const ServiceItem = props => {
   return (
     <ServiceWrapper>
