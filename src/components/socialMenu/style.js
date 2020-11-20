@@ -9,11 +9,23 @@ export const MenuWrapper = styled.div`
   padding-top: 1rem;
   padding-bottom: 1.5rem;
   padding-top: 1.5rem;
+  ${media.xxl`
+    width: 20%;
+  `}
+  ${media.xl`
+    width: 25%;
+  `}
+  ${media.lg`
+    width: 35%;
+  `}
+  ${media.md`
+    width: 40%;
+  `}
   ${media.sm`
-    width: 90%;
+    width: 60%;
   `}
   ${media.xs`
-    width: 90%;
+    width: 60%;
   `}
   margin: 0 auto;
 `
