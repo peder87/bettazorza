@@ -21,7 +21,7 @@ export const ServiceList = ({ list }) => {
 }
 
 const ServiceSection = styled(Section)`
-  background-color: rgba(196, 196, 196, 10%);
+  background-color: rgba(196, 196, 196, 30%);
 `
 
 const ServiceTitle = styled(BzTitle)`
