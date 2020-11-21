@@ -21,7 +21,6 @@ export const ServiceWrapper = styled.div`
       height: 12em;
     `}
   & div {
-    ${mediaChecker};
     padding-bottom: 1em;
     object-fit: cover;
   }
