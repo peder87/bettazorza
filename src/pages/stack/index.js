@@ -11,12 +11,14 @@ export const Stack = ({ about, order, projects, works }) => {
   const list = cleanOrder(order.edges)
   const mapProjects = getDictionaryById(projects.edges, "id")
   return (
-    <>
+    <div>
       <Hero />
       <About data={about} />
       <Portfolio list={list} src={mapProjects} />
       <ServiceList list={works.nodes} />
       <Bottom />
-    </>
+    </div>
   )
 }
+
+export default Stack

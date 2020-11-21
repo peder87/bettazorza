@@ -21,6 +21,7 @@ export const ServiceWrapper = styled.div`
       height: 12em;
     `}
   & div {
+    ${mediaChecker};
     padding-bottom: 1em;
     object-fit: cover;
   }
@@ -44,8 +45,8 @@ export const ServiceWrapper = styled.div`
       font-size: 1.2rem;
     `}
     ${media.sm`
-      font-size: 1rem;
-    letter-spacing: 0.1rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.1rem;
     `}
     ${media.xs`
       font-size: 1rem;
