@@ -22,7 +22,7 @@ export const BzAboutGrid = styled.div`
   `}
   ${media.sm`
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr  1fr;
+    grid-template-rows: 1fr 100%;
     grid-row-gap: 2rem;
     grid-column-gap: 0;
   `}

@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { colors, media } from "../../style/constants"
+import { colors, media, mediaChecker } from "../../style/constants"
 import { BzLink } from "../../components/typography"
 
 export const FooterWrapper = styled.div`
@@ -9,14 +9,6 @@ export const FooterWrapper = styled.div`
   justify-content: space-between;
   flex-direction: column;
   display: ${props => (props.menu ? "none" : "flex")};
-  ${media.sm`
-    flex-direction: column;
-    display: ${props => (props.menu ? "none" : "flex")};
-  `}
-  ${media.xs`
-    flex-direction: column;
-    display: ${props => (props.menu ? "none" : "flex")};
-  `}
   z-index: 9995;
   width: 100%;
   bottom: 0px;
@@ -39,12 +31,6 @@ export const FooterLink = styled(BzLink)`
   font-size: 1.2rem;
   text-decoration: none;
   margin-bottom: 0;
-  ${media.sm`
-    padding-bottom: 1.8em;
-  `};
-  ${media.xs`
-    padding-bottom: 1.8em;
-  `};
   display: inline-block;
   &::after {
     opacity: 0;

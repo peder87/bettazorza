@@ -31,7 +31,7 @@ export const Hero = props => {
         </HeroHeader>
         <HeroTitleBlock>
           <HeroTitle noPadding color={colors.cyan}>
-            Ciao, <span>Sono Betta</span>
+            Ciao, <span>sono Betta</span>
           </HeroTitle>
           <BzCopy>
             Sono una graphic designer, e ogni giorno collaboro con persone e

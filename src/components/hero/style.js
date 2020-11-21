@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Section } from "../pageComponents/style"
-import { colors, fonts, media } from "../../style/constants"
+import { colors, fonts, media, mediaChecker } from "../../style/constants"
 import { paddingTop } from "../../style/shared"
 import { BzTitle } from "../typography"
 import { SectionCenteredContent } from "../pageComponents/style"
@@ -23,11 +23,20 @@ export const HeroContainer = styled(SectionCenteredContent)`
 
 export const HeroHeader = styled.div`
   margin: 0 auto;
+  /* ${mediaChecker}; */
   /* border:1px solid red; */
   & img {
-      width: 25.125rem;
+    ${media.xxl`
+      width: 44.2rem;
+    `}
+    ${media.xl`
+      width: 44.2rem;
+    `}
+    ${media.lg`
+      width: 34.2rem;
+    `}
     ${media.md`
-      width: 34.2;
+      width: 34.2rem;
     `}
     ${media.sm`
       width: 22rem;
