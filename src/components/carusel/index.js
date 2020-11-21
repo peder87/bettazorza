@@ -17,14 +17,7 @@ SwiperCore.use([Pagination, Scrollbar, A11y, Autoplay])
 export const Carusel = ({ list }) => {
   return (
     <CaruselWrapper>
-      <Swiper
-        spaceBetween={50}
-        slidesPerView={3}
-        pagination
-        autoplay
-        onSwiper={swiper => console.log(swiper)}
-        onSlideChange={() => console.log("slide change")}
-      >
+      <Swiper slidesPerView={3} pagination autoplay>
         {list.map(item => {
           return (
             <SwiperSlide key={item.id}>
