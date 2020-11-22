@@ -12,14 +12,13 @@ export const WorkGrid = ({ data }) => {
     content: data.tags.join(", "),
   }
   return (
-    <div>
-      <SectionCenteredContent>
-        <SEO title={data.title} description={data.caption} meta={[seoCat]} />
-        <PageTitle>{data.title}</PageTitle>
-        <CopyWrapper>
-          <PageCopy>{data.caption}</PageCopy>
-        </CopyWrapper>
-        <CopyWrapper last>
+    <SectionCenteredContent>
+      <SEO title={data.title} description={data.caption} meta={[seoCat]} />
+      <PageTitle>{data.title}</PageTitle>
+      <CopyWrapper last>
+        <PageCopy>{data.caption}</PageCopy>
+      </CopyWrapper>
+      {/* <CopyWrapper last>
           {data.tags.length > 0 &&
             data.tags.map((tag, i) => {
               const isLast = i === data.tags.length - 1
@@ -33,19 +32,14 @@ export const WorkGrid = ({ data }) => {
                 </span>
               )
             })}
-        </CopyWrapper>
-        <ProjectGrid>
-          {data.imgs.map(img => (
-            <Item key={img.alt} full={img.fullWidth}>
-              {img.mediaType === "img" ? (
-                <Image {...img} />
-              ) : (
-                <Video {...img} />
-              )}
-            </Item>
-          ))}
-        </ProjectGrid>
-      </SectionCenteredContent>
-    </div>
+        </CopyWrapper> */}
+      <ProjectGrid>
+        {data.imgs.map(img => (
+          <Item key={img.alt} full={img.fullWidth}>
+            {img.mediaType === "img" ? <Image {...img} /> : <Video {...img} />}
+          </Item>
+        ))}
+      </ProjectGrid>
+    </SectionCenteredContent>
   )
 }

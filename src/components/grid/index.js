@@ -49,6 +49,20 @@ export const ProjectGrid = styled.div`
   grid-column-gap: 2.2em;
   grid-row-gap: 2.2em;
   grid-template-columns: repeat(2, 1fr);
+  ${paddingBottom};
+
+  ${media.sm`
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1.8rem;
+  `}
+  ${media.xs`
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 1rem;
+    grid-row-gap: 1.8rem;
+  `}
 `
 
 export const Item = styled.div`
