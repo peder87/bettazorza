@@ -5,7 +5,7 @@ import { colors, fonts } from "../../style/constants"
 
 export const BzThumbnail = props => {
   return (
-    <ThumbWrapper>
+    <ThumbWrapper onClick={() => props.callback(props.path)}>
       <figure>
         <Image srcset={props.srcset} alt={props.title} src={props.img} />
         <strong>{props.title}</strong>

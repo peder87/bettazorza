@@ -29,12 +29,12 @@ export const Portfolio = props => {
   const workList = isMobile ? props.list : getFormattedList(props.list, columns)
   const works = orderWorks(props.src, workList)
 
-  const move = p => {
-    navigate(p)
-  }
-
   const loadMore = () => {
     setLimit(state => state + stateLimit)
+  }
+
+  const move = p => {
+    navigate(p)
   }
 
   return (
