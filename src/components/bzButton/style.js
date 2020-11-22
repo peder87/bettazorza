@@ -4,17 +4,17 @@ import { darken } from "polished"
 
 export const Button = styled.button`
   border: 0;
-  line-height: 2;
+  line-height: 1.7;
   white-space: nowrap;
   border-radius: 0.25rem;
   text-decoration: none;
   cursor: pointer;
   text-align: center;
   font-weight: 600;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   border: 2px solid;
   border-radius: 1.8rem;
   color: ${props => props.second || colors.white};
