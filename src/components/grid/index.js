@@ -9,7 +9,7 @@ export const StuffGrid = styled.div`
   grid-row-gap: 2.2rem;
 
   ${media.xxl`
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 2.2rem;
     grid-row-gap: 2.2rem;
@@ -22,7 +22,7 @@ export const StuffGrid = styled.div`
   `}
 
   ${media.lg`
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 2.2rem;
     grid-row-gap: 2.2rem;

@@ -12,14 +12,23 @@ import { SectionCenteredContent } from "../pageComponents/style"
 import { useMedia } from "../../utils/useMedia"
 
 const mqList = Object.values(mq).map(item => `(max-width: ${item})`)
-const values = [1, 1, 1, 4, 4, 4]
+const values = [1, 1, 1, 3, 4, 5]
+
+const getFormattedList = (arr, columns) => {
+  const l = arr.length
+  const mod = l % columns
+  return arr.slice(0, l - mod)
+}
 
 export const Portfolio = props => {
-  const isMobile = useMedia(mqList, values, 4) === 1
-  const stateLimit = 4
+  const columns = useMedia(mqList, values, 4)
+  const isMobile = columns === 1
+  const stateLimit = 3
   const animationDuration = 300
   const [limit, setLimit] = useState(stateLimit)
-  const works = orderWorks(props.src, props.list)
+  const workList = isMobile ? props.list : getFormattedList(props.list, columns)
+  const works = orderWorks(props.src, workList)
+
   const move = p => {
     navigate(p)
   }
