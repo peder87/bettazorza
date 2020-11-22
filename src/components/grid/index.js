@@ -44,6 +44,13 @@ export const StuffGrid = styled.div`
   ${paddingBottom};
 `
 
+export const ProjectGrid = styled.div`
+  display: grid;
+  grid-column-gap: 2.2em;
+  grid-row-gap: 2.2em;
+  grid-template-columns: repeat(2, 1fr);
+`
+
 export const Item = styled.div`
   ${props =>
     props.full &&
