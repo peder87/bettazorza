@@ -1,6 +1,6 @@
 import React from "react"
 import { ProjectGrid, Item } from "./index"
-import { PageTitle, CopyWrapper, PageCopy } from "../typography"
+import { PageTitle, CopyWrapper, PageCopy, BzTitleProject } from "../typography"
 import { Image } from "../image/image"
 import { Video } from "../video"
 import { SectionCenteredContent } from "../pageComponents/style"
@@ -14,10 +14,11 @@ export const WorkGrid = ({ data }) => {
   return (
     <SectionCenteredContent>
       <SEO title={data.title} description={data.caption} meta={[seoCat]} />
-      <PageTitle>{data.title}</PageTitle>
-      <CopyWrapper last>
+      <BzTitleProject bold>{data.title}</BzTitleProject>
+      <BzTitleProject noPadding>{data.tags[0]}</BzTitleProject>
+      {/* <CopyWrapper last>
         <PageCopy>{data.caption}</PageCopy>
-      </CopyWrapper>
+      </CopyWrapper> */}
       {/* <CopyWrapper last>
           {data.tags.length > 0 &&
             data.tags.map((tag, i) => {

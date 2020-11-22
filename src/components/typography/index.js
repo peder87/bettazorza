@@ -98,6 +98,29 @@ export const BzTitle = styled.h2`
     `}
 `
 
+export const BzTitleProject = styled(BzTitle)`
+  font-weight: ${props => (props.bold ? 700 : 300)};
+  ${media.xxl`
+    font-size: 3rem;
+  `}
+  ${media.xl`
+    font-size: 3rem;
+  `}
+  ${media.lg`
+    font-size: 3rem;
+  `}
+  ${media.md`
+    font-size: 3rem;
+  `}
+  ${media.sm`
+    font-size: 3rem;
+  `}
+  ${media.xs`
+    font-size: 2.8rem;
+  `}
+  padding:0;
+`
+
 export const BzCopy = styled.p`
   font-size: 1.5rem;
   padding-bottom: 1rem;
