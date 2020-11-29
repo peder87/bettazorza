@@ -7,7 +7,7 @@ import { SectionCenteredContent } from "../pageComponents/style"
 
 export const About = ({ data }) => {
   return (
-    <AboutSection id="about" bgcolor={colors.cyan} color={colors.white}>
+    <AboutSection full id="about" bgcolor={colors.cyan} color={colors.white}>
       <SectionCenteredContent>
         <BzTitle color={colors.white}>About</BzTitle>
         <BzAboutGrid>

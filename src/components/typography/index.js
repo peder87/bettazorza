@@ -1,11 +1,6 @@
 import styled, { css } from "styled-components"
-import {
-  media,
-  fonts,
-  colors,
-  mediaChecker,
-  paddingBottom,
-} from "../../style/constants"
+import { media, fonts, colors, mediaChecker } from "../../style/constants"
+import { paddingV } from "../../style/shared"
 import { HeaderContainer } from "../pageComponents/style"
 
 export const Header = styled(HeaderContainer)``
@@ -64,33 +59,41 @@ export const BzTitle = styled.h2`
   padding-top: ${props => (props.noPadding ? 0 : "6.25rem")};
   ${media.xxl`
     font-size: 6rem;
-    padding-top: 6.25rem;
-    padding-bottom: 6.25rem;
+    padding-top: ${paddingV.xxl};
+    padding-bottom: ${paddingV.xxl};
   `}
   ${media.xl`
     font-size: 6rem;
-    padding-top: 4.25rem;
-    padding-bottom: 4.25rem;
+    padding-top: ${paddingV.xl};
+    padding-bottom: ${paddingV.xl};
   `}
   ${media.lg`
     font-size: 6rem;
     padding-top: 3.25rem;
     padding-bottom: 3.25rem;
+    padding-top: ${paddingV.lg};
+    padding-bottom: ${paddingV.lg};
   `}
   ${media.md`
     font-size: 6rem;
     padding-top: 2.25rem;
     padding-bottom: 2.25rem;
+    /* padding-top: ${paddingV.md};
+    padding-bottom: ${paddingV.md}; */
   `}
   ${media.sm`
     font-size: 3rem;
     padding-top: 2.25rem;
     padding-bottom: 2.25rem;
+    /* padding-top: ${paddingV.sm};
+    padding-bottom: ${paddingV.sm}; */
   `}
   ${media.xs`
     font-size: 2.8rem;
     padding-top: 2.25rem;
     padding-bottom: 2.25rem;
+    /* padding-top: ${paddingV.xs};
+    padding-bottom: ${paddingV.xs}; */
   `}
   ${props =>
     props.noPadding &&

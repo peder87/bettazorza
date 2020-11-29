@@ -2,7 +2,10 @@ import styled, { css } from "styled-components"
 import { media } from "../../style/constants"
 import { Section } from "../pageComponents/style"
 
-export const AboutSection = styled(Section)``
+export const AboutSection = styled(Section)`
+  height: 100%;
+  min-height: 100vh;
+`
 
 export const BzAboutGrid = styled.div`
   padding-bottom: 6.25em;
