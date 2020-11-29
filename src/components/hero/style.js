@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { Section } from "../pageComponents/style"
 import { colors, fonts, media, mediaChecker } from "../../style/constants"
-import { paddingTop } from "../../style/shared"
+import { paddingTop, paddingV } from "../../style/shared"
 import { BzTitle } from "../typography"
 import { SectionCenteredContent } from "../pageComponents/style"
 
@@ -23,8 +23,6 @@ export const HeroContainer = styled(SectionCenteredContent)`
 
 export const HeroHeader = styled.div`
   margin: 0 auto;
-  /* ${mediaChecker}; */
-  /* border:1px solid red; */
   & img {
     ${media.xxl`
       width: 44.2rem;
@@ -48,7 +46,6 @@ export const HeroHeader = styled.div`
   }
   display: flex;
   flex-direction: column;
-  justify-content: center;
 `
 
 export const HeroTitle = styled(BzTitle)`
@@ -118,5 +115,29 @@ export const HeroTitleBlock = styled.div`
 `
 
 export const HeroFooter = styled.div`
+  display:flex;
+  flex-direction: columns;
+  align-items: flex-end;
+  > div {
+    width: 100%;
+  ${media.xxl`
+    padding-bottom: ${paddingV.xxl};
+  `}
+  ${media.xl`
+    padding-bottom: ${paddingV.xl};
+  `}
+  ${media.lg`
+    padding-bottom: ${paddingV.lg};
+  `}
+  ${media.md`
+    padding-bottom: ${paddingV.md};
+  `}
+  ${media.sm`
+    padding-bottom: ${paddingV.sm};
+  `}
+  ${media.xs`
+    padding-bottom: ${paddingV.xs};
+  `}
+  }
   text-align: center;
 `

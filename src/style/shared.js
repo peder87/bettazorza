@@ -57,23 +57,32 @@ export const Loader = styled.div`
   will-change: transform;
 `
 
+export const paddingV = {
+  xxl: "8.25rem",
+  xl: "8.25rem",
+  lg: "8.25rem",
+  md: "8.25rem",
+  sm: "8.25rem",
+  xs: "8.25rem",
+}
+
 export const paddingTop = css`
   ${media.xxl`
-    padding-top: 6.25rem;
+    padding-top: ${paddingV.xxl};
   `}
   ${media.xl`
-    padding-top: 5.25rem;
+    padding-top: ${paddingV.xl};
   `}
   ${media.lg`
-    padding-top: 5.25rem;
+    padding-top: ${paddingV.lg};
   `}
   ${media.md`
-    padding-top: 5.25rem;
+    padding-top: ${paddingV.md};
   `}
   ${media.sm`
-    padding-top: 5.25rem;
+    padding-top: ${paddingV.sm};
   `}
   ${media.xs`
-    padding-top: 5.25rem;
+    padding-top: ${paddingV.xs};
   `}
 }`
