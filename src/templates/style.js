@@ -28,9 +28,11 @@ export const LogoHeader = styled(HeroHeader)`
 `
 
 export const WorkTitle = styled(BzTitle)`
+/* ${mediaChecker}; */
   font-weight: ${props => (props.bold ? 700 : 300)};
+
   ${media.xxl`
-    padding-bottom: 0;
+    padding-bottom: ${props => (props.last ? "1.5rem" : "0.8rem")};
     font-size: 3.2rem;
     & + h2 {
       padding-top: 0;
@@ -38,7 +40,7 @@ export const WorkTitle = styled(BzTitle)`
     }
   `}
   ${media.xl`
-    padding-bottom: 0;
+    padding-bottom: ${props => (props.last ? "1.5rem" : "0.8rem")};
   font-size: 3rem;
     & + h2 {
       padding-top: 0;
@@ -46,28 +48,29 @@ export const WorkTitle = styled(BzTitle)`
     }
   `}
   ${media.lg`
-  font-size: 3rem;
+    font-size: 3rem;
+    padding-bottom: ${props => (props.last ? "1.5rem" : "0.5rem")};
     & + h2 {
       padding-top: 0;
       text-transform: capitalize;
     }
   `}
   ${media.md`
-    padding-bottom: 0;
+    padding-bottom: ${props => (props.last ? "1rem" : "0.5rem")};
     & + h2 {
       padding-top: 0;
       text-transform: capitalize;
     }
   `}
   ${media.sm`
-    padding-bottom: 0;
+    padding-bottom: ${props => (props.last ? "1rem" : "0.5rem")};
     & + h2 {
       padding-top: 0;
       text-transform: capitalize;
     }
   `}
   ${media.xs`
-    padding-bottom: 0;
+    padding-bottom: ${props => (props.last ? "1rem" : "0.5rem")};
     & + h2 {
       padding-top: 0;
     }
