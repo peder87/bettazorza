@@ -147,5 +147,4 @@ export const AboutFooter = styled.div`
     padding-top: 2.25rem;
     padding-bottom: 2.25rem;
   `}
-  /* padding-bottom: 6.25rem; */
 `
