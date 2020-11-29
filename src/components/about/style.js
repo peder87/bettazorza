@@ -16,10 +16,10 @@ export const BzAboutGrid = styled.div`
   & div.imageWrapper {
     margin: 0 auto;
     ${media.xxl`
-      width: 30%;
+      width: 20%;
     `}
     ${media.xl`
-      width: 40%;
+      width: 20%;
     `}
     ${media.lg`
       width: 40%;
