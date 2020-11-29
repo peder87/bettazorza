@@ -30,19 +30,19 @@ export const HeroHeader = styled.div`
       width: 44.2rem;
     `}
     ${media.xl`
-      width: 44.2rem;
+      width: 30rem;
     `}
     ${media.lg`
-      width: 34.2rem;
+      width: 30rem;
     `}
     ${media.md`
-      width: 34.2rem;
+      width: 30rem;
     `}
     ${media.sm`
-      width: 22rem;
+      width: 20rem;
     `}
     ${media.xs`
-      width: 22rem;
+      width: 20rem;
     `}
     ${paddingTop};
   }
