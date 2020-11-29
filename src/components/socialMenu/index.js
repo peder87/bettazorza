@@ -17,7 +17,7 @@ const icons = [
 
 export const SocialMenu = ({ color }) => {
   const openLink = url => {
-    window.open(url, '__blank')
+    window.open(url, "__blank")
   }
 
   return (

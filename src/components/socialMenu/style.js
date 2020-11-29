@@ -5,12 +5,26 @@ export const MenuWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 30%;
+  padding-top: 1rem;
+  padding-top: 1.5rem;
+  ${media.xxl`
+    width: 20%;
+  `}
+  ${media.xl`
+    width: 25%;
+  `}
+  ${media.lg`
+    width: 35%;
+  `}
+  ${media.md`
+    width: 40%;
+  `}
   ${media.sm`
-    width: 90%;
+    width: 60%;
   `}
   ${media.xs`
-    width: 90%;
+    width: 60%;
   `}
   margin: 0 auto;
 `

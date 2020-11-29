@@ -1,20 +1,16 @@
-import React from 'react'
-import { graphql, StaticQuery } from 'gatsby'
-import Layout from '../components/layout'
-import Home from './home'
+import React from "react"
+import { graphql, StaticQuery } from "gatsby"
+import Layout from "../components/layout"
+import { Stack } from "./stack"
 
-export default (props) => {
-  const style = { 
-    bgcolor: 'purple',
-    color: 'yellow'
-  }
+export default props => {
   return (
-    <Layout pageConf={style}>
-      <StaticQuery 
+    <Layout>
+      <StaticQuery
         query={query}
-        render={(data) => {
-        return <Home pages={data} />
-      }}
+        render={data => {
+          return <Stack {...data} />
+        }}
       />
     </Layout>
   )
@@ -24,22 +20,34 @@ const query = graphql`
   query MyQuery {
     projects: allProjectsJson {
       edges {
-      project: node {
+        project: node {
+          id
+          thumbnail
+          thumbset
+          tags
+          url
+          title
+          order
+        }
+      }
+    }
+    order: allProjectsOrderJson {
+      edges {
+        node {
+          workId
+        }
+      }
+    }
+    about: imagesJson(page: { eq: "about" }) {
+      page
+      img
+    }
+    works: allWorksJson {
+      nodes {
         id
-        thumbnail
-        thumbset
-        url
         title
-        order
+        srcset
       }
     }
   }
-  order: allProjectsOrderJson {
-    edges {
-      node {
-        workId
-      }
-    }
-  }
-}
 `

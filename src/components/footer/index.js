@@ -3,19 +3,22 @@ import { FooterWrapper, FooterText, FooterLink } from "./style"
 import { SocialMenu } from "../socialMenu"
 import { colors } from "../../style/constants"
 
-export const Footer = ({ menu, color, ...props }) => {
-  const componentProps = {
-    menu: !!menu,
-  }
+export const Footer = ({ color, ...props }) => {
   const footerColors = {
-    color: menu ? colors.purple : color,
+    color: color,
   }
-  const mailto = 'mailto:hello@bettazorza.it'
+  const mailto = "mailto:hello@bettazorza.it"
   return (
-    <FooterWrapper {...componentProps}>
-      <FooterLink {...footerColors} href={mailto}>hello@bettazorza.it</FooterLink>
+    <FooterWrapper>
+      {/* <div> */}
+      <FooterLink {...footerColors} href={mailto}>
+        hello@bettazorza.it
+      </FooterLink>
+      {/* <FooterText {...footerColors}>
+          &copy;{new Date().getFullYear()} - Betta Zorza Design
+        </FooterText> */}
+      {/* </div> */}
       <SocialMenu {...footerColors} />
-      <FooterText {...footerColors}>&copy;{new Date().getFullYear()} BettaZorza</FooterText>
     </FooterWrapper>
   )
 }

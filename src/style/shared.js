@@ -56,3 +56,24 @@ export const Loader = styled.div`
   transition: .6s cubic-bezier(.45, 0, .07, 1) transform, .6s cubic-bezier(.45, 0, .07, 1) opacity;
   will-change: transform;
 `
+
+export const paddingTop = css`
+  ${media.xxl`
+    padding-top: 6.25rem;
+  `}
+  ${media.xl`
+    padding-top: 5.25rem;
+  `}
+  ${media.lg`
+    padding-top: 5.25rem;
+  `}
+  ${media.md`
+    padding-top: 5.25rem;
+  `}
+  ${media.sm`
+    padding-top: 5.25rem;
+  `}
+  ${media.xs`
+    padding-top: 5.25rem;
+  `}
+}`

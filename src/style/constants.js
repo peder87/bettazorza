@@ -18,7 +18,7 @@ export const colors = {
 }
 
 export const fonts = {
-  sansSerif: `'Roboto', sans-serif`,
+  sansSerif: `'Larsseit', sans-serif`,
 }
 
 export const spaces = {
@@ -37,7 +37,7 @@ export const mq = {
   md: "54em",
   lg: "78em",
   xl: "125em",
-  xxl: "220em"
+  xxl: "220em",
 }
 
 export const media = {
@@ -93,3 +93,45 @@ export const getOuterSpace = p =>
       ${rule(p, spaces.p200)}
     `}
   `
+
+export const mediaChecker = css`
+  ${media.xxl`
+    background-color: red;
+  `}
+  ${media.xl`
+    background-color: hotpink;
+  `}
+  ${media.lg`
+    background-color: orange;
+  `}
+  ${media.md`
+    background-color: yellow;
+  `}
+  ${media.sm`
+    background-color: green;
+  `}
+  ${media.xs`
+    background-color: #ccc;
+  `}
+`
+
+export const paddingBottom = css`
+  ${media.xxl`
+    padding-bottom: 6.25rem;
+  `}
+  ${media.xl`
+    padding-bottom: 4.25rem;
+  `}
+  ${media.lg`
+    padding-bottom: 3.25rem;
+  `}
+  ${media.md`
+    padding-bottom: 2.25rem;
+  `}
+  ${media.sm`
+    padding-bottom: 2.25rem;
+  `}
+  ${media.xs`
+    padding-bottom: 2.25rem;
+  `}
+`
