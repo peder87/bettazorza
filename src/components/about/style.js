@@ -15,8 +15,11 @@ export const BzAboutGrid = styled.div`
   gr  id-column-gap: 3rem; */
   & div.imageWrapper {
     margin: 0 auto;
+    ${media.xxl`
+      width: 30%;
+    `}
     ${media.xl`
-      width: 20%;
+      width: 40%;
     `}
     ${media.lg`
       width: 40%;
@@ -33,6 +36,9 @@ export const BzAboutGrid = styled.div`
   }
   & div.copyWrapper {
     margin: 0 auto;
+    ${media.xxl`
+      width: 60%;
+    `}
     ${media.xl`
       width: 60%;
     `}
@@ -54,6 +60,12 @@ export const BzAboutGrid = styled.div`
     width: 100%;
     border-radius: 50%;
   }
+  ${media.xxl`
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 100%;
+    grid-row-gap: 2rem;
+    grid-column-gap: 0;
+  `}
   ${media.xl`
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 100%;
@@ -106,7 +118,6 @@ export const AboutGrid = styled.div`
     &:first-child {
       min-height: 55vh;
       height: auto;
-
       background-image: url(${props => props.img});
       background-position: right top;
       background-repeat: no-repeat;

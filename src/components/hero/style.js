@@ -8,9 +8,6 @@ import { SectionCenteredContent } from "../pageComponents/style"
 export const HeroSection = styled(Section)``
 
 export const HeroContainer = styled(SectionCenteredContent)`
-  /* display: flex;
-  flex-flow: column;
-  flex-direction: column; */
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr;
