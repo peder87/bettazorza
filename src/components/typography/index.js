@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components"
 import { media, fonts, colors, mediaChecker } from "../../style/constants"
-import { paddingV } from "../../style/shared"
+import { paddingV, paddingV2 } from "../../style/shared"
 import { HeaderContainer } from "../pageComponents/style"
 
 export const Header = styled(HeaderContainer)``
@@ -31,7 +31,6 @@ export const CopyWrapper = styled.div`
 export const PageCopy = styled.p`
   padding: 0;
   margin: 0;
-  text-align: left;
   ${media.sm`
     text-align: center;
     font-size: 1.125rem;
@@ -60,19 +59,19 @@ export const BzTitle = styled.h2`
   ${media.xxl`
     font-size: 6rem;
     padding-top: ${paddingV.xxl};
-    padding-bottom: ${paddingV.xxl};
+    padding-bottom: ${paddingV2.xxl};
   `}
   ${media.xl`
     font-size: 6rem;
     padding-top: ${paddingV.xl};
-    padding-bottom: ${paddingV.xl};
+    padding-bottom: ${paddingV2.xl};
   `}
   ${media.lg`
     font-size: 6rem;
     padding-top: 3.25rem;
     padding-bottom: 3.25rem;
     padding-top: ${paddingV.lg};
-    padding-bottom: ${paddingV.lg};
+    padding-bottom: ${paddingV2.lg};
   `}
   ${media.md`
     font-size: 6rem;
@@ -129,6 +128,15 @@ export const BzCopy = styled.p`
   font-size: 1.5rem;
   padding-bottom: 1rem;
   line-height: 1;
+    text-align: center;
+  ${media.xl`
+    font-size: 1.5rem;
+    text-align: center;
+  `}
+  ${media.lg`
+    font-size: 1.5rem;
+    text-align: center;
+  `}
   ${media.md`
     text-align: center;
   `}

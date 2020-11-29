@@ -65,6 +65,14 @@ export const paddingV = {
   sm: "8.25rem",
   xs: "8.25rem",
 }
+export const paddingV2 = {
+  xxl: "4.125rem",
+  xl: "4.125rem",
+  lg: "4.125rem",
+  md: "4.125rem",
+  sm: "4.125rem",
+  xs: "4.125rem",
+}
 
 export const paddingTop = css`
   ${media.xxl`
