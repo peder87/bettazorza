@@ -8,6 +8,9 @@ export const StuffGrid = styled.div`
   grid-column-gap: 2.2rem;
   grid-row-gap: 2.2rem;
 
+  /* border: ${props =>
+    props.mobile ? "6px solid red" : "6px solid green"}; */
+
   ${media.xxl`
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -20,21 +23,18 @@ export const StuffGrid = styled.div`
     grid-column-gap: 2.2rem;
     grid-row-gap: 2.2rem;
   `}
-
   ${media.lg`
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 2.2rem;
     grid-row-gap: 2.2rem;
   `}
-
   ${media.md`
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 2.2rem;
     grid-row-gap: 2.2rem;
   `}
-
   ${media.sm`
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -42,6 +42,25 @@ export const StuffGrid = styled.div`
     grid-row-gap: 1.8rem;
   `}
   ${paddingBottom};
+
+  ${media.xxl`
+    display: ${props => (props.mobile ? "none" : "grid")}
+  `}
+  ${media.xl`
+    display: ${props => (props.mobile ? "none" : "grid")}
+  `}
+  ${media.lg`
+    display: ${props => (props.mobile ? "none" : "grid")}
+  `}
+  ${media.md`
+    display: ${props => (props.mobile ? "grid" : "none")}
+  `}
+  ${media.sm`
+    display: ${props => (props.mobile ? "grid" : "none")}
+  `}
+  ${media.xs`
+    display: ${props => (props.mobile ? "grid" : "none")}
+  `}
 `
 
 export const ProjectGrid = styled.div`

@@ -54,6 +54,7 @@ export const PageCopy = styled.p`
 `
 
 export const BzTitle = styled.h2`
+/* ${mediaChecker}; */
   font-size: 6.25rem;
   line-height: 1;
   font-family: ${fonts.sansSerif};
