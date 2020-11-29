@@ -21,10 +21,9 @@ export const About = ({ data }) => {
                 nel mondo della comunicazione digitale.
               </BzCopy>
               <BzCopy italic>
-                Mi sono occupata principalmente di comunicazione per piccole
-                medie imprese in particolare di brand design e packaging, i miei
-                servizi spaziano dalla progettazione di immagine coordinata alla
-                prototipazione di interfacce per prodotti digitali.
+                Mi occupo di comunicazione per piccole medie imprese. <br />I
+                miei servizi spaziano dalla progettazione di immagine coordinata
+                alla prototipazione di interfacce per prodotti digitali.
               </BzCopy>
               <BzCopy italic>
                 Offro soluzioni creative su misura analizzando le esigenze dei
@@ -33,8 +32,8 @@ export const About = ({ data }) => {
               <BzCopy italic>
                 La comunicazione visiva è la mia passione, adoro tenermi
                 aggiornata per quanto riguarda le ultime tencologie in campo
-                grafico, quando non sto lavorando mi piace disegnare, entrare in
-                librerie, leggere libri e guardare serie tv.
+                grafico, quando non sto lavorando mi piace disegnare, leggere
+                libri e guardare film e serie tv.
               </BzCopy>
             </div>
           </div>
