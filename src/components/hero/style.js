@@ -1,16 +1,13 @@
 import styled from "styled-components"
 import { Section } from "../pageComponents/style"
 import { colors, fonts, media, mediaChecker } from "../../style/constants"
-import { paddingTop } from "../../style/shared"
+import { paddingTop, paddingV } from "../../style/shared"
 import { BzTitle } from "../typography"
 import { SectionCenteredContent } from "../pageComponents/style"
 
 export const HeroSection = styled(Section)``
 
 export const HeroContainer = styled(SectionCenteredContent)`
-  /* display: flex;
-  flex-flow: column;
-  flex-direction: column; */
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr;
@@ -23,32 +20,29 @@ export const HeroContainer = styled(SectionCenteredContent)`
 
 export const HeroHeader = styled.div`
   margin: 0 auto;
-  /* ${mediaChecker}; */
-  /* border:1px solid red; */
   & img {
     ${media.xxl`
       width: 44.2rem;
     `}
     ${media.xl`
-      width: 44.2rem;
+      width: 30rem;
     `}
     ${media.lg`
-      width: 34.2rem;
+      width: 30rem;
     `}
     ${media.md`
-      width: 34.2rem;
+      width: 30rem;
     `}
     ${media.sm`
-      width: 22rem;
+      width: 20rem;
     `}
     ${media.xs`
-      width: 22rem;
+      width: 20rem;
     `}
     ${paddingTop};
   }
   display: flex;
   flex-direction: column;
-  justify-content: center;
 `
 
 export const HeroTitle = styled(BzTitle)`
@@ -118,5 +112,29 @@ export const HeroTitleBlock = styled.div`
 `
 
 export const HeroFooter = styled.div`
+  display:flex;
+  flex-direction: columns;
+  align-items: flex-end;
+  > div {
+    width: 100%;
+  ${media.xxl`
+    padding-bottom: ${paddingV.xxl};
+  `}
+  ${media.xl`
+    padding-bottom: ${paddingV.xl};
+  `}
+  ${media.lg`
+    padding-bottom: ${paddingV.lg};
+  `}
+  ${media.md`
+    padding-bottom: ${paddingV.md};
+  `}
+  ${media.sm`
+    padding-bottom: ${paddingV.sm};
+  `}
+  ${media.xs`
+    padding-bottom: ${paddingV.xs};
+  `}
+  }
   text-align: center;
 `

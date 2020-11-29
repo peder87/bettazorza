@@ -18,8 +18,10 @@ export default ({ pageContext, ...props }) => {
         <LogoHeader>
           <img onClick={handleClick} src="/images/common/logo_betta.svg" />
         </LogoHeader>
-        <WorkTitle bold>{projectsJson.title}</WorkTitle>
-        <WorkTitle last>{projectsJson.tags[0]}</WorkTitle>
+        <WorkTitle bold last>
+          {projectsJson.title}
+        </WorkTitle>
+        {/* <WorkTitle last>{projectsJson.tags[0]}</WorkTitle> */}
         <WorkGrid data={projectsJson} />
       </SectionCenteredContent>
       <Bottom />

@@ -1,5 +1,6 @@
 import styled, { css } from "styled-components"
 import { media, paddingBottom } from "../../style/constants"
+import { paddingV2 } from "../../style/shared"
 
 export const StuffGrid = styled.div`
   display: grid;
@@ -44,13 +45,28 @@ export const StuffGrid = styled.div`
   ${paddingBottom};
 
   ${media.xxl`
-    display: ${props => (props.mobile ? "none" : "grid")}
-  `}
+    display: ${props => (props.mobile ? "none" : "grid")};
+    ${props =>
+      !props.mobile &&
+      css`
+        padding-bottom: ${paddingV2.xxl};
+      `}
+  `}  
   ${media.xl`
     display: ${props => (props.mobile ? "none" : "grid")}
+    ${props =>
+      !props.mobile &&
+      css`
+        padding-bottom: ${paddingV2.xl};
+      `}
   `}
   ${media.lg`
     display: ${props => (props.mobile ? "none" : "grid")}
+    ${props =>
+      !props.mobile &&
+      css`
+        padding-bottom: ${paddingV2.lg};
+      `}
   `}
   ${media.md`
     display: ${props => (props.mobile ? "grid" : "none")}

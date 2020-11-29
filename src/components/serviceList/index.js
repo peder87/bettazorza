@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Section, SectionCenteredContent } from "../pageComponents/style"
 import { colors, media, mediaChecker } from "../../style/constants"
+import { paddingV2 } from "../../style/shared"
 import { BzTitle } from "../typography"
 import { Carusel } from "../carusel"
 
@@ -26,7 +27,22 @@ const ServiceSection = styled(Section)`
 
 const ServiceTitle = styled(BzTitle)`
   /* ${mediaChecker}; */
+  ${media.xxl`
+    padding-top: ${paddingV2.xxl};
+    padding-bottom: ${paddingV2.xxl};
+  `}
+  ${media.xl`
+    padding-top: ${paddingV2.xl};
+    padding-bottom: ${paddingV2.xl};
+  `}
   ${media.lg`
+    padding-top: ${paddingV2.lg};
+    padding-bottom: ${paddingV2.lg};
+    font-size: 4.5rem;
+  `}
+  ${media.md`
+    padding-top: ${paddingV2.md};
+    padding-bottom: ${paddingV2.md};
     font-size: 4.5rem;
   `}
   ${media.sm`

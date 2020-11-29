@@ -1,78 +1,55 @@
 import styled from "styled-components"
 import { media, mediaChecker } from "../style/constants"
+import { paddingV, paddingV2 } from "../style/shared"
 import { BzTitle } from "../components/typography"
 import { HeroHeader } from "../components/hero/style"
 
 export const LogoHeader = styled(HeroHeader)`
-  /* ${mediaChecker}; */
   & img {
     margin: 0 auto;
+    ${media.md`
+      padding-top: ${paddingV2.md};
+    `}
+    ${media.sm`
+      padding-top: ${paddingV2.sm};
+    `}
+    ${media.xs`
+      padding-top: ${paddingV2.xs};
+    `}
     &:hover {
       cursor: pointer;
     }
-  ${media.xxl`
-    width: 18em;
-  `}
-  ${media.xl`
-    width: 16.5em;
-  `}
-  ${media.lg`
-  `}
-  ${media.md`
-  `}
-  ${media.sm`
-  `}
-  ${media.xs`
-  `}
   }
 `
 
 export const WorkTitle = styled(BzTitle)`
 /* ${mediaChecker}; */
   font-weight: ${props => (props.bold ? 700 : 300)};
-
   ${media.xxl`
-    padding-bottom: ${props => (props.last ? "1.5rem" : "0.8rem")};
     font-size: 3.2rem;
-    & + h2 {
-      padding-top: 0;
-      text-transform: capitalize;
-    }
+    padding-bottom: ${paddingV2.xxl};
   `}
   ${media.xl`
-    padding-bottom: ${props => (props.last ? "1.5rem" : "0.8rem")};
-  font-size: 3rem;
-    & + h2 {
-      padding-top: 0;
-      text-transform: capitalize;
-    }
+    font-size: 3rem;
+    padding-bottom: ${paddingV2.xl};
   `}
   ${media.lg`
     font-size: 3rem;
-    padding-bottom: ${props => (props.last ? "1.5rem" : "0.5rem")};
-    & + h2 {
-      padding-top: 0;
-      text-transform: capitalize;
-    }
+    padding-bottom: ${paddingV2.lg};
   `}
   ${media.md`
-    padding-bottom: ${props => (props.last ? "1rem" : "0.5rem")};
-    & + h2 {
-      padding-top: 0;
-      text-transform: capitalize;
-    }
+    font-size: 2rem;
+    padding-top: ${paddingV2.md};
+    padding-bottom: 2.25rem;
   `}
   ${media.sm`
-    padding-bottom: ${props => (props.last ? "1rem" : "0.5rem")};
-    & + h2 {
-      padding-top: 0;
-      text-transform: capitalize;
-    }
+    font-size: 2rem;
+    padding-top: ${paddingV2.sm};
+    padding-bottom: 2.25rem;
   `}
   ${media.xs`
-    padding-bottom: ${props => (props.last ? "1rem" : "0.5rem")};
-    & + h2 {
-      padding-top: 0;
-    }
+    font-size: 2rem;
+    padding-top: ${paddingV2.xs};
+    padding-bottom: 2.25rem;
   `}
 `
