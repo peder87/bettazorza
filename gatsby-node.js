@@ -1,4 +1,5 @@
 const path = require(`path`)
+const idx = require("idx")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.onCreateNode = async ({ node, getNode, actions, graphql }) => {
@@ -41,7 +42,7 @@ exports.createPages = async ({ graphql, actions }) => {
     })
 
     const newData = await getSharpImgs(graphql, pageData.data)
-    console.log(newData)
+    const imageData = cleanImgSharp(newData)
     createPage({
       path: node.fields.slug,
       component: path.resolve(`./src/templates/work-template.js`),
@@ -50,7 +51,7 @@ exports.createPages = async ({ graphql, actions }) => {
         workId,
         pagePath,
         pageData,
-        imageData: newData,
+        imageData,
       },
     })
   })
@@ -60,11 +61,17 @@ const getSharpImgs = async (graphql, { projectsJson }) => {
   const imagePromise = projectsJson.imgs.map(async imgItem => {
     const imagePath = imgItem.filePath
     const sharpImg = await graphql(imgQuery, { imagePath })
-
     return sharpImg
   })
   const resolivingImgs = await Promise.all(imagePromise)
   return resolivingImgs
+}
+
+const cleanImgSharp = src => {
+  return src.map(item => {
+    const a = item.data.allFile.edges[0]
+    return a
+  })
 }
 
 const query = `
