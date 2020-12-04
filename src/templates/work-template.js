@@ -11,6 +11,7 @@ const handleClick = () => {
 }
 
 export default ({ pageContext, ...props }) => {
+  console.log(pageContext)
   const { navigationJson, projectsJson } = pageContext.pageData.data
   return (
     <Layout pageConf={navigationJson}>

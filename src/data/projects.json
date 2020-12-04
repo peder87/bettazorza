@@ -21,6 +21,7 @@
     ],
     "imgs": [
       {
+        "filePath": "projects/auser/auser-cover-front.png",
         "src": "/images/projects/auser/auser-cover-front.png",
         "mediaType": "img",
         "alt": "bilancio",
@@ -33,6 +34,7 @@
         ]
       },
       {
+        "filePath": "projects/auser/auser-page-table.png",
         "src": "/images/projects/auser/auser-page-table.png",
         "mediaType": "img",
         "alt": "corsi open",
@@ -45,6 +47,7 @@
         ]
       },
       {
+        "filePath": "projects/auser/auser-spread-1.png",
         "src": "/images/projects/auser/auser-spread-1.png",
         "mediaType": "img",
         "alt": "spread-1",
@@ -57,6 +60,7 @@
         ]
       },
       {
+        "filePath": "projects/auser/auser-spread-2.png",
         "src": "/images/projects/auser/auser-spread-2.png",
         "alt": "spread-2",
         "mediaType": "img",
@@ -69,6 +73,7 @@
         ]
       },
       {
+        "filePath": "projects/auser/auser_copertina_20.png",
         "src": "/images/projects/auser/auser_copertina_20.png",
         "alt": "copertina2020",
         "mediaType": "img",
@@ -81,6 +86,7 @@
         ]
       },
       {
+        "filePath": "projects/auser/interno_auser_2020.png",
         "src": "/images/projects/auser/interno_auser_2020.png",
         "alt": "interno_auser_2020",
         "mediaType": "img",
@@ -116,6 +122,7 @@
     ],
     "imgs": [
       {
+        "filePath": "projects/tantaRobba/tata-robba-logo.png",
         "src": "/images/projects/tanta-robba/tanta-robba-logo.png",
         "alt": "logo",
         "mediaType": "img",
@@ -128,6 +135,7 @@
         ]
       },
       {
+        "filePath": "projects/tantaRobba/tata-robba-pass.png",
         "src": "/images/projects/tanta-robba/tanta-robba-pass.png",
         "alt": "pass",
         "mediaType": "img",
@@ -140,6 +148,7 @@
         ]
       },
       {
+        "filePath": "projects/tantaRobba/tata-robba-tshirt.png",
         "src": "/images/projects/tanta-robba/tanta-robba-tshirt.png",
         "alt": "tshirt",
         "mediaType": "img",
@@ -152,6 +161,7 @@
         ]
       },
       {
+        "filePath": "projects/tantaRobba/tata-robba-texture.png",
         "src": "/images/projects/tanta-robba/tanta-robba-texture.png",
         "alt": "texture",
         "mediaType": "img",
@@ -164,6 +174,7 @@
         ]
       },
       {
+        "filePath": "projects/tantaRobba/tata-robba-cap.png",
         "src": "/images/projects/tanta-robba/tanta-robba-cap.png",
         "alt": "cap",
         "mediaType": "img",
@@ -193,6 +204,7 @@
     "tags": [],
     "imgs": [
       {
+        "filePath": "projects/sacraFamiglia/sacra-famiglia-insegna.png",
         "src": "/images/projects/sacra-famiglia/sacra-famiglia-insegna.png",
         "alt": "insegna",
         "mediaType": "img",
@@ -205,6 +217,7 @@
         ]
       },
       {
+        "filePath": "projects/sacraFamiglia/sacra-famiglia-logo.png",
         "src": "/images/projects/sacra-famiglia/sacra-famiglia-logo.png",
         "alt": "logo",
         "mediaType": "img",
@@ -217,6 +230,7 @@
         ]
       },
       {
+        "filePath": "projects/sacraFamiglia/sacra-famiglia-brand.png",
         "src": "/images/projects/sacra-famiglia/sacra-famiglia-brand.png",
         "alt": "brand",
         "mediaType": "img",
@@ -229,6 +243,7 @@
         ]
       },
       {
+        "filePath": "projects/sacraFamiglia/sacra-famiglia-brand-2.png",
         "src": "/images/projects/sacra-famiglia/sacra-famiglia-brand-2.png",
         "alt": "brand2",
         "mediaType": "img",
@@ -241,6 +256,7 @@
         ]
       },
       {
+        "filePath": "projects/sacraFamiglia/sacra-famiglia-tshirt.png",
         "src": "/images/projects/sacra-famiglia/sacra-famiglia-tshirt.png",
         "alt": "tshirt",
         "mediaType": "img",
@@ -253,6 +269,7 @@
         ]
       },
       {
+        "filePath": "projects/sacraFamiglia/sacra-famiglia-diario.png",
         "src": "/images/projects/sacra-famiglia/sacra-famiglia-diario.png",
         "alt": "diario",
         "mediaType": "img",
@@ -265,6 +282,7 @@
         ]
       },
       {
+        "filePath": "projects/sacraFamiglia/sacra-famiglia-poster.png",
         "src": "/images/projects/sacra-famiglia/sacra-famiglia-poster.png",
         "alt": "poster",
         "mediaType": "img",
@@ -277,6 +295,7 @@
         ]
       },
       {
+        "filePath": "projects/sacraFamiglia/sacra-famiglia-mobile.png",
         "src": "/images/projects/sacra-famiglia/sacra-famiglia-mobile.png",
         "alt": "mobile",
         "mediaType": "img",
@@ -313,6 +332,7 @@
     ],
     "imgs": [
       {
+        "filePath": "/projects/uno/uno-book-pile.png",
         "src": "/images/projects/uno/uno-book-pile.png",
         "alt": "book-pile",
         "mediaType": "img",
@@ -325,6 +345,7 @@
         ]
       },
       {
+        "filePath": "projects/uno/uno-lca.png",
         "src": "/images/projects/uno/uno-lca.png",
         "alt": "lca",
         "mediaType": "img",
@@ -337,6 +358,7 @@
         ]
       },
       {
+        "filePath": "projects/uno/uno-fontana.png",
         "src": "/images/projects/uno/uno-fontana.png",
         "alt": "fontana",
         "mediaType": "img",
@@ -349,6 +371,7 @@
         ]
       },
       {
+        "filePath": "projects/uno/uno-fontana.png",
         "src": "/images/projects/uno/uno-bucchero.png",
         "alt": "bucchero",
         "mediaType": "img",
@@ -361,7 +384,8 @@
         ]
       },
       {
-        "src": "/images/projects/uno/uno-terracotta.png",
+        "filePath": "projects/uno/uno-terracotta.png",
+        "src": "/projects/uno/uno-terracotta.png",
         "alt": "terracotta",
         "mediaType": "img",
         "fullWidth": true,
@@ -396,7 +420,8 @@
     ],
     "imgs": [
       {
-        "src": "/images/projects/scaravonati/scaravonati-logo.png",
+        "filePath": "projects/scaravonati/scaravonati-logo.png",
+        "src": "images/projects/scaravonati/scaravonati-logo.png",
         "alt": "logo",
         "mediaType": "img",
         "fullWidth": false,
@@ -407,6 +432,7 @@
         ]
       },
       {
+        "filePath": "projects/scaravonati/scaravonati-card.png",
         "src": "/images/projects/scaravonati/scaravonati-card.png",
         "alt": "card",
         "mediaType": "img",
@@ -418,6 +444,7 @@
         ]
       },
       {
+        "filePath": "projects/scaravonati/scaravonati-stationary.png",
         "src": "/images/projects/scaravonati/scaravonati-stationary.png",
         "alt": "stationary",
         "mediaType": "img",
@@ -429,6 +456,7 @@
         ]
       },
       {
+        "filePath": "projects/scaravonati/scaravonati-website.png",
         "src": "/images/projects/scaravonati/scaravonati-website.png",
         "alt": "website",
         "mediaType": "img",
@@ -440,6 +468,7 @@
         ]
       },
       {
+        "filePath": "projects/scaravonati/scaravonati-mobility.png",
         "src": "/images/projects/scaravonati/scaravonati-mobility.png",
         "alt": "mobility",
         "mediaType": "img",
@@ -451,6 +480,7 @@
         ]
       },
       {
+        "filePath": "projects/scaravonati/scaravonati-mobile.png",
         "src": "/images/projects/scaravonati/scaravonati-mobile.png",
         "alt": "mobile",
         "mediaType": "img",
@@ -486,6 +516,7 @@
     ],
     "imgs": [
       {
+        "filePath": "projects/talento/talento-logo.png",
         "src": "/images/projects/talento/talento-logo.png",
         "alt": "book-pile",
         "mediaType": "img",
@@ -498,6 +529,7 @@
         ]
       },
       {
+        "filePath": "projects/talento/talento-shopper.png",
         "src": "/images/projects/talento/talento-shopper.png",
         "alt": "shopper",
         "mediaType": "img",
@@ -510,6 +542,7 @@
         ]
       },
       {
+        "filePath": "projects/talento/talento-stationary.png",
         "src": "/images/projects/talento/talento-stationary.png",
         "alt": "stationary",
         "mediaType": "img",
@@ -522,6 +555,7 @@
         ]
       },
       {
+        "filePath": "projects/talento/talento-website.png",
         "src": "/images/projects/talento/talento-website.png",
         "alt": "website",
         "mediaType": "img",
@@ -558,6 +592,7 @@
     ],
     "imgs": [
       {
+        "filePath": "projects/casa-formaggio/casa-formaggio-grembiule.png",
         "src": "/images/projects/casa-formaggio/casa-formaggio-grembiule.png",
         "alt": "grembiule",
         "mediaType": "img",
@@ -570,6 +605,7 @@
         ]
       },
       {
+        "filePath": "projects/casa-formaggio/casa-formaggio-card.png",
         "src": "/images/projects/scaravonati/casa-formaggio-card.png",
         "alt": "card",
         "mediaType": "img",
@@ -582,6 +618,7 @@
         ]
       },
       {
+        "filePath": "projects/casa-formaggio/casa-formaggio-logo.png",
         "src": "/images/projects/casa-formaggio/casa-formaggio-logo.png",
         "alt": "logo",
         "mediaType": "img",
@@ -594,6 +631,7 @@
         ]
       },
       {
+        "filePath": "projects/casa-formaggio/casa-formaggio-shopper.png",
         "src": "/images/projects/casa-formaggio/casa-formaggio-shopper.png",
         "alt": "shopper",
         "mediaType": "img",
@@ -606,6 +644,7 @@
         ]
       },
       {
+        "filePath": "projects/casa-formaggio/casa-formaggio-glass.png",
         "src": "/images/projects/casa-formaggio/casa-formaggio-glass.png",
         "alt": "glass",
         "mediaType": "img",
@@ -641,6 +680,7 @@
     ],
     "imgs": [
       {
+        "filePath": "projects/auser-bilancio/auser-bilancio.png",
         "src": "/images/projects/auser-bilancio/auser-bilancio.png",
         "alt": "logo",
         "mediaType": "img",
@@ -653,6 +693,7 @@
         ]
       },
       {
+        "filePath": "projects/auser-bilancio/auser-bilancio-page.png",
         "src": "/images/projects/auser-bilancio/auser-bilancio-page.png",
         "alt": "page",
         "mediaType": "img",
@@ -688,6 +729,7 @@
     ],
     "imgs": [
       {
+        "filePath": "projects/illustration/caterina.png",
         "src": "/images/projects/illustration/caterina.png",
         "alt": "caterina",
         "mediaType": "img",
@@ -700,6 +742,7 @@
         ]
       },
       {
+        "filePath": "projects/illustration/tshirt_caterina.png",
         "src": "/images/projects/illustration/tshirt_caterina.png",
         "alt": "tshirt-caterina",
         "mediaType": "img",
@@ -712,6 +755,7 @@
         ]
       },
       {
+        "filePath": "projects/illustration/alice.png",
         "src": "/images/projects/illustration/alice.png",
         "alt": "alice",
         "mediaType": "img",
@@ -724,6 +768,7 @@
         ]
       },
       {
+        "filePath": "projects/illustration/alice_quadretto.png",
         "src": "/images/projects/illustration/alice_quadretto.png",
         "alt": "alice-quadrewtto",
         "mediaType": "img",
@@ -736,6 +781,7 @@
         ]
       },
       {
+        "filePath": "projects/illustration/unicorno.png",
         "src": "/images/projects/illustration/unicorno.png",
         "alt": "unicorno",
         "mediaType": "img",
@@ -748,6 +794,7 @@
         ]
       },
       {
+        "filePath": "projects/illustration/betty.png",
         "src": "/images/projects/illustration/betty.png",
         "alt": "betty",
         "mediaType": "img",
@@ -783,6 +830,7 @@
     ],
     "imgs": [
       {
+        "filePath": "projects/filosofia/filosofia_bambini_copertina.png",
         "src": "/images/projects/filosofia/filosofia_bambini_copertina.png",
         "alt": "filosofia_copertina",
         "mediaType": "img",
@@ -795,6 +843,7 @@
         ]
       },
       {
+        "filePath": "projects/filosofia/filosofia_bambini.png",
         "src": "/images/projects/filosofia/filosofia_bambini.png",
         "alt": "filosofia",
         "mediaType": "img",
@@ -807,6 +856,7 @@
         ]
       },
       {
+        "filePath": "projects/filosofia/filosofia_bambini2.png",
         "src": "/images/projects/filosofia/filosofia_bambini2.png",
         "alt": "filosofia2",
         "mediaType": "img",
@@ -819,6 +869,7 @@
         ]
       },
       {
+        "filePath": "projects/filosofia/filosofia_bambini3.png",
         "src": "/images/projects/filosofia/filosofia_bambini3.png",
         "alt": "filosofia3",
         "mediaType": "img",
@@ -831,6 +882,7 @@
         ]
       },
       {
+        "filePath": "projects/filosofia/filosofia_bambini4.png",
         "src": "/images/projects/filosofia/filosofia_bambini4.png",
         "alt": "filosofia4",
         "mediaType": "img",

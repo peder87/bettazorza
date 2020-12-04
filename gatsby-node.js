@@ -39,6 +39,9 @@ exports.createPages = async ({ graphql, actions }) => {
       workId,
       pagePath,
     })
+
+    const newData = await getSharpImgs(graphql, pageData.data)
+    console.log(newData)
     createPage({
       path: node.fields.slug,
       component: path.resolve(`./src/templates/work-template.js`),
@@ -47,9 +50,21 @@ exports.createPages = async ({ graphql, actions }) => {
         workId,
         pagePath,
         pageData,
+        imageData: newData,
       },
     })
   })
+}
+
+const getSharpImgs = async (graphql, { projectsJson }) => {
+  const imagePromise = projectsJson.imgs.map(async imgItem => {
+    const imagePath = imgItem.filePath
+    const sharpImg = await graphql(imgQuery, { imagePath })
+
+    return sharpImg
+  })
+  const resolivingImgs = await Promise.all(imagePromise)
+  return resolivingImgs
 }
 
 const query = `
@@ -60,6 +75,7 @@ const query = `
       caption
       tags
       imgs {
+        filePath
         mediaType
         src
         fullWidth
@@ -72,6 +88,22 @@ const query = `
       color
       label
       path
+    }
+  }
+`
+
+const imgQuery = `
+  query($imagePath: String!) {
+    allFile(filter: {relativePath: { eq: $imagePath}}) {
+      edges {
+        node {
+          id
+          relativePath
+          childImageSharp {
+            id
+          }
+        }
+      }
     }
   }
 `
