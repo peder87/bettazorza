@@ -60,8 +60,10 @@ exports.createPages = async ({ graphql, actions }) => {
 const getSharpImgs = async (graphql, { projectsJson }) => {
   const imagePromise = projectsJson.imgs.map(async imgItem => {
     const imagePath = imgItem.filePath
+    const fullWidth = imgItem.fullWidth
+    const alt = imgItem.alt
     const sharpImg = await graphql(imgQuery, { imagePath })
-    return sharpImg
+    return { ogFullWidth: fullWidth, ogAlt: alt, ...sharpImg }
   })
   const resolivingImgs = await Promise.all(imagePromise)
   return resolivingImgs
@@ -69,8 +71,11 @@ const getSharpImgs = async (graphql, { projectsJson }) => {
 
 const cleanImgSharp = src => {
   return src.map(item => {
+    console.log(item)
+    const fullWidth = item.ogFullWidth
+    const alt = item.ogAlt
     const a = item.data.allFile.edges[0]
-    return a
+    return { fullWidth, alt, ...a }
   })
 }
 
@@ -107,7 +112,14 @@ const imgQuery = `
           id
           relativePath
           childImageSharp {
-            id
+            fluid(maxWidth: 1800, quality: 100, srcSetBreakpoints: 10 ){
+              src
+              srcSet
+              base64
+              aspectRatio
+              srcWebp
+              srcSetWebp
+            }
           }
         }
       }

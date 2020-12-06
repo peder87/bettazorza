@@ -122,7 +122,7 @@
     ],
     "imgs": [
       {
-        "filePath": "projects/tantaRobba/tata-robba-logo.png",
+        "filePath": "projects/tantaRobba/tanta-robba-logo.png",
         "src": "/images/projects/tanta-robba/tanta-robba-logo.png",
         "alt": "logo",
         "mediaType": "img",
@@ -135,7 +135,7 @@
         ]
       },
       {
-        "filePath": "projects/tantaRobba/tata-robba-pass.png",
+        "filePath": "projects/tantaRobba/tanta-robba-pass.png",
         "src": "/images/projects/tanta-robba/tanta-robba-pass.png",
         "alt": "pass",
         "mediaType": "img",
@@ -148,7 +148,7 @@
         ]
       },
       {
-        "filePath": "projects/tantaRobba/tata-robba-tshirt.png",
+        "filePath": "projects/tantaRobba/tanta-robba-tshirt.png",
         "src": "/images/projects/tanta-robba/tanta-robba-tshirt.png",
         "alt": "tshirt",
         "mediaType": "img",
@@ -161,7 +161,7 @@
         ]
       },
       {
-        "filePath": "projects/tantaRobba/tata-robba-texture.png",
+        "filePath": "projects/tantaRobba/tanta-robba-texture.png",
         "src": "/images/projects/tanta-robba/tanta-robba-texture.png",
         "alt": "texture",
         "mediaType": "img",
@@ -174,7 +174,7 @@
         ]
       },
       {
-        "filePath": "projects/tantaRobba/tata-robba-cap.png",
+        "filePath": "projects/tantaRobba/tanta-robba-cap.png",
         "src": "/images/projects/tanta-robba/tanta-robba-cap.png",
         "alt": "cap",
         "mediaType": "img",
@@ -332,7 +332,7 @@
     ],
     "imgs": [
       {
-        "filePath": "/projects/uno/uno-book-pile.png",
+        "filePath": "projects/uno/uno-book-pile.png",
         "src": "/images/projects/uno/uno-book-pile.png",
         "alt": "book-pile",
         "mediaType": "img",
@@ -371,7 +371,7 @@
         ]
       },
       {
-        "filePath": "projects/uno/uno-fontana.png",
+        "filePath": "projects/uno/uno-bucchero.png",
         "src": "/images/projects/uno/uno-bucchero.png",
         "alt": "bucchero",
         "mediaType": "img",
@@ -516,7 +516,7 @@
     ],
     "imgs": [
       {
-        "filePath": "projects/talento/talento-logo.png",
+        "filePath": "projects/talentoAgile/talento-logo.png",
         "src": "/images/projects/talento/talento-logo.png",
         "alt": "book-pile",
         "mediaType": "img",
@@ -529,7 +529,7 @@
         ]
       },
       {
-        "filePath": "projects/talento/talento-shopper.png",
+        "filePath": "projects/talentoAgile/talento-shopper.png",
         "src": "/images/projects/talento/talento-shopper.png",
         "alt": "shopper",
         "mediaType": "img",
@@ -542,7 +542,7 @@
         ]
       },
       {
-        "filePath": "projects/talento/talento-stationary.png",
+        "filePath": "projects/talentoAgile/talento-stationary.png",
         "src": "/images/projects/talento/talento-stationary.png",
         "alt": "stationary",
         "mediaType": "img",
@@ -555,7 +555,7 @@
         ]
       },
       {
-        "filePath": "projects/talento/talento-website.png",
+        "filePath": "projects/talentoAgile/talento-website.png",
         "src": "/images/projects/talento/talento-website.png",
         "alt": "website",
         "mediaType": "img",
@@ -592,7 +592,7 @@
     ],
     "imgs": [
       {
-        "filePath": "projects/casa-formaggio/casa-formaggio-grembiule.png",
+        "filePath": "projects/casaFormaggio/casa-formaggio-grembiule.png",
         "src": "/images/projects/casa-formaggio/casa-formaggio-grembiule.png",
         "alt": "grembiule",
         "mediaType": "img",
@@ -605,8 +605,8 @@
         ]
       },
       {
-        "filePath": "projects/casa-formaggio/casa-formaggio-card.png",
-        "src": "/images/projects/scaravonati/casa-formaggio-card.png",
+        "filePath": "projects/casaFormaggio/casa-formaggio-card.png",
+        "src": "/images/projects/casaFormaggio/casa-formaggio-card.png",
         "alt": "card",
         "mediaType": "img",
         "fullWidth": false,
@@ -618,7 +618,7 @@
         ]
       },
       {
-        "filePath": "projects/casa-formaggio/casa-formaggio-logo.png",
+        "filePath": "projects/casaFormaggio/casa-formaggio-logo.png",
         "src": "/images/projects/casa-formaggio/casa-formaggio-logo.png",
         "alt": "logo",
         "mediaType": "img",
@@ -631,7 +631,7 @@
         ]
       },
       {
-        "filePath": "projects/casa-formaggio/casa-formaggio-shopper.png",
+        "filePath": "projects/casaFormaggio/casa-formaggio-shopper.png",
         "src": "/images/projects/casa-formaggio/casa-formaggio-shopper.png",
         "alt": "shopper",
         "mediaType": "img",
@@ -644,7 +644,7 @@
         ]
       },
       {
-        "filePath": "projects/casa-formaggio/casa-formaggio-glass.png",
+        "filePath": "projects/casaFormaggio/casa-formaggio-glass.png",
         "src": "/images/projects/casa-formaggio/casa-formaggio-glass.png",
         "alt": "glass",
         "mediaType": "img",
@@ -680,7 +680,7 @@
     ],
     "imgs": [
       {
-        "filePath": "projects/auser-bilancio/auser-bilancio.png",
+        "filePath": "projects/auserBilancio/auser-bilancio.png",
         "src": "/images/projects/auser-bilancio/auser-bilancio.png",
         "alt": "logo",
         "mediaType": "img",
@@ -693,8 +693,8 @@
         ]
       },
       {
-        "filePath": "projects/auser-bilancio/auser-bilancio-page.png",
-        "src": "/images/projects/auser-bilancio/auser-bilancio-page.png",
+        "filePath": "projects/auserBilancio/auser-bilancio-page.png",
+        "src": "/images/projects/auserBilancio/auser-bilancio-page.png",
         "alt": "page",
         "mediaType": "img",
         "fullWidth": true,

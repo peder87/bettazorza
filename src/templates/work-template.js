@@ -12,7 +12,10 @@ const handleClick = () => {
 
 export default ({ pageContext, ...props }) => {
   console.log(pageContext)
+  const { imageData } = pageContext
   const { navigationJson, projectsJson } = pageContext.pageData.data
+  console.log(projectsJson)
+  console.log(imageData)
   return (
     <Layout pageConf={navigationJson}>
       <SectionCenteredContent>
@@ -23,7 +26,8 @@ export default ({ pageContext, ...props }) => {
           {projectsJson.title}
         </WorkTitle>
         {/* <WorkTitle last>{projectsJson.tags[0]}</WorkTitle> */}
-        <WorkGrid data={projectsJson} />
+        {/* <WorkGrid data={projectsJson} /> */}
+        <WorkGrid data={imageData} />
       </SectionCenteredContent>
       <Bottom />
     </Layout>

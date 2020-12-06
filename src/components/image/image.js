@@ -1,6 +1,7 @@
 import React from "react"
 import { groupByExtension } from "./utils"
 import { isProduction } from "../../utils"
+import Img from "gatsby-image"
 
 export const Image = props => {
   const { data, list } = groupByExtension(props.srcset)
@@ -19,4 +20,8 @@ export const Image = props => {
       <img src={`${prefix}${props.src}`} alt={props.alt} />
     </picture>
   )
+}
+
+export const TestGImage = props => {
+  return <Img fluid={props.fluid} alt={props.alt} />
 }
