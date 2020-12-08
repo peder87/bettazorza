@@ -89,10 +89,8 @@ const query = `
       imgs {
         filePath
         mediaType
-        src
         fullWidth
         alt
-        srcset
       }
     }
     navigationJson(path: { eq: $pagePath }) {
