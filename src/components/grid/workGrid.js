@@ -12,7 +12,7 @@ export const WorkGrid = ({ data }) => {
     <ProjectGrid>
       {data.map(img => (
         <Item key={img.alt} full={img.fullWidth}>
-          <TestGImage fluid={img.node.childImageSharp.fluid} />
+          <TestGImage fluid={img.node.childImageSharp.fluid} alt={img.alt} />
         </Item>
       ))}
     </ProjectGrid>

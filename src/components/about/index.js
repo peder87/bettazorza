@@ -6,6 +6,9 @@ import { BzButton } from "../bzButton"
 import { SectionCenteredContent } from "../pageComponents/style"
 
 export const About = ({ data }) => {
+  const click = () => {
+    document.location.href = "mailto:bettazorza@gmail.com"
+  }
   return (
     <AboutSection full id="about" bgcolor={colors.cyan} color={colors.white}>
       <SectionCenteredContent>
@@ -39,7 +42,11 @@ export const About = ({ data }) => {
           </div>
         </BzAboutGrid>
         <AboutFooter>
-          <BzButton text="hello@bettazorza.it" first={colors.cyan} />
+          <BzButton
+            text="hello@bettazorza.it"
+            first={colors.cyan}
+            click={click}
+          />
         </AboutFooter>
       </SectionCenteredContent>
     </AboutSection>
