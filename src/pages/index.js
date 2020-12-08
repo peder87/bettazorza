@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 import Layout from "../components/layout"
 import { Stack } from "./stack"
+import Seo from "../components/seo"
 
 export default props => {
   return (
@@ -9,7 +10,14 @@ export default props => {
       <StaticQuery
         query={query}
         render={data => {
-          return <Stack {...data} />
+          console.log(data)
+          const { siteMetadata } = data.allSite.nodes[0]
+          return (
+            <>
+              <Seo {...siteMetadata} />
+              <Stack {...data} />
+            </>
+          )
         }}
       />
     </Layout>
@@ -18,6 +26,14 @@ export default props => {
 
 const query = graphql`
   query MyQuery {
+    allSite {
+      nodes {
+        siteMetadata {
+          title
+          description
+        }
+      }
+    }
     projects: allProjectsJson {
       edges {
         project: node {
