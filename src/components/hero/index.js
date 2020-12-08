@@ -27,7 +27,7 @@ export const Hero = props => {
     <HeroSection full bgcolor={colors.white} id="hero">
       <HeroContainer>
         <HeroHeader>
-          <img src="/images/common/logo_betta.svg" />
+          <img src="/images/common/logo_betta.svg" alt="logo_bettazorza" />
         </HeroHeader>
         <HeroTitleBlock>
           <HeroTitle noPadding color={colors.cyan}>

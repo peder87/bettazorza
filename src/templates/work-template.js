@@ -27,7 +27,11 @@ export default ({ pageContext }) => {
       <Seo {...seoProps} />
       <SectionCenteredContent>
         <LogoHeader>
-          <img onClick={handleClick} src="/images/common/logo_betta.svg" />
+          <img
+            onClick={handleClick}
+            src="/images/common/logo_betta.svg"
+            alt="logo_bettazorza"
+          />
         </LogoHeader>
         <WorkTitle bold last>
           {projectsJson.title}

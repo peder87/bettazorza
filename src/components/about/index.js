@@ -15,7 +15,7 @@ export const About = ({ data }) => {
         <BzTitle color={colors.white}>About</BzTitle>
         <BzAboutGrid>
           <div className="imageWrapper">
-            <img src="images/about/about.png" />
+            <img src="images/about/about.png" alt="bettazorza_about_pic" />
           </div>
           <div>
             <div className="copyWrapper">
