@@ -47,16 +47,23 @@ const query = graphql`
         }
       }
     }
+    about: file(relativePath: { eq: "about/about.png" }) {
+      id
+      relativePath
+      childImageSharp {
+        fluid(maxWidth: 380) {
+          aspectRatio
+          src
+          srcWebp
+        }
+      }
+    }
     order: allProjectsOrderJson {
       edges {
         node {
           workId
         }
       }
-    }
-    about: imagesJson(page: { eq: "about" }) {
-      page
-      img
     }
     works: allWorksJson {
       nodes {

@@ -8,18 +8,18 @@ import { ServiceList } from "../../components/serviceList"
 import { Bottom } from "../../components/bottom"
 import { cleanOrder, getDictionaryById } from "../../utils/dataUtils"
 
-export const Stack = ({ about, order, projects, works }) => {
+export const Stack = ({ order, projects, works, about }) => {
   const ord = has(order, "edges") ? order.edges : []
   const proj = has(projects, "edges") ? projects.edges : []
   const worksList = has(works, "nodes") ? works.nodes : []
-
+  const aboutImg = idx(about, _ => _.childImageSharp.fluid)
   const list = cleanOrder(ord)
   const mapProjects = getDictionaryById(proj, "id")
 
   return (
     <div>
       <Hero />
-      <About data={about} />
+      {aboutImg && <About img={aboutImg} />}
       <Portfolio list={list} src={mapProjects} />
       <ServiceList list={worksList} />
       <Bottom />

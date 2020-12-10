@@ -4,8 +4,9 @@ import { colors } from "../../style/constants"
 import { BzTitle, BzCopy } from "../typography"
 import { BzButton } from "../bzButton"
 import { SectionCenteredContent } from "../pageComponents/style"
+import { TestGImage } from "../image/image"
 
-export const About = ({ data }) => {
+export const About = ({ img }) => {
   const click = () => {
     document.location.href = "mailto:bettazorza@gmail.com"
   }
@@ -15,7 +16,7 @@ export const About = ({ data }) => {
         <BzTitle color={colors.white}>About</BzTitle>
         <BzAboutGrid>
           <div className="imageWrapper">
-            <img src="images/about/about.png" alt="bettazorza_about_pic" />
+            <TestGImage fluid={img} alt="about_pic_betta" />
           </div>
           <div>
             <div className="copyWrapper">
