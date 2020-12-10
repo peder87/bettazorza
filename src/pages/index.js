@@ -58,6 +58,17 @@ const query = graphql`
         }
       }
     }
+    hero: file(relativePath: { eq: "hero/logo_bettazorza.png" }) {
+      id
+      relativePath
+      childImageSharp {
+        fluid(maxWidth: 708) {
+          aspectRatio
+          src
+          srcWebp
+        }
+      }
+    }
     order: allProjectsOrderJson {
       edges {
         node {
