@@ -102,7 +102,7 @@ const query = `
       id
       relativePath
       childImageSharp {
-        fluid(maxWidth:700) {
+        fluid(maxWidth:700, quality: 30) {
           aspectRatio
           src
           srcWebp
@@ -120,7 +120,7 @@ const imgQuery = `
           id
           relativePath
           childImageSharp {
-            fluid(maxWidth: 1888, quality: 50 ){
+            fluid(maxWidth: 1888, quality: 30 ){
               src
               aspectRatio
               srcWebp

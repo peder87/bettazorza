@@ -50,7 +50,7 @@ const query = graphql`
       id
       relativePath
       childImageSharp {
-        fluid(maxWidth: 380) {
+        fluid(maxWidth: 380, quality: 30) {
           aspectRatio
           src
           srcWebp
@@ -61,7 +61,7 @@ const query = graphql`
       id
       relativePath
       childImageSharp {
-        fluid(maxWidth: 708) {
+        fluid(maxWidth: 708, quality: 30) {
           aspectRatio
           src
           srcWebp
