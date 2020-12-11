@@ -1,5 +1,4 @@
 import React from "react"
-import { GlobalContainer } from "../pageComponents/style"
 import {
   HeroSection,
   HeroTitle,

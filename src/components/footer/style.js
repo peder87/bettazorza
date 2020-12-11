@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { colors, media, mediaChecker } from "../../style/constants"
+import { colors, media } from "../../style/constants"
 import { BzLink } from "../../components/typography"
 
 export const FooterWrapper = styled.div`

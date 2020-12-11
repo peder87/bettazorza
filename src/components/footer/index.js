@@ -1,7 +1,6 @@
 import React from "react"
-import { FooterWrapper, FooterText, FooterLink } from "./style"
+import { FooterWrapper, FooterLink } from "./style"
 import { SocialMenu } from "../socialMenu"
-import { colors } from "../../style/constants"
 
 export const Footer = ({ color, ...props }) => {
   const footerColors = {

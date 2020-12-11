@@ -1,6 +1,6 @@
-import styled, { css } from "styled-components"
+import styled from "styled-components"
 import { media } from "../../style/constants"
-import { paddingV2, paddingV } from "../../style/shared"
+import { paddingV2 } from "../../style/shared"
 import { Section } from "../pageComponents/style"
 
 export const AboutSection = styled(Section)`

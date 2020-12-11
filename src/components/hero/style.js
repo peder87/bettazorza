@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Section } from "../pageComponents/style"
-import { colors, fonts, media, mediaChecker } from "../../style/constants"
+import { colors, fonts, media } from "../../style/constants"
 import { paddingTop, paddingV } from "../../style/shared"
 import { BzTitle } from "../typography"
 import { SectionCenteredContent } from "../pageComponents/style"

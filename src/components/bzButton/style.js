@@ -1,6 +1,5 @@
-import styled, { css } from "styled-components"
+import styled from "styled-components"
 import { colors } from "../../style/constants"
-import { darken } from "polished"
 
 export const Button = styled.button`
   border: 0;

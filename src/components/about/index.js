@@ -4,7 +4,6 @@ import { colors } from "../../style/constants"
 import { BzTitle, BzCopy } from "../typography"
 import { BzButton } from "../bzButton"
 import { SectionCenteredContent } from "../pageComponents/style"
-import { TestGImage } from "../image/image"
 import Img from "gatsby-image"
 
 export const About = ({ img }) => {

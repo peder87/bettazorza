@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { media, mediaChecker } from "../style/constants"
-import { paddingV, paddingV2 } from "../style/shared"
+import { paddingV2 } from "../style/shared"
 import { BzTitle } from "../components/typography"
 import { HeroHeader } from "../components/hero/style"
 

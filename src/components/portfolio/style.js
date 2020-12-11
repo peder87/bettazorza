@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Section } from "../pageComponents/style"
-import { paddingBottom, media, mediaChecker } from "../../style/constants"
+import { paddingBottom, media } from "../../style/constants"
 export const PortfolioSection = styled(Section)``
 
 export const ButtonContainer = styled.div`

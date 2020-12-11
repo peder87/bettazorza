@@ -1,10 +1,5 @@
 import styled from "styled-components"
-import {
-  colors,
-  paddingBottom,
-  media,
-  mediaChecker,
-} from "../../style/constants"
+import { colors, media } from "../../style/constants"
 
 export const ServiceWrapper = styled.div`
   display: flex;
