@@ -120,7 +120,7 @@ const imgQuery = `
           id
           relativePath
           childImageSharp {
-            fluid(maxWidth: 1200, quality: 30, srcSetBreakpoints: [352,340,864,1248,2000,3520] ){
+            fluid(maxWidth: 1200, quality: 30, srcSetBreakpoints: [398,525,715,823,1265,1888] ){
               src
               srcSet
               base64
