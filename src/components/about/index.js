@@ -5,18 +5,20 @@ import { BzTitle, BzCopy } from "../typography"
 import { BzButton } from "../bzButton"
 import { SectionCenteredContent } from "../pageComponents/style"
 import { TestGImage } from "../image/image"
+import Img from "gatsby-image"
 
 export const About = ({ img }) => {
   const click = () => {
     document.location.href = "mailto:bettazorza@gmail.com"
   }
+  console.log(img)
   return (
     <AboutSection full id="about" bgcolor={colors.cyan} color={colors.white}>
       <SectionCenteredContent>
         <BzTitle color={colors.white}>About</BzTitle>
         <BzAboutGrid>
           <div className="imageWrapper">
-            <TestGImage fluid={img} alt="about_pic_betta" />
+            <Img fluid={img} alt="about_pic_betta" />
           </div>
           <div>
             <div className="copyWrapper">

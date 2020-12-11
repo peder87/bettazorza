@@ -5,20 +5,18 @@ import { BzTitle } from "../components/typography"
 import { HeroHeader } from "../components/hero/style"
 
 export const LogoHeader = styled(HeroHeader)`
-  & img {
-    margin: 0 auto;
-    ${media.md`
-      padding-top: ${paddingV2.md};
-    `}
-    ${media.sm`
-      padding-top: ${paddingV2.sm};
-    `}
-    ${media.xs`
-      padding-top: ${paddingV2.xs};
-    `}
-    &:hover {
-      cursor: pointer;
-    }
+  margin: 0 auto;
+  ${media.md`
+    padding-top: ${paddingV2.md};
+  `}
+  ${media.sm`
+    padding-top: ${paddingV2.sm};
+  `}
+  ${media.xs`
+    padding-top: ${paddingV2.xs};
+  `}
+  &:hover {
+    cursor: pointer;
   }
 `
 

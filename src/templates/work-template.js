@@ -6,17 +6,17 @@ import { LogoHeader, WorkTitle } from "./style"
 import { Bottom } from "../components/bottom"
 import { navigate } from "gatsby"
 import Seo from "../components/seo"
+import Img from "gatsby-image"
 
 const handleClick = () => {
   navigate("/")
 }
 
 export default ({ pageContext }) => {
+  console.log(pageContext)
   const { imageData } = pageContext
-  const { navigationJson, projectsJson } = pageContext.pageData.data
-  // console.log(pageContext)
-  // console.log(projectsJson)
-  // console.log(imageData)
+  const { navigationJson, projectsJson, hero } = pageContext.pageData.data
+  console.log("hero", hero)
   const seoProps = {
     title: projectsJson.title,
     description: projectsJson.caption,
@@ -26,12 +26,8 @@ export default ({ pageContext }) => {
     <Layout pageConf={navigationJson}>
       <Seo {...seoProps} />
       <SectionCenteredContent>
-        <LogoHeader>
-          <img
-            onClick={handleClick}
-            src="/images/common/logo_betta.svg"
-            alt="logo_bettazorza"
-          />
+        <LogoHeader onClick={handleClick}>
+          <Img fluid={hero.childImageSharp.fluid} alt="logo_bettazorza" />
         </LogoHeader>
         <WorkTitle bold last>
           {projectsJson.title}

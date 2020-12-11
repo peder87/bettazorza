@@ -12,6 +12,7 @@ import { scroller } from "react-scroll"
 import { colors } from "../../style/constants"
 import { BzButton } from "../bzButton"
 import { BzCopy } from "../typography"
+import Img from "gatsby-image"
 
 export const Hero = props => {
   const goToAbout = e => {
@@ -22,12 +23,12 @@ export const Hero = props => {
       smooth: "easeInOut",
     })
   }
-
+  console.log(props)
   return (
     <HeroSection full bgcolor={colors.white} id="hero">
       <HeroContainer>
         <HeroHeader>
-          <img src="/images/common/logo_betta.svg" alt="logo_bettazorza" />
+          <Img fluid={props.img} alt="logo_bettazorza" />
         </HeroHeader>
         <HeroTitleBlock>
           <HeroTitle noPadding color={colors.cyan}>

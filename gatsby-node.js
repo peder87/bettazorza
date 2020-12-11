@@ -99,6 +99,17 @@ const query = `
       label
       path
     }
+    hero: file(relativePath: { eq: "hero/logo_bettazorza.png" }) {
+      id
+      relativePath
+      childImageSharp {
+        fluid(maxWidth:700) {
+          aspectRatio
+          src
+          srcWebp
+        }
+      }
+    }
   }
 `
 

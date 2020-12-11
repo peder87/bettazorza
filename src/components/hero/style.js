@@ -20,7 +20,6 @@ export const HeroContainer = styled(SectionCenteredContent)`
 
 export const HeroHeader = styled.div`
   margin: 0 auto;
-  & img {
     ${media.xxl`
       width: 44.2rem;
     `}
@@ -40,7 +39,6 @@ export const HeroHeader = styled.div`
       width: 20rem;
     `}
     ${paddingTop};
-  }
   display: flex;
   flex-direction: column;
 `
