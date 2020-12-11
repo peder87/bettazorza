@@ -11,7 +11,6 @@ export const About = ({ img }) => {
   const click = () => {
     document.location.href = "mailto:bettazorza@gmail.com"
   }
-  console.log(img)
   return (
     <AboutSection full id="about" bgcolor={colors.cyan} color={colors.white}>
       <SectionCenteredContent>

@@ -13,10 +13,8 @@ const handleClick = () => {
 }
 
 export default ({ pageContext }) => {
-  console.log(pageContext)
   const { imageData } = pageContext
   const { navigationJson, projectsJson, hero } = pageContext.pageData.data
-  console.log("hero", hero)
   const seoProps = {
     title: projectsJson.title,
     description: projectsJson.caption,

@@ -10,7 +10,6 @@ export default props => {
       <StaticQuery
         query={query}
         render={data => {
-          console.log(data)
           const { siteMetadata } = data.allSite.nodes[0]
           return (
             <>

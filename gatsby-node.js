@@ -71,7 +71,6 @@ const getSharpImgs = async (graphql, { projectsJson }) => {
 
 const cleanImgSharp = src => {
   return src.map(item => {
-    console.log(item)
     const fullWidth = item.ogFullWidth
     const alt = item.ogAlt
     const a = item.data.allFile.edges[0]

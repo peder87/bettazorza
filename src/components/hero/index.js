@@ -23,7 +23,6 @@ export const Hero = props => {
       smooth: "easeInOut",
     })
   }
-  console.log(props)
   return (
     <HeroSection full bgcolor={colors.white} id="hero">
       <HeroContainer>

@@ -14,7 +14,6 @@ export const Stack = ({ order, projects, works, about, hero }) => {
   const worksList = has(works, "nodes") ? works.nodes : []
   const aboutImg = idx(about, _ => _.childImageSharp.fluid)
   const heroImg = idx(hero, _ => _.childImageSharp.fluid)
-  console.log(heroImg)
   const list = cleanOrder(ord)
   const mapProjects = getDictionaryById(proj, "id")
 
