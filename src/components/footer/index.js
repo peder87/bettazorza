@@ -1,23 +1,27 @@
 import React from "react"
-import { FooterWrapper, FooterLink } from "./style"
+import { FooterWrapper, FooterLink, FooterText } from "./style"
 import { SocialMenu } from "../socialMenu"
 
 export const Footer = ({ color, ...props }) => {
   const footerColors = {
     color: color,
   }
-  const mailto = "mailto:hello@bettazorza.it"
+  const mail = "hello@bettazorza.com"
+  const mailto = `mailto:${mail}`
   return (
     <FooterWrapper>
-      {/* <div> */}
-      <FooterLink {...footerColors} href={mailto}>
+      {/* <FooterLink {...footerColors} href={mailto}>
         hello@bettazorza.it
-      </FooterLink>
-      {/* <FooterText {...footerColors}>
-          &copy;{new Date().getFullYear()} - Betta Zorza Design
-        </FooterText> */}
-      {/* </div> */}
+      </FooterLink> */}
       <SocialMenu {...footerColors} />
+      <FooterText>
+        {/* &copy;{new Date().getFullYear()} - <a href={mailto}>{mail}</a> - p.iva
+        01720870193 -  */}
+        crafted with &#9829; by{" "}
+        <a href="https://twitter.com/peder87" target="_blank">
+          @peder87
+        </a>
+      </FooterText>
     </FooterWrapper>
   )
 }

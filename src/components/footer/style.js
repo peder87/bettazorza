@@ -16,9 +16,30 @@ export const FooterWrapper = styled.div`
 `
 
 export const FooterText = styled.span`
-  font-size: 1.2rem;
-  color: ${props => props.color};
+  font-size: 0.85rem;
+  color: ${props => props.color || colors.white};
   font-weight: 500;
+  & a,
+  & a:link,
+  & a:visited {
+    color: ${props => props.color || colors.white};
+    text-decoration: none;
+  }
+  & a:hover {
+    text-decoration: underline;
+  }
+  ${media.xxl`
+    padding-top: 1.8em;
+  `};
+  ${media.xl`
+    padding-top: 1.8em;
+  `};
+  ${media.lg`
+    padding-top: 1.8em;
+  `};
+  ${media.md`
+    padding-top: 1.8em;
+  `};
   ${media.sm`
     padding-top: 1.8em;
   `};
