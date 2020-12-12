@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `BettaZorza.it`,
-    description: `Ciao! 👋 Sono Elisabetta Zorza e sono una graphic designer.  Dal 2010 lavoro nel campo della comunicazione, ma la grafica e il design sono da sempre la mia più grande passione.`,
+    title: `bettazorza.com`,
+    description: `Ciao! 👋 Sono Elisabetta Zorza e sono una graphic designer. Dal 2010 lavoro nel campo della comunicazione, ma la grafica e il design sono da sempre la mia più grande passione.`,
     author: `@peder87`,
   },
   plugins: [
