@@ -607,6 +607,46 @@
     ]
   },
   {
+    "id": "pietroBetta",
+    "title": "pietro e betta",
+    "url": "/project/pietroBetta",
+    "capition": "caption pietro e betta",
+    "thumbnail": "/images/projects/thumnails/pietro_betta_thumbnail.png",
+    "thumbset": [
+      "/images/projects/thumbnails/pietro_betta_thumbnail.png 1x",
+      "/images/projects/thumbnails/pietro_betta_thumbnail.webp 1x",
+      "/images/projects/thumbnails/pietro_betta_thumbnail-2x.webp 2x",
+      "/images/projects/thumbnails/pietro_betta_thumbnail-2x.png 2x"
+    ],
+    "tags": [],
+    "imgs": [
+      {
+        "filePath": "projects/pietroBetta/pietro_betta_busta.png",
+        "alt": "pietro betta busta",
+        "mediaType": "img",
+        "fullWidth": true
+      },
+      {
+        "filePath": "projects/pietroBetta/pietro_betta_card.png",
+        "alt": "pietro betta card",
+        "mediaType": "img",
+        "fullWidth": true
+      },
+      {
+        "filePath": "projects/pietroBetta/pietro_betta_ticket.png",
+        "alt": "pietro betta ticket",
+        "mediaType": "img",
+        "fullWidth": true
+      },
+      {
+        "filePath": "projects/pietroBetta/pietro_betta_ticket_back.png",
+        "alt": "pietro betta ticket cover",
+        "mediaType": "img",
+        "fullWidth": true
+      }
+    ]
+  },
+  {
     "id": "filosofia",
     "title": "Filosofia per bambini",
     "url": "/project/filosofia",
