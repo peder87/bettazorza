@@ -607,6 +607,28 @@
     ]
   },
   {
+    "id": "marcelloRossini",
+    "title": "Marcello Rossini",
+    "url": "/project/marcelloRossini",
+    "capition": "capiton marcelloRossini",
+    "thumbnail": "/images/projects/thumnails/fisio_thumbnail.png",
+    "thumbset": [
+      "/images/projects/thumbnails/fisio_thumbnail.png 1x",
+      "/images/projects/thumbnails/fisio_thumbnail.webp 1x",
+      "/images/projects/thumbnails/fisio_thumbnail-2x.webp 2x",
+      "/images/projects/thumbnails/fisio_thumbnail-2x.png 2x"
+    ],
+    "tags": [],
+    "imgs": [
+      {
+        "filePath": "projects/fisio/fisio.png",
+        "alt": "ofo_cover",
+        "mediaType": "img",
+        "fullWidth": true
+      }
+    ]
+  },
+  {
     "id": "pietroBetta",
     "title": "pietro e betta",
     "url": "/project/pietroBetta",
