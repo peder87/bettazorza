@@ -1,12 +1,13 @@
 [
-  {"workId":"filosofia"},
-  {"workId":"illustration"},
-  {"workId":"auserBilancio"},
-  {"workId":"casaFormaggio"},
-  {"workId":"talentoAgile"},
-  {"workId":"scaravonati"},
-  {"workId":"uno"},
-  {"workId":"sacraFamiglia"},
-  {"workId":"tantaRobba"},
-  {"workId":"auser"}
+  { "workId": "filosofia" },
+  { "workId": "illustration" },
+  { "workId": "auserBilancio" },
+  { "workId": "casaFormaggio" },
+  { "workId": "talentoAgile" },
+  { "workId": "scaravonati" },
+  { "workId": "uno" },
+  { "workId": "sacraFamiglia" },
+  { "workId": "tantaRobba" },
+  { "workId": "auser" },
+  { "workId": "bigNews" }
 ]

@@ -533,6 +533,40 @@
     ]
   },
   {
+    "id": "bigNews",
+    "title": "Big News",
+    "url": "/project/bigNews",
+    "capition": "capiton big news",
+    "thumbnail": "/images/projects/thumnails/bignews_thumbnail",
+    "thumbset": [
+      "/images/projects/thumbnails/bignews_thumbnail.png 1x",
+      "/images/projects/thumbnails/bignews_thumbnail.webp 1x",
+      "/images/projects/thumbnails/bignews_thumbnail-2x.webp 2x",
+      "/images/projects/thumbnails/bignews_thumbnail-2x.png 2x"
+    ],
+    "tags": [],
+    "imgs": [
+      {
+        "filePath": "projects/bigNews/big_news.png",
+        "alt": "bigNews",
+        "mediaType": "img",
+        "fullWidth": true
+      },
+      {
+        "filePath": "projects/bigNews/big_news_1.png",
+        "alt": "bigNews1",
+        "mediaType": "img",
+        "fullWidth": true
+      },
+      {
+        "filePath": "projects/bigNews/big_news_2.png",
+        "alt": "bigNews2",
+        "mediaType": "img",
+        "fullWidth": true
+      }
+    ]
+  },
+  {
     "id": "filosofia",
     "title": "Filosofia per bambini",
     "url": "/project/filosofia",
