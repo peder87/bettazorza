@@ -61,6 +61,20 @@
         "alt": "interno_auser_2020",
         "mediaType": "img",
         "fullWidth": true
+      },
+      {
+        "filePath": "projects/auser/auser-bilancio.png",
+        "src": "/images/projects/auser-bilancio/auser-bilancio.png",
+        "alt": "logo",
+        "mediaType": "img",
+        "fullWidth": true
+      },
+      {
+        "filePath": "projects/auser/auser-bilancio-page.png",
+        "src": "/images/projects/auser/auser-bilancio-page.png",
+        "alt": "page",
+        "mediaType": "img",
+        "fullWidth": true
       }
     ]
   },
@@ -427,43 +441,6 @@
         "alt": "glass",
         "mediaType": "img",
         "fullWidth": false
-      }
-    ]
-  },
-  {
-    "id": "auserBilancio",
-    "title": "Auser bilancio sociale ",
-    "url": "/project/auserBilancio",
-    "caption": "Auser è una associazione di volontariato e di promozione sociale, impegnata nel favorire l’invecchiamento attivo degli anziani e valorizzare il loro ruolo nella società. Per la sede di Cremona è stato realizzato il Bilancio sociale 2018 e 2019, strumento fondamentale per la promozione sul terriotrio delle numerose attività portate avanti dall’associazione.",
-    "order": 6,
-    "thumbnail": "/images/projects/thumbnails/auser-bilancio-thumbnail.png",
-    "thumbset": [
-      "/images/projects/thumbnails/auser-bilancio-thumbnail.png 1x",
-      "/images/projects/thumbnails/auser-bilancio-webp.png 1x",
-      "/images/projects/thumbnails/auser-bilancio-thumbnail-2x.webp 2x",
-      "/images/projects/thumbnails/auser-bilancio-thumbnail-2x.png 2x"
-    ],
-    "tags": [
-      "editorial design",
-      "catalogo",
-      "impaginazione",
-      "graphic design",
-      "progetto grafico"
-    ],
-    "imgs": [
-      {
-        "filePath": "projects/auserBilancio/auser-bilancio.png",
-        "src": "/images/projects/auser-bilancio/auser-bilancio.png",
-        "alt": "logo",
-        "mediaType": "img",
-        "fullWidth": true
-      },
-      {
-        "filePath": "projects/auserBilancio/auser-bilancio-page.png",
-        "src": "/images/projects/auserBilancio/auser-bilancio-page.png",
-        "alt": "page",
-        "mediaType": "img",
-        "fullWidth": true
       }
     ]
   },
