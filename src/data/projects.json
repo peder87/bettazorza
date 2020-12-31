@@ -629,6 +629,28 @@
     ]
   },
   {
+    "id": "letteratura",
+    "title": "letteratura on the road",
+    "url": "/project/letteratura",
+    "capition": "capiton letteraturaOnTheRoad",
+    "thumbnail": "/images/projects/thumnails/letteratura_thumbnail.png",
+    "thumbset": [
+      "/images/projects/thumbnails/letteratura_thumbnail.png 1x",
+      "/images/projects/thumbnails/letteratura_thumbnail.webp 1x",
+      "/images/projects/thumbnails/letteratura_thumbnail-2x.webp 2x",
+      "/images/projects/thumbnails/letteratura_thumbnail-2x.png 2x"
+    ],
+    "tags": [],
+    "imgs": [
+      {
+        "filePath": "projects/letteratura/letteratura.png",
+        "alt": "letteratura",
+        "mediaType": "img",
+        "fullWidth": true
+      }
+    ]
+  },
+  {
     "id": "pietroBetta",
     "title": "pietro e betta",
     "url": "/project/pietroBetta",
