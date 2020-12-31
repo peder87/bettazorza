@@ -1,7 +1,7 @@
 [
   {
     "id": "auser",
-    "title": "Auser Unipop Cremona",
+    "title": "Auser Cremona",
     "url": "/project/auser",
     "caption": "Auser Unipop Cremona è una associazione di promozione sociale che organizza corsi, laboratori ed eventi su tutto il terriotrio cremonese. Ogni anno insieme realizziamo il libretto annuale contenente tutti i corsi e le iniziative realizzate dall’associazione.",
     "order": 8,
@@ -568,7 +568,7 @@
   },
   {
     "id": "ofo",
-    "title": "Ofo",
+    "title": "Ofo bike",
     "url": "/project/ofo",
     "capition": "capiton ofo",
     "thumbnail": "/images/projects/thumnails/ofo_thumbnail.png",
@@ -630,7 +630,7 @@
   },
   {
     "id": "letteratura",
-    "title": "letteratura on the road",
+    "title": "Letteratura e musica on the road",
     "url": "/project/letteratura",
     "capition": "capiton letteraturaOnTheRoad",
     "thumbnail": "/images/projects/thumnails/letteratura_thumbnail.png",
@@ -652,7 +652,7 @@
   },
   {
     "id": "pietroBetta",
-    "title": "pietro e betta",
+    "title": "Pietro & Betta",
     "url": "/project/pietroBetta",
     "capition": "caption pietro e betta",
     "thumbnail": "/images/projects/thumnails/pietro_betta_thumbnail.png",
