@@ -537,7 +537,7 @@
     "title": "Big News",
     "url": "/project/bigNews",
     "capition": "capiton big news",
-    "thumbnail": "/images/projects/thumnails/bignews_thumbnail",
+    "thumbnail": "/images/projects/thumnails/bignews_thumbnail.png",
     "thumbset": [
       "/images/projects/thumbnails/bignews_thumbnail.png 1x",
       "/images/projects/thumbnails/bignews_thumbnail.webp 1x",
@@ -561,6 +561,46 @@
       {
         "filePath": "projects/bigNews/big_news_2.png",
         "alt": "bigNews2",
+        "mediaType": "img",
+        "fullWidth": true
+      }
+    ]
+  },
+  {
+    "id": "ofo",
+    "title": "Ofo",
+    "url": "/project/ofo",
+    "capition": "capiton ofo",
+    "thumbnail": "/images/projects/thumnails/ofo_thumbnail.png",
+    "thumbset": [
+      "/images/projects/thumbnails/ofo_thumbnail.png 1x",
+      "/images/projects/thumbnails/ofo_thumbnail.webp 1x",
+      "/images/projects/thumbnails/ofo_thumbnail-2x.webp 2x",
+      "/images/projects/thumbnails/ofo_thumbnail-2x.png 2x"
+    ],
+    "tags": [],
+    "imgs": [
+      {
+        "filePath": "projects/ofo/ofo_cover.png",
+        "alt": "ofo_cover",
+        "mediaType": "img",
+        "fullWidth": true
+      },
+      {
+        "filePath": "projects/ofo/ofo1.png",
+        "alt": "ofo1",
+        "mediaType": "img",
+        "fullWidth": true
+      },
+      {
+        "filePath": "projects/ofo/ofo2.png",
+        "alt": "ofo2",
+        "mediaType": "img",
+        "fullWidth": true
+      },
+      {
+        "filePath": "projects/ofo/ofo3.png",
+        "alt": "ofo3",
         "mediaType": "img",
         "fullWidth": true
       }
