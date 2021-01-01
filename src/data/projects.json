@@ -12,13 +12,7 @@
       "/images/projects/thumbnails/auser-thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/auser-thumbnail-2x.png 2x"
     ],
-    "tags": [
-      "editorial design",
-      "catalogo",
-      "progetto grafico",
-      "graphic design",
-      "impaginazione"
-    ],
+    "tags": ["editorial design", "brochure", "graphic design"],
     "imgs": [
       {
         "filePath": "projects/auser/auser-cover-front.png",
@@ -93,10 +87,11 @@
     ],
     "tags": [
       "brand design",
-      "brand manual",
-      "corporate identity",
+      "logo design",
+      "packaging",
+      "marchio",
       "gadget",
-      "studio del marchio"
+      "graphic design"
     ],
     "imgs": [
       {
@@ -149,7 +144,14 @@
       "/images/projects/thumbnails/sacra-famiglia-thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/sacra-famiglia-thumbnail-2x.png 2x"
     ],
-    "tags": [],
+    "tags": [
+      "Brand Design",
+      "logo design",
+      "packaging",
+      "marchio",
+      "corporate stationery",
+      "graphic design"
+    ],
     "imgs": [
       {
         "filePath": "projects/sacraFamiglia/sacra-famiglia-insegna.png",
@@ -211,7 +213,7 @@
   },
   {
     "id": "uno",
-    "title": "Uno più uno",
+    "title": "Uno più Uno",
     "url": "/project/uno",
     "caption": "Uno più Uno è la seconda mostra bipersonale dei due artisti Rita Duchi e Francesco Visentini. Per l’occasione sono stati realizzati catalogo, locandine e inviti per l'inaugurazione della mostra.",
     "order": 3,
@@ -224,11 +226,10 @@
     ],
     "tags": [
       "editorial design",
-      "brand design",
       "catalogo",
-      "flyer",
-      "poster",
-      "locandine"
+      "arte",
+      "inviti",
+      "graphic design"
     ],
     "imgs": [
       {
@@ -347,12 +348,12 @@
       "/images/projects/thumbnails/talento-thumb-2x.png 2x"
     ],
     "tags": [
-      "brand design",
-      "studio del marchio",
+      "Brand design",
+      "corporate stationary",
+      "marchio",
       "brand manual",
-      "corporate identity",
-      "gadget",
-      "packaging"
+      "graphic design",
+      "gadget"
     ],
     "imgs": [
       {
@@ -387,7 +388,7 @@
   },
   {
     "id": "casaFormaggio",
-    "title": "Casa del formaggio Stradivari",
+    "title": "La Casa del formaggio",
     "url": "/project/casaFormaggio",
     "caption": "La Casa del Formaggio Stradivari è un negozio storico di Cremona. Il ridesign del marchio si ispira alle vecchie insegne dei negozi del centro.",
     "thumbnail": "/images/projects/thumbnails/casa-formaggio-thumbnail.png",
@@ -399,12 +400,12 @@
       "/images/projects/thumbnails/casa-formaggio-thumbnail-2x.png 2x"
     ],
     "tags": [
-      "brand design",
-      "studio del marchio",
-      "brand manual",
-      "corporate identity",
+      "Brand Design",
+      "logo design",
+      "packaging",
+      "marchio",
       "corporate stationery",
-      "packaging"
+      "graphic design"
     ],
     "imgs": [
       {
@@ -446,7 +447,7 @@
   },
   {
     "id": "illustration",
-    "title": "Illustrazioni ",
+    "title": "Kids Illustration",
     "url": "/project/illustration",
     "caption": "Auser è una associazione di volontariato e di promozione sociale, impegnata nel favorire l’invecchiamento attivo degli anziani e valorizzare il loro ruolo nella società. Per la sede di Cremona è stato realizzato il Bilancio sociale 2018 e 2019, strumento fondamentale per la promozione sul terriotrio delle numerose attività portate avanti dall’associazione.",
     "order": 7,
@@ -457,13 +458,7 @@
       "/images/projects/thumbnails/illustration-thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/illustration-thumbnail-2x.png 2x"
     ],
-    "tags": [
-      "editorial design",
-      "catalogo",
-      "impaginazione",
-      "graphic design",
-      "progetto grafico"
-    ],
+    "tags": ["Illustration", "kids illustration", "graphic design"],
     "imgs": [
       {
         "filePath": "projects/illustration/caterina.png",
@@ -511,7 +506,7 @@
   },
   {
     "id": "bigNews",
-    "title": "Big News",
+    "title": "Bignews app",
     "url": "/project/bigNews",
     "capition": "capiton big news",
     "thumbnail": "/images/projects/thumnails/bignews_thumbnail.png",
@@ -521,7 +516,7 @@
       "/images/projects/thumbnails/bignews_thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/bignews_thumbnail-2x.png 2x"
     ],
-    "tags": [],
+    "tags": ["Ux & UI", "app"],
     "imgs": [
       {
         "filePath": "projects/bigNews/big_news.png",
@@ -545,7 +540,7 @@
   },
   {
     "id": "ofo",
-    "title": "Ofo bike",
+    "title": "Ofo Bike",
     "url": "/project/ofo",
     "capition": "capiton ofo",
     "thumbnail": "/images/projects/thumnails/ofo_thumbnail.png",
@@ -555,7 +550,7 @@
       "/images/projects/thumbnails/ofo_thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/ofo_thumbnail-2x.png 2x"
     ],
-    "tags": [],
+    "tags": ["Editorial Design", "brochure", "graphic design"],
     "imgs": [
       {
         "filePath": "projects/ofo/ofo_cover.png",
@@ -595,7 +590,13 @@
       "/images/projects/thumbnails/fisio_thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/fisio_thumbnail-2x.png 2x"
     ],
-    "tags": [],
+    "tags": [
+      "Corporate stationery",
+      "biglietto da visita",
+      "business card",
+      "graphicdesign",
+      "logo design"
+    ],
     "imgs": [
       {
         "filePath": "projects/fisio/fisio.png",
@@ -617,7 +618,7 @@
       "/images/projects/thumbnails/letteratura_thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/letteratura_thumbnail-2x.png 2x"
     ],
-    "tags": [],
+    "tags": ["Poster", "graphicdesign", "locandina"],
     "imgs": [
       {
         "filePath": "projects/letteratura/letteratura.png",
@@ -639,7 +640,12 @@
       "/images/projects/thumbnails/pietro_betta_thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/pietro_betta_thumbnail-2x.png 2x"
     ],
-    "tags": [],
+    "tags": [
+      "Wedding",
+      "invito matrimonio",
+      "wedding stationery",
+      "graphic design"
+    ],
     "imgs": [
       {
         "filePath": "projects/pietroBetta/pietro_betta_busta.png",
@@ -680,13 +686,7 @@
       "/images/projects/thumbnails/filosofia-thumbnail-2x.webp 2x",
       "/images/projects/thumbnails/filosofia-thumbnail-2x.png 2x"
     ],
-    "tags": [
-      "editorial design",
-      "catalogo",
-      "impaginazione",
-      "graphic design",
-      "progetto grafico"
-    ],
+    "tags": ["Editorial Design", "libro", "catalogo", "graphic design"],
     "imgs": [
       {
         "filePath": "projects/filosofia/filosofia_bambini_copertina.png",
