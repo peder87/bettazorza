@@ -283,11 +283,11 @@
       "/images/projects/thumbnails/scaravonati-thumbnail-2x.png 2x"
     ],
     "tags": [
-      "brand manual",
-      "brand design",
-      "studio del marchio",
+      "Brand Design",
       "corporate identity",
-      "gadget"
+      "stationery",
+      "web design",
+      "graphic design"
     ],
     "imgs": [
       {
@@ -630,7 +630,7 @@
   },
   {
     "id": "pietroBetta",
-    "title": "Pietro & Betta",
+    "title": "Pietro & Elisabetta",
     "url": "/project/pietroBetta",
     "capition": "caption pietro e betta",
     "thumbnail": "/images/projects/thumnails/pietro_betta_thumbnail.png",
@@ -720,6 +720,50 @@
         "filePath": "projects/filosofia/filosofia_bambini4.png",
         "src": "/images/projects/filosofia/filosofia_bambini4.png",
         "alt": "filosofia4",
+        "mediaType": "img",
+        "fullWidth": true
+      }
+    ]
+  },
+  {
+    "id": "tedXCremona",
+    "title": "Ted X Cremona",
+    "url": "/project/tedXCremona",
+    "caption": "",
+    "thumbnail": "/images/projects/thumbnails/tedx-thumbnail.png",
+    "thumbset": [
+      "/images/projects/thumbnails/tedx-thumbnail.png 1x",
+      "/images/projects/thumbnails/tedx-thumbnail.webp 1x",
+      "/images/projects/thumbnails/tedx-thumbnail-2x.webp 2x",
+      "/images/projects/thumbnails/tedx-thumbnail-2x.png 2x"
+    ],
+    "tags": ["Illustration", "graphic design"],
+    "imgs": [
+      {
+        "filePath": "projects/tedXcremona/tedx_illustration.png",
+        "alt": "Ted X Cremona illustrazione",
+        "mediaType": "img",
+        "fullWidth": true
+      }
+    ]
+  },
+  {
+    "id": "torrazzo",
+    "title": "Torrazzo",
+    "url": "/project/torrazzo",
+    "caption": "",
+    "thumbnail": "/images/projects/thumbnails/tedx-thumbnail.png",
+    "thumbset": [
+      "/images/projects/thumbnails/torrazzo_thumbnail.png 1x",
+      "/images/projects/thumbnails/torrazzo_thumbnail.webp 1x",
+      "/images/projects/thumbnails/torrazzo_thumbnail-2x.webp 2x",
+      "/images/projects/thumbnails/torrazzo_thumbnail-2x.png 2x"
+    ],
+    "tags": ["Poster", "locandina", "fotomontaggio", "graphic design"],
+    "imgs": [
+      {
+        "filePath": "projects/torrazzo/torrazzo.png",
+        "alt": "torrazzo poster",
         "mediaType": "img",
         "fullWidth": true
       }
