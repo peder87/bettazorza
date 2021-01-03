@@ -7,6 +7,7 @@
   "dependencies": {
     "gatsby": "^2.27.0",
     "gatsby-image": "^2.2.30",
+    "gatsby-plugin-gdpr-cookies": "^1.0.11",
     "gatsby-plugin-manifest": "^2.2.25",
     "gatsby-plugin-offline": "^3.0.17",
     "gatsby-plugin-react-helmet": "^3.1.13",
@@ -26,6 +27,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-animate-height": "^2.0.23",
+    "react-cookie-consent": "^6.2.1",
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
     "react-reveal": "^1.2.2",
@@ -52,7 +54,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Writ683e tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public -b master -r https://github.com/peder87/bettazorza.git " 
+    "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public -b master -r https://github.com/peder87/bettazorza.git "
   },
   "repository": {
     "type": "git",
