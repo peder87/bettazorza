@@ -11,7 +11,7 @@ export const Footer = ({ color, ...props }) => {
   return (
     <FooterWrapper>
       {/* <FooterLink {...footerColors} href={mailto}>
-        hello@bettazorza.it
+        hello@bettazorza.com  
       </FooterLink> */}
       <SocialMenu {...footerColors} />
       <FooterText>
