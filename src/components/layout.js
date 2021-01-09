@@ -14,15 +14,13 @@ const Layout = ({ children }) => {
         buttonText="Accetto"
         cookieName="gatsby-gdpr-google-analytics"
         style={{ background: colors.purple }}
+        containerClasses="bzBannerContainer"
+        buttonClasses="bzBannerButton"
         overlay={true}
-        buttonStyle={{
-          backgrond: colors.yellow,
-          color: colors.purple,
-          fontSize: "13px",
-        }}
         expires={150}
       >
-        This website uses cookies to enhance the user experience.
+        Questo sito o gli strumenti terzi da questo utilizzati si avvalgono di
+        cookie necessari al funzionamento
       </CookieConsent>
     </>
   )
