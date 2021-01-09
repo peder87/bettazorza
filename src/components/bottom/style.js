@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Section, GlobalContainer } from "../pageComponents/style"
-import { media, mq } from "../../style/constants"
+import { media } from "../../style/constants"
 export const BottomSection = styled(Section)``
 
 export const Container = styled(GlobalContainer)`
