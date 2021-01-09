@@ -19,8 +19,8 @@ const Layout = ({ children }) => {
         overlay={true}
         expires={150}
       >
-        Questo sito o gli strumenti terzi da questo utilizzati si avvalgono di
-        cookie necessari al funzionamento
+        Questo sito o gli strumenti terzi avvalgono di cookie necessari al
+        funzionamento per garantire un' esperienza utente ottimale.
       </CookieConsent>
     </>
   )
