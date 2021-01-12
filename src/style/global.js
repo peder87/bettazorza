@@ -69,6 +69,11 @@ export const GlobalStyle = createGlobalStyle`
         border-color: ${colors.white} !important;
       }
 
+      &:focus {
+        outline: none !important;
+      }
+
+
     }
   }
 }
