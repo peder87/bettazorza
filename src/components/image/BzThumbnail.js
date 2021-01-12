@@ -1,11 +1,14 @@
 import React from "react"
 import { Image } from "./image"
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 import { colors, fonts } from "../../style/constants"
 
 export const BzThumbnail = props => {
   return (
-    <ThumbWrapper onClick={() => props.callback(props.path)}>
+    <ThumbWrapper
+      onClick={() => props.callback(props.path)}
+      isDesktop={!!props.desktop}
+    >
       <figure>
         <Image srcset={props.srcset} alt={props.title} src={props.img} />
         <strong>{props.title}</strong>
@@ -91,5 +94,15 @@ const ThumbWrapper = styled.div`
         border-bottom: 1px solid ${colors.purple};
       }
     }
+  }
+
+  transition: all .25s ease-in-out;
+  &:hover {
+    ${props =>
+      props.isDesktop &&
+      css`
+        transform: scale(1.1, 1.1);
+        padding: 0.5rem;
+      `}
   }
 `

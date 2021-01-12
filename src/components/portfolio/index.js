@@ -43,6 +43,7 @@ export const Portfolio = props => {
                 path={project.url}
                 srcset={project.thumbset}
                 callback={move}
+                desktop
               />
             )
           })}
