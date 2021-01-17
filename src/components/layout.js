@@ -19,8 +19,10 @@ const Layout = ({ children }) => {
         overlay={true}
         expires={150}
       >
-        Questo sito o gli strumenti terzi si avvalgono di cookie necessari per
-        garantire un'esperienza utente ottimale.
+        Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito.
+        Chiudendo questo banner, scorrendo questa pagina, cliccando su un link o
+        proseguendo la navigazione in altra maniera, acconsenti all'uso dei
+        cookie.
       </CookieConsent>
     </>
   )
