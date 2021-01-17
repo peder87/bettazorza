@@ -4,10 +4,10 @@ import { GlobalStyle } from "../style/global"
 import { colors } from "../style/constants"
 import CookieConsent from "react-cookie-consent"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, bgColor }) => {
   return (
     <>
-      <GlobalStyle id="GLOBAL-STYLE" />
+      <GlobalStyle id="GLOBAL-STYLE" bgColor={bgColor} />
       {children}
       <CookieConsent
         location="top"
@@ -29,7 +29,11 @@ const Layout = ({ children }) => {
 }
 
 Layout.propTypes = {
+  bgColor: PropTypes.string,
   children: PropTypes.node.isRequired,
+}
+Layout.defaultProps = {
+  bgColor: colors.white,
 }
 
 export default Layout
