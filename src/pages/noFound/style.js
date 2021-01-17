@@ -38,7 +38,6 @@ export const Container = styled.div`
 
 export const CenteredChild = styled.div`
   text-align: center;
-  padding-bottom: 2rem;
   font-family: ${fonts.sansSerif};
 `
 
@@ -63,6 +62,7 @@ export const DontPanic = styled.h3`
 
 export const Payoff = styled.h5`
   font-size: 1.8rem;
+  padding-bottom: 2rem;
   ${media.lg`
     font-size: 1.5rem;
   `}

@@ -23,8 +23,8 @@ export default props => {
           <Status> 404 not found</Status>
           <DontPanic>Don't Panic!</DontPanic>
           <Payoff>hai solo dimenticato l'asciugamano...</Payoff>
+          <BzButton click={goHome} text="torna alla home" />
         </CenteredChild>
-        <BzButton click={goHome} text="torna alla home" />
       </Container>
       <Bottom />
     </NoFoundPage>
