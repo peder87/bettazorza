@@ -20,9 +20,7 @@ const Layout = ({ children }) => {
         expires={150}
       >
         Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito.
-        Chiudendo questo banner, scorrendo questa pagina, cliccando su un link o
-        proseguendo la navigazione in altra maniera, acconsenti all'uso dei
-        cookie.
+        Chiudendo questo banner acconsenti all'uso dei cookie.
       </CookieConsent>
     </>
   )
