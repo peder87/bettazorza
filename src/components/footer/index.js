@@ -6,8 +6,6 @@ export const Footer = ({ color, ...props }) => {
   const footerColors = {
     color: color,
   }
-  // const mail = "hello@bettazorza.com"
-  // const mailto = `mailto:${mail}`
   return (
     <FooterWrapper>
       {/* <FooterLink {...footerColors} href={mailto}>

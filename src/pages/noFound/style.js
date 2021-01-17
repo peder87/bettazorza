@@ -1,12 +1,22 @@
-import styled from 'styled-components'
-import { media, fonts } from '../../style/constants'
+import styled from "styled-components"
+import { media, fonts } from "../../style/constants"
+import { colors } from "../../style/constants"
+
+export const NoFoundPage = styled.div`
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+`
 
 export const Container = styled.div`
   display: flex;
+  flex-grow: 2;
   flex-direction: column;
   justify-content: center;
   width: 50%;
   margin: 0 auto;
+  color: ${colors.white};
 
   & img {
     padding-bottom: 2rem;
@@ -47,7 +57,7 @@ export const DontPanic = styled.h3`
   ${media.xs`
     font-size: 2rem;
   `}
-  font-weight: 500;
+  font-weight: 600;
   font-family: ${fonts.sansSerif};
 `
 
@@ -65,12 +75,13 @@ export const Payoff = styled.h5`
   ${media.xs`
     font-size: 1.2rem;
   `}
-  font-weight: 400;
-` 
+  font-weight: 500;
+`
 
 export const Status = styled.p`
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
+  letter-spacing: .2rem;
   text-transform: uppercase;
   ${media.lg`
     font-size: 1.5rem;
@@ -85,4 +96,3 @@ export const Status = styled.p`
     font-size: 1.2rem;
   `}
 `
-export default () => styled.div``

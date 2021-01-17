@@ -16,6 +16,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
+    background: ${props => props.bgColor};
     font-family: ${fonts.sansSerif};
     backface-visibility: hidden;
     width: '100vw'
