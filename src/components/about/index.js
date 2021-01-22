@@ -44,7 +44,7 @@ export const About = ({ img }) => {
         </BzAboutGrid>
         <AboutFooter>
           <BzButton
-            text="hello@bettazorza.com"
+            text="bettazorza@gmail.com"
             first={colors.cyan}
             click={click}
           />
