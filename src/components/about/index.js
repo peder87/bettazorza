@@ -8,7 +8,7 @@ import Img from "gatsby-image"
 
 export const About = ({ img }) => {
   const click = () => {
-    document.location.href = "mailto:betta@bettazorza.com"
+    document.location.href = "mailto:hello@bettazorza.com"
   }
   return (
     <AboutSection full id="about" bgcolor={colors.cyan} color={colors.white}>
