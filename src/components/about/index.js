@@ -8,7 +8,7 @@ import Img from "gatsby-image"
 
 export const About = ({ img }) => {
   const click = () => {
-    document.location.href = "mailto:bettazorza@gmail.com"
+    document.location.href = "mailto:betta@bettazorza.com"
   }
   return (
     <AboutSection full id="about" bgcolor={colors.cyan} color={colors.white}>
@@ -44,7 +44,7 @@ export const About = ({ img }) => {
         </BzAboutGrid>
         <AboutFooter>
           <BzButton
-            text="bettazorza@gmail.com"
+            text="hello@bettazorza.com"
             first={colors.cyan}
             click={click}
           />
